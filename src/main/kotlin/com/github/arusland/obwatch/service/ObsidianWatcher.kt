@@ -6,6 +6,9 @@ import org.slf4j.LoggerFactory
 import java.io.BufferedWriter
 import java.nio.file.Path
 import java.nio.file.attribute.BasicFileAttributes
+import java.time.LocalDateTime
+import java.time.ZoneId
+import java.time.temporal.ChronoUnit
 import kotlin.io.path.*
 
 /**
@@ -34,10 +37,9 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
         while (true) {
             val fileWasChanged = fileWasChanged()
             if (fileWasChanged) {
-                println("File was changed: $path")
                 processFile()
             }
-            Thread.sleep(1000)
+            Thread.sleep(500)
         }
     }
 
@@ -51,16 +53,20 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
 
         if (lastWord != null) {
             val dictResult = dictService.lookup(lastWord, DictLang.DE_RU)
-            lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
-            lastResults.add(0, FoundResult(lastWord, dictResult))
-            if (lastResults.size > 10) {
-                lastResults.removeAt(lastResults.size - 1)
-            }
-            outputFilePath.bufferedWriter().use { writer ->
-                lastResults.forEach { result ->
-                    writeResult(writer, result)
-                    writer.write("----\n\n")
+            if (dictResult.def.isNotEmpty()) {
+                lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
+                lastResults.add(0, FoundResult(lastWord, dictResult))
+                if (lastResults.size > 10) {
+                    lastResults.removeAt(lastResults.size - 1)
                 }
+                outputFilePath.bufferedWriter().use { writer ->
+                    lastResults.forEach { result ->
+                        writeResult(writer, result)
+                        writer.write("----\n\n")
+                    }
+                }
+            } else {
+                log.warn("No definition found for the word: {}", lastWord)
             }
         } else {
             log.warn("No words found in the file")
@@ -109,12 +115,20 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
         // TODO: use file watcher
         val attributes = path.readAttributes<BasicFileAttributes>()
 
-        if (lastFileAttributes.lastModifiedTime() != attributes.lastModifiedTime() || lastFileAttributes.size() != attributes.size()) {
+        if ((lastFileAttributes.lastModifiedTime() != attributes.lastModifiedTime() || lastFileAttributes.size() != attributes.size())
+            && calcDiffFromNow(attributes) > WAIT_TIME_AFTER_SAVE
+        ) {
+            // wait for some time after save
             lastFileAttributes = attributes
             return true
         }
 
         return false
+    }
+
+    private fun calcDiffFromNow(attributes: BasicFileAttributes): Long {
+        val lastModified = LocalDateTime.ofInstant(attributes.lastModifiedTime().toInstant(), ZoneId.systemDefault())
+        return ChronoUnit.MILLIS.between(lastModified, LocalDateTime.now())
     }
 
     data class FoundResult(
@@ -124,5 +138,6 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
 
     private companion object {
         val log = LoggerFactory.getLogger(ObsidianWatcher::class.java)!!
+        const val WAIT_TIME_AFTER_SAVE = 1000L
     }
 }
