@@ -1,33 +1,25 @@
 package com.github.arusland.obwatch.service
 
-import org.eclipse.mylyn.wikitext.parser.DocumentBuilder
-import org.eclipse.mylyn.wikitext.parser.MarkupParser
-import org.eclipse.mylyn.wikitext.parser.builder.HtmlDocumentBuilder
-import org.eclipse.mylyn.wikitext.parser.markup.MarkupLanguage
-import org.eclipse.mylyn.wikitext.util.ServiceLocator
-import java.io.OutputStream
-import java.io.OutputStreamWriter
-import java.nio.charset.StandardCharsets
+import com.github.arusland.obwatch.model.WikiTextInfo
 
 
 class WikiTextParser {
-    fun transformToHtml(markupLanguageName: String, input: String, output: OutputStream) {
-        val markupLanguage = ServiceLocator.getInstance().getMarkupLanguage(markupLanguageName)
-        transformToHtml(markupLanguage, input, output)
-    }
+    // == Junge ({{Sprache|Deutsch}}) ==
+    private val regexWord = """==\s*(\w+)\s*\(.*\)\s*==""".toRegex()
+    // === {{Wortart|Substantiv|Deutsch}}, {{f}}, ''Mütter'' ===
+    // === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+    // === {{Wortart|Verb|Deutsch}} ===
+    private val regexType = """===\s*\{\{Wortart\|(\w+)\|(\w+)\}\}""".toRegex()
 
-    fun transformToHtml(markupLanguage: MarkupLanguage, input: String, output: OutputStream) {
-        val parser = MarkupParser(markupLanguage)
-        val builder: DocumentBuilder = createDocumentBuilder(output)
-        parser.builder = builder
-        parser.parse(input)
-    }
+    fun parse(wikiText: String): WikiTextInfo? {
+        val word = regexWord.find(wikiText)?.groupValues?.get(1)
+        val type = regexType.find(wikiText)?.groupValues?.get(1) ?: ""
 
-    private fun createDocumentBuilder(output: OutputStream): DocumentBuilder {
-        return HtmlDocumentBuilder(OutputStreamWriter(output, StandardCharsets.UTF_8), true)
+        if (word == null) {
+            return null
+        }
+
+        return WikiTextInfo(word, type)
     }
 }
 
-fun main() {
-
-}

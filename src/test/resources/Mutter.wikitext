@@ -1,0 +1,530 @@
+== Mutter ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}}, ''Mütter'' ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=f
+|Nominativ Singular=Mutter
+|Nominativ Plural=Mütter
+|Genitiv Singular=Mutter
+|Genitiv Plural=Mütter
+|Dativ Singular=Mutter
+|Dativ Plural=Müttern
+|Akkusativ Singular=Mutter
+|Akkusativ Plural=Mütter
+|Bild=William-Adolphe Bouguereau (1825-1905) - Rest (1879).jpg|mini|1|''Mutter'' mit [[Kinder]]n: Le Repos, von [[w:William Adolphe Bouguereau|William Adolphe Bouguereau]] (1879)
+}}
+
+{{Anmerkung|zur Bedeutung [1]}}
+:Feminine Verwandtschaftsbezeichnungen in pränominaler Stellung ohne [[Artikelwort]] werden wie [[Eigenname]]n verwendet (siehe den entsprechenden [[Mutter#Substantiv,_f,_Eigenname|Abschnitt unten]]); sie erhalten dann ein ''-s'' als Genitivendung, zum Beispiel ''Mutters'' Arbeit&lt;ref&gt;{{Internetquelle|url=https://www.duden.de/sprachwissen/sprachratgeber/deklination-von-verwandtschaftsbezeichnungen|titel=Deklination von Verwandtschaftsbezeichnungen|werk=Duden|archiv-url=http://web.archive.org/web/20170527023008/https://www.duden.de/sprachwissen/sprachratgeber/deklination-von-verwandtschaftsbezeichnungen|archiv-datum=2017-05-27|zugriff=2022-02-18}}&lt;/ref&gt;&lt;ref&gt;{{Internetquelle|url=https://grammis.ids-mannheim.de/fragen/3428|autor=Jacqueline Kubczak|titel=Vaters Hut und des Vaters Hut, Mutters Arbeit und der Mutter Arbeit — Was sind vorgelagerte (pränominale) Genitive?|datum=2017-03-29|werk=Grammis|zugriff=2022-02-18}}&lt;/ref&gt;
+
+{{Worttrennung}}
+:Mut·ter, {{Pl.}} Müt·ter
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈmʊtɐ}}
+:{{Hörbeispiele}} {{Audio|De-Mutter.ogg}}, {{Audio|De-Mutter3.ogg}}, {{Audio|De-at-Mutter.ogg|die Mutter|spr=at}},
+:{{Reime}} {{Reim|ʊtɐ|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[weiblich|weiblicher]] [[Elternteil]], der seine [[Kind]]er [[aufziehen|aufzieht]] und [[versorgen|versorgt]]; [[Frau]], welche ein oder mehrere [[Kind]]er [[gebären|geboren]] hat
+:[2] [[weiblich]]es [[Tier]], das ein [[Junges]] [[gebären|geboren]] hat
+:[3] {{K|Technik}} [[Pressvorlage]] für [[Schallplatte]]n; [[Matrize]]
+:[4] {{K|ugs.}} [[Muttergesellschaft]]
+:[5] als [[Anrede]] von [[Würdenträgerin]]nen in [[Religion]]en
+:[6] {{K|fig.|personifizierend}} etwas, das als [[übergeordnet]], sehr [[bedeutsam]] oder [[wichtig]] [[ansehen|angesehen]] wird
+
+{{Herkunft}}
+:[[mittelhochdeutsch]] ''{{Ü|gmh|muoter}}'', [[althochdeutsch]] ''{{Ü|goh|muoter}}'', [[germanisch]] *''{{Ü|gem|mōder-}}'', [[indogermanisch]] *''{{Ü|ine|mátēr}}'' „Mutter“; das Wort ist seit dem 8. Jahrhundert im Deutschen belegt.&lt;ref&gt;{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Stichwort: „Mutter“, Seite 640.&lt;/ref&gt;
+
+{{Synonyme}}
+:[1] [[Mama]], [[Mami]], [[Mammi]], [[Mutti]], [[Muttl]], [[Muttel]], [[Muttchen]], [[Ma]]
+:[2] [[Muttertier]]
+:[3] [[Gussform]], [[Mutterform]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[Erziehungsberechtigte]], [[Erzeugerin]]; ''salopp:'' [[Alte]]
+
+{{Gegenwörter}}
+:[1] [[Kind]], [[Sohn]], [[Tochter]], [[Vater]]
+:[2] [[Junges]]
+:[3] [[Patrize]]
+:[4] [[Tochter]]
+
+{{Männliche Wortformen}}
+:[1] [[Vater]]
+
+{{Verkleinerungsformen}}
+:[1] [[Mütterchen]], [[Mütterlein]], [[Muttchen]]
+
+{{Oberbegriffe}}
+:[1, 2] [[Elternteil]]
+:[3] [[Form]]
+:[4] [[Unternehmen]]
+
+{{Unterbegriffe}}
+:[1] [[Beichtmutter]], [[Brautmutter]], [[Gottesmutter]], [[Großmutter]], [[Hausmutter]], [[Kindesmutter]]/[[Kindsmutter]], [[Königinmutter]], [[Königsmutter]], [[Leihmutter]], [[Mitmutter]], [[Muttergottes]], [[Nährmutter]], [[Papstmutter]], [[Pflegemutter]], [[Rabenmutter]], [[Schutzmutter]], [[Schwiegermutter]], [[Schmerzensmutter]], [[Stammmutter]], [[Stiefmutter]], [[Straßenstrichmutter]], [[Urgroßmutter]], [[Urmutter]], [[Wehmutter]], [[Ziehmutter]]
+:[2] [[Bärenmutter]], [[Hundemutter]], [[Katzenmutter]], [[Löwenmutter]], [[Rabenmutter]], [[Vogelmutter]], [[Wolfsmutter]]
+:[6] [[Bordellmutter]], [[Landesmutter]], [[Puffmutter]]
+
+{{Beispiele}}
+:[1] Sie ist die ''Mutter'' von zwei Kindern.
+:[1] „Sie war gekommen mit ''Mutter'', Großmutter, vier Schwestern und sechs Nähmaschinen.“&lt;ref&gt;{{Literatur | Autor= Karin Kalisa | Titel= Sungs Laden |TitelErg= Roman|Verlag= Droemer| Ort= München| Jahr= 2017 | ISBN=978-3-426-30566-9 | Seiten=116.}}&lt;/ref&gt;
+:[1] „Doch der Abendzug verspätet sich, und während ''Mutter'' mit der verdunkelten Straßenbahn durch die Stadt fährt, sind die Reiter schon in den Sattel gestiegen und abgerückt.“&lt;ref&gt;{{Literatur | Autor=Christian Graf von Krockow | Titel=Die Stunde der Frauen |TitelErg=Bericht aus Pommern 1944 bis 1947. Nach einer Erzählung von Libussa Fritz-Krockow | Auflage= 11.|Verlag=Deutsche Verlags-Anstalt | Ort=Stuttgart/München | Jahr=2000 | ISBN=3-421-06396-6}}, Seite 44. Erstauflage 1988.&lt;/ref&gt;
+:[1] „Die ''Mutter'' des Mädchens weckt eilig den Mann des Hauses, der sich gerade zu einem Mittagsschläfchen hingelegt hat, während die Tochter Wasser für Tee aufsetzt.“&lt;ref&gt;{{Literatur | Autor=Nava Ebrahimi| Titel=Sechzehn Wörter|TitelErg= Roman  | Verlag=btb | Ort=München | Jahr=2019 | ISBN=978-3-442-71754-5}}, Seite 87.&lt;/ref&gt;
+:[1] „Ständig gab es Streitereien zwischen ''Mutter'' und Großmutter, und häufig kam es zwischen beiden zu tätlichen Auseinandersetzungen.“&lt;ref&gt; {{Literatur|Autor=Yves Buchheim, unter Mitarbeit von Franz Kotteder| Titel=Buchheim | TitelErg= Künstler, Sammler, Despot: Das Leben meines Vaters | Verlag=Heyne  | Ort=München | Jahr=2018 | ISBN=978-3-453-20197-2}}, Seite 18.&lt;/ref&gt;
+:[1] „Der Beamte leitete sein Ersuchen an die deutschen Gerichte weiter. Diese urteilten, dass O.H. gemäß den deutschen Gesetzen als ''Mutter'' registriert werde, weil er das Kind zur Welt gebracht habe.“&lt;ref&gt;{{Internetquelle | url=https://www.derstandard.at/story/2000145250373/transmann-muss-sich-laut-egmr-in-geburtsurkunde-als-mutter-bezeichnet | titel=Transmann muss sich laut Urteil in Geburtsurkunde als Mutter bezeichnen lassen | autor= | hrsg= | werk=Der Standard | seiten= | datum=2023-04-05 | archiv-url= | archiv-datum= | zugriff=2023-04-05 | sprache= | format= | kommentar= | zitat= }}&lt;/ref&gt;
+:[1] „Doch der Mann, der geboren hat, wird nach wie vor als ''Mutter'' eingetragen. Auch Transmann Heller wird in der Geburtsurkunde als ''Mutter'' aufgeführt.“&lt;ref&gt;{{Internetquelle | url=https://www.luzernerzeitung.ch/panorama/gesellschaft-wenn-er-ein-baby-kriegt-ld.92257 | titel=Gesellschaft: Wenn er ein Baby kriegt | autor=Alexandra Fitz | hrsg= | werk=Luzerner Zeitung | seiten= | datum=2016-12-12 | archiv-url= | archiv-datum= | zugriff=2023-04-05 | sprache= | format= | kommentar= | zitat= }}&lt;/ref&gt;
+:[2] Die ''Mutter'' warf soeben sechs Junge.
+:[2] „Die jungen Eidechsen saugen niemals an ihren ''Müttern''. Die ''Mütter'' haben deßwegen auch keine Brüste.“&lt;ref&gt;{{Literatur|Autor=Christian Gotthilf Salzmann|Titel=Conrad Kiefers ABC- und Lesebüchlein|Verlag=in der Buchhandlung der Erziehungsanstalt|Jahr=1831|Seiten=106|Online=Zitiert nach {{GBS|ow5GAQAAMAAJ|PA106|Hervorhebung="Müttern"}}}}&lt;/ref&gt;
+:[3] „Durch Wiederholung des galvanischen Prozesses wird vom Vater eine weitere Kopie gemacht, die «''Mutter''».“&lt;ref&gt;{{Literatur|Autor=Christoph Wyer|Titel=Der Plattenspieler im Umfeld der digitalen Audiowiedergabemittel|Verlag=diplom.de|Jahr=2005|Seiten=55|ISBN=978-3-8324-8556-6|Online=Zitiert nach {{GBS|iaxqAQAAQBAJ|PA55|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+:[3] „Von der ‚''Mutter''‘ können jederzeit weitere Pressmatrizen produziert werden.“&lt;ref&gt;{{Literatur|Autor=Rüdiger Bloemeke|Titel=Die TELDEC-Story|Verlag=BoD – Books on Demand|Jahr=2020|Seiten=51|ISBN=978-3-00-067260-6|Online=Zitiert nach {{GBS|bZQKEAAAQBAJ|PA51|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+:[3] „Die ''Mutter'' muss erneut abgeformt werden, um ein negatives Abbild zu erhalten.“&lt;ref&gt;{{Literatur|Autor=Frank Wonneberg|Titel=Labelkunde Vinyl|Verlag=Schwarzkopf &amp; Schwarzkopf|Jahr=2008|Seiten=18|ISBN=978-3-89602-371-1|Online=Zitiert nach {{GBS|lhM5AQAAIAAJ|PA18|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+:[4] „Die ''Mutter'' haftet für Handlungen der Tochtergesellschaft wie für Handlungen ihrer eigenen Mitarbeiter, unabhängig davon, ob sie Kenntnis von dem Verhalten oder Einfluss darauf gehabt hat.“&lt;ref&gt;{{Literatur|Autor=Martin R. Schulz|Titel=Compliance Management im Unternehmen|Verlag=Fachmedien Recht und Wirtschaft|Jahr=2020|Seiten=789|ISBN=978-3-8005-9320-0|Online=Zitiert nach {{GBS|3QwfEAAAQBAJ|PA789|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+:[5] ''Mutter'' Theresa war Ordensschwester und Friedensnobelpreisträgerin.
+:[5] Wenn ich vorstellen darf, das ist ''Mutter'' Margarete, unsere Klostervorsteherin.
+:[6] „Die ''Mutter'' Natur ist die ''Mutter'' der Zufriedenheit; sie gießt sie in unsre Adern und Nerven.“&lt;ref&gt;{{Literatur|Autor=Johann Karl Wezel|Titel=Die wichtigsten Werke von Johann Karl Wezel|Verlag=e-artnow|Jahr=2017|Seiten=478|Online=Zitiert nach {{GBS|gYhFDwAAQBAJ|PT478|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+:[6] „Ich werde den meinen dieses Geschenk vermachen – damit auch sie die ''Mutter'' Erde schützen!“&lt;ref&gt;{{Literatur|Autor=Michael Wachtler|Titel=Gebt der Wildnis das Wilde zurück!|Verlag=Kosmos|Jahr=2014|Seiten=209|ISBN=978-3-440-14643-9|Online=Zitiert nach {{GBS|0cXhBgAAQBAJ|PT209|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+:[6] „Die Evolution war für ihn [Karl Marx] die ''Mutter'' des Sozialismus.“&lt;ref&gt;{{Literatur|Autor=Joseph A. Schumpeter|Titel=Kapitalismus, Sozialismus und Demokratie|Verlag=UTB|Jahr=2018|Seiten=83|ISBN=978-3-8252-4900-7|Online=Zitiert nach {{GBS|DwSQDwAAQBAJ|PA83|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+:[6] „Denke daran, dass deine Bitte die ''Mutter'' allen Lebens erfreuen wird.“&lt;ref&gt;{{Literatur|Autor=Jean M. Auel|Titel=Ayla und das Tal der Großen Mutter|Verlag=Heyne Verlag|Jahr=2012|Seiten=567|ISBN=978-3-641-10479-5|Online=Zitiert nach {{GBS|bQ6pSOg1R1UC|PT567|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+:[6] „Güte ist in diesem Betrachte, ja so darf ich mich ausdrücken, die ''Mutter'' der Schöpfung; Wahrheit die Tochter der Güte, und die ''Mutter'' der Existenz.“&lt;ref&gt;{{Literatur|Autor=Karl von Eckartshausen|Titel=Auffschlüsse zur Magie...|Verlag=Joseph Lentner|Jahr=1806|Seiten=123|Online=Zitiert nach {{GBS|xZTGB-4jUukC|PA123|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+:[6] „Die ''Mutter'' aller Filme ist eine US-amerikanische Slapstick-Komödie aus dem Jahr 1991.“&lt;ref&gt;{{Literatur|Autor=Sybille von Goysern|Titel=Die 20 lustigsten Filme der Welt|Verlag=neobooks|Jahr=2014|Seiten=51|ISBN=978-3-8476-7082-7|Online=Zitiert nach {{GBS|npovAwAAQBAJ|PT51|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+:[6] „Frauen gelten demnach nicht nur als ''Mutter'' der Nation, sondern gleichfalls als ›Aufbewahrungsort‹ der Gruppenidentität bzw. Hüterinnen kultureller Werte und Traditionen und als Verantwortliche für die ›Reinheit‹ des ›Volkskörpers‹.“&lt;ref&gt;{{Literatur|Autor=Andrea Nachtigall|Titel=Gendering 9/11|Verlag=transcript Verlag|Jahr=2014|Seiten=59|ISBN=978-3-8394-2111-6|Online=Zitiert nach {{GBS|v67JBAAAQBAJ|PA59|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+
+{{Redewendungen}}
+:[[bei Mutter Grün schlafen|bei ''Mutter'' Grün schlafen]] – im Freien übernachten
+:[[Mutter der Kompanie|''Mutter'' der Kompanie]] – Feldwebel
+:[[Mutter Erde|''Mutter'' Erde]]
+:[[Mutter Natur|''Mutter'' Natur]]
+:[[Mütterchen Russland|''Mütterchen'' Russland]] – russische Nationalallegorie (Матушка-Россия, Mátuschka-Rossíja)
+:[[wie eine Mutter ohne Brust|wie eine ''Mutter'' ohne Brust]]
+
+{{Sprichwörter}}
+:[[Vorsicht ist die Mutter der Porzellankiste|Vorsicht ist die ''Mutter'' der Porzellankiste]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] [[alleinerziehend]]e, [[alleinstehend]]e, [[leiblich]]e, [[jung]]e, [[berufstätig]]e, [[ledig]]e, [[krank]]e, [[tot]]e ''Mutter''
+
+{{Wortbildungen}}
+:''[[Adjektiv]]e:''
+:[1] [[mütterlich]], [[mutterlos]], [[mutterseelenallein]]
+:''[[Substantiv]]e:''
+:[[Mutterland]], [[Mutterstadt]]
+:[1] [[Aalmutter]], [[Mütterberatung]], [[Müttersterblichkeit]], [[Mütterzentrum]], [[Gebärmutter]], [[Mutterband]], [[Mutterboden]], [[Muttererde]], [[Mutterfluss]], [[Mutterfreuden]], [[Muttergefühl]], [[Müttergenesungswerk]], [[Muttergestein]], [[Mutterglück]], [[Muttergottes]], [[Mutterhaus]], [[Mutterherz]], [[Mutterkomplex]], [[Mutterkonzern]], [[Mutterkorn]], [[Mutterkreuz]], [[Mutterkuchen]], [[Mutterlamm]], [[Mutterlauge]], [[Mutterleib]], [[Mutterliebe]], [[Muttermal]], [[Muttermilch]], [[Muttermord]], [[Muttermund]], [[Mutterpass]], [[Mutterpflanze]], [[Mutterrecht]], [[Mutterrolle]], [[Mutterschaft]], [[Mutterschiff]], [[Muttersprache]], [[Mutterstelle]], [[Muttertag]], [[Muttersöhnchen]], [[Mutterwitz]], [[Rabenmutter]], [[Tagesmutter]]
+:[2] [[Mutterschaf]], [[Muttertier]]
+:[4] [[Mutterorganisation]], [[Mutterkirche]], [[Mutterpartei]]
+:''[[Verb]]:'' [1] [[bemuttern]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=weibliches Elternteil, das seine Kinder aufzieht und versorgt|Ü-Liste=
+*{{akk}}: {{Üt|akk|𒌝𒈬|ummu}}
+*{{sq}}: {{Ü|sq|nënë}}
+*{{grc}}: {{Üt|grc|μήτηρ|mētēr}} {{f}}
+*{{ar}}: {{Arab|ام|v=أُمّ|d=ʾumm|Ü}} {{f}}
+*{{hy}}: {{Üt|hy|մայր|mayr}}
+*{{az}}: {{Ü|az|ana}}
+*{{xbc}}: {{Ü|xbc|μαδο}}
+*{{eu}}: {{Ü|eu|ama}}
+*{{bbc}}: {{Ü|bbc|inang}}
+*{{bs}}: {{Üt|bs|мајка|majka}} {{f}}, {{Üt|bs|мати|mati}} {{f}}, {{Üt|bs|мама|mama}} {{f}}, {{Üt|bs|мајчица|majčica}} {{f}}
+*{{br}}: {{Ü|br|mamm}}
+*{{bg}}: {{Üt|bg|майка|majka}} {{f}}
+*{{da}}: {{Ü|da|moder}} {{f}}, {{Ü|da|mor}} {{u}}
+*{{en}}: {{Ü|en|mother}}
+**{{ang}}: {{Ü|ang|mōdor}} {{f}}
+*{{eo}}: {{Ü|eo|patrino}}
+*{{et}}: {{Ü|et|ema}}
+*{{fo}}: {{Ü|fo|móðir}}
+*{{fi}}: {{Ü|fi|äiti}}
+*{{fr}}: {{Ü|fr|mère}} {{f}}
+*{{fur}}: {{Ü|fur|mari}} {{f}}
+*{{gl}}: {{Ü|gl|mai}} {{m}}, {{Ü|gl|nai}} {{f}}
+*{{ka}}: {{Üt|ka|დედა|deda}}
+**{{oge}}: {{Üt|oge|დედაჲ|deday}}
+*{{el}}: {{Üt|el|μητέρα|mitéra}} {{f}}
+*{{kl}}: {{Ü|kl|anaana}}
+*{{gn}}: {{Ü|gn|sy}}
+*{{ha}}: {{Ü|ha|uwa}} {{f}}
+*{{haw}}: {{Ü|haw|makuahine}}
+*{{he}}: {{Hebr|אם|v=אֵם|d-heb=ʾēm|Ü}} {{f}}, ''[[Anrede]]:'' {{Hebr|אימא|v=אִמָּא|d-heb=ʾīmāʾ|Ü}} {{f}}
+*{{hi}}: {{Üt|hi|माता|mātā}} {{f}}, {{Üt|hi|मूल|mām̐}} {{f}}, {{Üt|hi|मां|māṁ}} {{f}}
+*{{io}}: {{Ü|io|matro}}
+*{{id}}: {{Ü|id|ibu}}, {{Ü|id|bunda}}, {{Ü|id|ibunda}}, {{Ü|id|emak}}
+*{{ia}}: {{Ü|ia|matre}}
+*{{ga}}: {{Ü|ga|máthair}} {{f}}
+*{{is}}: {{Ü|is|mamma}} {{f}}, {{Ü|is|móðir}} {{f}}
+*{{it}}: {{Ü|it|madre}} {{f}}
+*{{ja}}: {{Üt|ja|母|はは, haha}}, {{Üt|ja|お母さん|おかあさん, okāsan}}
+*{{yi}}: {{Hebr|מוטער|d-yid=muter|Ü}} {{f}}, {{Hebr|מאַמע|d-yid=mame|Ü}} {{f}}, ''[[verniedlichend]]:'' {{Hebr|מאַמעלע|d-yid=mamele|Ü}} {{f}}
+*{{kn}}: {{Üt|kn|ಅಮ್ಮ|am'ma}}, {{Üt|kn|ಅವ್ವ|avva}}, {{Üt|kn|ಮಾತರ|mātara}}, {{Üt|kn|ಮಾತೃ|mātr̥}}, {{Üt|kn|ತಾಯಿ|tāyi}}
+*{{ca}}: {{Ü|ca|mare}} {{f}}
+*{{tlh}}: {{Ü|tlh|SoS}}
+*{{ko}}: {{Üt|ko|어머니|eomeoni}}, {{Üt|ko|모친|mochin}}, {{Üt|ko|어미|eomi}}, {{Üt|ko|어멈|eomeom}}
+*{{kw}}: {{Ü|kw|mamm}}
+*{{co}}: {{Ü|co|mamma}}
+*{{hr}}: {{Ü|hr|majka}} {{f}}
+*{{ku}}:
+**{{kmr}}: {{Ü|kmr|dê}}
+*{{la}}: {{Ü|la|mater}} {{f}}
+*{{ltg}}: {{Ü|ltg|muote}}
+*{{lv}}: {{Ü|lv|māte}} {{f}}
+*{{lt}}: {{Ü|lt|motina}} {{f}}
+*{{lb}}: {{Ü|lb|Mamm}}
+*{{ml}}: {{Üt|ml|അമ്മ|am'ma}}, {{Üt|ml|മാതാവു|mātāvu}}
+*{{mt}}: {{Ü|mt|omm}} {{f}}
+*{{mnc}}: {{Ü|mnc|ᡝᠮᡝ}}
+*{{gv}}: {{Ü|gv|moir}}
+*{{mr}}: {{Üt|mr|आई|}} {{f}}
+*{{mk}}: {{Üt|mk|мајка|majka}} {{f}}, {{Üt|mk|мама|mama}} {{f}}, {{Üt|mk|мамичка|mamička}} {{f}}, {{Üt|mk|мамка|mamka}} {{f}}
+*{{ne}}: {{Üt|ne|आमा|aamaa}}
+*{{nl}}: {{Ü|nl|moeder}} {{f}}
+*{{se}}: {{Ü|se|eadni}}
+*{{no}}: {{Ü|no|mor}} {{u}}, {{Ü|no|moder}}
+*{{nov}}: {{Ü|nov|matra}}
+*{{oc}}: {{Ü|oc|maire}} {{f}}, ''[[aranesisch]]:'' {{Ü|oc|mair}} {{f}}
+*{{ps}}: {{Üt|ps|مور|}} {{f}}
+*{{fa}}: {{Farsi|مادر|v=مادَر|d=mādär|Ü}}, {{Farsi|ماد|d=mād|Ü}}, {{Farsi|مام|d=mām|Ü}}, {{Farsi|ماما|d=māmā|Ü}}, {{Farsi|مامی|d=māmī|Ü}}, {{Farsi|مار|d=mār|Ü}}, {{Farsi|مارو|d=mārū|Ü}}, {{Farsi|ام|d=ʾomm|Ü}}; ''[[mundartlich]]:'' {{Farsi|مای|d=māy|Ü}}, ''Zand und Pazand:'' {{Farsi|ان|d=ʾän|Ü}}; ''[[Anrede]]:'' {{Farsi|ننم|d=nänäm|Ü}}, {{Farsi|ننه جان|d=nänä-ǧān|Ü}}; ''[[weiblich]]er [[Elternteil]]:'' {{Farsi|والد|d=wāled|Ü}}
+*{{pl}}: {{Ü|pl|matka}} {{f}}
+*{{pt}}: {{Ü|pt|mãe}} {{f}}
+*{{prg}}: {{Ü|prg|mūti}}
+*{{rm}}: {{Ü|rm|mamma}} {{f}}
+*{{rom}}: {{Ü|rom|dej}} {{f}}
+*{{ro}}: {{Ü|ro|maică}} {{f}}, {{Ü|ro|maternă}} {{f}}, {{Ü|ro|mamă}} {{f}}
+*{{ru}}: {{Üt|ru|мать}} {{f}}, {{Üt|ru|мама}} {{f}}
+*{{sa}}: {{Üt|sa|मातृ|mātṛ}} {{f}}
+*{{gd}}: {{Ü|gd|màthair}} {{m}}
+*{{sv}}: {{Ü|sv|mor}} {{u}}, {{Ü|sv|moder}} {{u}}, {{Ü|sv|mamma}} {{u}}
+*{{sco}}: {{Ü|sco|mither}}
+*{{sr}}: {{Üt|sr|мајка|majka}} {{f}}, {{Üt|sr|мати|mati}} {{f}}, {{Üt|sr|мама|mama}} {{f}}, {{Üt|sr|мајчица|majčica}} {{f}}
+*{{sh}}: {{Üt|sh|мајка|majka}} {{f}}, {{Üt|sh|мати|mati}} {{f}}, {{Üt|sh|мама|mama}} {{f}}, {{Üt|sh|мајчица|majčica}} {{f}}
+*{{st}}: {{Ü|st|mme}}
+*{{sn}}: {{Ü|sn|amai}}
+*{{scn}}: {{Ü|scn|matri}} {{f}}
+*{{sk}}: {{Ü|sk|matka}} {{f}}, {{Ü|sk|mať}} {{f}}, {{Ü|sk|mama}} {{f}}, {{Ü|sk|mamka}} {{f}}, {{Ü|sk|mamička}} {{f}}
+*{{sl}}: {{Ü|sl|mati}} {{f}}
+*{{wen}}:
+**{{dsb}}: {{Ü|dsb|maś}} {{f}}
+**{{hsb}}: {{Ü|hsb|mać}} {{f}}
+*{{es}}: {{Ü|es|madre}} {{f}}
+*{{ta}}: {{Üt|ta|அம்மா|}}, {{Üt|ta|தாய்|tāy}}
+*{{ti}}: {{Üt|ti|ኣደ|}}
+*{{cs}}: {{Ü|cs|matka}} {{f}}, {{Ü|cs|máti}} {{f}}, {{Ü|cs|máma}} {{f}}, {{Ü|cs|maminka}} {{f}}, {{Ü|cs|mamička}} {{f}}, {{Ü|cs|mamka}} {{f}}, {{Ü|cs|mutra}} {{f}}
+*{{tr}}: {{Ü|tr|ana}} ''([[kindersprachlich]], [[ländlich]]),'' {{Ü|tr|anne}}
+*{{tru}}: {{Ü|tru|emo}} {{f}}
+*{{uk}}: {{Üt|uk|мати}} {{f}}, {{Üt|uk|матір}} {{f}}
+*{{hu}}: {{Ü|hu|anya}}
+*{{vo}}: {{Ü|vo|mot}}
+*{{cy}}: {{Ü|cy|mam}} {{f}}
+*{{wa}}: {{Ü|wa|mame}}
+*{{be}}: {{Üt|be|маці|maci}} {{f}}
+*{{fy}}: {{Ü|fy|mem}}
+|Dialekttabelle=
+*[[Mitteldeutsch]]:
+**{{pfl}}: {{Lautschrift|ˈmʊdɑ}}, {{Lautschrift|ˈmɔdɑ}}
+**[[Kölsch]]: [1] Mamm {{f}}, ''veraltet:'' Moder {{Lautschrift|ˈmoːdɐ}} {{f}} ''und'' Mo {{Lautschrift|mo}} {{f}}
+**[[Thüringisch]]-[[Obersächsisch]]:
+***[[Meißnisch]]: [?] Muddor
+***[[Osterländisch]]: [?] Muddor
+*[[Oberdeutsch]]:
+**{{als}}:
+***[[Hochalemannisch]]: Mueter, Mueder
+***{{swg}}, Muadr / Mudder, Muddr
+****[[Ostschwäbisch]]: Muadar, Muadr / Muddar, Muddr
+**{{bar}}: Muada
+}}
+
+{{Ü-Tabelle|2|G=weibliches Tier, das ein Junges geboren hat|Ü-Liste=
+*{{akk}}: {{Üt|akk|𒌝𒈬|ummu}}
+*{{bs}}: {{Üt|bs|мајка|majka}} {{f}}, {{Üt|bs|мати|mati}} {{f}}, {{Üt|bs|мама|mama}} {{f}}, {{Üt|bs|мајчица|majčica}} {{f}}
+*{{fi}}: {{Ü|fi|emo}}
+*{{mk}}: {{Üt|mk|мајка|majka}} {{f}}, {{Üt|mk|мама|mama}} {{f}}, {{Üt|mk|мамичка|mamička}} {{f}}, {{Üt|mk|мамка|mamka}} {{f}}
+*{{pl}}: {{Ü|pl|matka}} {{f}}
+*{{ru}}: {{Üt|ru|матка}} {{f}}, {{Üt|ru|самка}} {{f}}
+*{{sv}}: {{Ü|sv|moder}} {{u}}, {{Ü|sv|hona}} {{u}}
+*{{sr}}: {{Üt|sr|мајка|majka}} {{f}}, {{Üt|sr|мати|mati}} {{f}}, {{Üt|sr|мама|mama}} {{f}}, {{Üt|sr|мајчица|majčica}} {{f}}
+*{{sh}}: {{Üt|sh|мајка|majka}} {{f}}, {{Üt|sh|мати|mati}} {{f}}, {{Üt|sh|мама|mama}} {{f}}, {{Üt|sh|мајчица|majčica}} {{f}}
+*{{tr}}: {{Ü|tr|ana}} ''([[kindersprachlich]], [[ländlich]]),'' {{Ü|tr|anne}}
+|Dialekttabelle=
+*[[Mitteldeutsch]]:
+**{{pfl}}: {{Lautschrift|ˈmʊdɑ}}, {{Lautschrift|ˈmɔdɑ}}
+**[[Kölsch]]: [1] Mamm {{f}}, ''veraltet:'' Moder {{Lautschrift|ˈmoːdɐ}} {{f}} ''und'' Mo {{Lautschrift|mo}} {{f}}
+**[[Thüringisch]]-[[Obersächsisch]]:
+***[[Meißnisch]]: [?] Muddor
+***[[Osterländisch]]: [?] Muddor
+*[[Oberdeutsch]]:
+**{{als}}:
+***[[Hochalemannisch]]: Mueter, Mueder
+***{{swg}}, Muadr / Mudder, Muddr
+****[[Ostschwäbisch]]: Muadar, Muadr / Muddar, Muddr
+**{{bar}}: Muada
+}}
+
+{{Ü-Tabelle|3|G=Technik: Pressvorlage für Schallplatten; Matrize|Ü-Liste=
+*{{ka}}: {{Üt|ka|ქანჩი| k’anč'i}}
+*{{sv}}: {{Ü|sv|matris}}
+|Dialekttabelle=
+*[[Mitteldeutsch]]:
+**{{pfl}}: {{Lautschrift|ˈmʊdɑ}}, {{Lautschrift|ˈmɔdɑ}}
+**[[Kölsch]]: [1] Mamm {{f}}, ''veraltet:'' Moder {{Lautschrift|ˈmoːdɐ}} {{f}} ''und'' Mo {{Lautschrift|mo}} {{f}}
+**[[Thüringisch]]-[[Obersächsisch]]:
+***[[Meißnisch]]: [?] Muddor
+***[[Osterländisch]]: [?] Muddor
+*[[Oberdeutsch]]:
+**{{als}}:
+***[[Hochalemannisch]]: Mueter, Mueder
+***{{swg}}, Muadr / Mudder, Muddr
+****[[Ostschwäbisch]]: Muadar, Muadr / Muddar, Muddr
+**{{bar}}: Muada
+}}
+
+{{Ü-Tabelle|4|G=umgangssprachlich: Muttergesellschaft|Ü-Liste=
+*{{bs}}: {{Üt|bs|материнска компанија|materinska kompanija}} {{f}}
+*{{fi}}: {{Ü|fi|emo}}
+*{{sv}}: {{Ü|sv|moderbolag}} {{n}}
+*{{sr}}: {{Üt|sr|материнска компанија|materinska kompanija}} {{f}}
+*{{sh}}: {{Üt|sh|материнска компанија|materinska kompanija}} {{f}}
+*{{tr}}: {{Ü|tr|ana şirketler grubu}}
+|Dialekttabelle=
+*[[Mitteldeutsch]]:
+**{{pfl}}: {{Lautschrift|ˈmʊdɑ}}, {{Lautschrift|ˈmɔdɑ}}
+**[[Kölsch]]: [1] Mamm {{f}}, ''veraltet:'' Moder {{Lautschrift|ˈmoːdɐ}} {{f}} ''und'' Mo {{Lautschrift|mo}} {{f}}
+**[[Thüringisch]]-[[Obersächsisch]]:
+***[[Meißnisch]]: [?] Muddor
+***[[Osterländisch]]: [?] Muddor
+*[[Oberdeutsch]]:
+**{{als}}:
+***[[Hochalemannisch]]: Mueter, Mueder
+***{{swg}}, Muadr / Mudder, Muddr
+****[[Ostschwäbisch]]: Muadar, Muadr / Muddar, Muddr
+**{{bar}}: Muada
+}}
+
+{{Ü-Tabelle|5|G=als Anrede von Würdenträgerinnen in Religionen|Ü-Liste=
+*{{akk}}: {{Üt|akk|𒌝𒈬|ummu}}
+*{{bs}}: {{Üt|bs|мајка|majka}} {{f}}, {{Üt|bs|мати|mati}} {{f}}, {{Üt|bs|мама|mama}} {{f}}, {{Üt|bs|мајчица|majčica}} {{f}}
+*{{mk}}: {{Üt|mk|мајка|majka}} {{f}}, {{Üt|mk|мама|mama}} {{f}}, {{Üt|mk|мамичка|mamička}} {{f}}, {{Üt|mk|мамка|mamka}} {{f}}
+*{{sv}}: {{Ü|sv|moder}} {{u}}
+*{{sr}}: {{Üt|sr|мајка|majka}} {{f}}, {{Üt|sr|мати|mati}} {{f}}, {{Üt|sr|мама|mama}} {{f}}, {{Üt|sr|мајчица|majčica}} {{f}}
+*{{sh}}: {{Üt|sh|мајка|majka}} {{f}}, {{Üt|sh|мати|mati}} {{f}}, {{Üt|sh|мама|mama}} {{f}}, {{Üt|sh|мајчица|majčica}} {{f}}
+*{{tr}}: {{Ü|tr|rahibe}}
+|Dialekttabelle=
+*[[Mitteldeutsch]]:
+**{{pfl}}: {{Lautschrift|ˈmʊdɑ}}, {{Lautschrift|ˈmɔdɑ}}
+**[[Kölsch]]: [1] Mamm {{f}}, ''veraltet:'' Moder {{Lautschrift|ˈmoːdɐ}} {{f}} ''und'' Mo {{Lautschrift|mo}} {{f}}
+**[[Thüringisch]]-[[Obersächsisch]]:
+***[[Meißnisch]]: [?] Muddor
+***[[Osterländisch]]: [?] Muddor
+*[[Oberdeutsch]]:
+**{{als}}:
+***[[Hochalemannisch]]: Mueter, Mueder
+***{{swg}}, Muadr / Mudder, Muddr
+****[[Ostschwäbisch]]: Muadar, Muadr / Muddar, Muddr
+**{{bar}}: Muada
+}}
+
+{{Ü-Tabelle|6|G=etwas, das als übergeordnet, sehr bedeutsam oder wichtig angesehen wird|Ü-Liste=
+*{{bs}}: {{Üt|bs|мајка|majka}} {{f}}, {{Üt|bs|мати|mati}} {{f}}, {{Üt|bs|мама|mama}} {{f}}, {{Üt|bs|мајчица|majčica}} {{f}}
+*{{mk}}: {{Üt|mk|мајка|majka}} {{f}}, {{Üt|mk|мама|mama}} {{f}}, {{Üt|mk|мамичка|mamička}} {{f}}, {{Üt|mk|мамка|mamka}} {{f}}
+*{{sr}}: {{Üt|sr|мајка|majka}} {{f}}, {{Üt|sr|мати|mati}} {{f}}, {{Üt|sr|мама|mama}} {{f}}, {{Üt|sr|мајчица|majčica}} {{f}}
+*{{sh}}: {{Üt|sh|мајка|majka}} {{f}}, {{Üt|sh|мати|mati}} {{f}}, {{Üt|sh|мама|mama}} {{f}}, {{Üt|sh|мајчица|majčica}} {{f}}
+*{{tr}}: {{Ü|tr|ana}}
+|Dialekttabelle=
+*[[Mitteldeutsch]]:
+**{{pfl}}: {{Lautschrift|ˈmʊdɑ}}, {{Lautschrift|ˈmɔdɑ}}
+**[[Kölsch]]: [1] Mamm {{f}}, ''veraltet:'' Moder {{Lautschrift|ˈmoːdɐ}} {{f}} ''und'' Mo {{Lautschrift|mo}} {{f}}
+**[[Thüringisch]]-[[Obersächsisch]]:
+***[[Meißnisch]]: [?] Muddor
+***[[Osterländisch]]: [?] Muddor
+*[[Oberdeutsch]]:
+**{{als}}:
+***[[Hochalemannisch]]: Mueter, Mueder
+***{{swg}}, Muadr / Mudder, Muddr
+****[[Ostschwäbisch]]: Muadar, Muadr / Muddar, Muddr
+**{{bar}}: Muada
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia}}
+:[1, 5] {{Wikipedia|Mutter (Begriffsklärung)}}
+:[3] {{Wikipedia|Mutterstecher}} (dort auch „Mutter“)
+:[6] {{Wikipedia|Mutter Natur}}
+:[1, 6] {{Ref-DWDS}} (Mutter¹, Mutter²)
+:[*] {{Ref-UniLeipzig}}
+:[1, 2, 6] {{Ref-FreeDictionary}}
+:[1–6] {{Ref-Duden|Mutter_Frau_Kinder_Natur|Mutter (Frau, Kinder, Natur)}}
+
+{{Quellen}}
+
+{{Verwandte (Deutsch)}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{f}}, ''Muttern'' ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=f
+|Nominativ Singular=Mutter
+|Nominativ Plural=Muttern
+|Genitiv Singular=Mutter
+|Genitiv Plural=Muttern
+|Dativ Singular=Mutter
+|Dativ Plural=Muttern
+|Akkusativ Singular=Mutter
+|Akkusativ Plural=Muttern
+|Bild=Hex nut.JPG|mini|1|eine ''Mutter''
+}}
+
+{{Worttrennung}}
+:Mut·ter, {{Pl.}} Mut·tern
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈmʊtɐ}}
+:{{Hörbeispiele}} {{Audio|De-Mutter.ogg}}, {{Audio|De-Mutter3.ogg}}
+:{{Reime}} {{Reim|ʊtɐ|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{K|kurz für}} [[Schraubenmutter]], welche das [[Gegenstück]] zu der [[Schraube]] [[bilden|bildet]]
+
+{{Herkunft}}
+:laut [[w:Friedrich Kluge|Kluge]] eine „sexuelle Metapher“, aufgrund der Funktion als Schraubengegenstück ''Mutter'' genannt, was an dem synonymen Wort ''[[Schraubenmutter]]'' verdeutlicht wird&lt;ref&gt;{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Stichwort: „Mutter“, Seite 640.&lt;/ref&gt;
+
+{{Synonyme}}
+:[1] [[Schraubenmutter]]
+
+{{Gegenwörter}}
+:[1] [[Schraube]]
+
+{{Oberbegriffe}}
+:[1] [[Eisenware]]
+
+{{Unterbegriffe}}
+:[1] [[Blindnietmutter]], [[Einschlagmutter]], [[Flügelmutter]], [[Ganzmetallmutter]], [[Gegenmutter]], [[Hutmutter]], [[Käfigmutter]], [[Kontermutter]], [[Kreuzlochmutter]], [[Kronenmutter]], [[Lochmutter]], [[Nutmutter]], [[Radmutter]], [[Rändelmutter]], [[Ringmutter]], [[Rohrmutter]], [[Rundmutter]], [[Schlitzmutter]], [[Schweißmutter]], [[Sechskantmutter]], [[Sicherungsmutter]], [[Spannschlossmutter]], [[Stellmutter]], [[T-Nut-Mutter]], [[Überwurfmutter]], [[Vierkantmutter]], [[Zapfenmutter]], [[Zweilochmutter]]
+
+{{Beispiele}}
+:[1] Er brauchte lange, um die richtige ''Mutter'' zu finden, die auf die Schraube passt.
+:[1] „Mühsam schraubte er die ''Mutter'' auf die Schraube. Mit dem Schraubenschlüssel zog er sie fest genug an, so dass die Schraube den Haken aufrecht hielt.“&lt;ref&gt;{{Literatur|Autor=Clive Cussler, Justin Scott|Titel=Sabotage|Verlag=Blanvalet Taschenbuch Verlag|Jahr=2015|Seiten=45|ISBN=978-3-641-15196-6|Online=Zitiert nach {{GBS|_SEjBQAAQBAJ|PT45|Hervorhebung="Mutter"}}}}&lt;/ref&gt;
+
+{{Wortbildungen}}
+:[[Mutternschlüssel]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=kurz für: Schraubenmutter, welche das Gegenstück zu der Schraube bildet|Ü-Liste=
+*{{en}}: {{Ü|en|nut}}
+*{{eo}}: {{Ü|eo|ŝraŭbingo}}
+*{{fi}}: {{Ü|fi|mutteri}}
+*{{fr}}: {{Ü|fr|écrou}} {{m}}
+*{{el}}: {{Üt|el|παξιμάδι|paximádi}} {{n}}, {{Üt|el|περικόχλιο|perikóchlio}} {{n}}
+*{{it}}: {{Ü|it|dado}}
+*{{ja}}: {{Üt|ja|ナット|natto}}
+*{{kk}}: {{Üt|kk|сомын|}}
+*{{ca}}: {{Ü|ca|femella}}
+*{{hr}}: {{Ü|hr|matica}}
+*{{la}}: {{Ü|la|scrofa}}
+*{{nl}}: {{Ü|nl|moer}}
+*{{pl}}: {{Ü|pl|nakrętka}}
+*{{pt}}: {{Ü|pt|porca}}
+*{{ru}}: {{Üt|ru|гайка}} {{f}}
+*{{sa}}: {{Üt|sa|मातृ|mātṛ}} {{f}}
+*{{sv}}: {{Ü|sv|mutter}}
+*{{sh}}: {{Ü|sh|navrtka}}
+*{{es}}: {{Ü|es|tuerca}} {{f}}
+*{{cs}}: {{Ü|cs|matice}} {{f}}
+*{{tr}}: {{Ü|tr|civata somunu}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Mutter (Technik)}}
+:[1] {{Ref-DWDS|Mutter|2}}
+:[*] {{Ref-UniLeipzig}}
+:[1] {{Ref-FreeDictionary}}
+:[1] {{Ref-Duden|Mutter_Schraube_Metall_Teil|Mutter (Schraube, Metall, Teil)}}
+
+{{Quellen}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{f}}, {{Wortart|Eigenname|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=0
+|Nominativ Singular=Mutter
+|Nominativ Plural=—
+|Genitiv Singular=Mutters
+|Genitiv Plural=—
+|Dativ Singular=Muttern
+|Dativ Plural=—
+|Akkusativ Singular=Muttern
+|Akkusativ Plural=—
+}}
+{{Anmerkung}}
+:Insbesondere in der norddeutschen Umgangssprache werden manche [[Gattungsbezeichnung]]en aus dem Bereich der Familie ([[Vater]], Mutter, …) wie [[Eigenname]]n behandelt.&lt;ref name="Duden" /&gt; Man benutzt sie dann ohne Artikel und bildet den Genitiv mit ''-s,'' Dativ und Akkusativ mit ''-n.''&lt;ref name="Duden"&gt;{{Lit-Duden: Grammatik|A=6}}, Seite 243.&lt;/ref&gt;
+
+{{Worttrennung}}
+:Mut·ter, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈmʊtɐ}}
+:{{Hörbeispiele}} {{Audio|De-Mutter.ogg}}, {{Audio|De-Mutter2.ogg}}, {{Audio|De-Mutter3.ogg}}
+:{{Reime}} {{Reim|ʊtɐ|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{K|landschaftlich|ugs.|t2=;|besonders|norddeutsch}} (eigene) [[Mutter#Mutter (Deutsch) 1|Mutter]] ''(die mit „Mutter“ bezeichnet wird und nicht unter Verwendung ihres [[Name]]ns)''
+
+{{Synonyme}}
+:[1] [[Mama]], [[Mutti]]
+
+{{Beispiele}}
+:[1] Ich kann leider nicht zu ''Mutters'' Geburtstag kommen.
+:[1] ''Muttern'' habe ich den ganzen Tag noch nicht gesehen.
+
+{{Redewendungen}}
+:[[wie bei Muttern|wie bei ''Muttern'']] – wie zu Hause
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=besonders norddeutsch: (eigene) Mutter, die nicht unter Verwendung ihres Namens bezeichnet wird|Ü-Liste=
+*{{en}}: {{brit.|:}} {{Ü|en|Mum}}, {{amer.|:}} {{Ü|en|Mom}}, {{Ü|en|Mother}}
+*{{fr}}: {{Ü|fr|mère}} {{f}}
+*{{it}}: {{Ü|it|}}
+*{{es}}: {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Literatur|Online={{GBS|jY1JuA2adzUC|PA121|Hervorhebung=Mutters}}|Seiten=121|Titel=Deutsche Morphologie|Herausgeber=Elke Hentschel, Petra M. Vogel|Jahr=2009|ISBN=978-3-11-018562-1|Verlag=Walter de Gruyter GmbH&amp;nbsp;&amp;&amp;nbsp;Co. KG|Ort=Berlin}}.
+:[1] {{Lit-Duden: Grammatik|A=6}}, Seite 243.
+
+{{Quellen}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{mf}}, {{Wortart|Nachname|Deutsch}} ===
+{{Deutsch Nachname Übersicht
+}}
+
+{{Worttrennung}}
+:Mut·ter, {{Pl.}} Mut·ters
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈmʊtɐ}}
+:{{Hörbeispiele}} {{Audio|De-Mutter.ogg}}, {{Audio|De-Mutter3.ogg}}
+:{{Reime}} {{Reim|ʊtɐ|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[deutsch]]er [[Nachname]], [[Familienname]]
+
+{{Abkürzungen}}
+:[1] [[M.]]
+
+{{Beispiele}}
+:[1] Herr ''Mutter'' ist als Kaninchenzüchter erfolgreich.
+:[1] Herr ''Mutter'' heiratet im September auf Hawaii.
+:[1] Frau ''Mutter'' liebt es, an Weihnachten Plätzchen zu backen.
+:[1] Die ''Mutters'' lieben die Natur und die Tiere.
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=deutscher Nachname, Familienname|Ü-Liste=
+*{{en}}: {{Ü|en|}}
+*{{fr}}: {{Ü|fr|}}
+*{{it}}: {{Ü|it|}}
+*{{es}}: {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Mutter (Begriffsklärung)}} (dort auch der Familiename)
+:[1] {{Ref-Nachname}}
+
+{{Navigationsleiste Anthroponyme}}
+
+{{Ähnlichkeiten 1|[[Butter]], [[Cutter]], [[Futter]], [[Kutter]], [[Luther]], [[Lutter]], [[Modder]], [[munter]], [[Muster]], [[Putter]]|Anagramme=[[murtet]], [[muttre]]}}

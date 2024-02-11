@@ -8,7 +8,14 @@ class WikiTextParserTest {
 
     @Test
     fun testParser() {
-        WikiTextParser().transformToHtml("MediaWiki", resource("/Junge.wikitext"), System.out)
+        val result = WikiTextParser().parse(resource("/Junge.wikitext"))
+        println(result)
+
+        val result2 = WikiTextParser().parse(resource("/Mutter.wikitext"))
+        println(result2)
+
+        val result3 = WikiTextParser().parse(resource("/ausmachen.wikitext"))
+        println(result3)
     }
 
     private fun resource(resourceName: String): String {
