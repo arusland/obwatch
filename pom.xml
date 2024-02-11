@@ -12,6 +12,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.code.style>official</kotlin.code.style>
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
+        <kotlin.version>1.9.22</kotlin.version>
+        <junit.version>5.9.2</junit.version>
+        <wikitext.version>3.0.48.202308291007</wikitext.version>
     </properties>
 
     <build>
@@ -60,21 +63,33 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-test-junit5</artifactId>
-            <version>1.9.22</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.10.0</version>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+            <version>1.9.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-test</artifactId>
+            <version>${kotlin.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib</artifactId>
-            <version>1.9.22</version>
+            <version>${kotlin.version}</version>
         </dependency>
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
@@ -108,6 +123,22 @@
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-kotlin</artifactId>
             <version>2.14.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.mylyn.docs</groupId>
+            <artifactId>org.eclipse.mylyn.wikitext</artifactId>
+            <version>${wikitext.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.mylyn.docs</groupId>
+            <artifactId>org.eclipse.mylyn.wikitext.mediawiki</artifactId>
+            <version>${wikitext.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.mylyn.docs</groupId>
+            <artifactId>org.eclipse.mylyn.wikitext.html</artifactId>
+            <version>${wikitext.version}</version>
         </dependency>
 
         <!-- logger -->

@@ -1,0 +1,426 @@
+<mediawiki xmlns=\"http://www.mediawiki.org/xml/export-0.10/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd\" version=\"0.10\" xml:lang=\"de\">
+  <siteinfo>
+    <sitename>Wiktionary</sitename>
+    <dbname>dewiktionary</dbname>
+    <base>https://de.wiktionary.org/wiki/Wiktionary:Hauptseite</base>
+    <generator>MediaWiki 1.42.0-wmf.17</generator>
+    <case>case-sensitive</case>
+    <namespaces>
+      <namespace key=\"-2\" case=\"case-sensitive\">Medium</namespace>
+      <namespace key=\"-1\" case=\"first-letter\">Spezial</namespace>
+      <namespace key=\"0\" case=\"case-sensitive\" />
+      <namespace key=\"1\" case=\"case-sensitive\">Diskussion</namespace>
+      <namespace key=\"2\" case=\"first-letter\">Benutzer</namespace>
+      <namespace key=\"3\" case=\"first-letter\">Benutzer Diskussion</namespace>
+      <namespace key=\"4\" case=\"case-sensitive\">Wiktionary</namespace>
+      <namespace key=\"5\" case=\"case-sensitive\">Wiktionary Diskussion</namespace>
+      <namespace key=\"6\" case=\"case-sensitive\">Datei</namespace>
+      <namespace key=\"7\" case=\"case-sensitive\">Datei Diskussion</namespace>
+      <namespace key=\"8\" case=\"first-letter\">MediaWiki</namespace>
+      <namespace key=\"9\" case=\"first-letter\">MediaWiki Diskussion</namespace>
+      <namespace key=\"10\" case=\"case-sensitive\">Vorlage</namespace>
+      <namespace key=\"11\" case=\"case-sensitive\">Vorlage Diskussion</namespace>
+      <namespace key=\"12\" case=\"case-sensitive\">Hilfe</namespace>
+      <namespace key=\"13\" case=\"case-sensitive\">Hilfe Diskussion</namespace>
+      <namespace key=\"14\" case=\"case-sensitive\">Kategorie</namespace>
+      <namespace key=\"15\" case=\"case-sensitive\">Kategorie Diskussion</namespace>
+      <namespace key=\"102\" case=\"case-sensitive\">Verzeichnis</namespace>
+      <namespace key=\"103\" case=\"case-sensitive\">Verzeichnis Diskussion</namespace>
+      <namespace key=\"104\" case=\"case-sensitive\">Thesaurus</namespace>
+      <namespace key=\"105\" case=\"case-sensitive\">Thesaurus Diskussion</namespace>
+      <namespace key=\"106\" case=\"case-sensitive\">Reim</namespace>
+      <namespace key=\"107\" case=\"case-sensitive\">Reim Diskussion</namespace>
+      <namespace key=\"108\" case=\"case-sensitive\">Flexion</namespace>
+      <namespace key=\"109\" case=\"case-sensitive\">Flexion Diskussion</namespace>
+      <namespace key=\"110\" case=\"case-sensitive\">Rekonstruktion</namespace>
+      <namespace key=\"111\" case=\"case-sensitive\">Rekonstruktion Diskussion</namespace>
+      <namespace key=\"710\" case=\"case-sensitive\">TimedText</namespace>
+      <namespace key=\"711\" case=\"case-sensitive\">TimedText talk</namespace>
+      <namespace key=\"828\" case=\"case-sensitive\">Modul</namespace>
+      <namespace key=\"829\" case=\"case-sensitive\">Modul Diskussion</namespace>
+      <namespace key=\"2300\" case=\"case-sensitive\">Gadget</namespace>
+      <namespace key=\"2301\" case=\"case-sensitive\">Gadget Diskussion</namespace>
+      <namespace key=\"2302\" case=\"case-sensitive\">Gadget-Definition</namespace>
+      <namespace key=\"2303\" case=\"case-sensitive\">Gadget-Definition Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Junge</title>
+    <ns>0</ns>
+    <id>142767</id>
+    <revision>
+      <id>9891010</id>
+      <parentid>9887535</parentid>
+      <timestamp>2023-10-14T02:22:44Z</timestamp>
+      <contributor>
+        <username>Yoursmile</username>
+        <id>43509</id>
+      </contributor>
+      <comment>+sn:[[mukomana]] ([[Hilfe:Einfügen-Erweiterung|Assisted]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes=\"17526\" xml:space=\"preserve\">{{Siehe auch|[[junge]], [[jünge]]}}
+== Junge ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=m
+|Nominativ Singular=Junge
+|Nominativ Plural 1=Jungen
+|Nominativ Plural 2=Jungs
+|Nominativ Plural 3=Jungens
+|Genitiv Singular=Jungen
+|Genitiv Plural 1=Jungen
+|Genitiv Plural 2=Jungs
+|Genitiv Plural 3=Jungens
+|Dativ Singular=Jungen
+|Dativ Plural 1=Jungen
+|Dativ Plural 2=Jungs
+|Dativ Plural 3=Jungens
+|Akkusativ Singular=Jungen
+|Akkusativ Plural 1=Jungen
+|Akkusativ Plural 2=Jungs
+|Akkusativ Plural 3=Jungens
+|Bild 1=Negro boy near Cincinnati, Ohio (LOC).jpg|mini|1|ein ''Junge'' aus den USA
+|Bild 2=Fotothek df roe-neg 0006339 030 Fünf Jungen Schach spielend.jpg|mini|1|deutsche ''Jungen'' beim Schachspiel
+|Bild 3=Children in Helmand Province.jpg|mini|1|afghanische ''Jungen''
+}}
+
+{{Anmerkung|zur Verbreitung}}
+:Im süddeutschen Sprachraum unüblich, stattdessen wird dort das Wort „[[Bub]]“ gebraucht.&lt;ref&gt;[http://www.atlas-alltagssprache.de/runde-1/f01/ Atlas der deutschen Alltagssprache]&lt;/ref&gt;&lt;ref&gt;[https://austria-forum.org/af/Wissenssammlungen/%C3%96sterreichisches%20Deutsch/Bub%28e%29%20-%20Junge%2C%20Kerl Austria-Forum]&lt;/ref&gt;
+
+{{Anmerkung|zu den Pluralformen}}
+:Insbesondere im [[norddeutsch|nord-]] und [[mitteldeutsch]]en Raum sind die umgangssprachlichen Pluralformen ''Jungs'' und ''Jungens'' gebräuchlich.&lt;ref&gt;{{Lit-Duden: Universalwörterbuch|A=4}}, „&lt;sup&gt;1&lt;/sup&gt;Junge“, Seite 860&lt;/ref&gt;
+
+{{Worttrennung}}
+:Jun·ge, {{Pl.1}} Jun·gen, {{Pl.2}} Jungs, {{Pl.3}} Jun·gens
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈjʊŋə}}
+:{{Hörbeispiele}} {{Audio|De-Junge.ogg}}, {{Audio|De-Junge2.ogg}}
+:{{Reime}} {{Reim|ʊŋə|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[männlich]]es [[Kind]]
+:[2] {{K|ugs.}} junger Mann; der Plural ''Jungen'' / ''Jungens'' steht manchmal auch für [[Mannschaft]] (s. unten)
+:[3] {{K|veraltend}} Kurzform für [[Lehrjunge]]
+:[4] {{K|landsch.}} [[Bube]] im Kartenspiel
+
+{{Herkunft}}
+:Es wird vermutet, dass ''Junge'' eine Verkürzung aus der attributiven Verwendung des Adjektivs ''[[jung]]'' ist (zum Beispiel ''der junge Geselle / Mann''). Allerdings gab es auch im [[Mittelhochdeutsch]]en das Wort ''junge'' ([[Jüngling]], [[Jünger]]), wobei es sich wahrscheinlich um eine Substantivierung des Adjektivs handelt.&lt;ref&gt;{{Lit-Pfeifer: Etymologisches Wörterbuch|A=8}}, unter „jung“, Seite 602&lt;/ref&gt;
+
+{{Synonyme}}
+:[1] [[Bambino]], [[Bub]] ''oder'' [[Bube]], [[Bübchen]], [[Bübel]], [[Bubi]], [[Büblein]], [[Buttje]] ''oder'' [[Buttjer]] ''oder'' [[Buttscher]], [[Dreikäsehoch]], [[Halbwüchsiger]], [[Hosenmatz]], kleiner [[Furz]], kleiner Mann (zumeist in der Anrede), [[Matz]], [[Steppke]], (kleines) Kerlchen, [[Kleiner]], [[Knabe]], [[Knirps]], [[Piepel]], [[Schnaufer]], [[Stropp]]
+:''drohend, zumeist in der Anrede:'' [[Bürschchen]], [[Burschi]], [[Jüngelchen]]
+:[2] [[Bursch]], [[Bursche]], [[Heranwachsender]], ''in den 50er und 60er Jahren:'' [[Halbstarker]], [[Jüngling]], [[Jugendlicher]], ''scherzhaft:'' [[Jungmanne]]
+:[3] [[Auszubildender]], [[Lehrjunge]], [[Lehrling]]
+:[4] [[Bauer]], [[Bube]], [[Under]], [[Unter]], [[Wenzel]]
+
+{{Gegenwörter}}
+:[1] [[Mädchen]], [[Mann]]
+:[2] [[Erwachsener]], [[Volljähriger]]
+:[3] [[Lehrherr]], [[Meister]]
+:[4] [[Dame]], [[Ober]]
+
+{{Verkleinerungsformen}}
+:[1] [[Jungchen]], [[Jüngelchen]], [[Jünglein]]
+
+{{Oberbegriffe}}
+:[1] [[Kind]]
+:[2] [[Mensch]]
+:[4] [[Spielkarte]]
+
+{{Unterbegriffe}}
+:[1] [[Goldjunge]], [[Menschenjunge]], [[Roma-Junge]], [[Zwillingsjunge]]
+:[1] ''elternlos'': [[Waisenjunge]]; ''im Spiel:'' ''veraltet'' [[Gespiele]], [[Spielkamerad]]; ''im Sport:'' [[Balljunge]]; ''in der Schule / im Internat:'' [[Schuljunge]] ''oder veraltet:'' [[Zögling]]; ''in der katholischen Kirche:'' [[Messdiener]], [[Ministrant]], ''in einem Chor:'' [[Chorknabe]], ''in berühmten Chören, dann zumeist im Plural:'' die [[Regensburger]] [[Domspatzen]], die [[Thomaner]], die [[Wiener]] [[Sängerknaben]]; ''politisch'': [[Hitlerjunge]]
+:[1] ''ungezogener Junge:'' [[Bengel]], [[Flegel]], (kleiner) [[Frechdachs]], [[Lausbub]], [[Lausebengel]], [[Lausejunge]], [[Lümmel]], [[Rabauke]], [[Range]], [[Rotzbengel]], [[Rotzjunge]], [[Rotzlöffel]], [[Rotznase]], (kleiner) [[Schlawiner]], [[Schlingel]], [[Strolch]]
+:[1] ''abwertend:'' [[Heulsuse]], [[Hosenscheißer]], [[Milchbubi]]; ''sexuell:'' [[Lustknabe]]
+:[1, 2] [[Balljunge]], [[Fischerjunge]], [[Gassenjunge]], [[Indianerjunge]], [[Küchenjunge]], [[Milchjunge]], [[Nachbarsjunge]], [[Negerjunge]], [[Schiffsjunge]], [[Schuljunge]], [[Schusterjunge]], [[Straßenjunge]], [[Strichjunge]], [[Trommlerjunge]], [[Zeitungsjunge]]
+:[2] [[Au-pair-Junge]]
+:[2] ''abwertend:'' [[Muttersöhnchen]]; ''als Vorbild dienend, abwertend oder auch scherzhaft:'' [[Musterknabe]], [[Musterschüler]]; ''insbesondere im Märchen als Begleiter des Königssohnes:'' [[Knappe]]; ''im Sport:'' [[Youngster]]; ''junger Angestellter im Hotel:'' [[Liftboy]], [[Page]]; ''sexuell:'' [[Edelknabe]] ''oder'' [[Page]], [[Stricher]], [[Strichjunge]], [[Twink]]
+:[3] [[Laufbursche]]
+:[4] [[Herzjunge]] oder [[Herz-Junge]], [[Karojunge]] oder [[Karo-Junge]], [[Kreuzjunge]] oder [[Kreuz-Junge]], [[Pikjunge]] oder [[Pik-Junge]]
+
+{{Beispiele}}
+:[1] Das Kind, das Ellen bekommt, wird ein ''Junge.'' Die Hebamme rief: „Es ist ein ''Junge.''\" Ein kleiner ''Junge'' spielt mit dem Ball. „''Jungs,'' kommt mal alle her!“
+:[1] „Zwei Jahre lang sah sie blaß und düster aus, aber seitdem sie die beiden ''Jungens'' und das Mädchen hat, ist sie wieder die schöne Frau von vordem und blüht wie eine Rose.“&lt;ref&gt;{{Literatur | Autor= Hermann Löns |Herausgeber= Hans A. Neunzig |Titel= Die Häuser von Ohlenhof. Der Roman eines Dorfes |Sammelwerk=Hermann Löns, Ausgewählte Werke IV | Verlag= Nymphenburger | Ort= München | Jahr= 1986 | Seiten= 195-318, Zitat Seite 242.| ISBN= 3-485-00530-4}}&lt;/ref&gt;
+:[1] Sie hat drei ''Jungens'' aus Wuppertal getroffen.
+:[1] „Als ''Junge'' war ich mal im Zirkus.“&lt;ref&gt;{{Literatur | Autor= Edgar Hilsenrath | Titel= Der Nazi &amp; der Friseur |TitelErg= Roman | Auflage= 15. |Übersetzer= |Verlag= dtv | Ort= München| Jahr= 2017 | ISBN=978-3-423-13441-5 | Seiten=377.}} Zuerst 1977 erschienen.&lt;/ref&gt;
+:[1] „Der Schotte McDonald brachte seinen beiden ''Jungen'' einen Luftballon vom Jahrmarkt mit.“&lt;ref&gt;{{Literatur| Autor= Frank N. Stein |Titel= Böse Witze| TitelErg= Mit Illustrationen von Harry Madcock| Verlag= Deutscher Taschenbuch Verlag |Ort= München | Jahr= 2001 | ISBN= 3-423-62060-9 | Seiten= 110.}}&lt;/ref&gt;
+:[2] Ihr Sohn ist ein netter ''Junge.'' „Na, mein ''Junge,'' wie geht es dir?“
+:[2] „Die ''Jungens'' von der gegnerischen Mannschaft riefen mich »Itzig«, sagten, ich hätte den Fußball verhext, fragten mich, ob mein Vater, der Chaim Finkelstein, auch ins Waschbecken pinkelte wie der Stiefvater meines Freundes Max Schulz, ob er seiner Frau auch den Hintern versohle, und wenn nicht, warum nicht?“&lt;ref&gt;{{Literatur | Autor= Edgar Hilsenrath | Titel= Der Nazi &amp; der Friseur |TitelErg= Roman | Auflage= 15. |Übersetzer= |Verlag= dtv | Ort= München| Jahr= 2017 | ISBN=978-3-423-13441-5 | Seiten=32.}} Zuerst 1977 erschienen. Kommafehler korrigiert.&lt;/ref&gt;
+:[2] „So schickte man den ''Jungen'' hin und her.“&lt;ref&gt;{{Literatur |Autor= |Titel=Djin Ping Meh| TitelErg=Schlehenblüten in goldener Vase | Herausgegeben und eingeleitet von Herbert Franke |Band= Band 2 | Übersetzer=Otto und Artur Kibat|Verlag=Ullstein|Ort= Berlin/Frankfurt am Main |Jahr=1987 |ISBN= 3-549-06673-2|Seiten=48}}. Chinesisches Original 1755.&lt;/ref&gt;
+:[3] Der Bäcker schickt seinen ''Jungen'' mit den Kuchen zu uns.
+:[4] Theodor hat natürlich gleich am Anfang schon mit dem höchsten ''Jungen'' gestochen.
+
+{{Redewendungen}}
+:[1] [[blaue Jungs|blaue ''Jungs'']]; [[jemanden wie einen dummen Jungen behandeln|jemanden wie einen dummen ''Jungen'' behandeln]]; [[Junge, Junge!|''Junge'', ''Junge''!]]; [[schwerer Junge|schwerer ''Junge'']]
+
+{{Charakteristische Wortkombinationen}}
+:[1] ein [[adrett]]er / [[artig]]er / [[dumm]]er / [[groß]]er / [[gut]]er / gut [[erzogen]]er / [[hübsch]]er / [[klein]]er / [[kräftig]]er / [[lieb]]er / [[sauber]]er / [[schmächtig]]er / [[schmutzig]]er / [[verwöhnt]]er / [[verzogen]]er / [[wild]]er ''Junge''; sei ein lieber ''Junge'' und (zum Beispiel: gehe bitte zur Tür!); sie [[gebären|gebar]] einen ''Jungen''; sie hat einen ''Jungen'' [[bekommen]]; es ist ein ''Junge''; er ist Vater von einem / zwei / drei ''Jungen''; sie haben zwei ''Jungen''; in der Klasse gibt es zehn ''Jungen'' und zehn Mädchen
+:[2] er war (immer so) ein [[nett]]er ''Junge''; na, [[alt]]er / mein ''Junge'', wie geht’s?; unsere ''Jungen'' haben [[kämpfen|gekämpft]] / (das Spiel) [[gewinnen|gewonnen]] / (das Spiel) [[verlieren|verloren]]
+:[4] jemand hat vier ''Jungen'' auf der Hand; er kommt mit einem ''Jungen'' [[rauskommen|raus]]; (gleich zu Anfang / Beginn) die ''Jungen'' [[ausspielen]]
+
+{{Wortbildungen}}
+:[[Dummejungenstreich]] ''oder'' [[Dumme-Jungen-Streich]],[[Jungengesicht]], [[jungenhaft]], [[Jungenklasse]], [[Jungenkörper]],  [[Jungenname]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=männliches Kind|Ü-Liste=
+*{{af}}: {{Ü|af|seun}}
+*{{sq}}: {{Ü|sq|djalë}} {{m}}
+*{{ar}}: {{Üt|ar|ولد|walad}}
+*{{az}}: {{Ü|az|oğlan}}
+*{{eu}}: {{Ü|eu|mutil}}
+*{{bs}}: {{Üt|bs|дјечак}}
+*{{br}}: {{Ü|br|paotr}} {{m}}
+*{{bg}}: {{Üt|bg|момче|momče}} {{m}}
+*{{zh}}: {{Üt|zh|男孩子|nán háizi}}
+*{{da}}: {{Ü|da|dreng}}
+*{{en}}: {{Ü|en|boy}}
+*{{eo}}: {{Ü|eo|knabo}}
+*{{et}}: {{Ü|et|poiss}}
+*{{fo}}: {{Ü|fo|drongur}} {{m}}
+*{{fi}}: {{Ü|fi|poika}}
+*{{fr}}: {{Ü|fr|garçon}} {{m}}, {{Ü|fr|jeune}} {{m}}
+*{{gl}}: {{Ü|gl|mozo}}, {{Ü|gl|rapaz}}
+*{{ka}}: {{Üt|ka|ბიჭი|}}
+*{{el}}: {{Üt|el|αγόρι|agóri}} {{n}}, {{Üt|el|παιδί|pedí}}
+*{{kl}}: {{Ü|kl|nukappiaraq}}
+*{{ha}}: {{Ü|ha|yaro}} {{m}}
+*{{hi}}: {{Üt|hi|लड़का|}}
+*{{io}}: {{Ü|io|puerulo}}
+*{{ia}}: {{Ü|ia|puero}}
+*{{ga}}: {{Ü|ga|buachaill}} {{m}}, {{Ü|ga|gasúr}} {{m}}, {{Ü|ga|garsún}} {{m}}
+*{{is}}: {{Ü|is|drengur}} {{m}}
+*{{it}}: {{Ü|it|ragazzo}} {{m}}, {{Ü|it|giovane}} {{m}}, {{Ü|it|giovanotto}} {{m}}
+*{{ja}}: {{Üt|ja|少年|しょうねん, shōnen}}, {{Üt|ja|男子|だんし, danshi}}, {{Üt|ja|男の子|おとこのこ, otoko no ko}}
+*{{ca}}: {{Ü|ca|noi}}, {{Ü|ca|xicot}}, {{Ü|ca|gojat}} (regional, Nordkatalonien)
+*{{tlh}}: {{Ü|tlh|loDHom}}
+*{{kw}}: {{Ü|kw|maw}} {{m}}
+*{{co}}: {{Ü|co|ziteddu}} {{m}}, {{Ü|co|zitellu}} {{m}}
+*{{hr}}: {{Ü|hr|dјečak}}
+*{{la}}: {{Ü|la|puer}}
+*{{lv}}: {{Ü|lv|puika}} {{m}}, {{Ü|lv|zēns}} {{m}}
+*{{lt}}: {{Ü|lt|berniukas}}
+*{{lb}}: {{Ü|lb|Jong}} {{m}}, {{Ü|lb|Bouf}} {{m}}, {{Ü|lb|Fils}} {{m}}
+*{{gv}}: {{Ü|gv|guilley}} {{m}}
+*{{mk}}: {{Üt|mk|момче|momče}} {{n}}
+*{{nds}}: {{Ü|nds|Fent}}, {{Ü|nds|Jung}}, {{Ü|nds|Junge}}
+*{{nl}}: {{Ü|nl|jongen}} {{m}}, {{Ü|nl|joch}} {{n}}, ''umgangssprache:'' {{Ü|nl|jochie}}
+*{{se}}: {{Ü|se|gánda}}
+*{{no}}: {{Ü|no|gutt}} {{m}}
+*{{oc}}: {{Ü|oc|gojat}}
+*{{fa}}: {{Üt|fa|پسر|pesar}}
+*{{pl}}: {{Ü|pl|chłopiec}}
+*{{pt}}: {{Ü|pt|menino}} {{m}}, {{Ü|pt|garoto}} {{m}}
+*{{ro}}: {{Ü|ro|băiat}} {{m}}, {{Ü|ro|băiețandru}} {{m}}
+*{{ru}}: {{Üt|ru|мальчик}} {{m}}
+*{{gd}}: {{Ü|gd|balach}} {{m}}
+*{{sv}}: {{Ü|sv|pojke}}, {{Ü|sv|gosse}}
+*{{sr}}: {{Üt|sr|дечак}} {{m}} / {{Üt|sr|дјечак}}
+*{{sh}}: {{Üt|sh|дечак}} {{m}} / {{Üt|sh|дјечак}}
+*{{sn}}: {{Ü|sn|mukomana}}
+*{{sk}}: {{Ü|sk|hoch}}
+*{{sl}}: {{Ü|sl|deček}} {{m}}
+*{{wen}}:
+**{{dsb}}: {{Ü|dsb|gólc}} {{m}}
+**{{hsb}}: {{Ü|hsb|hólc}} {{m}}, {{va.|:}} {{Ü|hsb|hólčo}} {{m}}
+*{{es}}: {{Ü|es|chico}} {{m}}, {{Ü|es|muchacho}} {{m}}, {{Ü|es|mozo}} {{m}}, {{Ü|es|joven}} {{m}}
+*{{cs}}: {{Ü|cs|hoch}}
+*{{tr}}: {{Ü|tr|oğlan}}
+*{{uk}}: {{Üt|uk|хлопчик}} {{m}}
+*{{hu}}: {{Ü|hu|fiú}}, {{Ü|hu|kisfiú}}
+*{{cy}}: {{Ü|cy|bachgen}} {{m}}, {{Ü|cy|gwas}} {{m}}
+*{{wa}}: {{Ü|wa|valet}} {{m}}
+*{{be}}: {{Üt|be|хлопчык}} {{m}}
+*{{fy}}: {{Ü|fy|jonge}} {{u}}
+|Dialekttabelle=
+*Alemannisch: Kerl
+*Bairisch:
+**Nordbairisch: [[Bub]], Bou
+**Mittelbairisch: [1–3] [[Bub]], Bua
+*Elsässisch: Büe; Biewel
+*Niederfränkisch:
+**Mölmsch: Jongk
+*Ostfränkisch: Bu
+*Ostmitteldeutsch: Junge
+**Erzgebirgisch: Gung
+*Schwiizerdütsch: Bueb, (Kt. Bern) Giel
+*Schwäbisch: Bua, Büble, Biable
+*Vorarlbergerisch: Bua, Buab, Büable
+*Westmitteldeutsch: Jung, Jong
+**Mittelfränkisch:
+***Ripuarisch:
+****Kölsch: Jong
+**Rheinfränkisch:
+***Hessisch: Bub
+***Pfälzisch: Bu
+}}
+
+{{Ü-Tabelle|2|G=umgangssprachlich: junger Mann|Ü-Liste=
+*{{bs}}: {{Üt|bs|момак|momak}} {{m}}, {{Üt|bs|момче|momče}} {{n}}
+*{{fi}}: {{Ü|fi|poika}}
+*{{it}}: {{Ü|it|ragazzino}} {{m}}, {{Ü|it|marmocchio}} {{m}}
+*{{hr}}: {{Ü|hr|momak}} {{m}}, {{Ü|hr|momče}} {{n}}
+*{{pt}}: {{Ü|pt|menino}} {{m}}, {{Ü|pt|rapaz}}{{m}}, {{Ü|pt|jovem}}{{m}}, {{Ü|pt|moço}} {{m}}
+*{{sv}}: {{Ü|sv|ung man}}, {{Ü|sv|grabb}}, {{Ü|sv|kille}}
+*{{sr}}: {{Üt|sr|момак}} {{m}}, {{Üt|sr|момче}} {{n}}
+*{{sh}}: {{Üt|sh|момак}} {{m}}, {{Üt|sh|момче}} {{n}}
+*{{sk}}: {{Ü|sk|chlapec}}
+*{{es}}: {{Ü|es|chiquillo}} {{m}}, {{Ü|es|niño}} {{m}}, {{Ü|es|chaval}} {{m}}
+*{{cs}}: {{Ü|cs|chlapec}}
+|Dialekttabelle=
+*Alemannisch: Kerl
+*Bairisch:
+**Nordbairisch: [[Bub]], Bou
+**Mittelbairisch: [1–3] [[Bub]], Bua
+*Elsässisch: Büe; Biewel
+*Niederfränkisch:
+**Mölmsch: Jongk
+*Ostfränkisch: Bu
+*Ostmitteldeutsch: Junge
+**Erzgebirgisch: Gung
+*Schwiizerdütsch: Bueb, (Kt. Bern) Giel
+*Schwäbisch: Bua, Büble, Biable
+*Vorarlbergerisch: Bua, Buab, Büable
+*Westmitteldeutsch: Jung, Jong
+**Mittelfränkisch:
+***Ripuarisch:
+****Kölsch: Jong
+**Rheinfränkisch:
+***Hessisch: Bub
+***Pfälzisch: Bu
+}}
+
+{{Ü-Tabelle|3|G=veraltend: Kurzform für Lehrjunge|Ü-Liste=
+*{{bs}}: {{Üt|bs|момак|momak}} {{m}}, {{Üt|bs|момче|momče}} {{n}}
+*{{fr}}: {{Ü|fr|apprenti}} {{m}}
+*{{hr}}: {{Ü|hr|momak}} {{m}}, {{Ü|hr|momče}} {{n}}
+*{{pt}}: {{Ü|pt|aprendiz}} {{m}}
+*{{sv}}: {{Ü|sv|lärjunge}}
+*{{sr}}: {{Üt|sr|дечак}} {{m}} / {{Üt|sr|дјечак}}, {{Üt|sr|момак}} {{m}}, {{Üt|sr|момче}} {{n}}
+*{{sh}}: {{Üt|sh|дечак}} {{m}} / {{Üt|sh|дјечак}}, {{Üt|sh|момак}} {{m}}, {{Üt|sh|момче}} {{n}}
+|Dialekttabelle=
+*Alemannisch: Kerl
+*Bairisch:
+**Nordbairisch: [[Bub]], Bou
+**Mittelbairisch: [1–3] [[Bub]], Bua
+*Elsässisch: Büe; Biewel
+*Niederfränkisch:
+**Mölmsch: Jongk
+*Ostfränkisch: Bu
+*Ostmitteldeutsch: Junge
+**Erzgebirgisch: Gung
+*Schwiizerdütsch: Bueb, (Kt. Bern) Giel
+*Schwäbisch: Bua, Büble, Biable
+*Vorarlbergerisch: Bua, Buab, Büable
+*Westmitteldeutsch: Jung, Jong
+**Mittelfränkisch:
+***Ripuarisch:
+****Kölsch: Jong
+**Rheinfränkisch:
+***Hessisch: Bub
+***Pfälzisch: Bu
+}}
+
+{{Ü-Tabelle|4|G=landschaftlich: Bube im Kartenspiel|Ü-Liste=
+*{{sv}}: {{Ü|sv|knekt}}
+|Dialekttabelle=
+*Alemannisch: Kerl
+*Bairisch:
+**Nordbairisch: [[Bub]], Bou
+**Mittelbairisch: [1–3] [[Bub]], Bua
+*Elsässisch: Büe; Biewel
+*Niederfränkisch:
+**Mölmsch: Jongk
+*Ostfränkisch: Bu
+*Ostmitteldeutsch: Junge
+**Erzgebirgisch: Gung
+*Schwiizerdütsch: Bueb, (Kt. Bern) Giel
+*Schwäbisch: Bua, Büble, Biable
+*Vorarlbergerisch: Bua, Buab, Büable
+*Westmitteldeutsch: Jung, Jong
+**Mittelfränkisch:
+***Ripuarisch:
+****Kölsch: Jong
+**Rheinfränkisch:
+***Hessisch: Bub
+***Pfälzisch: Bu
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Junge}}
+:[1–3] {{Ref-Grimm|Junge}}
+:[1–4] {{Ref-DWDS|Junge}}
+:[2] {{Ref-UniLeipzig|Junge}}
+:[1, 2, 4] {{Ref-FreeDictionary|Junge}}
+:[1–4] {{Lit-Duden: Universalwörterbuch|A=4}}, „&lt;sup&gt;1&lt;/sup&gt;Junge“, Seite 860
+
+{{Quellen}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{mf}}, {{Wortart|Nachname|Deutsch}} ===
+
+{{Deutsch Nachname Übersicht
+}}
+
+{{Worttrennung}}
+:Jun·ge, {{Pl.}} Jun·ges
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈjʊŋə}}
+:{{Hörbeispiele}} {{Audio|De-Junge2.ogg}}
+:{{Reime}} {{Reim|ʊŋə|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[deutschsprachig]]er [[Nachname]], [[Familienname]]
+
+{{QS Herkunft|fehlt|spr=de}}
+
+{{Bekannte Namensträger}}
+:[1] [[w:Mathias Junge|Mathias Junge]] (* 1974), deutscher Schauspieler
+:[1] [[w:Oliver Junge|Oliver Junge]] (* 1968), deutscher Mathematiker
+:[1] [[w:Traudl Junge|Traudl Junge]] (1920–2002), deutsche Sekretärin Adolf Hitlers
+
+{{Beispiele}}
+:[1] Herr ''Junge'' wollte uns kein Interview geben.
+:[1] Die ''Junges'' fliegen heute nach Südafrika.
+:[1] Der ''Junge'' trägt nie die Pullover, die die ''Junge'' ihm strickt.
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=deutschsprachiger Nachname, Familienname|Ü-Liste=
+*{{en}}: {{Ü|en|}}
+*{{fr}}: {{Ü|fr|}}
+*{{it}}: {{Ü|it|}}
+*{{es}}: {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Junge (Begriffsklärung)}}
+:[1] {{Ref-Nachname|Junge}}
+:[1] {{Ref-UniLeipzig|Junge}}
+
+{{Navigationsleiste Anthroponyme}}
+
+=== {{Wortart|Substantiv|Deutsch}}, ''adjektivische Deklination'', {{n}} ===
+
+{{Worttrennung}}
+:Jun·ge
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈjʊŋə}}
+:{{Hörbeispiele}} {{Audio|De-Junge2.ogg}}
+:{{Reime}} {{Reim|ʊŋə|Deutsch}}
+
+{{Grammatische Merkmale}}
+* Nominativ Singular der schwachen Deklination des Substantivs '''[[Junges]]'''
+* Akkusativ Singular  der schwachen Deklination des Substantivs '''[[Junges]]'''
+* Nominativ Plural der starken Deklination des Substantivs '''[[Junges]]'''
+* Akkusativ Plural der starken Deklination des Substantivs '''[[Junges]]'''
+
+{{Grundformverweis|Junges}}
+
+{{Ähnlichkeiten 1|[[Jünger]], [[jung]], [[jungen]], [[Junker]], [[Junkie]], [[Lunge]]}}</text>
+      <sha1>nqtxiekqlsnfkm1apm7erazif7atqrt</sha1>
+    </revision>
+  </page>
+</mediawiki>
