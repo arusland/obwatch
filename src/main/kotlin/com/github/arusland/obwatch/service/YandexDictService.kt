@@ -9,9 +9,9 @@ import org.slf4j.LoggerFactory
 class YandexDictService(private val apiKey: String) : DictService {
     private val client = OkHttpClient()
 
-    override fun lookup(word: String): DictResult {
-        val word = word.trim()
-        val url = "https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=$apiKey&lang=en-ru&text=$word"
+    override fun lookup(term: String, lang: DictLang): DictResult {
+        val term = term.trim()
+        val url = "https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=$apiKey&lang=${lang.def}&text=$term"
 
         val request = Request.Builder()
             .url(url)
@@ -20,16 +20,21 @@ class YandexDictService(private val apiKey: String) : DictService {
         val response = client.newCall(request).execute()
 
         if (!response.isSuccessful) {
-            log.error("Failed to lookup word: {}, resp: {}", word, response)
+            log.error("Failed to lookup word: {}, resp: {}", term, response)
             return DictResult(emptyList())
         }
 
         val json = response.body!!.string()
-        val result = JsonUtil.fromJson(json, DictResult::class.java)
-        return result
+        return JsonUtil.fromJson(json, DictResult::class.java)
     }
 
     private companion object {
         private val log = LoggerFactory.getLogger(YandexDictService::class.java)!!
     }
+}
+
+enum class DictLang(val def: String) {
+    EN_RU("en-ru"),
+    DE_RU("de-ru"),
+    RU_EN("ru-en")
 }

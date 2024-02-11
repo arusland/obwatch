@@ -1,7 +1,9 @@
 package com.github.arusland.obwatch.service
 
-import com.github.arusland.obwatch.util.JsonUtil
+import com.github.arusland.obwatch.model.DictResult
+import com.github.arusland.obwatch.model.Translation
 import org.slf4j.LoggerFactory
+import java.io.BufferedWriter
 import java.nio.file.Path
 import java.nio.file.attribute.BasicFileAttributes
 import kotlin.io.path.*
@@ -17,6 +19,7 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
     private var lastFileAttributes: BasicFileAttributes
     private val outputFilePath: Path
     private val regexSpace = Regex("[\\s#!,.]+", RegexOption.MULTILINE)
+    private val lastResults = mutableListOf<FoundResult>()
 
     init {
         require(path.exists()) { "Target path does not exist: $path" }
@@ -44,23 +47,62 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
         log.debug("File was changed: {}, file size: {}", attributes.lastModifiedTime(), attributes.size())
         val text = path.readText()
         val tokens = regexSpace.split(text).filter { it.isNotBlank() }.reversed()
-        outputFilePath.bufferedWriter().use { writer ->
-            val lastWord = tokens.firstOrNull()
+        val lastWord = tokens.firstOrNull()?.trim()
 
-            if (lastWord != null) {
-                val result = dictService.lookup(lastWord)
-                // to markdown
-                writer.write("## $lastWord")
-                writer.write("\n\n")
-                writer.write("```json")
+        if (lastWord != null) {
+            val dictResult = dictService.lookup(lastWord, DictLang.DE_RU)
+            lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
+            lastResults.add(0, FoundResult(lastWord, dictResult))
+            if (lastResults.size > 10) {
+                lastResults.removeAt(lastResults.size - 1)
+            }
+            outputFilePath.bufferedWriter().use { writer ->
+                lastResults.forEach { result ->
+                    writeResult(writer, result)
+                    writer.write("----\n\n")
+                }
+            }
+        } else {
+            log.warn("No words found in the file")
+        }
+    }
+
+    private fun writeResult(
+        writer: BufferedWriter,
+        result: FoundResult
+    ) {
+        val dictResult = result.result
+        writer.write("## Definition of \"${result.term}\"")
+        writer.write("\n\n")
+        if (dictResult.def.isNotEmpty()) {
+            dictResult.def.forEach { definition ->
+                writer.write("**${definition.text}** _\\[${definition.pos}\\]_: ")
+                writer.write(definition.tr.map { translationAsString(it) }.joinToString(", ") { it })
                 writer.write("\n")
-                writer.write(JsonUtil.toPrettyJson(result))
+                val examples = definition.tr.flatMap { it.ex ?: emptyList() }
+                if (examples.isNotEmpty()) {
+                    writer.write("Examples: ")
+                    examples.forEach { example ->
+                        writer.write(example.text + "(")
+                        writer.write(example.tr.firstOrNull()?.text ?: ")")
+                    }
+                    writer.write("\n")
+                }
                 writer.write("\n")
-                writer.write("```")
-            } else {
-                log.warn("No words found in the file")
             }
         }
+        /*writer.write("```json")
+                writer.write("\n")
+                writer.write(JsonUtil.toPrettyJson(dictResult))
+                writer.write("\n")
+                writer.write("```")*/
+    }
+
+    private fun translationAsString(translation: Translation): String {
+        return if (translation.syn?.isNotEmpty() == true)
+            "${translation.text} (_" + translation.syn.joinToString(", ") { it.text } + "_)"
+        else
+            translation.text
     }
 
     private fun fileWasChanged(): Boolean {
@@ -74,6 +116,11 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
 
         return false
     }
+
+    data class FoundResult(
+        val term: String,
+        val result: DictResult
+    )
 
     private companion object {
         val log = LoggerFactory.getLogger(ObsidianWatcher::class.java)!!
