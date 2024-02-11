@@ -1,5 +1,6 @@
-package com.github.arusland.obwatch
+package com.github.arusland.obwatch.service
 
+import com.github.arusland.obwatch.util.JsonUtil
 import org.slf4j.LoggerFactory
 import java.nio.file.Path
 import java.nio.file.attribute.BasicFileAttributes
@@ -12,7 +13,7 @@ import kotlin.io.path.*
  *
  * @param path Path to the file to watch.
  */
-class ObsidianWatcher(private val path: Path) {
+class ObsidianWatcher(private val path: Path, private val dictService: DictService) {
     private var lastFileAttributes: BasicFileAttributes
     private val outputFilePath: Path
     private val regexSpace = Regex("[\\s#!,.]+", RegexOption.MULTILINE)
@@ -42,8 +43,24 @@ class ObsidianWatcher(private val path: Path) {
         val attributes = lastFileAttributes
         log.debug("File was changed: {}, file size: {}", attributes.lastModifiedTime(), attributes.size())
         val text = path.readText()
-        val tokens = regexSpace.split(text).reversed()
-        outputFilePath.writeLines(tokens)
+        val tokens = regexSpace.split(text).filter { it.isNotBlank() }.reversed()
+        outputFilePath.bufferedWriter().use { writer ->
+            val lastWord = tokens.firstOrNull()
+
+            if (lastWord != null) {
+                val result = dictService.lookup(lastWord)
+                // to markdown
+                writer.write("## $lastWord")
+                writer.write("\n\n")
+                writer.write("```json")
+                writer.write("\n")
+                writer.write(JsonUtil.toPrettyJson(result))
+                writer.write("\n")
+                writer.write("```")
+            } else {
+                log.warn("No words found in the file")
+            }
+        }
     }
 
     private fun fileWasChanged(): Boolean {
