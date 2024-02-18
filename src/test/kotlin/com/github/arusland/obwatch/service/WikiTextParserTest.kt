@@ -14,8 +14,11 @@ class WikiTextParserTest {
         val result2 = WikiTextParser().parse(resource("/Mutter.wikitext"))
         println(result2)
 
-        val result3 = WikiTextParser().parse(resource("/ausmachen.wikitext"))
+        val result3 = WikiTextParser().parse(resource("/Maedchen.wikitext"))
         println(result3)
+
+        val result4 = WikiTextParser().parse(resource("/ausmachen.wikitext"))
+        println(result4)
     }
 
     private fun resource(resourceName: String): String {

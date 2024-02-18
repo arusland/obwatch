@@ -1,0 +1,328 @@
+{{Wort der Woche|33|2023}}
+== Mädchen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=n
+|Nominativ Singular=Mädchen
+|Nominativ Plural=Mädchen
+|Genitiv Singular=Mädchens
+|Genitiv Plural=Mädchen
+|Dativ Singular=Mädchen
+|Dativ Plural=Mädchen
+|Akkusativ Singular=Mädchen
+|Akkusativ Plural=Mädchen
+|Bild 1=Bundesarchiv Bild 194-0109-24A, Urdenbach, Betreuung von Flüchtlingskindern.jpg|mini|1|[[zwei]] [[deutsch]]e ''Mädchen'' in der [[Nachkriegszeit]]
+|Bild 2=Iraqi Children.jpg|mini|1|[[zwei]] [[irakisch]]e ''Mädchen''
+|Bild 3=Burkina Faso girl.jpg|mini|1|ein ''Mädchen'' aus [[Burkina Faso]]
+}}
+
+{{Anmerkung|zum Genus}}
+:Das [[grammatisches Geschlecht|grammatische Geschlecht]] von ''Mädchen'' ist sächlich, da es ein [[Diminutiv]] (= [[Verkleinerungsform]]) ist. Deshalb heißt es beispielsweise in [[Relativsatz|Relativsätzen]], obwohl das Wort eine weibliche Person bezeichnet: ''Das Mädchen, &lt;u&gt;das&lt;/u&gt; …''
+:In welchen Fällen die Konstruktion nach dem Sinn erlaubt ist, wird unterschiedlich beurteilt.&lt;ref&gt;{{Wikipedia|Constructio ad sensum|spr=de|oldid=170204837}}&lt;/ref&gt;&lt;ref&gt;{{Per-Spiegel Online | Online=http://www.spiegel.de/kultur/zwiebelfisch/zwiebelfisch-qualitaet-hat-seinen-preis-a-402537.html | Autor= Bastian Sick| Titel=Qualität hat seinen Preis | Tag= 011| Monat=03| Jahr=2006 | Zugriff=2018-07-14}}&lt;/ref&gt;
+
+{{Worttrennung}}
+:Mäd·chen, {{Pl.}} Mäd·chen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈmɛːtçən}}, {{Lautschrift|ˈmeːtçən}}
+:{{Hörbeispiele}} {{Audio|De-Mädchen.ogg}}, {{Audio|De-Mädchen2.ogg}}
+:{{Reime}} {{Reim|ɛːtçən|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''[[klein]]es Mädchen:'' [[weiblich]]es [[Kind]]
+:[2] ''[[jung]]es Mädchen:'' [[jung]]e [[Frau]]
+:[3] {{K|veraltete Bedeutung}} [[weiblich]]e [[Hausangestellte]]
+:[4] [[befreundet]]e [[weiblich]]e [[Person]]
+
+{{Herkunft}}
+:[[Diminutiv]] (= [[Verkleinerungsform]]) von ''[[Magd]]'': ''die Magd'' → ''das Mägdchen'' → ''das Mädchen'', belegt seit dem 15. Jahrhundert&lt;ref&gt;{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Stichwort: „Mädchen“, Seite 588.&lt;/ref&gt;; in der heutigen Schreibweise ab dem 17. Jahrhundert&lt;ref&gt;{{Lit-Duden: Herkunftswörterbuch|A=3}}&lt;/ref&gt;
+
+{{Synonyme}}
+:[1] [[Deern]], [[Dirn]], [[Mädel]], [[Mäderl]], [[Meitli]]; ''veraltet:'' Mägdelein
+:[2] [[Heranwachsende]], [[Jugendliche]]; ''veraltet oder veraltend:'' [[Backfisch]], [[Fräulein]], [[Grisette]], [[Maid]]
+:[3] [[Hausangestellte]], [[Perle]], [[Zofe]]
+
+{{Gegenwörter}}
+:[1] ''nach Geschlecht:'' [[Bub]]/[[Bube]], [[Knabe]], [[Junge]]
+:[1] ''nach Alter:'' [[Frau]], [[Greisin]]
+
+{{Oberbegriffe}}
+:[1] [[Kind]]
+
+{{Unterbegriffe}}
+:[1, 2] [[Kopftuchmädchen]], [[Milchmädchen]], [[Mulattenmädchen]], [[Nachbarsmädchen]], [[Schulmädchen]], [[Stadtmädchen]], [[Tomboy]], [[Waisenmädchen]], [[Zwillingsmädchen]]
+:[2] [[Alphamädchen]], [[Barmädchen]], [[Straßenmädchen]], [[Strichmädchen]]
+:[3] [[Dienstmädchen]], [[Hausmädchen]], [[Kindermädchen]], [[Serviermädchen]], [[Stubenmädchen]], [[Zimmermädchen]]
+
+{{Beispiele}}
+:[1] Meine Bekannte hat ein kleines ''Mädchen'' bekommen.
+:[1] A: „Lisa hat ein Kind bekommen.“ B: „Junge oder ''Mädchen?''“
+:[2] Er ist hinter den ''Mädchen'' her.
+:[2] „Thue keinem ''Mädchen'' Leides, und denke, daß deine Mutter auch ein ''Mädchen'' gewesen ist.“&lt;ref&gt;Matthias Claudius, ''An meinen Sohn Johannes (1799)'', zitiert nach: ''Mathias Claudius Werke. Neue, vollständige Ausgabe'', Fünfter Band, Wien, 1844, S. 113&lt;/ref&gt;
+:[2] „Die ''Mädchen'' trugen die kleinen Fähnchen der Fabrikarbeiterinnen, viele Burschen hatten die Mützen auf dem Kopf.“&lt;ref&gt;{{Literatur | Autor=Hans Fallada | Titel= Wer einmal aus dem Blechnapf frißt |TitelErg=Roman. 4. Auflage |Verlag= Aufbau Verlag | Ort=Berlin |Jahr= 2013| Seiten = 345.|ISBN=978-3-7466-2678-9|}} Erstveröffentlichung 1934.&lt;/ref&gt;
+:[2] „Von diesem ''Mädchen'', das prompt am nächsten Mittag an seine Tür klopft, ist Franz auf den ersten Blick entzückt.“&lt;ref&gt;{{Literatur | Autor= Alfred Döblin | Titel= Berlin Alexanderplatz | TitelErg= Die Geschichte vom Franz Biberkopf |Verlag= Deutscher Taschenbuch Verlag| Ort= München|Jahr= 1965| Seiten= 229.|ISBN= 3-423-00295-6|}} Erstveröffentlichung 1929.&lt;/ref&gt;
+:[2] „In der Kriegerzeit sind unbeschnittene ''Mädchen'' Beischlafgenossinnen.“&lt;ref&gt;{{Literatur | Autor= Wolf-Ulrich Cropp | Titel= Wie ich die Prinzessin von Sansibar suchte und dabei mal kurz am Kilimandscharo vorbeikam |Verlag= DuMont Reiseverlag| Ort= Ostfildern| Jahr= 2016 | ISBN= 978-3-7701-8280-0 | Seiten=45.}}&lt;/ref&gt;
+:[2] 15-Jähriger ersticht Gleichaltrige im Drogeriemarkt - Der jugendliche Afghane stach laut Augenzeugen mehrfach auf das ''Mädchen'' ein.&lt;ref&gt;{{Per-Deutsche Welle | Online=http://p.dw.com/p/2q35G | Titel=Deutschland - 15-Jähriger ersticht Gleichaltrige im Drogeriemarkt | Tag=28 | Monat=12 | Jahr=2017 | Zugriff=2018-03-19}}&lt;/ref&gt;
+:[2] In ihrem Dokumentarfilm "Bambule" porträtierte Ulrike Meinhof Ende der 1960er-Jahre ein Westberliner Erziehungsheim für ''Mädchen.''&lt;ref&gt;{{Per-Deutschlandradio | Online=http://www.deutschlandfunkkultur.de/hoerspiel-bambyle.1020.de.html?dram:article_id=408676 | Autor=Tine Rahel Völcker, Elena Schmidt, Stefan Schneider | Titel=Hörspiel - Bambyle - Eine akustische Trebe | Tag=09 | Monat=04 | Jahr=2018 | Zugriff=2018-03-19 | Kommentar=Deutschlandfunk Kultur/Berlin, Sendung: Freispiel }}&lt;/ref&gt;
+:[3] Das ''Mädchen'' macht gerade die Zimmer.
+:[3] „Jill, das ''Mädchen'' hinter der Bar, nimmt seine Bestellung auf und bemerkt seinen australischen Akzent.“&lt;ref&gt;{{Literatur| Autor= Rolf W. Brednich |Titel= www.worldwidewitz.com | TitelErg= Humor im Cyberspace| Verlag= Herder |Ort= Freiburg/Basel/Wien | Jahr= 2005 | ISBN= 3-451-05547-3 | Seiten= 57.}}&lt;/ref&gt;
+:[4] Mit meinem ''Mädchen'' bin ich morgen zwei Jahre zusammen.
+:[4] „Ein ''Mädchen'' ohne Mann weiß nicht, was mit ihr los ist.“&lt;ref&gt;{{Literatur|Autor=Halldór Laxness |Titel=Atomstation| TitelErg=Roman|Verlag=Rowohlt Taschenbuch Verlag|Ort=Hamburg|Jahr=1955|Seiten=67.}}&lt;/ref&gt;
+
+{{Redewendungen}}
+:[[mal für kleine Mädchen müssen]]
+:[[andere Städtchen, andere Mädchen]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] ein [[reizend]]es ''Mädchen'' ({{Audio|De-ein reizendes Mädchen.ogg|Audio}})
+:[2] ein [[gefallen]]es, ein [[leicht]]es, ein [[spät]]es ''Mädchen''
+:[3] [[Mädchen für alles|''Mädchen'' für alles]]
+
+{{Wortbildungen}}
+:[[mädchenhaft]]
+:[[Mädchenarbeit]], [[Mädchenauge]], [[Mädchenbadeanzug]], [[Mädchenballerina]], [[Mädchenband]], [[Mädchenbande]], [[Mädchenchor]], [[Mädchenbekleidung]], [[Mädchenberatungsstelle]], [[Mädchenbeschneidung]], [[Mädchenbildung]], [[Mädchenbereich]], [[Mädchenbuch]], [[Mädchendusche]], [[Mädchenerziehung]], [[Mädchenfoto]], [[Mädchenfrau]], [[Mädchengestalt]], [[Mädchenhandel]], [[Mädchenhändler]], [[Mädchenhaftigkeit]], [[Mädchenherz]], [[Mädcheninternat]], [[Mädchenklasse]], [[Mädchenkleidung]], [[Mädchenklo]], [[Mädchenkopf]], [[Mädchenleib]], [[Mädchenmord]], [[Mädchenname]], [[Mädchenpensionat]], [[Mädchenschule]], [[Mädchenschutz]], [[Mädchenschwarm]], [[Mädchenschwimmen]], [[Mädchenslip]], [[Mädchenstimme]], [[Mädchentoilette]], [[Mädchenumkleide]], [[Mädchen-WC]], [[Mädchenzeit]], [[Mädchenzimmer]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=kleines Mädchen: weibliches Kind|Ü-Liste=
+*{{sq}}: {{Ü|sq|vajzë}} {{f}}
+*{{am}}: {{Üt|am|ሚሚ|mimi}}, {{Üt|am|ብላቴናዪት|bəlatenayitə}}, {{Üt|am|ሴት ልጅ|setə ləǧə}}
+*{{ar}}: {{Üt|ar|بنت|bint|بِنْت}} {{f}}, {{Üt|ar|شابة|šāba|شابَّة}} {{f}}, {{Üt|ar|صبية|ṣabiyya|صَبِيَّة}} {{f}}, {{Üt|ar|طفلة|ṭifla|طِفْلة}} {{f}}, {{Üt|ar|فتاة|fatā|فَتَاة}} {{f}}
+*{{hy}}: {{Üt|hy|աղջիկ|aghdjik}}
+*{{br}}: {{Ü|br|plac'h}}
+*{{bg}}: {{Üt|bg|момиче}} {{n}}
+*{{da}}: {{Ü|da|pige}}
+*{{en}}: {{Ü|en|girl}}
+*{{eo}}: {{Ü|eo|knabino}}
+*{{et}}: {{Ü|et|plika}}, {{Ü|et|tüdruk}}
+*{{fo}}: {{Ü|fo|genta}}
+*{{fi}}: {{Ü|fi|tyttö}}
+*{{fr}}: {{Ü|fr|fille}} {{f}}
+*{{gl}}: {{Ü|gl|nena}} {{f}}
+*{{ka}}: {{Üt|ka|გოგო|gogo}}, {{Üt|ka|გოგონა|gogona}}
+*{{el}}: {{Üt|el|κορίτσι|korítsi}} {{n}}
+*{{kl}}: {{Ü|kl|niviarsiraq}}
+*{{ha}}: {{Ü|ha|yarinya}} {{f}}
+*{{he}}: {{Üt|he|בחורה|baḥūrā(h)|בַּחוּרָה}} {{f}}
+*{{hi}}: {{Üt|hi|लड़की|larkī}}
+*{{io}}: {{Ü|io|puerino}}
+*{{ia}}: {{Ü|ia|puera}}
+*{{ga}}: {{Ü|ga|cailín}}
+*{{is}}: {{Ü|is|stelpa}}, {{Ü|is|stúlka}}
+*{{it}}: {{Ü|it|ragazza}} {{f}}
+*{{ja}}: {{Üt|ja|女の子|おんなのこ, onna no ko}}, {{Üt|ja|少女|しょうじょ, shōjo}}, {{Üt|ja|乙女|おとめ, otome}}
+*{{yi}}: {{Üt|yi|מײדעלע|meydele}} {{nf}}
+*{{ca}}: {{Ü|ca|noia}} {{f}}, {{Ü|ca|nena}} {{f}}
+*{{tlh}}: {{Ü|tlh|be’Hom}}
+*{{ko}}: {{Üt|ko|딸|ttal}}
+*{{kw}}: {{Ü|kw|mowes}} {{f}}, {{Ü|kw|mos}} {{f}}
+*{{lad}}: {{Üt|lad|נינײה|[[ninya]]}} {{f}}
+*{{la}}: {{Ü|la|puella}} {{f}}, {{Ü|la|pupa}} {{f}}
+*{{lv}}: {{Ü|lv|meitene}} {{f}}
+*{{lt}}: {{Ü|lt|mergina}} {{f}}
+*{{lb}}: {{Ü|lb|Meedchen}} {{n}}
+*{{gv}}: {{Ü|gv|caillin}}
+*{{nds}}: {{Ü|nds|Deern}}, {{Ü|nds|Wicht}}
+**Niederpreußisch: {{Ü|nds|Margell}} {{f}}, {{Ü|nds|Margelle}} {{f}}
+*{{nl}}: {{Ü|nl|meisje}} {{n}}
+*{{se}}: {{Ü|se|nieida}}
+*{{no}}: {{Ü|no|jente}}, {{Ü|no|pike}}
+*{{oc}}: {{Ü|oc|gojata}}
+*{{fa}}:
+**Farsi, {{prs|DMG}}: {{Üxx4|fa|دختر|d=doḫtar|DMG=0}}
+*{{pl}}: {{Ü|pl|dziewczyna}} {{f}}
+*{{pt}}: {{Ü|pt|menina}} {{f}}
+*{{ro}}: {{Ü|ro|fată}}
+*{{ru}}: {{Üt|ru|девочка}} {{f}}
+*{{sa}}: {{Üt|sa|बाऌा|bālā}} {{f}}
+*{{gd}}: {{Ü|gd|caileag}}
+*{{sv}}: {{Ü|sv|flicka}} {{u}}, {{Ü|sv|flickebarn}} {{n}}
+*{{sr}}: {{Üt|sr|девојчица|devojčica}}
+*{{sk}}: {{Ü|sk|dievča}}
+*{{sl}}: {{Ü|sl|dievča}}, {{Ü|sl|dekle}}
+*{{wen}}:
+**{{dsb}}: {{Ü|dsb|źowćo}} {{n}}
+**{{hsb}}: {{Ü|hsb|holca}} {{f}}
+*{{es}}: {{Ü|es|niña}} {{f}}
+*{{sw}}: {{Ü|sw|msichana}}
+*{{ti}}: {{Üt|ti|ጓል|gʷalə}}
+*{{cs}}: {{Ü|cs|děvče}} {{n}}, {{Ü|cs|holčička}} {{f}}
+*{{tr}}: {{Ü|tr|kız}}
+*{{uk}}: {{Üt|uk|дівчина|}} {{f}}
+*{{hu}}: {{Ü|hu|lány}}
+*{{vo}}: {{Ü|vo|jipul}}
+*{{cy}}: {{Ü|cy|geneth}} {{f}}
+*{{be}}: {{Üt|be|дзяўчынка|}} {{f}}
+|Dialekttabelle=
+*Alemannisch: [?] [[Maidle]]
+**Schwäbisch: [1, 2] [[Mädle]]
+***Allgäuerisch: [?] [[Fehl]], [[Föhl]], ''abwertend:'' [[Boscha]]
+***Ostschwäbisch: [1, 2] [[Mädle]]
+**Schweizerdeutsch: [?] [[Maitli]], [[Meidschi]], [[Meetle]], [[Meitji]]
+***Berndeutsch: [?] [[Meiti]], [[Meitschi]], [[Modi]]&lt;ref name="berndeutsch"&gt;[https://www.berndeutsch.ch/search?q=M%C3%A4dchen berndeutsch.ch, Suche nach ''Mädchen'']&lt;/ref&gt;
+**Vorarlbergerisch: [?] [[Moadle]], [[Meiki]] (im Montafon)
+*Bairisch: [?] [[Dirndl]], [[Mädl]], [[Madli]], [[Deandl]], [[Meudl]]
+**Mittelbairisch:
+***Apetlonerisch: [?] [[Maindsch]]
+**Böhmakeln: [1] [[Meinsch]], [[Meische]] ''Pl.''
+**Ostösterreichisch: [?] Sg. [[Mensch]], Pl. [[Mentscha]]
+*Westmitteldeutsch:
+**Ripuarisch:
+***Kölsch: [?] [[Mädche]] {{n}}, [[Mädsche]]
+**Rheinfränkisch:
+***Hessisch: [?] [[Maadche]]
+*Ostmitteldeutsch:
+**Berlinerisch: [?] [[Meechen]], [[Göre]], ''abwertend:'' [[Pflanze]]
+**Thüringisch-Obersächsisch: [?] [[Mädel]]
+*Fränkisch: [?] [[Madla]], [[Waggerla]]
+**Erzgebirgisch: [?] [[Maad]]
+}}
+
+{{Ü-Tabelle|2|G=junges Mädchen: junge Frau|Ü-Liste=
+*{{am}}: {{Üt|am|ሴት ልጅ|setə ləǧə}}, {{Üt|am|ልጃገረድ|ləǧagärädə}}, {{Üt|am|ጉብል|gubələ}}, {{Üt|am|ጩጬ|č̣uč̣e}}
+*{{bg}}: {{Üt|bg|момиче}} {{n}}
+*{{da}}: {{Ü|da|pige}}
+*{{en}}: {{Ü|en|girl}}, {{Ü|en|maid}}
+*{{fo}}: {{Ü|fo|genta}}
+*{{fi}}: {{Ü|fi|tyttö}}
+*{{fr}}: {{Ü|fr|fille}} {{f}}
+*{{ka}}: {{Üt|ka|გოგო|gogo}}, {{Üt|ka|გოგონა|gogona}}
+*{{el}}: {{Üt|el|κοπέλα|kopéla}} {{f}}
+*{{he}}: {{Üt|he|בת|bat|בַּת}}, {{Üt|he|ילדה|jaldā(h)|יַלְדָּה}}, {{Üt|he|נערה|naʿ &lt;sup&gt;a&lt;/sup&gt;rā(h)|נַעֲרָה}} {{f}}
+*{{hi}}: {{Üt|hi|लड़की|larkī}}
+*{{ia}}: {{Ü|ia|puera}}
+*{{is}}: {{Ü|is|stelpa}}, {{Ü|is|stúlka}}
+*{{ja}}: {{Üt|ja|女の子|おんなのこ, onna no ko}}, {{Üt|ja|少女|しょうじょ, shōjo}}, {{Üt|ja|女子|じょし, joshi}}
+*{{yi}}: {{Üt|yi|מײדל|meydl}} {{nf}}
+*{{ca}}: {{Ü|ca|noia}} {{f}}
+*{{lad}}: {{Üt|lad|מוגֿאגֿה|[[muchacha#muchacha (Ladino)|muchacha]]}} {{f}} (''auch:'' {{Üt|lad|מו́גא́גה|[[muchacha#muchacha (Ladino)|muchacha]]}} {{f}})
+*{{lv}}: {{Ü|lv|meitene}} {{f}}
+*{{nds}}: {{Ü|nds|Deern}}, {{Ü|nds|Wicht}}
+*{{nl}}: {{Ü|nl|meid}} {{f}}
+*{{no}}: {{Ü|no|jente}}, {{Ü|no|pike}}
+*{{pl}}: {{Ü|pl|dziewczyna}} {{f}}
+*{{pt}}: {{Ü|pt|moça}} {{f}}
+*{{ro}}: {{Ü|ro|fată}}
+*{{sv}}: {{Ü|sv|tjej}} {{u}}
+*{{sk}}: {{Ü|sk|dievča}}
+*{{wen}}:
+**{{dsb}}: 
+**{{hsb}}: {{Ü|hsb|holca}} {{f}}
+*{{es}}: {{Ü|es|chica}} {{f}}, {{Ü|es|muchacha}} {{f}}
+*{{sw}}: {{Ü|sw|msichana}}
+*{{ti}}: {{Üt|ti|ጓል|gʷalə}}
+*{{cs}}: {{Ü|cs|děvče}} {{n}}
+*{{tr}}: {{Ü|tr|kız}}
+|Dialekttabelle=
+*Alemannisch: [?] [[Maidle]]
+**Schwäbisch: [1, 2] [[Mädle]]
+***Allgäuerisch: [?] [[Fehl]], [[Föhl]], ''abwertend:'' [[Boscha]]
+***Ostschwäbisch: [1, 2] [[Mädle]]
+**Schweizerdeutsch: [?] [[Maitli]], [[Meidschi]], [[Meetle]], [[Meitji]]
+***Berndeutsch: [?] [[Meiti]], [[Meitschi]], [[Modi]]&lt;ref name="berndeutsch" /&gt;
+**Vorarlbergerisch: [?] [[Moadle]], [[Meiki]] (im Montafon)
+*Bairisch: [?] [[Dirndl]], [[Mädl]], [[Madli]], [[Deandl]], [[Meudl]]
+**Mittelbairisch:
+***Apetlonerisch: [?] [[Maindsch]]
+**Böhmakeln: [1] [[Meinsch]], [[Meische]] ''Pl.''
+**Ostösterreichisch: [?] Sg. [[Mensch]], Pl. [[Mentscha]]
+*Westmitteldeutsch:
+**Ripuarisch:
+***Kölsch: [?] [[Mädche]] {{n}}, [[Mädsche]]
+**Rheinfränkisch:
+***Hessisch: [?] [[Maadche]]
+*Ostmitteldeutsch:
+**Berlinerisch: [?] [[Meechen]], [[Göre]], ''abwertend:'' [[Pflanze]]
+**Thüringisch-Obersächsisch: [?] [[Mädel]]
+*Fränkisch: [?] [[Madla]], [[Waggerla]]
+**Erzgebirgisch: [?] [[Maad]]
+}}
+
+{{Ü-Tabelle|3|G=veraltete Bedeutung: weibliche Hausangestellte|Ü-Liste=
+*{{am}}: {{Üt|am|የቤት ሠራተኛ|yäbetə säratänya}}
+*{{ar}}: {{Üt|ar|خادمة|ḫādima|خَادِمَة}} {{f}}
+*{{en}}: {{Ü|en|maid}}
+*{{fi}}: {{Ü|fi|siivooja}}
+*{{fr}}: {{Ü|fr|domestique}} {{f}}
+*{{ka}}: {{Üt|ka|გოგო|gogo}}
+*{{he}}: {{Üt|he|עוזרת בית|ʿōzæræṯ bayiṯ|עוֹזֶרֶת בַּיִת}}
+*{{it}}: {{Ü|it|cameriera}} {{f}}, {{Ü|it|domestica}} {{f}}
+*{{ja}}: {{Üt|ja|メイド|meido}}
+*{{yi}}: {{Üt|yi|מויד|moyd}} {{f}}
+*{{lad}}: {{Üt|lad|מוסה|[[mosa]]}} {{f}}
+*{{no}}: {{Ü|no|pike}}
+*{{pl}}: {{Ü|pl|dziewczyna}} {{f}}
+*{{pt}}: {{Ü|pt|(empregada) doméstica}} {{f}}
+*{{sv}}: ''veraltet:'' {{Ü|sv|tjänsteflicka}}
+*{{sk}}: {{Ü|sk|slúžka}}
+*{{ti}}: {{Üt|ti|ገረድ|geredə}}, {{Üt|ti|ግዝእቲ|gəzəəti}}
+*{{cs}}: {{Ü|cs|služebná}} {{f}}
+*{{tr}}: {{Ü|tr|hizmetçi kız}} ''kurz:'' {{Ü|tr|hizmetçi}})
+|Dialekttabelle=
+*Alemannisch: [?] [[Maidle]]
+**Schwäbisch: [1, 2] [[Mädle]]
+***Allgäuerisch: [?] [[Fehl]], [[Föhl]], ''abwertend:'' [[Boscha]]
+***Ostschwäbisch: [1, 2] [[Mädle]]
+**Schweizerdeutsch: [?] [[Maitli]], [[Meidschi]], [[Meetle]], [[Meitji]]
+***Berndeutsch: [?] [[Meiti]], [[Meitschi]], [[Modi]]&lt;ref name="berndeutsch" /&gt;
+**Vorarlbergerisch: [?] [[Moadle]], [[Meiki]] (im Montafon)
+*Bairisch: [?] [[Dirndl]], [[Mädl]], [[Madli]], [[Deandl]], [[Meudl]]
+**Mittelbairisch:
+***Apetlonerisch: [?] [[Maindsch]]
+**Böhmakeln: [1] [[Meinsch]], [[Meische]] ''Pl.''
+**Ostösterreichisch: [?] Sg. [[Mensch]], Pl. [[Mentscha]]
+*Westmitteldeutsch:
+**Ripuarisch:
+***Kölsch: [?] [[Mädche]] {{n}}, [[Mädsche]]
+**Rheinfränkisch:
+***Hessisch: [?] [[Maadche]]
+*Ostmitteldeutsch:
+**Berlinerisch: [?] [[Meechen]], [[Göre]], ''abwertend:'' [[Pflanze]]
+**Thüringisch-Obersächsisch: [?] [[Mädel]]
+*Fränkisch: [?] [[Madla]], [[Waggerla]]
+**Erzgebirgisch: [?] [[Maad]]
+}}
+
+{{Ü-Tabelle|4|G=befreundete weibliche Person|Ü-Liste=
+*{{en}}: {{Ü|en|}}
+*{{fr}}: {{Ü|fr|}}
+*{{sv}}: {{Ü|sv|fjälla}} {{u}}
+|Dialekttabelle=
+*Alemannisch: [?] [[Maidle]]
+**Schwäbisch: [1, 2] [[Mädle]]
+***Allgäuerisch: [?] [[Fehl]], [[Föhl]], ''abwertend:'' [[Boscha]]
+***Ostschwäbisch: [1, 2] [[Mädle]]
+**Schweizerdeutsch: [?] [[Maitli]], [[Meidschi]], [[Meetle]], [[Meitji]]
+***Berndeutsch: [?] [[Meiti]], [[Meitschi]], [[Modi]]&lt;ref name="berndeutsch" /&gt;
+**Vorarlbergerisch: [?] [[Moadle]], [[Meiki]] (im Montafon)
+*Bairisch: [?] [[Dirndl]], [[Mädl]], [[Madli]], [[Deandl]], [[Meudl]]
+**Mittelbairisch:
+***Apetlonerisch: [?] [[Maindsch]]
+**Böhmakeln: [1] [[Meinsch]], [[Meische]] ''Pl.''
+**Ostösterreichisch: [?] Sg. [[Mensch]], Pl. [[Mentscha]]
+*Westmitteldeutsch:
+**Ripuarisch:
+***Kölsch: [?] [[Mädche]] {{n}}, [[Mädsche]]
+**Rheinfränkisch:
+***Hessisch: [?] [[Maadche]]
+*Ostmitteldeutsch:
+**Berlinerisch: [?] [[Meechen]], [[Göre]], ''abwertend:'' [[Pflanze]]
+**Thüringisch-Obersächsisch: [?] [[Mädel]]
+*Fränkisch: [?] [[Madla]], [[Waggerla]]
+**Erzgebirgisch: [?] [[Maad]]
+}}
+
+{{Referenzen}}
+:[1, 2] {{Wikipedia}}
+:[1–4] {{Ref-DWDS}}
+:[*] {{Ref-OWID}}
+:[1–3] {{Ref-FreeDictionary}}
+:[1–4] {{Ref-Duden}}
+:[1–4] {{Ref-Grimm}}
+:[*] {{Ref-UniLeipzig}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[Märchen]], [[Mäxchen]]}}
+
+[[Kategorie:Diminutiv (Deutsch)]]
