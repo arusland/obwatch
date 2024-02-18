@@ -1,10 +1,17 @@
 package com.github.arusland.obwatch.model.xml;
 
+import jakarta.xml.bind.annotation.XmlAccessType;
+import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement(name = "revision")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Revision {
+    @XmlElement(name = "format")
     private String format;
 
+    @XmlElement(name = "text")
     private Text text;
 
     public Revision() {}
@@ -14,7 +21,6 @@ public class Revision {
         this.text = text;
     }
 
-    @XmlElement(name = "format")
     public String getFormat() {
         return format;
     }
@@ -23,7 +29,6 @@ public class Revision {
         this.format = format;
     }
 
-    @XmlElement(name = "text")
     public Text getText() {
         return text;
     }

@@ -5,9 +5,10 @@ import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name = "mediawiki", namespace = "http://www.mediawiki.org/xml/export-0.10/")
+@XmlRootElement(name = "mediawiki")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class MediaWiki {
+
     @XmlElement(name = "page")
     private Page page;
 

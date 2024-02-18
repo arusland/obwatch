@@ -9,6 +9,6 @@ object XmlUtil {
     fun parseXml(xml: String): MediaWiki {
         val jaxbContext = JAXBContext.newInstance(MediaWiki::class.java)
         val unmarshaller = jaxbContext.createUnmarshaller()
-        return unmarshaller.unmarshal(StringReader(xml)) as MediaWiki
+        return unmarshaller.unmarshal(StringReader(xml.replace(" xmlns=\"http://www.mediawiki.org/xml/export-0.10/\" ", " "))) as MediaWiki
     }
 }

@@ -1,11 +1,14 @@
 package com.github.arusland.obwatch.model.xml;
 
-import jakarta.xml.bind.annotation.XmlAttribute;
-import jakarta.xml.bind.annotation.XmlValue;
+import jakarta.xml.bind.annotation.*;
 
+@XmlRootElement(name = "text")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Text {
+    @XmlAttribute(name = "bytes")
     private Integer bytes;
 
+    @XmlValue
     private String content;
 
     public Text() {}
@@ -15,7 +18,6 @@ public class Text {
         this.content = content;
     }
 
-    @XmlAttribute(name = "bytes")
     public Integer getBytes() {
         return bytes;
     }
@@ -24,7 +26,6 @@ public class Text {
         this.bytes = bytes;
     }
 
-    @XmlValue
     public String getContent() {
         return content;
     }

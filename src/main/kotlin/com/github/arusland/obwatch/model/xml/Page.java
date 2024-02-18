@@ -5,7 +5,7 @@ import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name = "page", namespace = "http://www.mediawiki.org/xml/export-0.10/")
+@XmlRootElement(name = "page")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Page {
     @XmlElement(name = "title")

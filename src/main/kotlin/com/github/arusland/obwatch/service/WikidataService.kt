@@ -3,6 +3,7 @@ package com.github.arusland.obwatch.service
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.github.arusland.obwatch.model.WikiTextInfo
 import com.github.arusland.obwatch.util.JsonUtil
+import com.github.arusland.obwatch.util.XmlUtil
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.slf4j.LoggerFactory
@@ -29,8 +30,11 @@ class WikidataService(private val cachePath: Path) {
         val json = response.body!!.string()
         val wikidataResponse = JsonUtil.fromJson(json, WikidataResponse::class.java)
         val export = wikidataResponse.query.export.content
+        val info = XmlUtil.parseXml(export)
+        val wikiText = info.page?.revision?.text?.content ?: return null
+        val wikiTextInfo = WikiTextParser().parse(wikiText)
 
-        return WikiTextParser().parse(export)
+        return wikiTextInfo
     }
 
     data class WikidataResponse(val query: WikidataQuery)
