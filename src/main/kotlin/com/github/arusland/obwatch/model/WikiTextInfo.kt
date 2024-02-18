@@ -1,6 +1,10 @@
 package com.github.arusland.obwatch.model
 
-open class WikiTextInfo(val word: String, val type: String, val examples: List<String>)
+open class WikiTextInfo(val word: String, val type: String, val examples: List<String>) {
+    override fun toString(): String {
+        return "WikiTextInfo(word='$word', type='$type', examples='$examples')"
+    }
+}
 
 class VerbInfo(
     word: String,
@@ -28,6 +32,20 @@ class NounInfo(
 
     override fun toString(): String {
         return "NounInfo(word='$word', type='$type', examples='$examples', genus='$genus', cases=$cases)"
+    }
+}
+
+class AdjectiveInfo(
+    word: String,
+    type: String,
+    examples: List<String>,
+    val komparativ: String,
+    val superlativ: String,
+) :
+    WikiTextInfo(word, type, examples) {
+
+    override fun toString(): String {
+        return "AdjectiveInfo(word='$word', type='$type', examples='$examples', komparativ='$komparativ', superlativ='$superlativ')"
     }
 }
 

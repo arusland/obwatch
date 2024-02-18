@@ -12,10 +12,13 @@ class WikiTextParser {
     // === {{Wortart|Substantiv|Deutsch}}, {{f}}, ''Mütter'' ===
     // === {{Wortart|Substantiv|Deutsch}}, {{m}} ===
     // === {{Wortart|Verb|Deutsch}} ===
-    private val regexType = """===\s*\{\{Wortart\|(\w+)\|(\w+)\}\}""".toRegex()
+    private val regexType = """===\s*\{\{Wortart\|([^|]+)\|(\w+)\}\}""".toRegex()
 
     // :[3] Er macht den Fernseher aus.
     private val regexIndex = """:\[(\d+)\]\s+(.+)""".toRegex()
+
+    // remove <ref>...</ref>
+    private val refRegex = """<ref[^>]*>.*?</ref>""".toRegex()
 
     /**
      *  Parses wiki text and creates on of the [WikiTextInfo] object: [NounInfo], [VerbInfo] or null.
@@ -44,7 +47,15 @@ class WikiTextParser {
                 VerbInfo(word, type, examples, praeterium, partizip2, hilfsVerb)
             }
 
-            else -> error("Unknown type: $type")
+            "Adjektiv" -> {
+                val komparativ = getTableValue("Komparativ", wikiText)
+                val superlativ = getTableValue("Superlativ", wikiText)
+                AdjectiveInfo(word, type, examples, komparativ, superlativ)
+            }
+
+            "Deklinierte Form" -> null // ignore
+
+            else -> WikiTextInfo(word, type, examples)
         }
     }
 
@@ -61,7 +72,7 @@ class WikiTextParser {
                     val index = match.groupValues[1]
                     if (!examples.containsKey(index)) {
                         val text = match.groupValues[2]
-                        examples[index] = text
+                        examples[index] = clearText(text)
                     }
                 }
             } else if (line.startsWith("{{Beispiele}}")) {
@@ -70,6 +81,10 @@ class WikiTextParser {
         }
 
         return examples.values.toList()
+    }
+
+    private fun clearText(text: String): String {
+        return refRegex.replace(text, "")
     }
 
     private fun parseCases(wikiText: String): Map<CaseType, CaseInfo> {

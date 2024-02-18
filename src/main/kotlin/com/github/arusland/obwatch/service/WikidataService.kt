@@ -9,11 +9,24 @@ import okhttp3.Request
 import org.slf4j.LoggerFactory
 import java.net.URLEncoder
 import java.nio.file.Path
+import kotlin.io.path.exists
+import kotlin.io.path.isRegularFile
 
 class WikidataService(private val cachePath: Path) {
     private val client = OkHttpClient()
 
     fun search(term: String): WikiTextInfo? {
+        val wikiText = getWikiText(term.trim()) ?: return null
+        val wikiTextInfo = WikiTextParser().parse(wikiText)
+
+        return wikiTextInfo
+    }
+
+    private fun getWikiText(term: String): String? {
+        val fromCache = getFromCache(term)
+        if (fromCache != null) {
+            return fromCache
+        }
         val query = URLEncoder.encode(term, "UTF-8")
         val url = "https://de.wiktionary.org/w/api.php?action=query&titles=$query&format=json&export=true"
 
@@ -21,6 +34,7 @@ class WikidataService(private val cachePath: Path) {
             .url(url)
             .build()
 
+        log.debug("Requesting word: {}", term)
         val response = client.newCall(request).execute()
         if (!response.isSuccessful) {
             log.error("Failed to lookup word: {}, resp: {}", term, response)
@@ -31,10 +45,28 @@ class WikidataService(private val cachePath: Path) {
         val wikidataResponse = JsonUtil.fromJson(json, WikidataResponse::class.java)
         val export = wikidataResponse.query.export.content
         val info = XmlUtil.parseXml(export)
-        val wikiText = info.page?.revision?.text?.content ?: return null
-        val wikiTextInfo = WikiTextParser().parse(wikiText)
+        val wikitext = info.page?.revision?.text?.content
+        if (wikitext != null) {
+            saveToCache(term, wikitext)
+        }
+        return wikitext
+    }
 
-        return wikiTextInfo
+    private fun getFromCache(term: String): String? {
+        val path = cachePath.resolve("$term.wikitext")
+        if (!path.toFile().exists() || !path.isRegularFile()) {
+            return null
+        }
+        return path.toFile().readText()
+    }
+
+    private fun saveToCache(term: String, content: String) {
+        if (!cachePath.exists()) {
+            cachePath.toFile().mkdirs()
+        }
+
+        val path = cachePath.resolve("$term.wikitext")
+        path.toFile().writeText(content)
     }
 
     data class WikidataResponse(val query: WikidataQuery)
@@ -46,6 +78,6 @@ class WikidataService(private val cachePath: Path) {
     data class WikidataExport(@JsonProperty("*") val content: String)
 
     private companion object {
-        private val log = LoggerFactory.getLogger(YandexDictService::class.java)!!
+        private val log = LoggerFactory.getLogger(WikidataService::class.java)!!
     }
 }
