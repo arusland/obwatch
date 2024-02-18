@@ -14,6 +14,9 @@ class WikiTextParser {
     // === {{Wortart|Verb|Deutsch}} ===
     private val regexType = """===\s*\{\{Wortart\|(\w+)\|(\w+)\}\}""".toRegex()
 
+    // :[3] Er macht den Fernseher aus.
+    private val regexIndex = """:\[(\d+)\]\s+(.+)""".toRegex()
+
     /**
      *  Parses wiki text and creates on of the [WikiTextInfo] object: [NounInfo], [VerbInfo] or null.
      */
@@ -25,22 +28,48 @@ class WikiTextParser {
             return null
         }
 
+        val examples = parseExamples(wikiText)
+
         return when (type) {
             "Substantiv" -> {
                 val cases = parseCases(wikiText)
                 val genus = getTableValue("Genus", wikiText) // |Genus=f
-                NounInfo(word, type, genus, cases)
+                NounInfo(word, type, examples, genus, cases)
             }
 
             "Verb" -> {
                 val praeterium = getTableValue("Präteritum_ich", wikiText)
                 val partizip2 = getTableValue("Partizip II", wikiText)
                 val hilfsVerb = getTableValue("Hilfsverb", wikiText)
-                VerbInfo(word, type, praeterium, partizip2, hilfsVerb)
+                VerbInfo(word, type, examples, praeterium, partizip2, hilfsVerb)
             }
 
             else -> error("Unknown type: $type")
         }
+    }
+
+    private fun parseExamples(wikiText: String): List<String> {
+        val examples = mutableMapOf<String, String>()
+        var collecting = false
+
+        wikiText.lines().forEach { line ->
+            if (collecting && line.isEmpty()) {
+                return@forEach
+            }
+            if (collecting) {
+                regexIndex.find(line)?.let { match ->
+                    val index = match.groupValues[1]
+                    if (!examples.containsKey(index)) {
+                        val text = match.groupValues[2]
+                        examples[index] = text
+                    }
+                }
+            } else if (line.startsWith("{{Beispiele}}")) {
+                collecting = true
+            }
+        }
+
+        return examples.values.toList()
     }
 
     private fun parseCases(wikiText: String): Map<CaseType, CaseInfo> {
