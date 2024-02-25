@@ -1,9 +1,6 @@
 package com.github.arusland.obwatch.service
 
-import com.github.arusland.obwatch.model.DictResult
-import com.github.arusland.obwatch.model.NounInfo
-import com.github.arusland.obwatch.model.Translation
-import com.github.arusland.obwatch.model.WikiTextInfo
+import com.github.arusland.obwatch.model.*
 import kotlinx.coroutines.async
 import kotlinx.coroutines.runBlocking
 import org.slf4j.LoggerFactory
@@ -61,32 +58,43 @@ class ObsidianWatcher(
         val lastWord = tokens.firstOrNull()?.trim()
 
         if (lastWord != null) {
-            runBlocking {
-                val dictResultDef = async { dictService.lookup(lastWord, DictLang.DE_RU) }
-                val wikiTextInfoDef = async { wikidataService.search(lastWord) }
-
-                val dictResult = dictResultDef.await().let { if (it.def.isEmpty()) null else it }
-                val wikiTextInfo = wikiTextInfoDef.await()
-                val result = FoundResult(lastWord, dictResult, wikiTextInfo)
-
-                if (dictResult != null || wikiTextInfo != null) {
-                    lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
-                    lastResults.add(0, result)
-                    if (lastResults.size > MAX_WORDS_SIZE) {
-                        lastResults.removeAt(lastResults.size - 1)
-                    }
-                    outputFilePath.bufferedWriter().use { writer ->
-                        lastResults.forEach { result ->
-                            writeResult(writer, result)
-                            writer.write("----\n\n")
-                        }
-                    }
-                } else {
-                    log.warn("No definition found for the word: {}", lastWord)
-                }
-            }
+            searchNewWord(lastWord)
         } else {
             log.warn("No words found in the file")
+        }
+    }
+
+    private fun searchNewWord(lastWord: String, tryBaseForm: Boolean = true) {
+        runBlocking {
+            val dictResultDef = async { dictService.lookup(lastWord, DictLang.DE_RU) }
+            val wikiTextInfoDef = async { wikidataService.search(lastWord) }
+
+            val dictResult = dictResultDef.await().let { if (it.def.isEmpty()) null else it }
+            val wikiTextInfo = wikiTextInfoDef.await()
+
+            if (dictResult != null || wikiTextInfo != null && wikiTextInfo.isNotEmpty()) {
+                val result = FoundResult(lastWord, dictResult, wikiTextInfo)
+                lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
+                lastResults.add(0, result)
+                if (lastResults.size > MAX_WORDS_SIZE) {
+                    lastResults.removeAt(lastResults.size - 1)
+                }
+                outputFilePath.bufferedWriter().use { writer ->
+                    lastResults.forEach { result ->
+                        writeResult(writer, result)
+                        writer.write("----\n\n")
+                    }
+                }
+            } else if (tryBaseForm && wikiTextInfo != null && wikiTextInfo.baseForm.isNotBlank()) {
+                log.debug(
+                    "No definition found for the word: {}, try to find base form: {}",
+                    lastWord,
+                    wikiTextInfo.baseForm
+                )
+                searchNewWord(wikiTextInfo.baseForm, false)
+            } else {
+                log.warn("No definition found for the word: {}", lastWord)
+            }
         }
     }
 
@@ -101,17 +109,7 @@ class ObsidianWatcher(
             dictResult.def.forEach { definition ->
                 writer.write("**${definition.text}** _\\[${definition.pos}\\]_: ")
                 writer.write(definition.tr.map { translationAsString(it) }.joinToString(", ") { it })
-                writer.write("\n")
-                val examples = definition.tr.flatMap { it.ex ?: emptyList() }
-                if (examples.isNotEmpty()) {
-                    writer.write("Examples: ")
-                    examples.forEach { example ->
-                        writer.write(example.text + "(")
-                        writer.write(example.tr.firstOrNull()?.text ?: ")")
-                    }
-                    writer.write("\n")
-                }
-                writer.write("\n")
+                writer.write("\n\n")
             }
         }
 
@@ -138,13 +136,32 @@ class ObsidianWatcher(
                     }
                     writer.write("\n")
                 }
+
+                is VerbInfo -> {
+                    writer.write("| |Person|Wortform|\n")
+                    writer.write("|--|--|--|\n")
+                    writer.write("|**Präterium**|ich|${info.praeterium}|\n")
+                    writer.write("|**Perfekt**|${info.hilfsVerb}|${info.partizip2}|\n")
+                    // link to flexion
+                    writer.write("\n")
+                }
+
+                is AdjectiveInfo -> {
+                    writer.write("|Positiv|Komparativ|Superlativ|\n")
+                    writer.write("|--|--|--|\n")
+                    writer.write("|**${info.word}**|${info.komparativ}|${info.superlativ}|\n")
+                    writer.write("\n")
+                }
             }
 
             if (info.examples.isNotEmpty()) {
-                writer.write("### Examples")
-                writer.write("\n")
+                writer.write("**Examples**\n")
                 writer.write(info.examples.map { "* $it" }.joinToString("\n") { it })
                 writer.write("\n")
+            }
+
+            if (info is VerbInfo) {
+                writer.write("\nAll forms: [Flexion](https://de.wiktionary.org/wiki/Flexion:${info.word})\n\n")
             }
         }
     }

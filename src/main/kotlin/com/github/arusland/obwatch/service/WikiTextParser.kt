@@ -24,6 +24,7 @@ class WikiTextParser {
      *  Parses wiki text and creates on of the [WikiTextInfo] object: [NounInfo], [VerbInfo] or null.
      */
     fun parse(wikiText: String): WikiTextInfo? {
+        val wikiText = cutOnlyGerman(wikiText)
         val word = regexWord.find(wikiText)?.groupValues?.get(1)
         val type = regexType.find(wikiText)?.groupValues?.get(1) ?: ""
 
@@ -32,30 +33,31 @@ class WikiTextParser {
         }
 
         val examples = parseExamples(wikiText)
+        val baseForm = getTemplateValue("Grundformverweis Konj", wikiText)
 
         return when (type) {
             "Substantiv" -> {
                 val genus = Genus.fromValue(getTableValue("Genus", wikiText)) // |Genus=f
                 val cases = parseCases(wikiText, genus)
-                NounInfo(word, type, examples, genus, cases)
+                NounInfo(word, type, examples, baseForm, genus, cases)
             }
 
             "Verb" -> {
                 val praeterium = getTableValue("Präteritum_ich", wikiText)
                 val partizip2 = getTableValue("Partizip II", wikiText)
                 val hilfsVerb = getTableValue("Hilfsverb", wikiText)
-                VerbInfo(word, type, examples, praeterium, partizip2, hilfsVerb)
+                VerbInfo(word, type, examples, baseForm, praeterium, partizip2, hilfsVerb)
             }
 
             "Adjektiv" -> {
                 val komparativ = getTableValue("Komparativ", wikiText)
                 val superlativ = getTableValue("Superlativ", wikiText)
-                AdjectiveInfo(word, type, examples, komparativ, superlativ)
+                AdjectiveInfo(word, type, examples, baseForm, komparativ, superlativ)
             }
 
             "Deklinierte Form" -> null // ignore
 
-            else -> WikiTextInfo(word, type, examples)
+            else -> WikiTextInfo(word, type, examples, baseForm)
         }
     }
 
@@ -65,7 +67,7 @@ class WikiTextParser {
 
         wikiText.lines().forEach { line ->
             if (collecting && line.isEmpty()) {
-                return@forEach
+                return examples.values.toList()
             }
             if (collecting) {
                 regexIndex.find(line)?.let { match ->
@@ -83,6 +85,12 @@ class WikiTextParser {
         return examples.values.toList()
     }
 
+    private fun getTemplateValue(prefix: String, wikiText: String): String {
+        // {{Grundformverweis Konj|gehen}}
+        val regex = """\{\{\s*$prefix\s*\|([^\}]+)""".toRegex()
+        return regex.find(wikiText)?.groupValues?.get(1) ?: ""
+    }
+
     private fun formatText(text: String): String {
         return refRegex.replace(text, "").replace("''", "**")
     }
@@ -98,6 +106,21 @@ class WikiTextParser {
         }
 
         return result
+    }
+
+    private fun cutOnlyGerman(wikiText: String): String {
+        val langDe = "({{Sprache|Deutsch"
+        val deIndex = wikiText.indexOf(langDe)
+        if (deIndex > 0) {
+            var index = wikiText.indexOf("({{Sprache|", deIndex + langDe.length)
+            if (index > 0) {
+                while (index > 0 && wikiText[index] != '\n') {
+                    index--
+                }
+                return wikiText.substring(0, index)
+            }
+        }
+        return wikiText
     }
 
     private fun getTableValue(prefix: String, wikiText: String, defVal: String = ""): String {

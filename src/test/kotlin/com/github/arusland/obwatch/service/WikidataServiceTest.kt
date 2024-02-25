@@ -5,6 +5,7 @@ import com.github.arusland.obwatch.model.NounInfo
 import com.github.arusland.obwatch.model.VerbInfo
 import com.github.arusland.obwatch.model.WikiTextInfo
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.CsvSource
 import org.junit.jupiter.params.provider.ValueSource
@@ -66,6 +67,16 @@ class WikidataServiceTest {
         assertEquals(term, result.word)
         assertEquals(type, result.type)
         assertEquals(WikiTextInfo::class.java, result.javaClass)
+        println(result)
+    }
+
+    @Test
+    fun testSearchWhenBaseForm() {
+        val result = service.search("sei") ?: fail("Result is null")
+        assertEquals("Konjugierte Form", result.type)
+        assertEquals("sein", result.baseForm)
+        assertEquals(WikiTextInfo::class.java, result.javaClass)
+        assertEquals(0, result.examples.size) { "Examples should be empty, but found ${result.examples}" }
         println(result)
     }
 
