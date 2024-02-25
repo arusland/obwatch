@@ -32,49 +32,59 @@ class WikiTextParser {
             return null
         }
 
-        val examples = parseExamples(wikiText)
+        val (meanings, examples) = parseExamples(wikiText)
         val baseForm = getTemplateValue("Grundformverweis Konj", wikiText)
 
         return when (type) {
             "Substantiv" -> {
                 val genus = Genus.fromValue(getTableValue("Genus", wikiText)) // |Genus=f
                 val cases = parseCases(wikiText, genus)
-                NounInfo(word, type, examples, baseForm, genus, cases)
+                NounInfo(word, type, examples, meanings, baseForm, genus, cases)
             }
 
             "Verb" -> {
                 val praeterium = getTableValue("Präteritum_ich", wikiText)
                 val partizip2 = getTableValue("Partizip II", wikiText)
                 val hilfsVerb = getTableValue("Hilfsverb", wikiText)
-                VerbInfo(word, type, examples, baseForm, praeterium, partizip2, hilfsVerb)
+                VerbInfo(word, type, examples, meanings, baseForm, praeterium, partizip2, hilfsVerb)
             }
 
             "Adjektiv" -> {
                 val komparativ = getTableValue("Komparativ", wikiText)
                 val superlativ = getTableValue("Superlativ", wikiText)
-                AdjectiveInfo(word, type, examples, baseForm, komparativ, superlativ)
+                AdjectiveInfo(word, type, examples, meanings, baseForm, komparativ, superlativ)
             }
 
             "Deklinierte Form" -> null // ignore
 
-            else -> WikiTextInfo(word, type, examples, baseForm)
+            else -> WikiTextInfo(word, type, examples, meanings, baseForm)
         }
     }
 
-    private fun parseExamples(wikiText: String): List<String> {
+    private fun parseExamples(wikiText: String): Pair<Int, List<String>> {
         val examples = mutableMapOf<String, String>()
+        val extraExamples = mutableListOf<String>()
         var collecting = false
+        val getResult: () -> Pair<Int, List<String>> = {
+            if (examples.size == 1) {
+                1 to examples.values + extraExamples
+            } else {
+                examples.size to examples.values.toList()
+            }
+        }
 
         wikiText.lines().forEach { line ->
             if (collecting && line.isEmpty()) {
-                return examples.values.toList()
+                return getResult()
             }
             if (collecting) {
                 regexIndex.find(line)?.let { match ->
                     val index = match.groupValues[1]
+                    val text = match.groupValues[2]
                     if (!examples.containsKey(index)) {
-                        val text = match.groupValues[2]
                         examples[index] = formatText(text)
+                    } else {
+                        extraExamples.add(formatText(text))
                     }
                 }
             } else if (line.startsWith("{{Beispiele}}")) {
@@ -82,7 +92,7 @@ class WikiTextParser {
             }
         }
 
-        return examples.values.toList()
+        return getResult()
     }
 
     private fun getTemplateValue(prefix: String, wikiText: String): String {

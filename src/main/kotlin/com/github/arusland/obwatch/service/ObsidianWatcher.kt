@@ -155,7 +155,8 @@ class ObsidianWatcher(
             }
 
             if (info.examples.isNotEmpty()) {
-                writer.write("**Examples**\n")
+                val meaningsText = if (info.meanings > 1) " (${info.meanings})" else ""
+                writer.write("**Examples**$meaningsText\n")
                 writer.write(info.examples.map { "* $it" }.joinToString("\n") { it })
                 writer.write("\n")
             }
