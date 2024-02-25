@@ -67,7 +67,7 @@ class WikiTextParser {
         var collecting = false
         val getResult: () -> Pair<Int, List<String>> = {
             if (examples.size == 1) {
-                1 to examples.values + extraExamples.subList(0, 5)
+                1 to examples.values + extraExamples.take(5)
             } else {
                 examples.size to examples.values.toList()
             }

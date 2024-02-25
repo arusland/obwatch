@@ -64,7 +64,7 @@ class ObsidianWatcher(
         }
     }
 
-    private fun searchNewWord(lastWord: String, tryBaseForm: Boolean = true) {
+    private fun searchNewWord(lastWord: String, tryAnotherForm: Boolean = true) {
         runBlocking {
             val dictResultDef = async { dictService.lookup(lastWord, DictLang.DE_RU) }
             val wikiTextInfoDef = async { wikidataService.search(lastWord) }
@@ -72,7 +72,7 @@ class ObsidianWatcher(
             val dictResult = dictResultDef.await().let { if (it.def.isEmpty()) null else it }
             val wikiTextInfo = wikiTextInfoDef.await()
 
-            if (dictResult != null || wikiTextInfo != null && wikiTextInfo.isNotEmpty()) {
+            if (dictResult != null && dictResult.def.get(0).text == lastWord || wikiTextInfo != null && wikiTextInfo.isNotEmpty()) {
                 val result = FoundResult(lastWord, dictResult, wikiTextInfo)
                 lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
                 lastResults.add(0, result)
@@ -85,13 +85,16 @@ class ObsidianWatcher(
                         writer.write("----\n\n")
                     }
                 }
-            } else if (tryBaseForm && wikiTextInfo != null && wikiTextInfo.baseForm.isNotBlank()) {
+            } else if (tryAnotherForm && wikiTextInfo != null && wikiTextInfo.baseForm.isNotBlank()) {
                 log.debug(
                     "No definition found for the word: {}, try to find base form: {}",
                     lastWord,
                     wikiTextInfo.baseForm
                 )
                 searchNewWord(wikiTextInfo.baseForm, false)
+            } else if (tryAnotherForm) {
+                log.debug("No definition found for the word: {}, try to find (de)capitalized form", lastWord)
+                searchNewWord(if (lastWord.first().isUpperCase()) lastWord.decapitalize() else lastWord.capitalize(), false)
             } else {
                 log.warn("No definition found for the word: {}", lastWord)
             }

@@ -70,9 +70,9 @@ class CaseInfo(val type: CaseType, val genus: Genus, val singular: String, val p
         get() = if (hasPlural()) pluralArticle() + " " + plural else NO
 
 
-    fun hasSingular(): Boolean = singular != NO
+    fun hasSingular(): Boolean = singular !in NO_SET
 
-    fun hasPlural(): Boolean = plural != NO
+    fun hasPlural(): Boolean = plural !in NO_SET
 
     fun singularArticle(): String = when (genus) {
         Genus.MASCULINUM ->
@@ -112,7 +112,8 @@ class CaseInfo(val type: CaseType, val genus: Genus, val singular: String, val p
     }
 
     private companion object {
-        const val NO = "—"
+        const val NO = "-"
+        val NO_SET = mutableSetOf("—", "-")
     }
 }
 
