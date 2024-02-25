@@ -1,6 +1,7 @@
 package com.github.arusland.obwatch
 
 import com.github.arusland.obwatch.service.ObsidianWatcher
+import com.github.arusland.obwatch.service.WikidataService
 import com.github.arusland.obwatch.service.YandexDictService
 import java.nio.file.Paths
 
@@ -10,7 +11,7 @@ fun main(args: Array<String>) {
         return
     }
     val targetPath = Paths.get(args[0])
-    ObsidianWatcher(targetPath, YandexDictService(getApiKey())).start()
+    ObsidianWatcher(targetPath, YandexDictService(getApiKey()), WikidataService(Paths.get("wikidata-cache"))).start()
 }
 
 private fun getApiKey(): String =

@@ -33,6 +33,16 @@ class WikidataServiceTest {
         println(result)
     }
 
+    @ValueSource(strings = ["das", "die"])
+    @ParameterizedTest
+    fun testSearch_WhenArtikel(term: String) {
+        val result = service.search(term) ?: fail("Result is null")
+        assertEquals(term, result.word)
+        assertEquals("Artikel", result.type)
+        assertEquals(WikiTextInfo::class.java, result.javaClass)
+        println(result)
+    }
+
     @ValueSource(strings = ["jung", "schön", "gut"])
     @ParameterizedTest
     fun testSearch_WhenAdj(term: String) {

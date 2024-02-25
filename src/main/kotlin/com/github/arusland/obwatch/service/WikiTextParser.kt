@@ -35,8 +35,8 @@ class WikiTextParser {
 
         return when (type) {
             "Substantiv" -> {
-                val cases = parseCases(wikiText)
-                val genus = getTableValue("Genus", wikiText) // |Genus=f
+                val genus = Genus.fromValue(getTableValue("Genus", wikiText)) // |Genus=f
+                val cases = parseCases(wikiText, genus)
                 NounInfo(word, type, examples, genus, cases)
             }
 
@@ -72,7 +72,7 @@ class WikiTextParser {
                     val index = match.groupValues[1]
                     if (!examples.containsKey(index)) {
                         val text = match.groupValues[2]
-                        examples[index] = clearText(text)
+                        examples[index] = formatText(text)
                     }
                 }
             } else if (line.startsWith("{{Beispiele}}")) {
@@ -83,18 +83,18 @@ class WikiTextParser {
         return examples.values.toList()
     }
 
-    private fun clearText(text: String): String {
-        return refRegex.replace(text, "")
+    private fun formatText(text: String): String {
+        return refRegex.replace(text, "").replace("''", "**")
     }
 
-    private fun parseCases(wikiText: String): Map<CaseType, CaseInfo> {
+    private fun parseCases(wikiText: String, genus: Genus): List<CaseInfo> {
         // |Nominativ Plural=Mütter
-        val result = LinkedHashMap<CaseType, CaseInfo>()
+        val result = mutableListOf<CaseInfo>()
 
         for (caseType in CaseType.entries) {
             val singular = getTableValue("${caseType.value} Singular", wikiText)
             val plural = getTableValue("${caseType.value} Plural", wikiText)
-            result[caseType] = CaseInfo(singular, plural)
+            result.add(CaseInfo(caseType, genus, singular, plural))
         }
 
         return result

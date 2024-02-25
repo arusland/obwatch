@@ -16,6 +16,7 @@ class WikidataService(private val cachePath: Path) {
     private val client = OkHttpClient()
 
     fun search(term: String): WikiTextInfo? {
+        log.debug("Searching for word: {}", term)
         val wikiText = getWikiText(term.trim()) ?: return null
         val wikiTextInfo = WikiTextParser().parse(wikiText)
 

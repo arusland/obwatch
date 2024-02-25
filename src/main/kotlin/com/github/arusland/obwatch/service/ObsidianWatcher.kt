@@ -1,7 +1,11 @@
 package com.github.arusland.obwatch.service
 
 import com.github.arusland.obwatch.model.DictResult
+import com.github.arusland.obwatch.model.NounInfo
 import com.github.arusland.obwatch.model.Translation
+import com.github.arusland.obwatch.model.WikiTextInfo
+import kotlinx.coroutines.async
+import kotlinx.coroutines.runBlocking
 import org.slf4j.LoggerFactory
 import java.io.BufferedWriter
 import java.nio.file.Path
@@ -11,6 +15,7 @@ import java.time.ZoneId
 import java.time.temporal.ChronoUnit
 import kotlin.io.path.*
 
+
 /**
  * Watches for changes in the specified file and create another file with special content.
  *
@@ -18,7 +23,11 @@ import kotlin.io.path.*
  *
  * @param path Path to the file to watch.
  */
-class ObsidianWatcher(private val path: Path, private val dictService: DictService) {
+class ObsidianWatcher(
+    private val path: Path,
+    private val dictService: DictService,
+    private val wikidataService: WikidataService
+) {
     private var lastFileAttributes: BasicFileAttributes
     private val outputFilePath: Path
     private val regexSpace = Regex("[\\s#!,.]+", RegexOption.MULTILINE)
@@ -52,21 +61,29 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
         val lastWord = tokens.firstOrNull()?.trim()
 
         if (lastWord != null) {
-            val dictResult = dictService.lookup(lastWord, DictLang.DE_RU)
-            if (dictResult.def.isNotEmpty()) {
-                lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
-                lastResults.add(0, FoundResult(lastWord, dictResult))
-                if (lastResults.size > 10) {
-                    lastResults.removeAt(lastResults.size - 1)
-                }
-                outputFilePath.bufferedWriter().use { writer ->
-                    lastResults.forEach { result ->
-                        writeResult(writer, result)
-                        writer.write("----\n\n")
+            runBlocking {
+                val dictResultDef = async { dictService.lookup(lastWord, DictLang.DE_RU) }
+                val wikiTextInfoDef = async { wikidataService.search(lastWord) }
+
+                val dictResult = dictResultDef.await().let { if (it.def.isEmpty()) null else it }
+                val wikiTextInfo = wikiTextInfoDef.await()
+                val result = FoundResult(lastWord, dictResult, wikiTextInfo)
+
+                if (dictResult != null || wikiTextInfo != null) {
+                    lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
+                    lastResults.add(0, result)
+                    if (lastResults.size > MAX_WORDS_SIZE) {
+                        lastResults.removeAt(lastResults.size - 1)
                     }
+                    outputFilePath.bufferedWriter().use { writer ->
+                        lastResults.forEach { result ->
+                            writeResult(writer, result)
+                            writer.write("----\n\n")
+                        }
+                    }
+                } else {
+                    log.warn("No definition found for the word: {}", lastWord)
                 }
-            } else {
-                log.warn("No definition found for the word: {}", lastWord)
             }
         } else {
             log.warn("No words found in the file")
@@ -80,7 +97,7 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
         val dictResult = result.result
         writer.write("## Definition of \"${result.term}\"")
         writer.write("\n\n")
-        if (dictResult.def.isNotEmpty()) {
+        if (dictResult != null && dictResult.def.isNotEmpty()) {
             dictResult.def.forEach { definition ->
                 writer.write("**${definition.text}** _\\[${definition.pos}\\]_: ")
                 writer.write(definition.tr.map { translationAsString(it) }.joinToString(", ") { it })
@@ -97,11 +114,39 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
                 writer.write("\n")
             }
         }
+
+        writeWikiTextInfo(result, writer)
+
         /*writer.write("```json")
                 writer.write("\n")
                 writer.write(JsonUtil.toPrettyJson(dictResult))
                 writer.write("\n")
                 writer.write("```")*/
+    }
+
+    private fun writeWikiTextInfo(
+        result: FoundResult,
+        writer: BufferedWriter
+    ) {
+        result.wikiTextInfo?.let { info ->
+            when (info) {
+                is NounInfo -> {
+                    writer.write("| |Singular|Plural|\n")
+                    writer.write("|--|--|--|\n")
+                    info.cases.forEach() { caseInfo ->
+                        writer.write("|**${caseInfo.type.value}**|${caseInfo.singularFull}|${caseInfo.pluralFull}|\n")
+                    }
+                    writer.write("\n")
+                }
+            }
+
+            if (info.examples.isNotEmpty()) {
+                writer.write("### Examples")
+                writer.write("\n")
+                writer.write(info.examples.map { "* $it" }.joinToString("\n") { it })
+                writer.write("\n")
+            }
+        }
     }
 
     private fun translationAsString(translation: Translation): String {
@@ -133,11 +178,17 @@ class ObsidianWatcher(private val path: Path, private val dictService: DictServi
 
     data class FoundResult(
         val term: String,
-        val result: DictResult
-    )
+        val result: DictResult?,
+        val wikiTextInfo: WikiTextInfo?
+    ) {
+        fun hasResult(): Boolean {
+            return result != null || wikiTextInfo != null
+        }
+    }
 
     private companion object {
         val log = LoggerFactory.getLogger(ObsidianWatcher::class.java)!!
         const val WAIT_TIME_AFTER_SAVE = 1000L
+        const val MAX_WORDS_SIZE = 10
     }
 }

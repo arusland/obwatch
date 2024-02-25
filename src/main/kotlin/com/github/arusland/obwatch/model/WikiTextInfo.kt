@@ -25,8 +25,8 @@ class NounInfo(
     word: String,
     type: String,
     examples: List<String>,
-    val genus: String,
-    val cases: Map<CaseType, CaseInfo>
+    val genus: Genus,
+    val cases: List<CaseInfo>
 ) :
     WikiTextInfo(word, type, examples) {
 
@@ -49,9 +49,76 @@ class AdjectiveInfo(
     }
 }
 
-class CaseInfo(val singular: String, val plural: String) {
+class CaseInfo(val type: CaseType, val genus: Genus, val singular: String, val plural: String) {
+    val singularFull: String
+        get() = if (hasSingular()) singularArticle() + " " + singular else NO
+
+    val pluralFull: String
+        get() = if (hasPlural()) pluralArticle() + " " + plural else NO
+
+
+    fun hasSingular(): Boolean = singular != NO
+
+    fun hasPlural(): Boolean = plural != NO
+
+    fun singularArticle(): String = when (genus) {
+        Genus.MASCULINUM ->
+            when (type) {
+                CaseType.NOMINATIV -> "der"
+                CaseType.GENITIV -> "des"
+                CaseType.DATIV -> "dem"
+                CaseType.AKKUSATIV -> "den"
+            }
+
+        Genus.FEMININUM ->
+            when (type) {
+                CaseType.NOMINATIV -> "die"
+                CaseType.GENITIV -> "der"
+                CaseType.DATIV -> "der"
+                CaseType.AKKUSATIV -> "die"
+            }
+
+        Genus.NEUTRUM ->
+            when (type) {
+                CaseType.NOMINATIV -> "das"
+                CaseType.GENITIV -> "des"
+                CaseType.DATIV -> "dem"
+                CaseType.AKKUSATIV -> "das"
+            }
+    }
+
+    fun pluralArticle(): String = when (type) {
+        CaseType.NOMINATIV -> "die"
+        CaseType.GENITIV -> "der"
+        CaseType.DATIV -> "den"
+        CaseType.AKKUSATIV -> "die"
+    }
+
     override fun toString(): String {
-        return "CaseInfo(singular='$singular', plural='$plural')"
+        return "CaseInfo(type=$type, genus=${genus.value}, singular='$singularFull', plural='$pluralFull')"
+    }
+
+    private companion object {
+        const val NO = "—"
+    }
+}
+
+enum class Genus(val value: String) {
+    MASCULINUM("m"),
+
+    FEMININUM("f"),
+
+    NEUTRUM("n");
+
+    companion object {
+        fun fromValue(value: String): Genus {
+            return when (value) {
+                "m" -> MASCULINUM
+                "f" -> FEMININUM
+                "n" -> NEUTRUM
+                else -> throw IllegalArgumentException("Unknown value: $value")
+            }
+        }
     }
 }
 
