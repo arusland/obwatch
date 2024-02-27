@@ -15,4 +15,4 @@ fun main(args: Array<String>) {
 }
 
 private fun getApiKey(): String =
-    System.getProperty("yandex.dict.api") ?: throw IllegalArgumentException("YANDEX-DICT-API is not set")
+    System.getProperty("yandex.dict.api") ?: throw IllegalArgumentException("YANDEX-DICT-API is not set. Please, set -Dyandex.dict.api=<your-api>")
