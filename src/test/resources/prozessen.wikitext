@@ -1,0 +1,44 @@
+{{Siehe auch|[[Prozessen]]}}
+== prozessen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Präsens_ich=prozesse
+|Präsens_du=prozesst
+|Präsens_er, sie, es=prozesst
+|Präteritum_ich=prozesste
+|Konjunktiv II_ich=prozesste
+|Imperativ Singular=prozess
+|Imperativ Singular*=prozesse
+|Imperativ Plural=prozesst
+|Partizip II=prozesst
+|Hilfsverb=haben
+}}
+
+{{Nicht mehr gültige Schreibweisen}}
+:[[processen]]
+
+{{Worttrennung}}
+:pro·zes·sen, {{Prät.}} pro·zess·te, {{Part.}} pro·zesst
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|pʁoˈt͡sɛsn̩}}
+:{{Hörbeispiele}} {{Audio|De-prozessen.ogg}}
+:{{Reime}} {{Reim|ɛsn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{K|va.|noch|landschaftlich|ugs.|t1=;|t3=_}} (vor Gericht) streiten
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=de}}
+
+{{Wortbildungen}}
+:[[herumprozessen]]
+
+{{Lemmaverweis|prozessieren}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|processen}} (dort auch „prozessen“)
+:[1] {{Ref-Rheinisch}}
+:[1] {{Ref-Pfälzisch}}
+:[1] {{Lit-Maurer: Südhessisches Wörterbuch|B=1}}, Stichwort »prozessiern«, Spalte 1154

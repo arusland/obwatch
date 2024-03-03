@@ -45,6 +45,8 @@ class NounInfo(
     override fun toString(): String {
         return "NounInfo(word='$word', type='$type', examples='$examples', genus='$genus', cases=$cases)"
     }
+
+    fun hasCases() = genus != Genus.NONE
 }
 
 class AdjectiveInfo(
@@ -98,6 +100,8 @@ class CaseInfo(val type: CaseType, val genus: Genus, val singular: String, val p
                 CaseType.DATIV -> "dem"
                 CaseType.AKKUSATIV -> "das"
             }
+
+        Genus.NONE -> ""
     }
 
     fun pluralArticle(): String = when (type) {
@@ -122,7 +126,9 @@ enum class Genus(val value: String) {
 
     FEMININUM("f"),
 
-    NEUTRUM("n");
+    NEUTRUM("n"),
+
+    NONE("");
 
     companion object {
         fun fromValue(value: String): Genus {
@@ -130,7 +136,8 @@ enum class Genus(val value: String) {
                 "m" -> MASCULINUM
                 "f" -> FEMININUM
                 "n" -> NEUTRUM
-                else -> throw IllegalArgumentException("Unknown value: $value")
+                "" -> NONE
+                else -> throw IllegalArgumentException("Unknown value: '$value'")
             }
         }
     }

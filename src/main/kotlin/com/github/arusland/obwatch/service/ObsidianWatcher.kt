@@ -131,7 +131,7 @@ class ObsidianWatcher(
     ) {
         result.wikiTextInfo?.let { info ->
             when (info) {
-                is NounInfo -> {
+                is NounInfo-> if (info.hasCases()) {
                     writer.write("| |Singular|Plural|\n")
                     writer.write("|--|--|--|\n")
                     info.cases.forEach() { caseInfo ->
