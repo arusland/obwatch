@@ -7,9 +7,9 @@ open class WikiTextInfo(
     val meanings: Int,
     val baseForm: String
 ) {
-    fun isEmpty(): Boolean = this.javaClass === WikiTextInfo::class.java && examples.isEmpty()
+    open fun isEmpty(): Boolean = this.javaClass === WikiTextInfo::class.java && examples.isEmpty()
 
-    fun isNotEmpty(): Boolean = !isEmpty()
+    open fun isNotEmpty(): Boolean = !isEmpty()
 
     override fun toString(): String {
         return "WikiTextInfo(word='$word', type='$type', examples='$examples')"
@@ -47,6 +47,10 @@ class NounInfo(
     }
 
     fun hasCases() = genus != Genus.NONE
+
+    override fun isEmpty(): Boolean {
+        return !hasCases() && examples.isEmpty()
+    }
 }
 
 class AdjectiveInfo(
