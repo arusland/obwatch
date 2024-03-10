@@ -30,6 +30,7 @@ class ObsidianWatcher(
     private val regexSpace = Regex("[\\s#!,.]+", RegexOption.MULTILINE)
     private val regexDigit = Regex("\\d+")
     private val lastResults = mutableListOf<FoundResult>()
+    private val lastTokens = mutableSetOf<String>()
 
     init {
         require(path.exists()) { "Target path does not exist: $path" }
@@ -55,11 +56,12 @@ class ObsidianWatcher(
         val attributes = lastFileAttributes
         log.debug("File was changed: {}, file size: {}", attributes.lastModifiedTime(), attributes.size())
         val text = path.readText()
-        val tokens = regexSpace.split(text).filter { token -> token.isNotBlank() && !regexDigit.matches(token) }.reversed()
-        val lastWord = tokens.firstOrNull()?.trim()
-
-        if (lastWord != null) {
-            searchNewWord(lastWord)
+        val tokens = regexSpace.split(text).filter { token -> token.isNotBlank() && !regexDigit.matches(token) }
+        val newToken = tokens.firstOrNull { !lastTokens.contains(it) }
+        lastTokens.clear()
+        lastTokens.addAll(tokens)
+        if (newToken != null) {
+            searchNewWord(newToken)
         } else {
             log.warn("No words found in the file")
         }
@@ -95,7 +97,10 @@ class ObsidianWatcher(
                 searchNewWord(wikiTextInfo.baseForm, false)
             } else if (tryAnotherForm) {
                 log.debug("No definition found for the word: {}, try to find (de)capitalized form", lastWord)
-                searchNewWord(if (lastWord.first().isUpperCase()) lastWord.decapitalize() else lastWord.capitalize(), false)
+                searchNewWord(
+                    if (lastWord.first().isUpperCase()) lastWord.decapitalize() else lastWord.capitalize(),
+                    false
+                )
             } else {
                 log.warn("No definition found for the word: {}", lastWord)
             }
@@ -132,7 +137,7 @@ class ObsidianWatcher(
     ) {
         result.wikiTextInfo?.let { info ->
             when (info) {
-                is NounInfo-> if (info.hasCases()) {
+                is NounInfo -> if (info.hasCases()) {
                     writer.write("| |Singular|Plural|\n")
                     writer.write("|--|--|--|\n")
                     info.cases.forEach() { caseInfo ->
