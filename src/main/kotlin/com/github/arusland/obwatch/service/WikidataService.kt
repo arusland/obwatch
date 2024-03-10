@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import com.github.arusland.obwatch.model.WikiTextInfo
 import com.github.arusland.obwatch.util.JsonUtil
 import com.github.arusland.obwatch.util.XmlUtil
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.slf4j.LoggerFactory
@@ -15,12 +17,14 @@ import kotlin.io.path.isRegularFile
 class WikidataService(private val cachePath: Path) {
     private val client = OkHttpClient()
 
-    fun search(term: String): WikiTextInfo? {
+    @Synchronized
+    fun search(term: String): WikiTextInfo? = runBlocking {
         log.debug("Searching for word: {}", term)
-        val wikiText = getWikiText(term.trim()) ?: return null
+        val wikiText = getWikiText(term.trim()) ?: return@runBlocking null
         val wikiTextInfo = WikiTextParser().parse(wikiText)
+        launch { removeOldFiles() }
 
-        return wikiTextInfo
+        wikiTextInfo
     }
 
     private fun getWikiText(term: String): String? {
@@ -61,6 +65,14 @@ class WikidataService(private val cachePath: Path) {
         return path.toFile().readText()
     }
 
+    @Synchronized
+    private fun removeOldFiles() {
+        // leave only MAX_FILES_IN_CACHE last files
+        val files = cachePath.toFile().listFiles()!!.sortedBy { it.lastModified() }
+        val toDelete = files.dropLast(MAX_FILES_IN_CACHE)
+        toDelete.forEach { it.delete() }
+    }
+
     private fun saveToCache(term: String, content: String) {
         if (!cachePath.exists()) {
             cachePath.toFile().mkdirs()
@@ -79,6 +91,7 @@ class WikidataService(private val cachePath: Path) {
     data class WikidataExport(@JsonProperty("*") val content: String)
 
     private companion object {
-        private val log = LoggerFactory.getLogger(WikidataService::class.java)!!
+        val log = LoggerFactory.getLogger(WikidataService::class.java)!!
+        const val MAX_FILES_IN_CACHE = 500
     }
 }
