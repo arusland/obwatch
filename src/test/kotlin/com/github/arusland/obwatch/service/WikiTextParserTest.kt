@@ -10,7 +10,7 @@ class WikiTextParserTest {
 
     @Test
     fun testParser() {
-  /*      val result = WikiTextParser().parse(ResourceUtil.readResource("/Junge.wikitext"))
+        val result = WikiTextParser().parse(ResourceUtil.readResource("/Junge.wikitext"))
         println(result)
 
         val result2 = WikiTextParser().parse(ResourceUtil.readResource("/Mutter.wikitext"))
@@ -34,7 +34,7 @@ class WikiTextParserTest {
         assertEquals(
             "Das ist dein Haus; **mein\\[e\\]s** (**gehoben:** das meine) steht hier.",
             result6?.examples?.get(1)
-        )*/
+        )
 
         val result7 = WikiTextParser().parse(ResourceUtil.readResource("/relevant.wikitext"))
         println(result7)
@@ -43,6 +43,15 @@ class WikiTextParserTest {
         assertEquals(
             "„Es liegt nahe, sich zu fragen, ob man als Nichtbeteiligter in Bezug auf Extrembergsteigen überhaupt eine Meinung entwickeln kann, die **relevant** ist, als nie annähernd in diese Situationen Hineinversetzter.“",
             result7?.examples?.get(3)
+        )
+
+        val result8 = WikiTextParser().parse(ResourceUtil.readResource("/prägen.wikitext"))
+        println(result8)
+        assertNotNull(result8)
+        assertEquals(9, result8?.examples?.size ?: 0)
+        assertEquals(
+            "Descartes **prägte** den berühmten Ausspruch „cogito ergo sum“ – „Ich denke, also bin ich“.",
+            result8?.examples?.get(6)
         )
     }
 }

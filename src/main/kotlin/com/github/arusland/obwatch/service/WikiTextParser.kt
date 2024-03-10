@@ -15,10 +15,13 @@ class WikiTextParser {
     private val regexType = """===\s*\{\{Wortart\|([^|]+)\|(\w+)\}\}""".toRegex()
 
     // :[3] Er macht den Fernseher aus.
-    private val regexIndex = """:\[(\d+)\]\s+(.+)""".toRegex()
+    private val regexIndex = """:\[([\da-z]+)\]\s+(.+)""".toRegex()
 
     // remove <ref>...</ref>
     private val refRegex = """<ref[^>]*>.*?</ref>""".toRegex()
+
+    // replace wikilink by it's value [[w:René Descartes|Descartes]]
+    private val wikiLinkRegex = """\[\[w:([^\|]+)\|([^\]]+)\]\]""".toRegex()
 
     /**
      *  Parses wiki text and creates on of the [WikiTextInfo] object: [NounInfo], [VerbInfo] or null.
@@ -118,8 +121,11 @@ class WikiTextParser {
     }
 
     private fun formatText(text: String): String {
-        return refRegex.replace(text, "").replace("''", "**")
-            .replace("[", "\\[").replace("]", "\\]")
+        val newText = wikiLinkRegex.replace(text, "$2")
+        return refRegex.replace(newText, "")
+            .replace("''", "**")
+            .replace("[", "\\[")
+            .replace("]", "\\]")
     }
 
     private fun parseCases(wikiText: String, genus: Genus): List<CaseInfo> {

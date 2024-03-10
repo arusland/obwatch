@@ -1,0 +1,162 @@
+{{überarbeiten|Jede Bedeutung belegen; Synonyme und Gegenwörter sollten nochmals gründlich geprüft werden|Deutsch}}
+
+== prägen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}}, ''regelmäßig'' ===
+
+{{Deutsch Verb Übersicht
+|Präsens_ich=präge
+|Präsens_du=prägst
+|Präsens_er, sie, es=prägt
+|Präteritum_ich=prägte
+|Partizip II=geprägt
+|Konjunktiv II_ich=prägte
+|Imperativ Singular=präge
+|Imperativ Singular*=präg
+|Imperativ Plural=prägt
+|Hilfsverb=haben
+|Bild=Pr%C3%A4gesiegel-Notar.JPG|mini|1|auf Papier ''geprägtes'' Siegel
+}}
+
+{{Worttrennung}}
+:prä·gen, {{Prät.}} präg·te, {{Part.}} ge·prägt
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈpʁɛːɡn̩}}, {{Lautschrift|ˈpʁɛːɡŋ̍}}
+:{{Hörbeispiele}} {{Audio|De-prägen.ogg}}, {{Audio|De-prägen2.ogg}}, {{Audio|De-prägen3.ogg}}
+:{{Reime}} {{Reim|ɛːɡn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{trans.}} ''([[Druckwesen]], [[Münzwesen]], [[Textilindustrie]]:''
+::[1a] mit einer [[bildlich]]en [[Darstellung]], einem oder mehreren [[Schriftzeichen]], [[Symbol]]en oder einem [[Muster]] jedweder Art versehen, wobei durch [[Druck]] mit dazu angemessenen [[Werkzeug]]en oder [[Maschine]]n der Oberfläche von [[tauglich]]em [[Material]] – wie beispielsweise Metall, Papier, Leder – [[reliefartig]] eine bestimmte [[Form]] gegeben wird
+::[1b] etwas in der [[Art]] des unter [1a] Beschriebenen [[herstellen]]
+::[1c] eine bildliche Darstellung, ein Schriftzeichen, Symbol oder ein Muster jedweder Art in die [[Oberfläche]] von tauglichem Material – wie etwa [[Metall]], [[Papier]], [[Leder]] – [[einpressen]]
+::[1d] ''übertragen, bildlich:'' einen [[Abdruck]] hinterlassen
+:[2] {{trans.|:}}
+::[2a] eine [[Einwirkung]] [[ausüben]] und dabei etwas oder jemandem ein [[kennzeichnen]]des [[Aussehen]] beziehungsweise eine [[charakteristisch]]e [[Eigenart]] [[verleihen]]
+::[2b] ''[[Verhaltensforschung]] (von [[Tier]]en):'' ein Tier während einer bestimmten [[Phase]] seiner [[Entwicklung]] bezüglich eines bestimmten [[Verhalten]]s auf ein [[Objekt]] oder ein anderes [[Lebewesen]] [[fixieren]]
+:[3] {{trans.|:}} als [[Eigene]]s [[hervorbringen]] und [[erstmals]] [[anwenden]]
+:[4] {{trans.|,}} ''[[selten]]:'' sich in solch eindringlicher Weise über etwas [[bewusst]] werden beziehungsweise sich in solch [[eindringlich]]em [[Maße]] etwas bewusst machen, dass es im [[Gedächtnis]] [[haften]] bleibt
+:[5] {{refl.|,}} ''[[gehoben]]:'' eine bestimmte [[Gestalt]] [[annehmen]]
+
+{{Abkürzungen}}
+:[1–5] pr.
+
+{{Herkunft}}
+:bezeugt im [[Mittelhochdeutsch]]en ''bræchen, præchen'' „einpressen, [[abbilden]]“, welches aus dem [[Althochdeutsch]]en ''giprāhhan, prāhhan'' „indem die Oberfläche ''eingebrochen'' wird, etwas einpressen, [[einritzen]]“ hervorging, das wiederum abgeleitet wurde aus der 1. und 3. Person Plural Präteritum des Verbs ''prēchan (prāchun)'' „brechen (brachen)“ im Sinne von „brechen machen“, woraus sich später die Bedeutung „[[aufbrechen]], [[aufreißen]]; [[eingraben]], [[ritzen]]“ entwickelte; somit ergibt sich eine etymologische Verwandtschaft mit dem Verb ''[[brechen]]'' {{QS Herkunft|unbelegt}}
+
+{{Synonyme}}
+:[1a–1c] ''[[oberdeutsch]], [[mundartlich]]:'' [[schlagen]]
+:[1d] sich [[abdrücken]], aufprägen, einprägen
+:[2a] sich [[auszeichnen]] (durch), [[einwirken]], [[kennzeichnen]], [[zeichnen]]
+:[2b] [[gewöhnen]]
+:[3] [[schöpfen]], ''bildungssprachlich:'' [[kreieren]]
+:[4] sich (ins Gedächtnis) [[brennen]], sich einprägen, sich [[merken]]
+:[5] sich [[formen]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[aufdrücken]], [[eindrücken]], ''mittels Druckumformverfahrens:'' einprägen, ''als Veredelungsverfahren, ein Muster in Textilgewebe, Papier, Karton oder Leder prägend:'' [[gaufrieren]]
+
+{{Gegenwörter}}
+:[1a–1c] [[gießen]], [[gravieren]], [[radieren]], [[stechen]]
+:[1d] [[anschmiegen]], [[schmiegen]]
+:[2b] [[abrichten]], [[dressieren]], [[trainieren]]
+:[3] [[fälschen]], [[imitieren]], [[kopieren]], [[nachahmen]], [[nachbilden]], [[reproduzieren]]
+:[4] [[entfallen]], [[vergessen]]
+
+{{Oberbegriffe}}
+:[1a–1c] [[stempeln]]
+:[2a] [[beeinflussen]], [[wandeln]]
+:[2b] [[erlernen]], [[erziehen]], [[sich]] [[emotional]] [[binden]]
+:[3] [[entwickeln]], [[erschaffen]]
+:[4] [[im Gedächtnis behalten]], [[im Gedächtnis bewahren]]
+
+{{Unterbegriffe}}
+:[1a–1c] [[stanzen]], [[punzen]], [[pressen]]
+:[2b] [[bändigen]], [[bezähmen]], [[zähmen]]
+:[3] [[zum]] Begriff [[machen]], [[auf]] [[den]] Begriff [[bringen]], [[Ausdruck verleihen]], [[in die Welt setzen]], [[zum Ausdruck bringen]]
+:[4] [[erinnern]], [[ins Gedächtnis rufen]], [[sich ins Gedächtnis zurückrufen]], ''bildungssprachlich, selten:'' [[memorieren]]
+
+{{Beispiele}}
+:[1a] Das Siegel wurde auf Papier ''geprägt.''
+:[1b] Jedes zur Europäischen Union gehörige Land ''prägt'' seine eigenen Euro-Münzen.
+:[1c] Nummernschilder werden ''geprägt.''
+:[1d] Das enge Kleid hat sich auf ihre Haut ''geprägt.''
+:[2a] Altbauten ''prägen'' das Stadtbild.
+:[2a] Ihr Gesicht war vom Lächeln ''geprägt.''
+:[2a] Erfahrungen und Erlebnisse können den Menschen ''prägen.''
+:[2a] Die Umwelt ''prägt'' den Menschen.
+:[2a] Die moderne Psychologie ist von [[w:Sigmund Freud|Freud]] ''geprägt'' worden.
+:[2a] [[w:Bob Dylan|Bob Dylan]] ''prägte'' eine ganze Generation.
+:[2a] „Radikal realistisch ginge demnach ein Maler vor, der sich auf die Bilder einläßt, die unsere Gegenwart ''prägen.''“<ref>[http://www.faz.net/s/RubCC21B04EE95145B3AC877C874FB1B611/Doc~E3DC2E2E0BC0C4BCDBA076BB76C4BECCF~ATpl~Ecommon~Scontent.html Online-Ausgabe der Frankfurter Allgemeine Zeitung, 'Kultur / Feuilleton', ''Malen nach Realem / Pin-ups, Kitschkunst, Bilder über Bilder'', 12.01.2003]</ref>
+:[2a] „Die angeblichen Barbaren vom Kontinent sollten Britannien kulturell und sprachlich stärker ''prägen'' als zuvor die Römer und später die Wikinger und Normannen.“<ref>{{Literatur | Autor=Christoph Gunkel |Herausgeber=Norbert F. Pötzl, Johannes Saltzwedel |Titel= Stammbaum bis Wotan | Sammelwerk=Die Germanen. Geschichte und Mythos | Verlag= Deutsche Verlags-Anstalt | Ort=München | Jahr=2013 | Seiten=215-219, Zitat Seite 216.| ISBN=978-3-421-04616-1}} </ref>
+:[2a] „In der Region um Metzingen ''prägen'' Streuobstwiesen die Landschaft.“<ref>{{Literatur | Autor=Theresa von Bogen, Stefan Junker, Philipp Kraft et al. | Titel=Diercke Geographie 3 – Schleswig-Holstein | Auflage= | Verlag= | Ort= | Jahr=2020 | ISBN=978-3-14-115032-2| Seiten=97 }}</ref>
+:[2b] Zootiere sind meistens auf ihre Pfleger ''geprägt.''
+:[2b] Die Kindergartenkinder wollen ein Gänseküken auf sich ''prägen.''
+:[3] [[w:René Descartes|Descartes]] ''prägte'' den berühmten Ausspruch „cogito ergo sum“ – „Ich denke, also bin ich“.
+:[4] Dieses Wort hat sich mir ins Gedächtnis ''geprägt!''
+:[4] ''literarisch:'' Seine Worte ''prägten'' sich in ihr Herz.
+:[5] Das Pappmaschee ''prägt sich'' unter ihren Händen.
+
+{{Charakteristische Wortkombinationen}}
+:[1a] [[Briefpapier]] ''prägen'', [[ledern]]e [[Bucheinband|Bucheinbände]] ''prägen'', [[Karton]] ''prägen'', [[Papier]] ''prägen'', [[Pappe]] ''prägen''
+:[1b] [[Gold]] ''prägen'', [[Medaille]]n ''prägen'', [[Münze]]n ''prägen'', [[Silber]] ''prägen''
+:[1c] ein [[Staatswappen]] auf, in eine Münze ''prägen''
+:[2a] den [[Charakter]] ''prägen'', eine [[Epoche]] ''prägen'', eine [[Landschaft]] ''prägen'', ein [[Stadtbild]] ''prägen'', jemandes [[Erlebnis]] ''prägen'', jemandes [[Erfahrung]]en ''prägen'', jemandes [[Kummer]] ''prägen'', ein von [[Leid]] ''geprägtes'' [[Gesicht]], ein von [[Elend]] und [[Hunger]] ''geprägtes'' [[Land]]
+:[3] einen ([[sprachlich]]en) [[Ausdruck]] ''prägen'', einen [[Ausspruch]] ''prägen'', einen [[Begriff]] ''prägen'', eine [[Bezeichnung]] ''prägen'', einen [[Satz]] ''prägen'', ein [[Schlagwort]] ''prägen'', einen [[Stil]] ''prägen'', [[eine]] [[Technik]] ''prägen'', ein [[Wort]] ''prägen''
+:[4] sich (tief) ins [[Gedächtnis]] ''prägen'', sich ins [[Herz]] ''prägen''
+
+{{Wortbildungen}}
+:[1] [[Abrollprägen]] {{n}}, [[aufprägen]], ''veraltet oder fachsprachlich:'' [[beprägen]], [[Hohlprägen]] {{n}}, [[Nadelprägen]] {{n}}, ''veraltet, landschaftlich:'' [[Präg]] {{n}}, [[Prägeart]], [[Prägebild]], [[Prägedruck]], ''veraltend:'' [[Prägeeisen]], [[Prägeform]], [[Prägekosten]], [[Prägemaschine]], [[Prägemetall]], [[Prägepresse]], ''veraltet:'' [[Präger]], ''veraltet:'' [[Prägerlohn]], [[Prägestätte]], [[Prägestempel]], [[Prägestock]], [[Prägesystem]], [[Prägewerk]], [[Prägewerkzeug]], ''veraltet:'' [[Ringprägen]] {{n}}, [[Schlagprägen]] {{n}}, [[überprägen]], ''veraltet:'' [[verprägen]], [[Vollprägen]] {{n}}
+:[2a] [[tiefgeprägt]], [[vorprägen]]
+:[2] [[prägbar]], [[Prägbarkeit]], [[Prägephase]]
+:[3] [[Wortprägung]]
+:[1, 2a] [[Gepräge]]
+:[1, 2b] [[umprägen]]
+:[1, 2] [[ausprägen]], [[einprägen]], [[prägsam]], [[Prägung]]
+:[1, 3] [[neugeprägt]]
+:[1, 4] ''veraltet:'' [[anprägen]], [[einprägen]], [[nachprägen]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{af}}: [1] {{Ü|af|afstempel}}
+*{{ar}}: [1a–1c] {{Üt|ar|سَكَّ|}}, {{Üt|ar|ضَرَبَ العُمْلَة|}} {{Lautschrift|ḍaraba alʔumlah}}, [3] {{Üt|ar|اِسْتَحْدَثَ|}} {{Lautschrift|estaḥdaṯa}}, [4] {{Üt|ar|تَأَصَّلَ|}}, {{Üt|ar|تَجَذَّرَ|}}, {{Üt|ar|رَسَخَ|}}
+*{{zh}}: [1a] {{Üt|zh|打印|dǎyìn}}, {{Üt|zh|踩|cǎi}}; [2b] {{Üt|zh|固定|gùdìng}}; [3] {{Üt|zh|全新|quánxīn}}
+**{{zh-cn}}: [1a–1c] {{Üt|zh|铸造|zhùzào}}, {{Üt|zh|顿足|dùnzú}}; [3] {{Üt|zh|创造|chuàngzào}}
+**{{zh-tw}}: [1a–1c] {{Üt|zh|鑄造|zhùzào}}, {{Üt|zh|頓足|dùnzú}}; [3] {{Üt|zh|創造|chuàngzào}}
+*{{da}}: [1a–1c, 2] {{Ü|da|præge}}
+*{{en}}: [1a, 1b] ''Metall, Papier, Leder:'' to {{Ü|en|emboss}}, ''Papier:'' to {{Ü|en|goffer}}, ''Leder:'' to {{Ü|en|imprint}}, ''Münzen:'' to {{Ü|en|mint}}, ''Inschrift auf Metall, Papier:'' to {{Ü|en|stamp}}, ''Münzen:'' to {{Ü|en|strike}}, [1c, 3] to {{Ü|en|coin}}, [2a] ''Gesicht:'' to {{Ü|en|be}} {{Ü|en|marked}} ({{Ü|en|by}}); ''Stadtbild, Landschaft:'' ''Großbritannien, Irland, Kanada, Australien, Neuseeland:'' to {{Ü|en|characterise}}, ''USA, Australien:'' to {{Ü|en|characterize}}; to {{Ü|en|form}}; ''Literatur, Musik:'' to {{Ü|en|have a forming influence on}}), to have a {{Ü|en|formative}} influence (on); ''Erlebnis, Erfahrungen, Kummer:'' to {{Ü|en|leave}} ({{Ü|en|its}}, {{Ü|en|their}}) {{Ü|en|mark}} ({{Ü|en|on}}); ''Charakter:'' ''Großbritannien, Irland, Kanada, Australien, Neuseeland:'' to {{Ü|en|mould}}, ''USA, Australien:'' to {{Ü|en|mold}}, to {{Ü|en|shape}}; to {{Ü|en|turn}}, [4] to {{Ü|en|engrave}}, [5] to {{Ü|en|shape}}, to {{Ü|en|give}} ({{Ü|en|something}}) {{Ü|en|a}} {{Ü|en|coherent}} {{Ü|en|shape}}
+*{{eo}}: [1a] {{Ü|eo|stampi}}, {{Ü|eo|pregi}}, {{Ü|eo|surfiksi}}; [2a] {{Ü|eo|karakterizi}}; [2b] {{Ü|eo|kutimiĝi}}
+*{{fr}}: [1a–1c] ''Holz, Beton:'' {{Ü|fr|emboutir}}, ''Papier:'' {{Ü|fr|empreindre}}, {{Ü|fr|estamper}}, ''Metall:'' {{Ü|fr|étamper}}, {{Ü|fr|frapper}}, ''Leder:'' {{Ü|fr|gaufrer}}, ''Metall:'' {{Ü|fr|graver}}, {{Ü|fr|matricer}}; [1b] {{Ü|fr|battre}}; [2a] {{Ü|fr|caractériser}}, s'{{Ü|fr|empreindre}}, ''Charakter:'' {{Ü|fr|façonner}}, ''Charakter, Moral, Persönlichkeit:'' {{Ü|fr|forger}}, {{Ü|fr|former}}, {{Ü|fr|imprimer}}, {{Ü|fr|influencer}}, ''Erlebnis:'' {{Ü|fr|marquer}}, ''Stadtbild:'' {{Ü|fr|transformer}}; [2b] {{Ü|fr|faire}} {{Ü|fr|une}} {{Ü|fr|fixation}} ({{Ü|fr|sur}}), [3] {{Ü|fr|controuver}}, {{Ü|fr|créer}}, {{Ü|fr|forger}}, [4], {{Ü|fr|fixer}}, {{Ü|fr|graver}}, {{Ü|fr|mémoriser}}, [5] se {{Ü|fr|forger}}, se {{Ü|fr|former}}, {{Ü|fr|prendre corps}}
+*{{ia}}: [2a] {{Ü|ia|formar}}, {{Ü|ia|characterisar}}
+*{{it}}: [1a–1c] ''Metall:'' {{Ü|it|imprimere}}, ''Leder:'' {{Ü|it|goffrare}}, {{Ü|it|permeare}}, ''Papier:'' {{Ü|it|stampare}}; [1b] {{Ü|it|battere}}; [1c, 3] {{Ü|it|coniare}}; [2a] {{Ü|it|formare}}, {{Ü|it|plasmare}}, {{Ü|it|segnare}}; [4] {{Ü|it|imprimersi}}; [5] {{Ü|it|plasmare}}
+*{{ja}}: [1a–1c] {{Üt|ja|鋳る|いる, iru}}, {{Üt|ja|鋳造する|ちゅうぞうする, chūzō suru}}
+*{{lt}}: [1a–1c] {{Ü|lt|kalti}}; [4] {{Ü|lt|įstrigti}}, {{Ü|lt|įsismelkti}}
+*{{nl}}: [1a, 1b, 4] {{Ü|nl|prenten}}, [1c] ''Münzen:'' {{Ü|nl|munten}}, {{Ü|nl|slaan}}, {{Ü|nl|stempelen}}; [2a] {{Ü|nl|stempelen}}, {{Ü|nl|een}} {{Ü|nl|stempel}} {{Ü|nl|drukken}} ({{Ü|nl|op}}), {{Ü|nl|invloed}} {{Ü|nl|uitoefenen}} (op)
+*{{no}}: [1a–1c] {{Ü|no|prege}}; [2a] {{Ü|no|sette}} {{Ü|no|sitt}} {{Ü|no|preg}} {{Ü|no|på}}
+*{{fa}}:
+**Farsi, {{prs|DMG}}: [1a] {{Üxx4|fa|نقش زدن|d=naqš zädän|DMG=0}}; [1b] ''je nach Kontext:'' {{Üxx4|fa|سکه زدن|d=säkkä zädän|DMG=0}}, {{Üxx4|fa|ضرب کردن|d=żarb kardan|DMG=0}}
+*{{pl}}: [1a, 1b] {{Ü|pl|bić}}; [1c] {{Ü|pl|grawerować}} (''Perfekt'' {{Ü|pl|wygrawerować}}), [2a] {{Ü|pl|kształtować}} (''Perfekt'' {{Ü|pl|ukształtować}}), {{Ü|pl|być}} {{Ü|pl|charakterystyczny|charakterystycznym}}; [3] {{Ü|pl|ukuć}}; [4] {{Ü|pl|wryć się}} {{Ü|pl|ktoś|komuś}} {{Ü|pl|w}} {{Ü|pl|pamięć}}
+*{{pt}}: [1a–1c] ''Papier:'' {{Ü|pt|selar}}; [2a] {{Ü|pt|moldar}}; [3] {{Ü|pt|criar}}, {{Ü|pt|cunhar}}
+*{{ro}}: [1–3] {{Ü|ro|imprima}}
+*{{ru}}: [1a–1c] {{Üt|ru|чеканить}}; [2a] {{Üt|ru|оказывать}} {{Üt|ru|влияние}}; [2b] {{Üt|ru|накладывать}} [ {{Üt|ru|свой}} ] {{Üt|ru|отпечаток}}; [3] {{Üt|ru|создавать}}, {{Üt|ru|образовывать}}; [4] {{Üt|ru|запечатлеться}}, {{Üt|ru|запомниться}}; [5] {{Üt|ru|формоваться}}
+*{{sv}}: [1a–1c] {{Ü|sv|trycka}}; [1a-1d] {{Ü|sv|prägla}}; [2a] {{Ü|sv|prägla}}; [3] {{Ü|sv|mynta}}
+*{{sr}}: [1a–1c] {{Ü|sr|kovati}}, ''Papier:'' {{Ü|sr|uviti}}; [1a] {{Ü|sr|načiniti}} {{Ü|sr|otisak}}; [1a, 1b] {{Ü|sr|utisnuti}}; [1c] {{Ü|sr|otisnut}}, {{Ü|sr|otisnuti}}; [2b] {{Ü|sr|skovati}}; [4] {{Ü|sr|urezati}}
+*{{wen}}:
+**{{dsb}}: [1a, 1c] {{Ü|dsb|naśišćaś}}, {{Ü|dsb|naśišćowaś}}; [1b] {{Ü|dsb|biś}}; [1d] {{Ü|dsb|zaśišćaś}}, {{Ü|dsb|zaśišćowaś}}; [2a] {{Ü|dsb|charakterizěrowaś}}, {{Ü|dsb|formowaś}}, {{Ü|dsb|kowaś}}, {{Ü|dsb|pregowaś}}; [3] {{Ü|dsb|twóriś}} (''Perfekt'' {{Ü|dsb|wutwóriś}}), [4] {{Ü|dsb|zaśišćaś}} ({{Ü|dsb|se}}), {{Ü|dsb|zaspomnjeś}} (se, {{Ü|dsb|sebje}})
+**{{hsb}}: [1a, 1c] {{Ü|hsb|wurazyć}}, {{Ü|hsb|wubić}}, {{Ü|hsb|wubiwać}}; [1b] {{Ü|hsb|razyć}}, {{Ü|hsb|bić}}; [2a] {{Ü|hsb|formować}}, (''Perfekt'' {{Ü|hsb|wuformować}}; [3] {{Ü|hsb|tworić}}, (''Perfekt'' {{Ü|hsb|wutworić}})
+*{{es}}: [1a–1c] ''Metall, Leder:'' {{Ü|es|repujar}}, ''Papier:'' {{Ü|es|gofrar}}; [1c, 3] {{Ü|es|acuñar}}; [2a] {{Ü|es|caracterizar}}
+*{{cs}}: [1a] {{Ü|cs|orazit}}; [1b] {{Ü|cs|razit}}; [1c] {{Ü|cs|vyrazit}}, {{Ü|cs|vrazit}}; [1d] {{Ü|cs|zanechat dojem}}; [2a] {{Ü|cs|formovat}}, {{Ü|cs|určovat}}, {{Ü|cs|utvářet}}; [2b] {{Ü|cs|zvykat}}; [3] {{Ü|cs|zavést}}, {{Ü|cs|zavádět}}; [4] {{Ü|cs|vštípit si}}
+*{{tr}}: [1a–1c] {{Ü|tr|şekil vermek}}; [1a, 1b] {{Ü|tr|para basmak}}; [1c] {{Ü|tr|darp etmek}}; [1d] {{Ü|tr|iz bırakmak}}; [2a] {{Ü|tr|etkilemek}}
+*{{hu}}: [1a–1c] {{Ü|hu|pénzt ver}}; [2a] {{Ü|hu|formál}}; [3] {{Ü|hu|alkot}}; [4] {{Ü|hu|bevés}}, {{Ü|hu|belevés}}; [5] {{Ü|hu|bevésődik}}, {{Ü|hu|belevésődik}}
+}}
+
+{{Referenzen}}
+:[1, 2] {{Wikipedia|prägen}}
+:[1–5] {{Ref-Grimm|prägen}}
+:[1–4] {{Ref-DWDS|prägen}}
+:[?] {{Ref-UniLeipzig|prägen}}
+:[?] {{Ref-FreeDictionary|prägen}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[Brägen]], [[Bregen]], [[brägeln]], [[pracken]], [[predigen]]}}
