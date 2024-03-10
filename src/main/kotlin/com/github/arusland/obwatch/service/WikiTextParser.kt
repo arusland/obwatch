@@ -71,28 +71,42 @@ class WikiTextParser {
                 examples.size to examples.values.toList()
             }
         }
+        var lastExample: String = ""
+        var lastIndex: String = ""
+        val addExample = {
+            if (lastIndex.isNotBlank() && !lastExample.startsWith("{")) {
+                // ignore examples with templates, e.g. {{Beispiele fehlen|spr=de}}
+                if (!examples.containsKey(lastIndex)) {
+                    examples[lastIndex] = formatText(lastExample)
+                } else {
+                    extraExamples.add(formatText(lastExample))
+                }
+                lastExample = ""
+                lastIndex = ""
+            }
+        }
 
         wikiText.lines().forEach { line ->
             if (collecting && line.isEmpty()) {
+                // when empty line found means that Examples section is finished
+                addExample()
                 return getResult()
             }
             if (collecting) {
-                regexIndex.find(line)?.let { match ->
-                    val index = match.groupValues[1]
-                    val text = match.groupValues[2]
-                    if (!text.startsWith("{")) {
-                        // ignore examples with templates, e.g. {{Beispiele fehlen|spr=de}}
-                        if (!examples.containsKey(index)) {
-                            examples[index] = formatText(text)
-                        } else {
-                            extraExamples.add(formatText(text))
-                        }
-                    }
+                val match = regexIndex.find(line)
+                if (match != null) {
+                    // we need whole example, that's why we need wait for next one before adding current
+                    addExample()
+                    lastIndex = match.groupValues[1]
+                    lastExample = match.groupValues[2]
+                } else {
+                    lastExample += line
                 }
             } else if (line.startsWith("{{Beispiele}}")) {
                 collecting = true
             }
         }
+        addExample()
 
         return getResult()
     }

@@ -1,0 +1,80 @@
+== relevant ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Adjektiv|Deutsch}} ===
+
+{{Deutsch Adjektiv Übersicht
+|Positiv=relevant
+|Komparativ=relevanter
+|Superlativ=relevantesten
+}}
+
+{{Anmerkung}}
+:Die Steigerung des Wortes ist weit verbreitet.
+
+{{Worttrennung}}
+:re·le·vant, {{Komp.}} re·le·van·ter, {{Sup.}} am re·le·van·tes·ten
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ʁɛləˈvant}}, {{Lautschrift|ʁeləˈvant}}
+:{{Hörbeispiele}} {{Audio|De-relevant.ogg}}, {{Audio|De-relevant2.ogg}}
+:{{Reime}} {{Reim|ant|Deutsch}}
+
+{{Bedeutungen}}
+:[1] in einem [[wichtig]]en, [[bedeutsam]]en [[Zusammenhang]] (mit dem [[Objekt]] oder [[Thema]]) [[stehen]]d
+
+{{Herkunft}}
+:Das [[Adjektiv]] stammt wahrscheinlich aus der [[mittellateinisch]]en [[Fügung]] ''{{Ü|la|relevantes}} (articuli)'' „beweiskräftige (Argumente im Rechtsstreit)“, von [[lateinisch]] ''{{Ü|la|relevare}}'' (1. Partizip: relevans, Genitiv: relevantis) „in die Höhe heben“, bildlich nach dem Wiegevorgang einer Balkenwaage. Wurde zunächst im Sinne von „schlüssig, richtig“, dann von „bedeutungsvoll, wesentlich“ gebraucht, fand Verwendung seit dem 17. Jahrhundert anfangs im juristisch-administrativen Bereich, später auch in argumentativen, wissenschaftlichen Texten. Zunehmender Gebrauch seit der Mitte des 20. Jahrhunderts, möglicherweise unter dem Einfluß von [[englisch]] ''relevant.''<ref>{{Lit-Duden: Herkunftswörterbuch|A=2}}, Seite 585</ref><ref>Gerhard Strauss, Ulrike Hass, Gisela Harras (Hrsg.): ''Brisante Wörter von Agitation bis Zeitgeist: ein Lexikon zum öffentlichen Sprachgebrauch''; Walter de Gruyter, 1989; Seite 704&nbsp;f.</ref>
+
+{{Synonyme}}
+:[1] [[erheblich]], [[wichtig]], [[bedeutsam]], [[belangreich]], [[maßgeblich]]
+
+{{Gegenwörter}}
+:[1] [[irrelevant]]
+
+{{Unterbegriffe}}
+:[1] [[abnahmerelevant]], [[dokumentenrelevant]], [[energierelevant]], [[entscheidungsrelevant]], [[IT-relevant]], [[verbrauchsrelevant]]
+
+{{Beispiele}}
+:[1] Dein Beitrag ist überhaupt nicht ''relevant'' und wird deshalb nicht berücksichtigt.
+:[1] Patrick erwähnt nur ''relevante'' Beiträge.
+:[1] „Der Begriff der Antinomie läßt sich bis zu Plutarch und Quintilian zurückverfolgen, hat aber erst bei Kant seine philosophisch ''relevante'' Ausprägung gewonnen.“<ref>{{Literatur | Autor= Norbert Hinske, Franz von Kutschera| Titel= Historisches Wörterbuch der Philosophie - Antinomie| Verlag= Schwabe Verlag| Ort=Basel | Jahr= 2007}}, Seite 5776.</ref>
+:[1] „Es liegt nahe, sich zu fragen, ob man als Nichtbeteiligter in Bezug auf Extrembergsteigen überhaupt eine Meinung entwickeln kann, die ''relevant'' ist, als nie annähernd in diese Situationen Hineinversetzter.“<ref>{{Per-Zeit Online|Online= https://www.zeit.de/zeit-reisen/nepal/tagebucheintrag11|Autor= Susanne Christner|Titel= 
+Wissen, wo der Berg steht... - ein Abend mit Chang in der Lodge von Ang Kantschi
+|Tag=23 |Monat= 05|Jahr=2003 |zugriff=2020-02-14}}</ref>
+
+{{Wortbildungen}}
+:[1] [[Relevanz]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=in einem wichtigen, bedeutsamen Zusammenhang (mit dem Objekt oder Thema) stehend|Ü-Liste=
+*{{en}}: {{Ü|en|relevant}}
+*{{ka}}: {{Üt|ka|რელევანტური|relevanṭuri}}
+*{{ja}}: {{Üt|ja|関連性の在る|かんれんせいのある, kanrensei no aru}}
+*{{ko}}: {{Üt|ko|관련된|}}
+*{{no}}: {{Ü|no|relevant}}
+*{{sv}}: {{Ü|sv|relevant}}
+*{{tr}}: {{Ü|tr|alakalı}}, {{Ü|tr|ilgili}}, {{Ü|tr|ilișkili}}
+*{{hu}}: {{Ü|hu|releváns}}, {{Ü|hu|lényeges}}, {{Ü|hu|idevágó}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS}}
+:[1] {{Ref-Duden}}
+:[1] {{Ref-UniLeipzig}}
+
+{{Quellen}}
+
+[[Kategorie:Fremdwort]]
+
+{{Ähnlichkeiten 1|Anagramme=[[entlarve]], [[ventrale]], [[veralten]]}}
+
+{{Abschnitte fehlen|spr=da}}
+
+{{Abschnitte fehlen|spr=en}}
+
+{{Abschnitte fehlen|spr=nl}}
+
+{{Abschnitte fehlen|spr=no}}
+
+{{Abschnitte fehlen|spr=ro}}
+
+{{Abschnitte fehlen|spr=sv}}
