@@ -130,24 +130,20 @@ class ObsidianWatcher(
             dictResult.def.forEach { definition ->
                 writer.write("**${definition.text}** _\\[${definition.pos}\\]_: ")
                 writer.write(definition.tr.map { translationAsString(it) }.joinToString(", ") { it })
-                writer.write("\n\n")
+                writer.write("\n")
             }
         }
 
-        writeWikiTextInfo(result, writer)
-
-        /*writer.write("```json")
-                writer.write("\n")
-                writer.write(JsonUtil.toPrettyJson(dictResult))
-                writer.write("\n")
-                writer.write("```")*/
+        writeWikiTextInfo(writer, result.wikiTextInfo)
     }
 
     private fun writeWikiTextInfo(
-        result: FoundResult,
-        writer: BufferedWriter
+        writer: BufferedWriter,
+        wikiTextInfo: WikiTextInfo?
     ) {
-        result.wikiTextInfo?.let { info ->
+        var info = wikiTextInfo
+        while (info != null) {
+            writer.write("\n")
             when (info) {
                 is NounInfo -> if (info.hasCases()) {
                     writer.write("| |Singular|Plural|\n")
@@ -183,8 +179,9 @@ class ObsidianWatcher(
             }
 
             if (info is VerbInfo) {
-                writer.write("\nAll forms: [Flexion](https://de.wiktionary.org/wiki/Flexion:${info.word})\n\n")
+                writer.write("\nAll forms: [Flexion](https://de.wiktionary.org/wiki/Flexion:${info.word})\n")
             }
+            info = info.next
         }
     }
 

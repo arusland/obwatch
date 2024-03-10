@@ -109,7 +109,7 @@ class CaseInfo(val type: CaseType, val genus: Genus, val singular: String, val p
                 CaseType.AKKUSATIV -> "das"
             }
 
-        Genus.NONE -> ""
+        Genus.NONE, Genus.FEMMAS -> ""
     }
 
     fun pluralArticle(): String = when (type) {
@@ -136,6 +136,8 @@ enum class Genus(val value: String) {
 
     NEUTRUM("n"),
 
+    FEMMAS("mf"),
+
     NONE("");
 
     companion object {
@@ -144,7 +146,8 @@ enum class Genus(val value: String) {
                 "m" -> MASCULINUM
                 "f" -> FEMININUM
                 "n" -> NEUTRUM
-                "" -> NONE
+                "fm" -> FEMMAS
+                "", "0" -> NONE
                 else -> throw IllegalArgumentException("Unknown value: '$value'")
             }
         }
