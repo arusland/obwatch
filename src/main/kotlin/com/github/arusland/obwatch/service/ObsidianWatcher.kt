@@ -7,9 +7,6 @@ import org.slf4j.LoggerFactory
 import java.io.BufferedWriter
 import java.nio.file.Path
 import java.nio.file.attribute.BasicFileAttributes
-import java.time.LocalDateTime
-import java.time.ZoneId
-import java.time.temporal.ChronoUnit
 import kotlin.io.path.*
 
 
@@ -187,20 +184,13 @@ class ObsidianWatcher(
         // TODO: use file watcher
         val attributes = path.readAttributes<BasicFileAttributes>()
 
-        if ((lastFileAttributes.lastModifiedTime() != attributes.lastModifiedTime() || lastFileAttributes.size() != attributes.size())
-            && calcDiffFromNow(attributes) > WAIT_TIME_AFTER_SAVE
-        ) {
+        if ((lastFileAttributes.lastModifiedTime() != attributes.lastModifiedTime() || lastFileAttributes.size() != attributes.size())) {
             // wait for some time after save
             lastFileAttributes = attributes
             return true
         }
 
         return false
-    }
-
-    private fun calcDiffFromNow(attributes: BasicFileAttributes): Long {
-        val lastModified = LocalDateTime.ofInstant(attributes.lastModifiedTime().toInstant(), ZoneId.systemDefault())
-        return ChronoUnit.MILLIS.between(lastModified, LocalDateTime.now())
     }
 
     data class FoundResult(
@@ -215,7 +205,6 @@ class ObsidianWatcher(
 
     private companion object {
         val log = LoggerFactory.getLogger(ObsidianWatcher::class.java)!!
-        const val WAIT_TIME_AFTER_SAVE = 1000L
         const val MAX_WORDS_SIZE = 10
     }
 }
