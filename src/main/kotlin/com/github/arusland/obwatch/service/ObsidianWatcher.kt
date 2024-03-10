@@ -73,18 +73,17 @@ class ObsidianWatcher(
             val wikiTextInfo = wikiTextInfoDef.await()
 
             if (dictResult != null && dictResult.def[0].text == lastWord || wikiTextInfo != null && wikiTextInfo.isNotEmpty()) {
-                val result = FoundResult(lastWord, dictResult, wikiTextInfo)
-                lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
-                lastResults.add(0, result)
-                if (lastResults.size > MAX_WORDS_SIZE) {
-                    lastResults.removeAt(lastResults.size - 1)
-                }
-                outputFilePath.bufferedWriter().use { writer ->
-                    lastResults.forEach { result ->
-                        writeResult(writer, result)
-                        writer.write("----\n\n")
+                synchronized(lastResults) {
+                    // get term from dictionary api first
+                    val term = (dictResult?.def?.get(0)?.text ?: wikiTextInfo?.word) ?: lastWord
+                    val result = FoundResult(term, dictResult, wikiTextInfo)
+                    lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
+                    lastResults.add(0, result)
+                    if (lastResults.size > MAX_WORDS_SIZE) {
+                        lastResults.removeAt(lastResults.size - 1)
                     }
                 }
+                async { writeResultsToFile() }
             } else if (tryAnotherForm && wikiTextInfo != null && wikiTextInfo.baseForm.isNotBlank()) {
                 log.debug(
                     "No definition found for the word: {}, try to find base form: {}",
@@ -100,6 +99,17 @@ class ObsidianWatcher(
                 )
             } else {
                 log.warn("No definition found for the word: {}", lastWord)
+            }
+        }
+    }
+
+    private fun writeResultsToFile() {
+        synchronized(lastResults) {
+            outputFilePath.bufferedWriter().use { writer ->
+                lastResults.forEach { result ->
+                    writeResult(writer, result)
+                    writer.write("----\n\n")
+                }
             }
         }
     }
