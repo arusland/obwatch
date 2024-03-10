@@ -50,10 +50,8 @@ class WikidataService(private val cachePath: Path) {
         val wikidataResponse = JsonUtil.fromJson(json, WikidataResponse::class.java)
         val export = wikidataResponse.query.export.content
         val info = XmlUtil.parseXml(export)
-        val wikitext = info.page?.revision?.text?.content
-        if (wikitext != null) {
-            saveToCache(term, wikitext)
-        }
+        val wikitext = info.page?.revision?.text?.content ?: ""
+        saveToCache(term, wikitext)
         return wikitext
     }
 
