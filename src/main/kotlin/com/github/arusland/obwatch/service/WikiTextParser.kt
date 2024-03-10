@@ -33,7 +33,7 @@ class WikiTextParser {
         }
 
         val (meanings, examples) = parseExamples(wikiText)
-        val baseForm = getTemplateValue("Grundformverweis Konj", wikiText)
+        val baseForm = getTemplateValue("Grundformverweis", wikiText)
 
         return when (type) {
             "Substantiv" -> {
@@ -54,8 +54,6 @@ class WikiTextParser {
                 val superlativ = getTableValue("Superlativ", wikiText)
                 AdjectiveInfo(word, type, examples, meanings, baseForm, komparativ, superlativ)
             }
-
-            "Deklinierte Form" -> null // ignore
 
             else -> WikiTextInfo(word, type, examples, meanings, baseForm)
         }
@@ -101,7 +99,7 @@ class WikiTextParser {
 
     private fun getTemplateValue(prefix: String, wikiText: String): String {
         // {{Grundformverweis Konj|gehen}}
-        val regex = """\{\{\s*$prefix\s*\|([^\}]+)""".toRegex()
+        val regex = """\{\{\s*$prefix[^\|]*?\|([^\}]+)""".toRegex()
         return regex.find(wikiText)?.groupValues?.get(1) ?: ""
     }
 

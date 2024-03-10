@@ -44,13 +44,29 @@ class WikidataServiceTest {
         println(result)
     }
 
-    @ValueSource(strings = ["jung", "schön", "gut"])
+    @ValueSource(strings = ["jung", "schön", "gut", "berufstätig"])
     @ParameterizedTest
     fun testSearch_WhenAdj(term: String) {
         val result = service.search(term) ?: fail("Result is null")
         assertEquals(term, result.word)
         assertEquals("Adjektiv", result.type)
         assertEquals(AdjectiveInfo::class.java, result.javaClass)
+        println(result)
+    }
+
+    @CsvSource(
+        value = [
+            "berufstätige,  berufstätig",
+            "junge,         jung",
+        ]
+    )
+    @ParameterizedTest
+    fun testSearch_WhenDeklinierteForm(term: String, baseForm: String) {
+        val result = service.search(term) ?: fail("Result is null")
+        assertEquals(term, result.word)
+        assertEquals(baseForm, result.baseForm)
+        assertEquals("Deklinierte Form", result.type)
+        assertEquals(WikiTextInfo::class.java, result.javaClass)
         println(result)
     }
 
@@ -80,7 +96,7 @@ class WikidataServiceTest {
         println(result)
     }
 
-    @ValueSource(strings = ["junge", "mädchen"])
+    @ValueSource(strings = ["mädchen"])
     @ParameterizedTest
     fun testSearch_WhenNotFound(term: String) {
         val result = service.search(term)

@@ -1,0 +1,27 @@
+{{Siehe auch|[[Berufstätige]]}}
+== berufstätige ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Deklinierte Form|Deutsch}} ===
+
+{{Worttrennung}}
+:be·rufs·tä·ti·ge
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|bəˈʁuːfsˌtɛːtɪɡə}}
+:{{Hörbeispiele}} {{Audio|De-berufstätige.ogg}}
+
+{{Grammatische Merkmale}}
+
+*Nominativ Singular Femininum der starken Deklination des Positivs des Adjektivs '''[[berufstätig]]'''
+*Akkusativ Singular Femininum der starken Deklination des Positivs des Adjektivs '''[[berufstätig]]'''
+
+*Nominativ Plural alle Genera der starken Deklination des Positivs des Adjektivs '''[[berufstätig]]'''
+*Akkusativ Plural alle Genera der starken Deklination des Positivs des Adjektivs '''[[berufstätig]]'''
+
+*Nominativ Singular alle Genera der schwachen Deklination des Positivs des Adjektivs '''[[berufstätig]]'''
+*Akkusativ Singular Femininum der schwachen Deklination des Positivs des Adjektivs '''[[berufstätig]]'''
+*Akkusativ Singular Neutrum der schwachen Deklination des Positivs des Adjektivs '''[[berufstätig]]'''
+
+*Nominativ Singular Femininum der gemischten Deklination des Positivs des Adjektivs '''[[berufstätig]]'''
+*Akkusativ Singular Femininum der gemischten Deklination des Positivs des Adjektivs '''[[berufstätig]]'''
+
+{{Grundformverweis Dekl|berufstätig}}
