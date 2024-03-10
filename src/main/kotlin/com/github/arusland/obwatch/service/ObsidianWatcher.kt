@@ -28,6 +28,7 @@ class ObsidianWatcher(
     private var lastFileAttributes: BasicFileAttributes
     private val outputFilePath: Path
     private val regexSpace = Regex("[\\s#!,.]+", RegexOption.MULTILINE)
+    private val regexDigit = Regex("\\d+")
     private val lastResults = mutableListOf<FoundResult>()
 
     init {
@@ -54,7 +55,7 @@ class ObsidianWatcher(
         val attributes = lastFileAttributes
         log.debug("File was changed: {}, file size: {}", attributes.lastModifiedTime(), attributes.size())
         val text = path.readText()
-        val tokens = regexSpace.split(text).filter { it.isNotBlank() }.reversed()
+        val tokens = regexSpace.split(text).filter { token -> token.isNotBlank() && !regexDigit.matches(token) }.reversed()
         val lastWord = tokens.firstOrNull()?.trim()
 
         if (lastWord != null) {
@@ -72,7 +73,7 @@ class ObsidianWatcher(
             val dictResult = dictResultDef.await().let { if (it.def.isEmpty()) null else it }
             val wikiTextInfo = wikiTextInfoDef.await()
 
-            if (dictResult != null && dictResult.def.get(0).text == lastWord || wikiTextInfo != null && wikiTextInfo.isNotEmpty()) {
+            if (dictResult != null && dictResult.def[0].text == lastWord || wikiTextInfo != null && wikiTextInfo.isNotEmpty()) {
                 val result = FoundResult(lastWord, dictResult, wikiTextInfo)
                 lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
                 lastResults.add(0, result)
@@ -158,7 +159,7 @@ class ObsidianWatcher(
             }
 
             if (info.examples.isNotEmpty()) {
-                val meaningsText = if (info.meanings > 1) " (${info.meanings})" else ""
+                val meaningsText = if (info.meanings > 1) " (${info.meanings} meanings)" else ""
                 writer.write("**Examples**$meaningsText\n")
                 writer.write(info.examples.map { "* $it" }.joinToString("\n") { it })
                 writer.write("\n")
