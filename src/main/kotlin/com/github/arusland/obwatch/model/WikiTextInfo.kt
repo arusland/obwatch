@@ -5,7 +5,8 @@ open class WikiTextInfo(
     val type: String,
     val examples: List<String>,
     val meanings: Int,
-    val baseForm: String
+    val baseForm: String,
+    val next: WikiTextInfo?
 ) {
     open fun isEmpty(): Boolean = this.javaClass === WikiTextInfo::class.java && examples.isEmpty()
 
@@ -22,10 +23,11 @@ class VerbInfo(
     examples: List<String>,
     meanings: Int,
     baseForm: String,
+    next: WikiTextInfo?,
     val praeterium: String,
     val partizip2: String,
     val hilfsVerb: String
-) : WikiTextInfo(word, type, examples, meanings, baseForm) {
+) : WikiTextInfo(word, type, examples, meanings, baseForm, next) {
 
     override fun toString(): String {
         return "VerbInfo(word='$word', type='$type', examples='$examples', praeterium='$praeterium', partizip2='$partizip2', hilfsVerb='$hilfsVerb')"
@@ -38,9 +40,10 @@ class NounInfo(
     examples: List<String>,
     meanings: Int,
     baseForm: String,
+    next: WikiTextInfo?,
     val genus: Genus,
     val cases: List<CaseInfo>
-) : WikiTextInfo(word, type, examples, meanings, baseForm) {
+) : WikiTextInfo(word, type, examples, meanings, baseForm, next) {
 
     override fun toString(): String {
         return "NounInfo(word='$word', type='$type', examples='$examples', genus='$genus', cases=$cases)"
@@ -59,9 +62,10 @@ class AdjectiveInfo(
     examples: List<String>,
     meanings: Int,
     baseForm: String,
+    next: WikiTextInfo?,
     val komparativ: String,
     val superlativ: String,
-) : WikiTextInfo(word, type, examples, meanings, baseForm) {
+) : WikiTextInfo(word, type, examples, meanings, baseForm, next) {
 
     override fun toString(): String {
         return "AdjectiveInfo(word='$word', type='$type', examples='$examples', komparativ='$komparativ', superlativ='$superlativ')"

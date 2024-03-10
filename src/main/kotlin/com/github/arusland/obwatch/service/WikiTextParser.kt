@@ -28,12 +28,22 @@ class WikiTextParser {
      */
     fun parse(wikiText: String): WikiTextInfo? {
         val wikiText = cutOnlyGerman(wikiText)
-        val word = regexWord.find(wikiText)?.groupValues?.get(1)
-        val type = regexType.find(wikiText)?.groupValues?.get(1) ?: ""
+        val word = regexWord.find(wikiText)?.groupValues?.get(1) ?: return null
+        val parts = splitWikiText(wikiText).reversed()
+        var result: WikiTextInfo? = null
 
-        if (word == null) {
-            return null
+        parts.forEach { part ->
+            val current = parseInternal(word, part, result)
+            if (current != null) {
+                result = current
+            }
         }
+
+        return result
+    }
+
+    private fun parseInternal(word: String, wikiText: String, next: WikiTextInfo?): WikiTextInfo? {
+        val type = regexType.find(wikiText)?.groupValues?.get(1) ?: ""
 
         val (meanings, examples) = parseExamples(wikiText)
         val baseForm = getTemplateValue("Grundformverweis", wikiText)
@@ -42,24 +52,40 @@ class WikiTextParser {
             "Substantiv" -> {
                 val genus = Genus.fromValue(getTableValue("Genus", wikiText)) // |Genus=f
                 val cases = parseCases(wikiText, genus)
-                NounInfo(word, type, examples, meanings, baseForm, genus, cases)
+                NounInfo(word, type, examples, meanings, baseForm, next, genus, cases)
             }
 
             "Verb" -> {
                 val praeterium = getTableValue("Präteritum_ich", wikiText)
                 val partizip2 = getTableValue("Partizip II", wikiText)
                 val hilfsVerb = getTableValue("Hilfsverb", wikiText)
-                VerbInfo(word, type, examples, meanings, baseForm, praeterium, partizip2, hilfsVerb)
+                VerbInfo(word, type, examples, meanings, baseForm, next, praeterium, partizip2, hilfsVerb)
             }
 
             "Adjektiv" -> {
                 val komparativ = getTableValue("Komparativ", wikiText)
                 val superlativ = getTableValue("Superlativ", wikiText)
-                AdjectiveInfo(word, type, examples, meanings, baseForm, komparativ, superlativ)
+                AdjectiveInfo(word, type, examples, meanings, baseForm, next, komparativ, superlativ)
             }
 
-            else -> WikiTextInfo(word, type, examples, meanings, baseForm)
+            else -> WikiTextInfo(word, type, examples, meanings, baseForm, next)
         }
+    }
+
+    private fun splitWikiText(wikiText: String): List<String> {
+        val result = mutableListOf<String>()
+        var index = wikiText.indexOf("=== {{Wortart")
+        while (index >= 0) {
+            val nextIndex = wikiText.indexOf("=== {{Wortart", index + 1)
+            if (nextIndex > 0) {
+                result.add(wikiText.substring(index, nextIndex))
+            } else {
+                result.add(wikiText.substring(index))
+            }
+            index = nextIndex
+        }
+
+        return result
     }
 
     private fun parseExamples(wikiText: String): Pair<Int, List<String>> {
