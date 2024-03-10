@@ -107,6 +107,7 @@ class WikiTextParser {
 
     private fun formatText(text: String): String {
         return refRegex.replace(text, "").replace("''", "**")
+            .replace("[", "\\[").replace("]", "\\]")
     }
 
     private fun parseCases(wikiText: String, genus: Genus): List<CaseInfo> {

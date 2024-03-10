@@ -1,10 +1,9 @@
 package com.github.arusland.obwatch.service
 
 import com.github.arusland.obwatch.util.ResourceUtil
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test
-import kotlin.test.assertEquals
-import kotlin.test.assertNull
 
 
 class WikiTextParserTest {
@@ -27,5 +26,11 @@ class WikiTextParserTest {
         println(result5)
         assertNotNull(result5)
         assertEquals(0, result5?.examples?.size ?: 0)
+
+        val result6 = WikiTextParser().parse(ResourceUtil.readResource("/mein.wikitext"))
+        println(result6)
+        assertNotNull(result6)
+        assertEquals(3, result6?.examples?.size ?: 0)
+        assertEquals("Das ist dein Haus; **mein\\[e\\]s** (**gehoben:** das meine) steht hier.", result6?.examples?.get(1))
     }
 }

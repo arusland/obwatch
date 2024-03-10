@@ -1,0 +1,202 @@
+== mein ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Possessivpronomen|Deutsch}}, ''1. Person Singular'' ===
+
+{{Deutsch Possessivpronomen|mein}}
+
+{{Worttrennung}}
+:mein, mei·ne
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|maɪ̯n}}
+:{{Hörbeispiele}} {{Audio|De-mein.ogg}}, {{Audio|De-mein2.ogg}}
+:{{Reime}} {{Reim|aɪ̯n|Deutsch}}
+
+{{Bedeutungen}}
+:[1] zeigt den Besitz, das Eigentum oder die Zugehörigkeit einer Person bzw. Sache zu sich selbst an
+
+{{Herkunft}}
+:mittelhochdeutsch, althochdeutsch ''mīn''
+
+{{Synonyme}}
+:[1] ''umgangssprachlich:'' [[von]] [[mir]], ''veraltet:'' der/die/das [[meinig]]e
+
+{{Gegenwörter}}
+:[1] [[dein]], [[sein]], [[unser]], [[euer]], [[ihr]]
+
+{{Beispiele}}
+:[1] Er ist ''mein'' Taufpate.
+:[1] Das ist dein Haus; ''mein[e]s'' (''gehoben:'' das meine) steht hier.
+:[1] „Gen Himmel zu dem Vater ''mein'' fahr ich von diesem Leben“ (Lied ''Nun freut euch, lieben Christen g'mein'')
+
+{{Redewendungen}}
+:[1] [[Ach, du meine Güte!|Ach, du ''meine'' Güte!]]
+:[1] [[aus meiner Sicht|aus ''meiner'' Sicht]]
+:[1] [[Das ist mein letztes Wort.|Das ist ''mein'' letztes Wort.]]
+:[1] [[Das ist nicht ganz mein Fall.|Das ist nicht ganz ''mein'' Fall.]]
+:[1] [[Das ist nicht mein Ding.|Das ist nicht ''mein'' Ding.]]
+:[1] [[Das ist nicht mein Tag!|Das ist nicht ''mein'' Tag!]]
+:[1] [[in meinen Augen|in ''meinen'' Augen]]
+:[1] [[mein Herz gehört …|''mein'' Herz gehört …]]
+:[1] [[mein lieber Herr Gesangverein!|''mein'' lieber Herr Gesangverein!]]
+:[1] [[mein lieber Scholli!|''mein'' lieber Scholli!]]
+:[1] [[Mein Name ist Hase, ich weiß von nichts|''Mein'' Name ist Hase, ich weiß von nichts]]
+:[1] [[Mein Reden!|''Mein'' Reden!]]
+:[1] [[meiner Ansicht nach|''meiner'' Ansicht nach]]
+:[1] [[meiner Auffassung nach|''meiner'' Auffassung nach]]
+:[1] [[meiner Meinung nach|''meiner'' Meinung nach]]
+:[1] [[meines Erachtens|''meines'' Erachtens]]
+:[1] [[Oh mein Gott!|Oh ''mein'' Gott!]]
+
+{{Sprichwörter}}
+:[1] [[Wenn das Wörtchen 'wenn' nicht wär, wär mein Vater Millionär.|Wenn das Wörtchen 'wenn' nicht wär, wär ''mein'' Vater Millionär.]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] ''mit [[Kosewort]]:'' ''mein'' [[Spatz]], ''mein'' [[Spätzchen]], ''meine'' [[Süße]], ''mein'' [[Süßer]]
+
+{{Wortbildungen}}
+:[[meinerseits]], [[meinesgleichen]], [[meinethalben]], [[meinetwegen]], [[meinetwillen]], [[meinig]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{sq}}: [1] {{Ü|sq|im}}
+*{{grc}}: [1] {{Üt|grc|ἐμός|emos}}
+*{{ar|DMG}}:
+**{{MHA}}: [1] ''auf die besessene Sache gefügtes Possessivsuffix:'' {{Üxx4|ar|ي|v=ـي|d=-ī|DMG=0}}
+*{{ber}}:
+**{{kab}}: [1] ''je nach Kontext auf die besessene Sache gefügte Possessivsuffixe:'' {{Üt|kab|ⵉ|-i}}<ref name="Amédée-Jaubert">{{Literatur| Autor=[[w:Pierre Amédée Jaubert|Pierre Amédée-Jaubert]] | Titel=Dictionnaire français-berbère (dialecte écrit et parlé par les Kabaïles de la division d’Alger) | Verlag=Imprimerie Nationale | Ort=Paris | Jahr=1844, Stichwort »Mon, pron. poss.« | Seiten=354 | Online=Zitiert nach {{GBS|tRoJAAAAQAAJ|PA354|Hervorhebung=Mon}} }}.</ref>, {{Üt|kab|ⵓ|-w}}<ref name="Amédée-Jaubert"/><ref name="Dallet">{{Literatur| Autor=Jean-Marie Dallet, in Zusammenarbeit mit Madeleine Allain, Jacques Lanfry und Pieter Reesink | Titel=Dictionnaire kabyle-français | TitelErg=Parler des Aït Mangellat (Algérie) | Verlag=SELAF (Société d’Études Linguistiques et Anthropologiques de France) | Ort=Paris | Jahr=1982 | ISBN=978-2-85297-143-1, Stichwort »W, -iw / -w« | Seiten=848 sowie Stichpunkt »Tableau des pronoms personnels, isolés et affixés«, Seite 1026 | Online=Zitiert nach {{GBS|nZdP85wiDmcC|PA848|Hervorhebung=mon+ma+mes}} }}.</ref>, {{Üt|kab|ⵓⵉ|-iw}}<ref name="Amédée-Jaubert"/><ref name="Dallet"/>; ''nicht-enklitisches Possessivpronomen:'' {{Üt|kab|ⵓⵏⵉ|inū}}<ref name="Amédée-Jaubert"/><ref name="Dallet"/>
+**{{tmh}}: [1] ''auf die besessene Sache gefügtes Possessivsuffix:'' {{Üt|tmh|ⵉ|-ay}}<ref name="de Foucauld">{{Literatur| Autor=[[w:Charles de Foucauld|Charles de Foucauld]] | Titel=Dictionnaire touareg-français | TitelErg=Dialecte de l’Ahaggar | Band=Tome deuxième | Verlag=Imprimerie Nationale | Ort=Paris | Jahr=1952 }}, Stichwort »ⵉ«, Seite 685–686.</ref><ref>{{Lit-Ritter: Wörterbuch zur Sprache und Kultur der Twareg|B=1}}, Stichwort »'''ay'''«, Seite 138.</ref> / {{Üt|tmh|ⵉ|-ey}}<ref name="de Foucauld"/><ref>Ebenda, Stichwort »'''ey'''«, Seite 360.</ref>, ''in Verwandschaftstermini:'' {{Üt|tmh|ⵉ|-e}}<ref name="de Foucauld"/><ref>Ebenda, Stichwort »'''e'''«, Seite 319.</ref>, {{Üt|tmh|ⵂⵉⵏ|-hin}}<ref name="de Foucauld"/><ref>Ebenda, Stichwort »'''hin'''«, Seite 508.</ref> / {{Üt|tmh|ⵉⵏ|-in}}<ref name="de Foucauld"/><ref>Ebenda, Stichwort »'''in'''«, Seite 541.</ref>; ''nicht-enklitisches Possessivpronomen:'' {{Üt|tmh|ⵉⵏⵓ|ennu}}<ref name="de Foucauld"/><ref>Ebenda, Stichwort »'''ennu'''«, Seite 426.</ref>, {{Üt|tmh|ⵉⵏⵓ|i-nnew}}<ref name="de Foucauld"/><ref>Ebenda, Stichwort »'''i-nnew'''«, Seite 542.</ref>
+*{{bg}}: [1] {{Üt|bg|мой|moj}}
+*{{zh}}:
+**[[Hochchinesisch|Mandarin]] <small>([[w:Pinyin|Pinyin]])</small>: [1] {{Üt|zh|我的|wǒde}}
+*{{da}}: [1] {{Ü|da|min}}
+*{{en}}: [1] {{Ü|en|my}}
+*{{eo}}: [1] {{Ü|eo|mia}}
+*{{fo}}: [1] {{Ü|fo|mín}}
+*{{fi}}: [1] ''auf die besessene Sache gefügtes Possessivsuffix:'' {{Ü|fi|-ni}}
+*{{fr}}: [1] {{Ü|fr|mon}}
+*{{ka}}: [1] {{Üt|ka|ჩემი|}}
+*{{el|iU}}: [1] {{Üt|el|μου|mou}}
+*{{he|CHA}}: [1] {{Üxx4|he|שלי|v=שֶׁלִּי|d=šælī|CHA=0}}; ''auf die besessene Sache gefügtes Possessivsuffix:'' {{Üxx4|he|י|d=ī|CHA=0}}
+*{{ia}}: [1] {{Ü|ia|mi}}
+*{{is}}: [1] {{Ü|is|minn}}
+*{{it}}: [1] {{Ü|it|mio}}
+*{{ja}}: [1] {{Üt|ja|私の|わたしの, watashi no}};　{{Üt|ja|我が|わが, waga}}
+*{{ca}}: [1] {{Ü|ca|mon}}
+*{{ko}}: [1] {{Üt|ko|나의|na-ui}}, {{Üt|ko|내|nae}}, höflich: {{Üt|ko|체|}}
+*{{hr}}: [1] {{Ü|hr|moj}}
+*{{ku}}:
+**{{kmr}}: [1] {{Ü|kmr|min}}
+*{{la}}: [1] {{Ü|la|meus}}
+*{{lv}}: [1] {{Ü|lv|mans}} {{m}}, {{Ü|lv|mana}} {{f}}
+*{{lt}}: [1] {{Ü|lt|mano}}
+*{{lb}}: [1] {{Ü|lb|mäin}}
+*{{mk}}: [1] {{Üt|mk|мое}}
+*{{lus}}: [1] {{Ü|lus|ka}}, {{Ü|lus|keima}}
+*{{nl}}: [1] {{Ü|nl|mijn}}
+*{{ps}}: [1] {{Üt|ps|زما|}}
+*{{pl}}: [1] {{Ü|pl|mój}}
+*{{pt}}: [1] {{Ü|pt|meu}}
+*{{ro}}: [1] {{Ü|ro|meu}}
+*{{ru}}: [1] {{Üt|ru|мой}}
+*{{sv}}: [1] {{Ü|sv|min}}
+*{{sr}}: [1] {{Üt|sr|мој}}
+*{{sk}}: [1] {{Ü|sk|môj}}
+*{{sl}}: [1] {{Ü|sl|moj}}
+*{{wen}}:
+**{{dsb}}: [1] {{Ü|dsb|mój}}
+**{{hsb}}: [1] {{Ü|hsb|mój}}
+*{{es}}: [1] {{Ü|es|mi}}
+*{{cs}}: [1] {{Ü|cs|můj}}
+*{{tr}}: [1] {{Ü|tr|benim}}, {{Ü|tr|benimki}}
+*{{uk}}: [1] {{Üt|uk|мій}}
+*{{hu}}: [1] {{Ü|hu|-m}}, {{Ü|hu|-om}}, {{Ü|hu|-am}}, {{Ü|hu|-em}}, {{Ü|hu|-öm}}
+|Dialekttabelle=
+{{überarbeiten|Die Angaben sollten belegt werden. — [[Benutzer:Caligari|Caligari]] [[Benutzer_Diskussion:Caligari|<span style="font-family: 'Arial Unicode MS', sans-serif;"><span class="ipa" style="padding: 0 1px; text-decoration: none;"><sup>Ɔ</sup>ɐ<sup>ƀïи</sup>Ϡ<sub>Ⴕ</sub></span></span>]] 17:32, 5. Jul. 2015 (MESZ)|Deutsch}}
+*Bairisch: [1] mei
+*Ostschwäbisch: [1] moi
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Grimm|mein}}
+:[1] {{Ref-DWDS|mein}}
+:[*] {{Ref-UniLeipzig|mein}}
+:[1] {{Ref-Duden|mein_Possessivpronomen|mein}}
+:[1] {{Ref-wissen.de|Wörterbuch}}
+
+{{Quellen}}
+
+=== {{Wortart|Konjugierte Form|Deutsch}} ===
+
+{{Nebenformen}}
+:''2. Person Singular Imperativ Präsens Aktiv:'' [[meine]]
+:''1. Person Singular Indikativ Präsens Aktiv:'' [[meine]]
+
+{{Worttrennung}}
+:mein
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|maɪ̯n}}
+:{{Hörbeispiele}} {{Audio|De-mein.ogg}}, {{Audio|De-mein2.ogg}}
+:{{Reime}} {{Reim|aɪ̯n|Deutsch}}
+
+{{Grammatische Merkmale}}
+*2. Person Singular Imperativ Präsens Aktiv des Verbs '''[[meinen]]'''
+*1. Person Singular Indikativ Präsens Aktiv des Verbs '''[[meinen]]'''
+
+{{Grundformverweis Konj|meinen}}
+
+{{Ähnlichkeiten 1|Anagramme=[[mine]], [[Mine]]}}
+
+== mein ({{Sprache|Isländisch}}) ==
+=== {{Wortart|Substantiv|Isländisch}}, {{n}} ===
+
+{{Isländisch Substantiv Übersicht
+|Nominativ Singular=mein
+|Nominativ Plural=mein
+|Akkusativ Singular=mein
+|Akkusativ Plural=mein
+|Dativ Singular=meini
+|Dativ Plural=meinum
+|Genitiv Singular=meins
+|Genitiv Plural=meina
+|Nominativ Singular Bestimmt=meinið
+|Nominativ Plural Bestimmt=meinin
+|Akkusativ Singular Bestimmt=meinið
+|Akkusativ Plural Bestimmt=meinin
+|Dativ Singular Bestimmt=meininu
+|Dativ Plural Bestimmt=meinunum
+|Genitiv Singular Bestimmt=meinsins
+|Genitiv Plural Bestimmt=meinanna
+}}
+
+{{Worttrennung}}
+:
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift||spr=is}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|eiːn|Isländisch}}
+
+{{Bedeutungen}}
+:[1] Krankheit
+
+{{Synonyme}}
+:[1] [[sjúkdómur]], [[sýki]]
+
+{{Gegenwörter}}
+:[1] [[heilsa]]
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=is}}
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{de}}: [1] {{Ü|de|Krankheit}}
+*{{en}}: [1] {{Ü|en|disease}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|spr=is|mein}}
+:[1] {{Ref-IcelandicOnlineDictionary|mein}}
+
+{{Ähnlichkeiten 1|[[Meineid]]|Homophone=[[Main]]}}
