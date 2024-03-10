@@ -27,7 +27,9 @@ class ObsidianWatcher(
     private val regexSpace = Regex("[\\s#!,.]+", RegexOption.MULTILINE)
     private val regexDigit = Regex("\\d+")
     private val lastResults = mutableListOf<FoundResult>()
-    private val lastTokens = mutableSetOf<String>()
+
+    // contains last tokens and their count
+    private val prevTokens = mutableMapOf<String, Int>()
 
     init {
         require(path.exists()) { "Target path does not exist: $path" }
@@ -54,9 +56,12 @@ class ObsidianWatcher(
         log.debug("File was changed: {}, file size: {}", attributes.lastModifiedTime(), attributes.size())
         val text = path.readText()
         val tokens = regexSpace.split(text).filter { token -> token.isNotBlank() && !regexDigit.matches(token) }
-        val newToken = tokens.firstOrNull { !lastTokens.contains(it) }
-        lastTokens.clear()
-        lastTokens.addAll(tokens)
+            .groupBy { it }.map { it.key to it.value.size }.toMap()
+        val newToken = tokens.filter { (newToken, newCount) ->
+            prevTokens[newToken]?.let { oldCount -> oldCount < newCount } ?: true
+        }.keys.firstOrNull()
+        prevTokens.clear()
+        prevTokens.putAll(tokens)
         if (newToken != null) {
             searchNewWord(newToken)
         } else {
