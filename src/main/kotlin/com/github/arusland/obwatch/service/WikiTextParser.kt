@@ -67,6 +67,7 @@ class WikiTextParser {
         var collecting = false
         val getResult: () -> Pair<Int, List<String>> = {
             if (examples.size == 1) {
+                // if only one meaning then add extra examples
                 1 to examples.values + extraExamples.take(5)
             } else {
                 examples.size to examples.values.toList()
@@ -81,10 +82,13 @@ class WikiTextParser {
                 regexIndex.find(line)?.let { match ->
                     val index = match.groupValues[1]
                     val text = match.groupValues[2]
-                    if (!examples.containsKey(index)) {
-                        examples[index] = formatText(text)
-                    } else {
-                        extraExamples.add(formatText(text))
+                    if (!text.startsWith("{")) {
+                        // ignore examples with templates, e.g. {{Beispiele fehlen|spr=de}}
+                        if (!examples.containsKey(index)) {
+                            examples[index] = formatText(text)
+                        } else {
+                            extraExamples.add(formatText(text))
+                        }
                     }
                 }
             } else if (line.startsWith("{{Beispiele}}")) {
