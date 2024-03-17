@@ -192,46 +192,58 @@ class ObsidianWatcher(
     ) {
         var info = wikiTextInfo
         while (info != null) {
-            writer.write("\n")
-            when (info) {
-                is NounInfo -> if (info.hasCases()) {
-                    writer.write("| |Singular|Plural|\n")
-                    writer.write("|--|--|--|\n")
-                    info.cases.forEach() { caseInfo ->
-                        writer.write("|**${caseInfo.type.value}**|${caseInfo.singularFull}|${caseInfo.pluralFull}|\n")
-                    }
-                    writer.write("\n")
-                }
-
-                is VerbInfo -> {
-                    writer.write("| |Person|Wortform|\n")
-                    writer.write("|--|--|--|\n")
-                    writer.write("|**Präterium**|ich|${info.praeterium}|\n")
-                    writer.write("|**Perfekt**|${info.hilfsVerb}|${info.partizip2}|\n")
-                    // link to flexion
-                    writer.write("\n")
-                }
-
-                is AdjectiveInfo -> {
-                    writer.write("|Positiv|Komparativ|Superlativ|\n")
-                    writer.write("|--|--|--|\n")
-                    writer.write("|**${info.word}**|${info.komparativ}|${info.superlativ}|\n")
-                    writer.write("\n")
-                }
-            }
-
-            if (info.examples.isNotEmpty()) {
-                val meaningsText = if (info.meanings > 1) " (${info.meanings} meanings)" else ""
-                writer.write("**Examples**$meaningsText\n")
-                writer.write(info.examples.map { "* $it" }.joinToString("\n") { it })
+            if (info.isNotEmpty()) {
                 writer.write("\n")
-            }
+                if (info.hasTable()) {
+                    when (info) {
+                        is NounInfo -> {
+                            writer.write("| |Singular|Plural|\n")
+                            writer.write("|--|--|--|\n")
+                            info.cases.forEach() { caseInfo ->
+                                writer.write("|**${caseInfo.type.value}**|${caseInfo.singularFull}|${caseInfo.pluralFull}|\n")
+                            }
+                            writer.write("\n")
+                        }
 
-            if (info is VerbInfo) {
-                writer.write("\nAll forms: [Flexion](https://de.wiktionary.org/wiki/Flexion:${info.word})\n")
+                        is VerbInfo -> {
+                            writer.write("| |Person|Wortform|\n")
+                            writer.write("|--|--|--|\n")
+                            writer.write("|**Präterium**|ich|${info.praeterium}|\n")
+                            writer.write("|**Perfekt**|${info.hilfsVerb}|${info.partizip2}|\n")
+                            // link to flexion
+                            writer.write("\n")
+                        }
+
+                        is AdjectiveInfo -> {
+                            writer.write("|Positiv|Komparativ|Superlativ|\n")
+                            writer.write("|--|--|--|\n")
+                            writer.write("|**${info.word}**|${info.komparativ}|${info.superlativ}|\n")
+                            writer.write("\n")
+                        }
+                    }
+                }
+
+                // draw examples
+                if (info.examples.isNotEmpty()) {
+                    val exampleSubTitle = getExampleSubTitle(info)
+                    writer.write("**Examples**$exampleSubTitle\n")
+                    writer.write(info.examples.map { "* $it" }.joinToString("\n") { it })
+                    writer.write("\n")
+                }
+
+                if (info is VerbInfo) {
+                    writer.write("\nAll verb forms: [Flexion](https://de.wiktionary.org/wiki/Flexion:${info.word})\n")
+                }
             }
             info = info.next
         }
+    }
+
+    private fun getExampleSubTitle(info: WikiTextInfo): String {
+        val meaning = if (info.meanings > 1) "${info.meanings} meanings" else ""
+        return listOf(info.type, meaning)
+            .filter { it.isNotEmpty() }
+            .joinToString(", ", prefix = " (_", postfix = "_)")
     }
 
     private fun translationAsString(translation: Translation): String {

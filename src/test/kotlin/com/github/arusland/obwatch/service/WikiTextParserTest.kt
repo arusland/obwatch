@@ -63,4 +63,31 @@ class WikiTextParserTest {
             result9?.examples?.get(0)
         )
     }
+
+    @Test
+    fun testParserEin() {
+        val info = WikiTextParser().parse(ResourceUtil.readResource("/ein.wikitext"))!!
+        println(info)
+        assertEquals("Artikel", info.type)
+        val info2 = info.next!!
+        println(info2)
+        assertEquals("Numerale", info2.type)
+        val info3 = info2.next!!
+        println(info3)
+        assertEquals("Indefinitpronomen", info3.type)
+        val info4 = info3.next!!
+        println(info4)
+        assertEquals("Adverb", info4.type)
+        assertEquals(
+            "Tretet **ein,** meine Dame. (eintreten)",
+            info4?.examples?.get(0)
+        )
+        val info5 = info4.next!!
+        println(info5)
+        assertEquals("Adjektiv", info5.type)
+        assertEquals(
+            "Ist der Schalter **ein** oder aus? (Ist der Schalter ein- oder ausgeschaltet?)",
+            info5?.examples?.get(0)
+        )
+    }
 }

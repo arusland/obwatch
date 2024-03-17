@@ -12,6 +12,8 @@ open class WikiTextInfo(
 
     open fun isNotEmpty(): Boolean = !isEmpty()
 
+    open fun hasTable(): Boolean = false
+
     override fun toString(): String {
         return "WikiTextInfo(word='$word', type='$type', examples='$examples')"
     }
@@ -28,6 +30,8 @@ class VerbInfo(
     val partizip2: String,
     val hilfsVerb: String
 ) : WikiTextInfo(word, type, examples, meanings, baseForm, next) {
+
+    override fun hasTable(): Boolean = true
 
     override fun toString(): String {
         return "VerbInfo(word='$word', type='$type', examples='$examples', praeterium='$praeterium', partizip2='$partizip2', hilfsVerb='$hilfsVerb')"
@@ -49,10 +53,10 @@ class NounInfo(
         return "NounInfo(word='$word', type='$type', examples='$examples', genus='$genus', cases=$cases)"
     }
 
-    fun hasCases() = genus != Genus.NONE
+    override fun hasTable() = genus != Genus.NONE
 
     override fun isEmpty(): Boolean {
-        return !hasCases() && examples.isEmpty()
+        return !hasTable() && examples.isEmpty()
     }
 }
 
@@ -66,6 +70,8 @@ class AdjectiveInfo(
     val komparativ: String,
     val superlativ: String,
 ) : WikiTextInfo(word, type, examples, meanings, baseForm, next) {
+
+    override fun hasTable(): Boolean = komparativ.isNotEmpty() || superlativ.isNotEmpty()
 
     override fun toString(): String {
         return "AdjectiveInfo(word='$word', type='$type', examples='$examples', komparativ='$komparativ', superlativ='$superlativ')"

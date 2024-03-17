@@ -20,8 +20,14 @@ class WikiTextParser {
     // remove <ref>...</ref>
     private val refRegex = """<ref[^>]*>.*?</ref>""".toRegex()
 
+    // remove <sup>1</sup>
+    private val supRegex = """<sup>[^<]+?</sup>""".toRegex()
+
     // replace wikilink by it's value [[w:René Descartes|Descartes]]
-    private val wikiLinkRegex = """\[\[w:([^\|]+)\|([^\]]+)\]\]""".toRegex()
+    private val wikiLinkRegex = """\[\[([^\|]+)\|([^\]]+)\]\]""".toRegex()
+
+    // replace small by it's value <small>...</small>
+    private val smallRegex = """<small>([^<]+)</small>""".toRegex()
 
     /**
      *  Parses wiki text and creates on of the [WikiTextInfo] object: [NounInfo], [VerbInfo] or null.
@@ -152,11 +158,13 @@ class WikiTextParser {
     }
 
     private fun formatText(text: String): String {
-        val newText = wikiLinkRegex.replace(text, "$2")
-        return refRegex.replace(newText, "")
+        return text.replaceSmall()
+            .replaceWikiLink()
             .replace("''", "**")
             .replace("[", "\\[")
             .replace("]", "\\]")
+            .removeSup()
+            .removeRef()
     }
 
     private fun parseCases(wikiText: String, genus: Genus): List<CaseInfo> {
@@ -191,4 +199,24 @@ class WikiTextParser {
         val regex = """\|$prefix( \d+)*=\s*([^\n]+)""".toRegex()
         return regex.find(wikiText)?.groupValues?.get(2) ?: defVal
     }
+
+    private fun String.removeSup(): String = if (this.contains("sup"))
+        supRegex.replace(this, "")
+    else
+        this
+
+    private fun String.removeRef(): String = if (this.contains("ref"))
+        refRegex.replace(this, "")
+    else
+        this
+
+    private fun String.replaceSmall(): String = if (this.contains("small"))
+        smallRegex.replace(this, "$1")
+    else
+        this
+
+    private fun String.replaceWikiLink(): String  = if (this.contains("[["))
+        wikiLinkRegex.replace(this, "$2")
+    else
+        this
 }

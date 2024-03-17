@@ -1,0 +1,546 @@
+{{Siehe auch|[[Ein]], [[EIN]], [[ein-]]}}
+
+== ein ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Artikel|Deutsch}} ===
+
+{{Pronomina-Tabelle
+|Nominativ Singular m=ein
+|Nominativ Singular f=eine
+|Nominativ Singular n=ein
+|Nominativ Plural=—
+|Genitiv Singular m=eines
+|Genitiv Singular f=einer
+|Genitiv Singular n=eines
+|Genitiv Plural=—
+|Dativ Singular m=einem
+|Dativ Singular f=einer
+|Dativ Singular n=einem
+|Dativ Plural=—
+|Akkusativ Singular m=einen
+|Akkusativ Singular f=eine
+|Akkusativ Singular n=ein
+|Akkusativ Plural=—
+}}
+
+{{Worttrennung}}
+:ein
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aɪ̯n}}
+:{{Hörbeispiele}} {{Audio|De-ein.ogg}}, {{Audio|De-ein2.ogg}}
+:{{Reime}} {{Reim|aɪ̯n|Deutsch}}
+
+{{Grammatische Merkmale}}
+:[1] [[unbestimmt]]er [[Artikel]] des [[Maskulinum]]s im [[Nominativ]]
+:[2] unbestimmter Artikel des [[Neutrum]]s im Nominativ
+:[3] unbestimmter Artikel des Neutrums im [[Akkusativ]]
+
+{{Kurzformen}}
+:[[’n]]
+:[['nen]] (In der Umgangssprache entfällt die Unterscheidung von Maskulinum und Neutrum beim Indefinitartikel, weswegen ''’nen'' (einen) auch anstelle von ''’n'' (ein) auftreten kann.<ref>[[w:Anatol Stefanowitsch|Anatol Stefanowitsch]]: ''Kein Bock auf nen interessantes grammatisches Phänomen?'' 2010 auf [http://www.scilogs.de/sprachlog/kein-bock-auf-nen-interessantes-grammatisches-ph-nomen/ scilogs.de]</ref>)
+
+{{Beispiele}}
+:[1] ''Ein'' Junge singt auf der Straße.
+:[2] Am Ufer steht ''ein'' Haus.
+:[3] Die Wahl fällt auf ''ein'' kleines Mädchen.
+
+{{Charakteristische Wortkombinationen}}
+:[[ein paar|''ein'' paar]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{af}}: [1, 2] {{Ü|af|een}}, {{Ü|af|'n}}
+*{{zh}}:
+**{{zh-tw}}: [1–3] {{Üt|zh|一個|yīgè}}
+**{{zh-cn}}: [1–3] {{Üt|zh|一个|yīgè}}
+*{{da}}: [1] {{Ü|da|en}}; [2] {{Ü|da|et}} {{n}}
+*{{en}}: [1, 2] {{Ü|en|a}}, {{Ü|en|an}} ''(vor Vokalen)''
+*{{fr}}: [1] {{Ü|fr|un}}
+*{{el}}: [1] {{Üt|el|ένας|énas}} {{m}}; [2, 3] {{Üt|el|ένα|éna}} {{n}}
+*{{ia}}: [1] {{Ü|ia|un}}
+*{{it}}: [1] {{Ü|it|un}}
+*{{ku}}:
+**{{kmr}}: [1–3] {{Ü|kmr|-ek}}, {{Ü|kmr|yek}}
+*{{nds}}:
+**Mecklenburgisch-Vorpommersch: [1] {{Ü|nds|een}} (Obliquus: [[eenen]], {{f}}: [[eene]], {{n}}: [[een]])
+**ehem. Vest Recklinghausen: [1] {{Ü|nds|een}}, {{Ü|nds|'n}} ({{Ü|nds|eenen}}, {{Ü|nds|'nen}} {{m}}; {{Ü|nds|eene}}, {{Ü|nds|'ne}} {{f}}; {{Ü|nds|een}}, {{Ü|nds|'n}} {{n}})
+*{{nl}}: [1, 2] {{Ü|nl|een}}
+*{{frr}}:
+** Föhr: [1] {{Ü|frr|en}}, {{Ü|frr|'n}}
+*{{pdt}}: [1] {{Ü|pdt|een}}
+*{{pt}}: [1–3] {{Ü|pt|um}}
+*{{ro}}: [1] {{Ü|ro|un}}
+*{{sv}}: [1–3] {{Ü|sv|en}} ''(Utrum)'', {{Ü|sv|ett}} ''(Neutrum)''
+*{{es}}: [1] {{Ü|es|un}}
+|Dialekttabelle=
+*[[Alemannisch]]: [1, 2] [[a]]
+*{{bar}}: [1, 2] {{Ü|bar|a}}
+*Berlinerisch: [1, 2] [[een]], [['n]]
+*Düsseldorferisch: [1, 2] [[een]]
+*Fränkisch: [1, 2] [[a]]
+*Ostschweiz: [1] an {{m}}; [1, 2] as {{n}}
+*Ripuarisch: [1] ne {{m}}; [1, 2] en {{n}}
+*Südhessisch: [1, 2] e
+*Thüringisch-Obersächsisch: [1, 2] ä, e {{n}}
+}}
+
+{{Referenzen}}
+:[1–3] {{Wikipedia|Artikel (Wortart)}}
+:[1–3] {{Ref-DWDS|ein}}
+:[1–3] {{Ref-UniLeipzig|ein}}
+
+=== {{Wortart|Numerale|Deutsch}} ===
+
+{{Pronomina-Tabelle
+|Nominativ Singular m=ein
+|Nominativ Singular f=eine
+|Nominativ Singular n=ein
+|Nominativ Plural=—
+|Genitiv Singular m=eines
+|Genitiv Singular f=einer
+|Genitiv Singular n=eines
+|Genitiv Plural=—
+|Dativ Singular m=einem
+|Dativ Singular f=einer
+|Dativ Singular n=einem
+|Dativ Plural=—
+|Akkusativ Singular m=einen
+|Akkusativ Singular f=eine
+|Akkusativ Singular n=ein
+|Akkusativ Plural=—
+}}
+
+{{Worttrennung}}
+:ein
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aɪ̯n}}
+:{{Hörbeispiele}} {{Audio|De-ein.ogg}}, {{Audio|De-ein2.ogg}}
+:{{Reime}} {{Reim|aɪ̯n|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[angeben|gibt]] den Zahlenwert 1 [[angeben|an]]
+:[2] aus [[mehrer]]en ein [[auswählen|Ausgewähltes]]
+
+{{Abkürzungen}}
+:[1] [[’n]], [[’ne]], [[’nen]], [[’nes]], [[’ner]]
+
+{{Symbole}}
+:[1] [[1]]; [[I]]
+
+{{Gegenwörter}}
+:[1] [[kein]], [[null]]
+:[2] [[ander]]
+
+{{Beispiele}}
+:[1] Das macht ''einen'' Euro.
+:[1] Jeder bekommt ''ein'' Stück.
+:[2] Das ''eine'' Bein ist gebrochen, das andere heil.
+:[2] Die ''eine'' Hälfte der Pizza ist verbrannt.
+
+{{Redewendungen}}
+:[1] [[ein Herz und eine Seele|''ein'' Herz und eine Seele]]
+:[2] auf der ''einen'' [[Seite]] … auf der anderen Seite
+
+{{Charakteristische Wortkombinationen}}
+:[1] ''ein~'' [[einzig]]~, [[nur]] ''ein''
+
+{{Wortbildungen}}
+:[1] [[Ein]], [[Einer]], [[Einglas]], [[Einhaus]], [[Einheit]], [[Ein und Alles]]
+:[1] [[eindeutig]], [[einig]], [[einmal]], [[einsam]], [[einfach]]
+:[1] [[einen#Verb|einen]]
+:[2] [[einerseits]], [[einander]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{bg}}: [1] {{Üt|bg|един|edin}}
+*{{en}}: [1] {{Ü|en|one}}
+*{{fi}}: [1] {{Ü|fi|yksi}}
+*{{fr}}: [1] {{Ü|fr|un}}
+*{{el}}: [1, 2] {{Üt|el|ένας|énas}} {{m}}, {{Üt|el|μία|mía}} {{f}}, {{Üt|el|ένα|éna}} {{n}}
+*{{io}}: [1] {{Ü|io|un}}; [2] {{Ü|io|una}}
+*{{la}}: [1] {{Ü|la|unus}}
+*{{pt}}: [1, 2] {{Ü|pt|um}} {{m}}, {{Ü|pt|uma}} {{f}}
+*{{ro}}: [1] {{Ü|ro|un}} {{m}} {{n}}, {{Ü|ro|o}} {{f}}
+*{{ru}}: [1, 2] {{Üt|ru|один}}
+*{{sv}}: [1] ''Neutrum:'' {{Ü|sv|en}}, ''Utrum:'' {{Ü|sv|ett}}; [2] {{Ü|sv|ena}}
+*{{tr}}: [1] {{Ü|tr|bir}}
+*{{uk}}: [1] {{Üt|uk|один|}}
+*{{vo}}: [1] {{Ü|vo|bal}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|ein}}
+:[1, 2] {{Ref-FreeDictionary|ein}}
+:[*] {{Ref-UniLeipzig|ein}}
+
+=== {{Wortart|Indefinitpronomen|Deutsch}} ===
+{{Pronomina-Tabelle
+|Nominativ Singular m=einer
+|Nominativ Singular f=eine
+|Nominativ Singular n=eines
+|Nominativ Singular n*=eins
+|Nominativ Plural=—
+|Genitiv Singular m=eines
+|Genitiv Singular f=einer
+|Genitiv Singular n=eines
+|Genitiv Plural=—
+|Dativ Singular m=einem
+|Dativ Singular f=einer
+|Dativ Singular n=einem
+|Dativ Plural=—
+|Akkusativ Singular m=einen
+|Akkusativ Singular f=eine
+|Akkusativ Singular n=eines
+|Akkusativ Singular n*=eins
+|Akkusativ Plural=—
+}}
+{{Pronomina-Tabelle
+|Wer oder was? (Einzahl m)=der eine
+|Wer oder was? (Einzahl f)=die eine
+|Wer oder was? (Einzahl n)=das eine
+|Wer oder was? (Mehrzahl)=die einen
+|Wessen? (Einzahl m)=des einen
+|Wessen? (Einzahl f)=der einen
+|Wessen? (Einzahl n)=des einen
+|Wessen? (Mehrzahl)=der einen
+|Wem? (Einzahl m)=dem einen
+|Wem? (Einzahl f)=der einen
+|Wem? (Einzahl n)=dem einen
+|Wem? (Mehrzahl)=den einen
+|Wen? (Einzahl m)=den einen
+|Wen? (Einzahl f)=die eine
+|Wen? (Einzahl n)=das eine
+|Wen? (Mehrzahl)=die einen
+}}
+{{Anmerkung}}
+*Das vorliegend behandelte Indefinitpronomen kommt nur mit Endungen vor, also nie in der hier – aber auch anderweit üblicherweise<ref>Siehe beispielsweise den [https://www.duden.de/rechtschreibung/ein_Pronomen Eintrag im Duden].</ref> – angegebenen endungslosen Lemmaform „ein“.
+*Substantivischer Gebrauch kann durch Großschreibung betont werden: [[Einer]], der [[Eine]]
+
+{{Worttrennung}}
+:ei·ne, ei·ner, ei·nes
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aɪ̯n}}
+:{{Hörbeispiele}} {{Audio|De-ein.ogg}}, {{Audio|De-ein2.ogg}}
+:{{Reime}} {{Reim|aɪ̯n|Deutsch}}
+
+{{Bedeutungen}}
+:[1] (noch) nicht oder nur [[zuvor]] [[näher]] [[definieren|definierte]] [[Person]] oder [[Sache]]
+:[2a] ein [[beliebig|Beliebiger]]
+:[2b] [[jeder]] Beliebige
+:[3] aus mehreren ein Ausgewähltes
+
+{{Sinnverwandte Wörter}}
+:[1] [[jemand]], [[wer]], [[etwas]]
+:[2] [[man]]
+
+{{Gegenwörter}}
+:[1] [[kein]], [[niemand]], [[nichts]]
+:[2] [[kein]], [[niemand]]
+:[3] [[ander]]
+
+{{Beispiele}}
+:[1] Könnte mir ''einer'' Hilfe leisten?
+:[1] Darf ich auch so ''ein[e]s'' haben?
+:[1] Was für ''ein(e)s'' hätten Sie denn gern?
+:[1, 2] „Sprich: Gott ist ''Einer'', // Ein ewig Reiner, // Hat nicht gezeugt und ihn gezeugt hat keiner, // Und nicht ihm gleich ist ''einer''.“<ref>Deutschlandfunk: Koran erklärt [http://www.deutschlandfunk.de/sure-112-verse-1-4-eine-deutliche-abgrenzung-des.2395.de.html?dram:article_id=322738 Sure 112 Verse 1–4, Eine deutliche Abgrenzung des Christentums. Erläutert von Prof. em. Dr. Stefan Wild, 10.07.2015.] Abgerufen am 22.Januar 2016</ref>
+:[2a] Wenn es ''einem'' nicht gut geht, sollte man sich im Verzicht üben.
+:[2b] Davon wird ''einem'' ja schlecht!
+:[3] Die ''eine'' geht, die andere bleibt.
+:[3] In dieser Gemeinschaft hilft ''einer'' dem anderen.
+
+{{Redewendungen}}
+:[1] [[da brat mir einer einen Storch|da brat mir ''einer'' einen Storch]]!
+:[3] [[eines nach dem anderen|''eines'' nach dem anderen]]/[[eins nach dem anderen]]
+:[3] [[zum einen … zum anderen|zum ''einen'' … zum anderen]]
+:[[jemandem eine knallen|jemandem ''eine'' knallen]]
+:[[jemandem eine schmieren|jemandem ''eine'' schmieren]]
+:[[jemandem eine überbraten|jemandem ''eine'' überbraten]]/[[jemandem eins überbraten|jemandem ''eins'' überbraten]]
+:[[jemandem eins auswischen|jemandem ''eins'' auswischen]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] [[was für]] ''ein,'' [[welch]] ''ein''
+:[3] ''ein''+[[anderer|ander]]
+
+{{Wortbildungen}}
+:[3] [[einander]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{en}}: [1] {{Ü|en|one}}
+*{{pt}}: [1–3] {{Ü|pt|um}}
+*{{ru}}: [4] {{Üt|ru|один}}
+*{{sv}}: [1] ''Person:'' {{Ü|sv|någon}}, ''Sache:'' {{Ü|sv|något}}, {{Ü|sv|en}} ({{ugs.}}, kindersprachlich); [3] {{Ü|sv|ena}}
+*{{tr}}: [1] {{Ü|tr|herhangi}}
+}}
+
+{{Referenzen}}
+:[1–3] {{Ref-DWDS}}
+:[1–3] {{Ref-FreeDictionary}}
+:[1, 2] {{Ref-Duden|ein_Pronomen|ein (Pronomen)}}
+:[*] {{Ref-UniLeipzig}}
+
+{{Quellen}}
+
+=== {{Wortart|Adverb|Deutsch}} ===
+
+{{Worttrennung}}
+:ein
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aɪ̯n}}
+:{{Hörbeispiele}} {{Audio|De-ein.ogg}}, {{Audio|De-ein2.ogg}}
+:{{Reime}} {{Reim|aɪ̯n|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''in Wendungen oder an Verben:'' in etwas [[hin]]-/herein
+
+{{Beispiele}}
+:[1] Tretet ''ein,'' meine Dame. (eintreten<sup>1</sup>)
+
+{{Redewendungen}}
+:[[ein und aus gehen|''ein'' und aus gehen]]
+:[[weder ein noch aus wissen|weder ''ein'' noch aus wissen]]
+
+{{Wortbildungen}}
+:[1] [[darein]], [[hierein]], [[worein]]
+:[1] [[hinein]], [[herein]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{pt}}: [1] {{Ü|pt|dentro}}
+*{{sv}}: [1] {{Ü|sv|in}}
+*{{uk}}: [1] {{Üt|uk|в|}}
+*{{hu}}: [1] {{Ü|hu|be-}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|ein}}
+:[1] {{Ref-FreeDictionary|ein}}
+
+=== {{Wortart|Adjektiv|Deutsch}} ===
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aɪ̯n}}
+:{{Hörbeispiele}} {{Audio|De-ein.ogg}}, {{Audio|De-ein2.ogg}}
+:{{Reime}} {{Reim|aɪ̯n|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''umgangssprachlich, nur prädikativ:'' eingeschaltet, an (bei Schaltern)
+
+{{Synonyme}}
+:[1] [[an#Adjektiv|an]]
+
+{{Gegenwörter}}
+:[1] [[aus]]
+
+{{Beispiele}}
+:[1] Ist der Schalter ''ein'' oder aus? <small>(Ist der Schalter [[einschalten|ein-]] oder [[ausschalten|ausgeschaltet]]?)</small>
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{zh}}: [1] {{Üt|zh|开|kāi}}
+*{{en}}: [1] {{Ü|en|on}}
+*{{el}}: [1] {{Üt|el|ανοιχτό|anichtó}}
+*{{pt}}: [1] {{Ü|pt|ligado}}
+*{{sv}}: [1] {{Ü|sv|på}}
+*{{uk}}: [1] {{Üt?|uk|ввімкн.|}}, {{Üt?|uk|ввімкнено|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-FreeDictionary|ein}}
+
+{{Ähnlichkeiten 1|[[an]], [[eins]], [[jein]]|Anagramme=[[nie]]|spr=de}}
+
+== ein ({{Sprache|Färöisch}}) ==
+=== {{Wortart|Artikel|Färöisch}} ===
+
+{{Färöisch Pronomen Übersicht
+|Nominativ Singular maskulinum=ein
+|Nominativ Singular femininum=ein
+|Nominativ Singular neutrum=eitt
+|Akkusativ Singular maskulinum=ein
+|Akkusativ Singular femininum=eina
+|Akkusativ Singular neutrum=eitt
+|Dativ Singular maskulinum=einum
+|Dativ Singular femininum=eini
+|Dativ Singular femininum*=einari
+|Dativ Singular neutrum=einum
+|Genitiv Singular maskulinum=eins
+|Genitiv Singular femininum=einar
+|Genitiv Singular neutrum=eins
+|Nominativ Plural maskulinum=einir
+|Nominativ Plural femininum=einar
+|Nominativ Plural neutrum=eini
+|Akkusativ Plural maskulinum=einar
+|Akkusativ Plural femininum=einar
+|Akkusativ Plural neutrum=eini
+|Dativ Plural maskulinum=einum
+|Dativ Plural femininum=einum
+|Dativ Plural neutrum=einum
+|Genitiv Plural maskulinum=eina
+|Genitiv Plural femininum=eina
+|Genitiv Plural neutrum=eina
+}}
+
+{{Anmerkung}}
+:Beachte, dass Färöisch die einzige germanische Sprache ist, die den Plural von „ein“ kennt. Das Beugungsmuster gilt analog für das homonyme Zahlwort, das Indefinitpronomen und das Adjektiv.
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ain}}, <small>neutrum:</small> {{Lautschrift|aiʰtː}}, <small>Dativ:</small> {{Lautschrift|ainʊn}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] unbestimmter Artikel, analog zu deutsch „ein“
+:[2] ''im Plural:'' ein Paar
+
+{{Beispiele}}
+:[1] '''ein''' maður – ein Mann
+:[1] '''ein''' kona – eine Frau
+:[1] '''eitt''' barn – ein Kind
+:[2] '''einir''' skógvur – ein Paar Schuhe
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1]
+
+=== {{Wortart|Numerale|Färöisch}} ===
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ain}}, <small>neutrum:</small> {{Lautschrift|aiʰtː}}, <small>Dativ:</small> {{Lautschrift|ainʊn}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] Zahlwort 1
+:[2] ''in Wortverbindungen''
+:[3] ''im Dual:'' ein Paar
+
+{{Beispiele}}
+:[1] tjúgu og '''ein''' – einundzwanzig
+:[1] tað sat eingin '''ein''' – dort saß kein einziger
+:[3] '''einir''' sokkar – ein Paar Socken
+:[3] '''einir''' skógvur – ein Paar Schuhe
+:[3] '''einar''' hosur – ein Paar Kniestrümpfe
+:[3] '''einar''' buksur – ein Paar Hosen
+:[3] '''eini''' hjún – ein Ehepaar
+:[3] '''eini''' hús – ein Haus, in dem man wohnt; Heim, ''aber:'' '''eitt''' hús – ein Haus, Gebäude
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1]
+
+=== {{Wortart|Adjektiv|Färöisch}} ===
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ain}}, <small>neutrum:</small> {{Lautschrift|aiʰtː}}, <small>Dativ:</small> {{Lautschrift|ainʊn}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] [[derselbe|der]]-, [[dieselbe|die]]-, [[dasselbe]]
+:[2] [[einsam]]
+:[3] ''im Plural:'' [[ungefähr]], [[etwa]]
+
+{{Synonyme}}
+:[1] [[samur]]
+:[2] [[einsamallur]]
+:[3] [[umleið]]
+
+{{Beispiele}}
+:[1] teir fóru allir '''ein''' veg – sie gingen alle denselben Weg
+:[2] sat [[í]] borgin '''ein''' – saß alleine in der Burg
+:[3] '''einar''' hundrað krónur – etwa hundert Kronen ''(13,50 €)''
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1]
+
+=== {{Wortart|Indefinitpronomen|Färöisch}} ===
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ain}}, <small>neutrum:</small> {{Lautschrift|aiʰtː}}, <small>Dativ:</small> {{Lautschrift|ainʊn}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] [[irgendwer]], [[irgendetwas]], [[jemand]]
+:[2] ''im Genitiv Plural:'' von allen
+
+{{Synonyme}}
+:[1] [[nakar]], [[onkur]], [[einhvør]], [[mann]]
+
+{{Beispiele}}
+:[1] '''ein''' sigur – man sagt
+:[1] nær '''ein''' kemur – wenn jemand kommt
+:[1] '''ein''' og hvør – ein jeder (''wörtl.'' „irgendwer und jeder“)
+:[1] '''eitt''' og annað – irgendwas (''wörtl.'' „eins und das andere“)
+:[1] '''ein''' dagin – irgendwann (''wörtl.'' „eines Tages“)
+:[1] '''eitt''' árið – irgendwann (''wörtl.'' „eines Jahres“)
+:[1] '''eitt''' nú – zum Beispiel (''wörtl.'' „eins nun“)
+:[2] '''eina''' bestur – von den Besten
+:[2] '''eina''' helst – in erster Linie
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-Liste=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1]
+
+== ein ({{Sprache|Isländisch}}) ==
+=== {{Wortart|Deklinierte Form|Isländisch}} ===
+
+{{Worttrennung}}
+:ein
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈeiːn}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|eiːn|Isländisch}}
+
+{{Grammatische Merkmale}}
+
+*Nominativ Singular Femininum der starken Deklination des Positivs des Adjektivs '''{{linkIs|einn}}'''
+
+*Nominativ Plural Neutrum der starken Deklination des Positivs des Adjektivs '''{{linkIs|einn}}'''
+*Akkusativ Plural Neutrum der starken Deklination des Positivs des Adjektivs '''{{linkIs|einn}}'''
+
+{{Grundformverweis Dekl|einn|Abschnitt=einn (Isländisch)}}
+
+=== {{Wortart|Deklinierte Form|Isländisch}} ===
+
+{{Worttrennung}}
+:ein
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈeiːn}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|eiːn|Isländisch}}
+
+{{Grammatische Merkmale}}
+
+*Nominativ Singular Femininum des Indefinitpronomens und Numerales '''{{linkIs|einn}}'''
+
+*Nominativ Plural Neutrum des Indefinitpronomens und Numerales '''{{linkIs|einn}}'''
+*Akkusativ Plural Neutrum des Indefinitpronomens und Numerales '''{{linkIs|einn}}'''
+
+{{Grundformverweis Dekl|einn|Abschnitt=einn (Isländisch)}}
+
+{{Ähnlichkeiten 1|[[einn]]|spr=is}}
+{{Ähnlichkeiten 2|[[-eim]], [[enî]]}}
