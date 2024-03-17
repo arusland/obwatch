@@ -191,8 +191,9 @@ class WikiTextParser {
                 }
                 return wikiText.substring(0, index)
             }
+            return wikiText
         }
-        return wikiText
+        return ""
     }
 
     private fun getTableValue(prefix: String, wikiText: String, defVal: String = ""): String {

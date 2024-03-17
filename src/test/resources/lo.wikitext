@@ -1,0 +1,275 @@
+{{Siehe auch|[[ló]], [[lò]], [[lő]]}}
+== lo ({{Sprache|Englisch}}) ==
+=== {{Wortart|Interjektion|Englisch}} ===
+
+{{Worttrennung}}
+:lo
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift||spr=en}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ''veraltet:'' siehe!, seht!, schaut an!
+
+{{Synonyme}}
+:[1] [[look]], [[see]], [[behold]]
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=en}}
+
+{{Charakteristische Wortkombinationen}}
+:[1] ''scherzhaft:'' lo and behold!
+::Siehe da!
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=|Ü-Liste=
+*{{de}}: {{Ü|de|seht}}
+*{{fr}}: {{Ü|fr|}}
+*{{it}}: {{Ü|it|}}
+*{{es}}: {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|spr=en|lo}}
+:[1] {{Ref-Pons|en|lo}}
+:[1] {{Ref-MWD|lo}}
+:[1] {{Ref-Dictionary|lo}}
+:[1] {{Ref-dictcc|lo}}
+{{Referenzen prüfen|Englisch}}
+
+=== {{Wortart|Abkürzung|Englisch}} ===
+{{Netzjargon}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift||spr=en}}
+:{{Hörbeispiele}} {{Audio|En-us-lo.ogg|spr=us}}
+
+{{Bedeutungen}}
+:[1] ''[[Internet]], [[Chat]], [[Online-Gaming]]:'' [[hallo]]
+
+{{Herkunft}}
+:Clipping von hel'''lo''' (hallo)
+
+{{Gegenwörter}}
+:[1] [[bb]]; [[cu]]; [[cya]]
+
+{{Beispiele}}
+:[1] (User betritt einen Server) User: „''lo''“
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=Internet, Chat, Online-Gaming: hallo|Ü-Liste=
+*{{de}}: {{Ü|de|lo}}
+*{{fr}}: {{Ü|fr|lut}}
+*{{tr}}: {{Ü|tr|slm}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|spr=en|lo}}
+:[1] {{Ref-Pons|en|lo}}
+:[1] {{Ref-MWD|lo}}
+:[1] {{Ref-Dictionary|lo}}
+:[1] {{Ref-dictcc|lo}}
+{{Referenzen prüfen|Englisch}}
+----
+== lo ({{Sprache|Interlingua}}) ==
+=== {{Wortart|Pronomen|Interlingua}} ===
+{{Worttrennung}}
+:lo
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift||spr=ia}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] {{K|Personalpronomen|spr=ia}} [[es]], [[ihm]] {{n}} für das sächliche Geschlecht (Sachen und Tiere), Singular, Akkusativ bzw. auch Dativ (Objektfall); im Deutschen je nach grammatischem Geschlecht auch: [[ihn]] {{m}}, [[sie]] {{f}} ([[Akkusativ]]); [[ihm]] {{m}}, [[ihr]] {{f}} (Objektform/[[Dativ]])
+:[2] vertritt einen ganzen Satzteil; in Verbindung mit ''que'': {{K|Relativpronomen|spr=ia}} – [[was]]
+
+{{Gegenwörter}}
+:[1] {{linkIa|me}}, {{linkIa|te}}, {{linkIa|la}}, {{linkIa|le}}, {{linkIa|nos}}, {{linkIa|vos}}, {{linkIa|les}}, {{linkIa|las}}, {{linkIa|los}}
+
+{{Oberbegriffe}}
+:[1, 2] {{linkIa|pronomine}}
+
+{{Beispiele}}
+:[1] Mi matre ''lo'' dava a un puera.
+::Meine Mutter gab ''es'' einem Mädchen.
+:[2] Dice me ''lo'' ''que'' tu opinia.
+::Sage mir, ''was'' du meinst.
+
+{{Charakteristische Wortkombinationen}}
+:[2] ''lo'' que – was
+
+==== {{Übersetzungen}} ====
+:{{Übersetzungen umleiten|1|ihm}}, {{Übersetzungen umleiten||es}}
+:{{Übersetzungen umleiten|2|was}}
+
+{{Referenzen}}
+:[1, 2] Verzeichnis [[Verzeichnis:Interlingua/Pronomen|Pronomen (Interlingua)]]
+:[1, 2] {{Wikipedia|spr=ia|Grammatica de Interlingua#Pronomines|Grammatica de Interlingua}}
+:[1, 2] Wörterbuch ''Interlingua – Deutsch'' (»Dictionario ''Interlingua – german«'') im Interlingua-Wiktionary: [[:ia:appendice:Dictionarios/Interlingua-germano/l|»lo« unter l]]
+:[*] {{Wikipedia-Suche|spr=ia}}
+:[1, 2] Thomas Breinstrup e Italo Notarstefano (red.): ''Interlingua dictionario basic''. Union Mundial pro Interlingua (UMI), 2011, 256 pp., ISBN 978-2-36607-000-2, Seite 109
+<!-- Referenzen prüfen und das Suchwort bei WORTEINFÜGEN ergänzen
+:[*] [https://de.glosbe.com/ia/de/lo Glosbe.com Interlingua-Deutsch »lo«] (verwendet Cookies; Werbung)
+-->
+{{Personalpronomen (Interlingua)}}
+
+== lo ({{Sprache|Italienisch}}) ==
+=== bestimmter {{Wortart|Artikel|Italienisch}}, {{m}} ===
+
+{{Anmerkung|zur Verwendung vor bestimmten Substantiven}}
+:Die Form ''lo'' wird vor s+Konsonant, gn, pn, ps, x, y oder z verwendet. Vor Vokalen verwendet man ''l’'', in allen anderen Fällen ''il''.
+
+{{Anmerkung|zur Verwendung mit Präpositionen}}
+:Wenn der Artikel '''il''' auf eine Präposition (a, da, di, in, su) trifft, bilden sie eine mit dem Artikel verschmolzene Präposition (z. B. di + il = dello).
+
+{{Worttrennung}}
+:lo
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|lo}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ''bestimmter Artikel für das Maskulinum Singular''
+
+{{Abkürzungen}}
+:[1] ''verkürzte Form, die vor Vokalen verwendet wird:'' l’
+
+{{Gegenwörter}}
+:[1] [[la#la (Italienisch)|la]]
+
+{{Beispiele}}
+:[1] ''Lo'' zaino era leggero.
+::''Der'' Rucksack war leicht.
+
+{{Wortbildungen}}
+:allo (a + lo), dallo (da + lo), dello (di + lo), nello (in + lo), sullo (su + lo)
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=bestimmter Artikel für das Maskulinum Singular|Ü-Liste=
+*{{de}}: {{Ü|de|der}}, {{Ü|de|die}}, {{Ü|de|das}}
+*{{en}}: {{Ü|en|the}} (alle Formen)
+*{{es}}: {{Ü|es|el}}, {{Ü|es|la}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|spr=it|lo}}
+:[1] {{Ref-Pons|it|lo}}
+:[1] {{Ref-Leo|it|lo}}
+{{Referenzen prüfen|Italienisch}}
+
+=== {{Wortart|Personalpronomen|Italienisch}}, {{m}} ===
+
+{{Worttrennung}}
+:lo
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift||spr=it}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ''3. Person Maskulinum Singular Akkusativ:'' [[ihn]], [[sie]], [[es]]
+
+{{Beispiele}}
+:[1] ''Lo'' vedo.
+::Ich sehe ''es.''
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=|Ü-Liste=
+*{{de}}: {{Ü|de|ihn}}, {{Ü|de|sie}}, {{Ü|de|es}}
+*{{en}}: {{Ü|en|}}
+*{{fr}}: {{Ü|fr|}}
+*{{es}}: {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|spr=it|lo}}
+:[1] {{Ref-Pons|it|lo}}
+:[1] {{Ref-Leo|it|lo}}
+{{Referenzen prüfen|Italienisch}}
+
+{{Abschnitte fehlen|spr=no}}
+
+== lo ({{Sprache|Okzitanisch}}) ==
+=== {{Wortart|Artikel|Okzitanisch}}, {{m}} ===
+
+{{Anmerkung|zu lo vor bestimmten Substantiven}}
+:Wenn der Artikel '''lo''' vor einem Substantiv steht, das mit einem Vokal (a, e, i, o, u) beginnt, so wird aus '''lo''' = '''l'''.
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|…}}
+:{{Hörbeispiele}} {{Audio|LL-Q14185 (oci)-Davidgrosclaude-lo.wav}}
+
+{{Bedeutungen}}
+:[1] ''bestimmter Artikel:'' [[der]]
+
+{{Synonyme}}
+:[1] l' (vor einem Vokal)
+
+{{Weibliche Wortformen}}
+:[1] [[la]]
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=Okzitanisch}}
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=bestimmter Artikel: der|Ü-Liste=
+*{{de}}: {{Ü|de|der}} (bestimmter Artikel)
+*{{en}}: {{Ü|en|}}
+*{{fr}}: {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1] {{Lit-Balaguer: Diccionari Català - Occità / Occitan - Catalan}}, Seite 773, Eintrag "lo, l' [pl. los]"
+
+== lo ({{Sprache|Schwedisch}}) ==
+=== {{Wortart|Substantiv|Schwedisch}}, {{u}} ===
+
+{{Schwedisch Substantiv Übersicht|Genus=u
+|Nominativ Plural Unbestimmt =loar}}
+
+{{Worttrennung}}
+:lo, {{Pl.}} lo·ar
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift||spr=sv}}
+:{{Hörbeispiele}} {{Audio|Sv-lo.ogg}}
+
+{{Bedeutungen}}
+:[1] ''[[Zoologie]]:'' in Europa und Asien beheimatete [[Wildkatze]] aus der Gattung der Luchse; Eurasischer Luchs (''Lynx lynx'')
+:[2] ''ohne Plural, [[Nautik]], seltene Abkürzung für [[lovart]]:'' die dem Wind zugewandte Seite des [[Schiff]]es
+
+{{Synonyme}}
+:[1] [[lodjur]]
+:[2] [[lovart]], [[vindsidan]], [[vädersidan]]
+
+{{Gegenwörter}}
+:[2] [[lä]]
+
+{{Beispiele}}
+:[1] Vi har inte så många rådjur kvar nu när vi har en vuxen ''lo'' med sina ungar.
+::Wir haben nicht mehr so viele Rehe, nun wo wir einen ausgewachsenen ''Luchs'' mit seinen Jungen haben.
+:[2] Känner du skillnaden mellan ''lo'' och lä?
+::Kennst du den Unterschied zwischen ''Luv'' und Lee?
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=|Ü-Liste=
+*{{de}}: {{Ü|de|Luchs}}
+}}
+
+{{Ü-Tabelle|2|G=|Ü-Liste=
+*{{de}}: {{Ü|de|Luv}}
+}}
+
+{{Referenzen}}
+:[1] {{Lit-SA: Svenska Akademiens ordlista|A=13}}, Seite 527
+:[1] {{Wikipedia|spr=sv|lo}}
+:[*] {{Ref-UniLeipzig2|sv|lo}}
+:[1] {{Ref-Lexin|lo}}
+:[1, 2] {{Ref-dictcc|sv}}
+
+{{Abschnitte fehlen|spr=es}}
+
+{{Ähnlichkeiten 2|[[Io]], [[low]]}}
