@@ -129,7 +129,7 @@ class WikiTextParser {
                     lastIndex = match.groupValues[1]
                     lastExample = match.groupValues[2]
                 } else {
-                    lastExample += line
+                    lastExample += formatExampleBeforeAdd(line)
                 }
             } else if (line.startsWith("{{Beispiele}}")) {
                 collecting = true
@@ -139,6 +139,11 @@ class WikiTextParser {
 
         return getResult()
     }
+
+    private fun formatExampleBeforeAdd(line: String): String = if (line.startsWith("::")) {
+        " (" + line.substring(2) + ")"
+    } else
+        line
 
     private fun getTemplateValue(prefix: String, wikiText: String): String {
         // {{Grundformverweis Konj|gehen}}

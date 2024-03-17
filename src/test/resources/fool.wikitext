@@ -1,0 +1,154 @@
+== fool ({{Sprache|Englisch}}) ==
+=== {{Wortart|Substantiv|Englisch}} ===
+
+{{Englisch Substantiv Übersicht
+|Singular=fool
+|Plural=fools
+}}
+
+{{Worttrennung}}
+:fool, {{Pl.}} fools
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|fuːl|spr=en}}
+:{{Hörbeispiele}} {{Audio||spr=en}}
+:{{Reime}} {{Reim|uːl|Englisch}}
+
+{{Bedeutungen}}
+:[1] [[Idiot]], [[Dummkopf]], [[Narr]]
+:[2] Sahnespeise aus Obstpüree (''brit.'')
+
+{{Synonyme}}
+:[1] [[blockhead]], [[idiot]], [[simpleton]]
+
+{{Beispiele}}
+:[1] Don't be a ''fool!''
+::Sei kein ''Dummkopf!''
+:[1] He's such a ''fool.''
+::Er ist solch ein ''Narr.''
+:[2] {{Beispiele fehlen|spr=Englisch}}
+
+{{Redewendungen}}
+:[1] no fool like an old fool - ''Alter schützt vor Torheit nicht ''
+:[1] to be fool enough to … - ''so dumm (oder blöd) sein , zu …''
+:[1] to act the fool - ''sich dumm stellen''
+
+{{Charakteristische Wortkombinationen}}
+:[1] don't be a ''fool''
+
+{{Wortbildungen}}
+:[1] [[fool-proof]]
+:[1] [[fool's gold]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=Idiot, Dummkopf, Narr|Ü-Liste=
+*{{de}}: {{Ü|de|Idiot}} {{m}}, {{Ü|de|Dummkopf}} {{m}}, {{Ü|de|Narr}} {{m}}
+}}
+
+{{Ü-Tabelle|2|G=|Ü-Liste=
+*{{de}}: {{Ü|de|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-MWD|fool}}
+:[1] {{Ref-MWT|fool}}
+:[1] {{Ref-Dictionary|fool}}
+:[1] {{Ref-Pons|en|fool}}
+:[1] {{Ref-dictcc|fool}}
+:[1] {{Ref-Leo|en|fool}}
+:[1] {{Wikipedia|spr=en|fool}}
+
+{{Referenzen prüfen|Englisch}}
+
+=== {{Wortart|Adjektiv|Englisch}} ===
+
+{{erweitern|Tabelle|Englisch}}
+
+{{Englisch Adjektiv Übersicht
+|Positiv=fool
+|Komparativ=?
+|Superlativ=?
+}}
+
+{{Worttrennung}}
+:fool
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|fuːl|spr=en}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|uːl|Englisch}}
+
+{{Bedeutungen}}
+:[1] [[doof]], [[schwachsinnig]]
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=Englisch}}
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=doof, schwachsinnig|Ü-Liste=
+*{{de}}: {{Ü|de|doof}}, {{Ü|de|schwachsinnig}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-MWD|fool}}
+:[1] {{Ref-MWT|fool}}
+:[1] {{Ref-Dictionary|fool}}
+:[1] {{Ref-Pons|en|fool}}
+:[1] {{Ref-dictcc|fool}}
+:[1] {{Ref-Leo|en|fool}}
+
+{{Referenzen prüfen|Englisch}}
+
+=== {{Wortart|Verb|Englisch}} ===
+
+{{Englisch Verb Übersicht
+|present_I=fool
+|present_he, she, it=fools
+|past_simple_I=fooled
+|present participle=fooling
+|past participle=fooled
+}}
+
+{{Worttrennung}}
+:fool
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|fuːl|spr=en}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|uːl|Englisch}}
+
+{{Bedeutungen}}
+:[1] [[herumalbern]], [[Blödsinn]] machen
+:[2] [[jemanden zum Narren halten]], [[hereinlegen]], [[austricksen]], [[betrügen]]
+
+{{Synonyme}}
+:[2] to [[trick]]
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=Englisch}}
+
+{{Redewendungen}}
+:[1] I was only ''fooling'' - ''das war doch nur Spaß''
+:[2] You can't ''fool'' me. - ''Du kannst mir nichts vormachen.''
+
+{{Charakteristische Wortkombinationen}}
+:[1] foolabout, foolaround
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=herumalbern, Blödsinn machen|Ü-Liste=
+*{{de}}: {{Ü|de|herumalbern}}
+}}
+
+{{Ü-Tabelle|2|G=jemanden zum Narren halten, hereinlegen, austricksen, betrügen|Ü-Liste=
+*{{de}}: {{Ü|de|hereinlegen}}, {{Ü|de|austricksen}}, {{Ü|de|betrügen}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-MWD|fool}}
+:[1] {{Ref-MWT|fool}}
+:[1] {{Ref-Dictionary|fool}}
+:[1] {{Ref-Pons|en|fool}}
+:[1] {{Ref-dictcc|fool}}
+:[1] {{Ref-Leo|en|fool}}
+
+{{Referenzen prüfen|Englisch}}

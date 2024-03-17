@@ -53,5 +53,14 @@ class WikiTextParserTest {
             "Descartes **prägte** den berühmten Ausspruch „cogito ergo sum“ – „Ich denke, also bin ich“.",
             result8?.examples?.get(6)
         )
+
+        val result9 = WikiTextParser().parse(ResourceUtil.readResource("/fool.wikitext"))
+        println(result9)
+        assertNotNull(result9)
+        assertEquals(2, result9?.examples?.size ?: 0)
+        assertEquals(
+            "Don't be a **fool!** (Sei kein **Dummkopf!**)",
+            result9?.examples?.get(0)
+        )
     }
 }
