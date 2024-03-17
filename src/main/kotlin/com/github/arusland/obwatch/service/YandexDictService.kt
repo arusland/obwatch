@@ -34,8 +34,8 @@ class YandexDictService(private val apiKey: String) : DictService {
 }
 
 enum class DictLang(val def: String) {
-    EN_RU("en-ru"),
+    EN_DE("en-de"),
     DE_RU("de-ru"),
     RU_DE("ru-de"),
-    RU_EN("ru-en")
+    RU_EN("ru-en");
 }

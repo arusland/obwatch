@@ -102,7 +102,12 @@ class ObsidianWatcher(
                     false
                 )
             } else {
-                log.warn("No definition found for the word: {}", newWord)
+                if (!hasUmlaut(newWord)) {
+                    // maybe it's English word
+                    searchNewWordEnglish(newWord)
+                } else {
+                    log.warn("No definition found for the word (DE): {}", newWord)
+                }
             }
         }
     }
@@ -114,7 +119,19 @@ class ObsidianWatcher(
                 addNewWord(newWord, dictResultDef)
                 async { writeResultsToFile() }
             } else {
-                log.warn("No definition found for the word: {}", newWord)
+                log.warn("No definition found for the word (RU): {}", newWord)
+            }
+        }
+    }
+
+    private fun searchNewWordEnglish(newWord: String) {
+        runBlocking {
+            val dictResultDef = dictService.lookup(newWord, DictLang.EN_DE).let { if (it.def.isEmpty()) null else it }
+            if (dictResultDef != null) {
+                addNewWord(newWord, dictResultDef)
+                async { writeResultsToFile() }
+            } else {
+                log.warn("No definition found for the word (En): {}", newWord)
             }
         }
     }
@@ -136,16 +153,16 @@ class ObsidianWatcher(
         }
     }
 
-    private fun isRussianWord(word: String): Boolean {
-        return word.any { it in 'а'..'я' || it in 'А'..'Я' }
-    }
+    private fun isRussianWord(word: String): Boolean = word.any { it in 'а'..'я' || it in 'А'..'Я' }
+
+    private fun hasUmlaut(word: String): Boolean = word.any { it in "äöüÄÖÜß" }
 
     private fun writeResultsToFile() {
         synchronized(lastResults) {
             outputFilePath.bufferedWriter().use { writer ->
                 lastResults.forEach { result ->
                     writeResult(writer, result)
-                    writer.write("----\n")
+                    writer.write("\n----\n")
                 }
             }
         }
@@ -164,7 +181,6 @@ class ObsidianWatcher(
                 writer.write(definition.tr.map { translationAsString(it) }.joinToString(", ") { it })
                 writer.write("\n")
             }
-            writer.write("\n")
         }
 
         writeWikiTextInfo(writer, result.wikiTextInfo)
@@ -176,6 +192,7 @@ class ObsidianWatcher(
     ) {
         var info = wikiTextInfo
         while (info != null) {
+            writer.write("\n")
             when (info) {
                 is NounInfo -> if (info.hasCases()) {
                     writer.write("| |Singular|Plural|\n")
