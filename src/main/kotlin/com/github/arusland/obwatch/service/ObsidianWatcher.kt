@@ -24,7 +24,7 @@ class ObsidianWatcher(
 ) {
     private var lastFileAttributes: BasicFileAttributes
     private val outputFilePath: Path
-    private val regexSpace = Regex("[\\s#!,.]+", RegexOption.MULTILINE)
+    private val regexSpace = Regex("[\\s#!,.\\?\\!]+", RegexOption.MULTILINE)
     private val regexDigit = Regex("\\d+")
     private val lastResults = mutableListOf<FoundResult>()
 
