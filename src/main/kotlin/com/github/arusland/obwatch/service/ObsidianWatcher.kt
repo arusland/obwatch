@@ -70,42 +70,74 @@ class ObsidianWatcher(
     }
 
     private fun searchNewWord(lastWord: String, tryAnotherForm: Boolean = true) {
+        if (isRussianWord(lastWord)) {
+            searchNewWordRussian(lastWord)
+        } else {
+            searchNewWordGerman(lastWord, tryAnotherForm)
+        }
+    }
+
+    private fun searchNewWordGerman(newWord: String, tryAnotherForm: Boolean) {
         runBlocking {
-            val dictResultDef = async { dictService.lookup(lastWord, DictLang.DE_RU) }
-            val wikiTextInfoDef = async { wikidataService.search(lastWord) }
+            val dictResultDef = async { dictService.lookup(newWord, DictLang.DE_RU) }
+            val wikiTextInfoDef = async { wikidataService.search(newWord) }
 
             val dictResult = dictResultDef.await().let { if (it.def.isEmpty()) null else it }
             val wikiTextInfo = wikiTextInfoDef.await()
 
-            if (dictResult != null && dictResult.def[0].text == lastWord || wikiTextInfo != null && wikiTextInfo.isNotEmpty()) {
-                synchronized(lastResults) {
-                    // get term from dictionary api first
-                    val term = (dictResult?.def?.get(0)?.text ?: wikiTextInfo?.word) ?: lastWord
-                    val result = FoundResult(term, dictResult, wikiTextInfo)
-                    lastResults.removeIf { it.term.lowercase() == lastWord.lowercase() }
-                    lastResults.add(0, result)
-                    if (lastResults.size > MAX_WORDS_SIZE) {
-                        lastResults.removeAt(lastResults.size - 1)
-                    }
-                }
+            if (dictResult != null && dictResult.def[0].text == newWord || wikiTextInfo != null && wikiTextInfo.isNotEmpty()) {
+                addNewWord(newWord, dictResult, wikiTextInfo)
                 async { writeResultsToFile() }
             } else if (tryAnotherForm && wikiTextInfo != null && wikiTextInfo.baseForm.isNotBlank()) {
                 log.debug(
                     "No definition found for the word: {}, try to find base form: {}",
-                    lastWord,
+                    newWord,
                     wikiTextInfo.baseForm
                 )
-                searchNewWord(wikiTextInfo.baseForm, false)
+                searchNewWordGerman(wikiTextInfo.baseForm, false)
             } else if (tryAnotherForm) {
-                log.debug("No definition found for the word: {}, try to find (de)capitalized form", lastWord)
-                searchNewWord(
-                    if (lastWord.first().isUpperCase()) lastWord.decapitalize() else lastWord.capitalize(),
+                log.debug("No definition found for the word: {}, try to find (de)capitalized form", newWord)
+                searchNewWordGerman(
+                    if (newWord.first().isUpperCase()) newWord.decapitalize() else newWord.capitalize(),
                     false
                 )
             } else {
-                log.warn("No definition found for the word: {}", lastWord)
+                log.warn("No definition found for the word: {}", newWord)
             }
         }
+    }
+
+    private fun searchNewWordRussian(newWord: String) {
+        runBlocking {
+            val dictResultDef = dictService.lookup(newWord, DictLang.RU_DE).let { if (it.def.isEmpty()) null else it }
+            if (dictResultDef != null) {
+                addNewWord(newWord, dictResultDef)
+                async { writeResultsToFile() }
+            } else {
+                log.warn("No definition found for the word: {}", newWord)
+            }
+        }
+    }
+
+    private fun addNewWord(
+        newWord: String,
+        dictResult: DictResult?,
+        wikiTextInfo: WikiTextInfo? = null
+    ) {
+        synchronized(lastResults) {
+            // get term from dictionary api first
+            val term = (dictResult?.def?.get(0)?.text ?: wikiTextInfo?.word) ?: newWord
+            val result = FoundResult(term, dictResult, wikiTextInfo)
+            lastResults.removeIf { it.term.lowercase() == newWord.lowercase() }
+            lastResults.add(0, result)
+            if (lastResults.size > MAX_WORDS_SIZE) {
+                lastResults.removeAt(lastResults.size - 1)
+            }
+        }
+    }
+
+    private fun isRussianWord(word: String): Boolean {
+        return word.any { it in 'а'..'я' || it in 'А'..'Я' }
     }
 
     private fun writeResultsToFile() {
@@ -113,7 +145,7 @@ class ObsidianWatcher(
             outputFilePath.bufferedWriter().use { writer ->
                 lastResults.forEach { result ->
                     writeResult(writer, result)
-                    writer.write("----\n\n")
+                    writer.write("----\n")
                 }
             }
         }
@@ -132,6 +164,7 @@ class ObsidianWatcher(
                 writer.write(definition.tr.map { translationAsString(it) }.joinToString(", ") { it })
                 writer.write("\n")
             }
+            writer.write("\n")
         }
 
         writeWikiTextInfo(writer, result.wikiTextInfo)
@@ -143,7 +176,6 @@ class ObsidianWatcher(
     ) {
         var info = wikiTextInfo
         while (info != null) {
-            writer.write("\n")
             when (info) {
                 is NounInfo -> if (info.hasCases()) {
                     writer.write("| |Singular|Plural|\n")
@@ -188,10 +220,15 @@ class ObsidianWatcher(
     private fun translationAsString(translation: Translation): String {
         return if (translation.syn?.isNotEmpty() == true)
             "${translation.text} (_" + translation.syn.joinToString(", ") { it.text } + "_)"
+        else if (translation.mean?.isNotEmpty() == true)
+            "${translation.text} (_" + translation.mean.joinToString(", ") { it.text } + "_)"
         else
             translation.text
     }
 
+    /**
+     * Return true if file was really changed.
+     */
     private fun fileWasChanged(): Boolean {
         // TODO: use file watcher
         val attributes = path.readAttributes<BasicFileAttributes>()

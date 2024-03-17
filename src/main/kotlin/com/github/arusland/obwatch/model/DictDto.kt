@@ -7,7 +7,7 @@ data class DictResult(
 data class Definition(
     val text: String,
     val pos: String,
-    val ts: String,
+    val ts: String?,
     val tr: List<Translation>
 )
 
