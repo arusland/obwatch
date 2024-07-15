@@ -1,0 +1,730 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+    <siteinfo>
+        <sitename>Wiktionary</sitename>
+        <dbname>dewiktionary</dbname>
+        <base>https://de.wiktionary.org/wiki/Wiktionary:Hauptseite</base>
+        <generator>MediaWiki 1.43.0-wmf.13</generator>
+        <case>case-sensitive</case>
+        <namespaces>
+            <namespace key="-2" case="case-sensitive">Medium</namespace>
+            <namespace key="-1" case="first-letter">Spezial</namespace>
+            <namespace key="0" case="case-sensitive" />
+            <namespace key="1" case="case-sensitive">Diskussion</namespace>
+            <namespace key="2" case="first-letter">Benutzer</namespace>
+            <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+            <namespace key="4" case="case-sensitive">Wiktionary</namespace>
+            <namespace key="5" case="case-sensitive">Wiktionary Diskussion</namespace>
+            <namespace key="6" case="case-sensitive">Datei</namespace>
+            <namespace key="7" case="case-sensitive">Datei Diskussion</namespace>
+            <namespace key="8" case="first-letter">MediaWiki</namespace>
+            <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+            <namespace key="10" case="case-sensitive">Vorlage</namespace>
+            <namespace key="11" case="case-sensitive">Vorlage Diskussion</namespace>
+            <namespace key="12" case="case-sensitive">Hilfe</namespace>
+            <namespace key="13" case="case-sensitive">Hilfe Diskussion</namespace>
+            <namespace key="14" case="case-sensitive">Kategorie</namespace>
+            <namespace key="15" case="case-sensitive">Kategorie Diskussion</namespace>
+            <namespace key="102" case="case-sensitive">Verzeichnis</namespace>
+            <namespace key="103" case="case-sensitive">Verzeichnis Diskussion</namespace>
+            <namespace key="104" case="case-sensitive">Thesaurus</namespace>
+            <namespace key="105" case="case-sensitive">Thesaurus Diskussion</namespace>
+            <namespace key="106" case="case-sensitive">Reim</namespace>
+            <namespace key="107" case="case-sensitive">Reim Diskussion</namespace>
+            <namespace key="108" case="case-sensitive">Flexion</namespace>
+            <namespace key="109" case="case-sensitive">Flexion Diskussion</namespace>
+            <namespace key="110" case="case-sensitive">Rekonstruktion</namespace>
+            <namespace key="111" case="case-sensitive">Rekonstruktion Diskussion</namespace>
+            <namespace key="710" case="case-sensitive">TimedText</namespace>
+            <namespace key="711" case="case-sensitive">TimedText talk</namespace>
+            <namespace key="828" case="case-sensitive">Modul</namespace>
+            <namespace key="829" case="case-sensitive">Modul Diskussion</namespace>
+        </namespaces>
+    </siteinfo>
+    <page>
+        <title>ich</title>
+        <ns>0</ns>
+        <id>761</id>
+        <revision>
+            <id>10060766</id>
+            <parentid>9901938</parentid>
+            <timestamp>2024-05-19T06:26:14Z</timestamp>
+            <contributor>
+                <username>Yoursmile</username>
+                <id>43509</id>
+            </contributor>
+            <comment>+cu:[[азъ]] ([[Hilfe:Einfügen-Erweiterung|Assisted]])</comment>
+            <origin>10060766</origin>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text bytes="98004" sha1="tg4gwpbb2inbvrlbho2zorawuxwhg6c" xml:space="preserve">{{Siehe auch|[[Ich]], [[ICH]]}}
+{{Wort der Woche|29|2017}}
+== ich ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Personalpronomen|Deutsch}} ===
+
+{{Deutsch Personalpronomen 1}}
+
+{{Anmerkung}}
+:„In der Umgangssprache lässt man ''ich'' am Satzanfang gern weg: ''Weiß schon Bescheid. Habe bereits davon gehört.'' Besonders häufig kommt das beim Erzählen oder Berichten von sich selbst vor: ''Bin dann nach Bonn gezogen. Habe eine Lehre als Kaufmann begonnen. Versuche jetzt den Übergang aufs Abendgymnasium zu schaffen.'' Die Auslassung von ''ich'' am Satzanfang war früher in Geschäfts- und Privatbriefen allgemein verbreitet, weil man nicht mit dem Pronomen der 1. Person beginnen wollte. Heute ist die Verwendung von ''ich'' am Satzanfang üblich, sein Weglassen stilistisch unschön. Statt ''Bestätige hiermit dankend den Eingang Ihres Auftrages'' schreibt man besser: ''Ich bestätige dankend …'' Statt ''Bitte zu entschuldigen, dass …,'' besser: ''Ich bitte zu entschuldigen, dass …'' Auch Lebensläufe dürfen mit ''ich'' eingeleitet werden: ''Ich wurde am … geboren'' (statt: ''Am … wurde ich geboren'').“&lt;ref name="DRGD"&gt;{{Lit-Duden: Richtiges und gutes Deutsch|A=7 (elektronisch)}}, Stichwort »ich«.&lt;/ref&gt;
+:„Die Personalform des Verbs eines an ''ich'' angeschlossenen Relativsatzes steht in der 3. Person Singular, wenn das Personalpronomen nicht wiederholt wird: ''Ich, der / die sich immer bemüht, …'' Wird das Personalpronomen dagegen im Relativsatz wiederholt, erscheint das Verb in der 1. Person Singular: ''Ich, der / die ich mich immer bemühe …''“&lt;ref name="DRGD"/&gt;
+
+{{Worttrennung}}
+:ich, {{Gen.}} mei·ner, {{va.|:}} mein, {{Dat.}} mir, {{Akk.}} mich; {{Pl.}} wir, {{Gen.}} un·ser, {{Dat.}} uns, {{Akk.}} uns
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ɪç}}&lt;ref&gt;{{Lit-Duden: Aussprachewörterbuch|A=7}}, Stichwort »ich, Ich«, Seite 461.&lt;/ref&gt;&lt;ref&gt;{{Lit-De Gruyter: Deutsches Aussprachewörterbuch|A=1}}, Stichwort »ich«, Seite 602.&lt;br /&gt;Für die Schweiz, siehe auch die Anmerkungen ebenda, Stichpunkt »2.3.5 ich- und ach-Laute und die Buchstabenverbindung ‹ch›«, Seite 266.&lt;/ref&gt;
+::''schweizerisch, mundartnah:'' {{Lautschrift|ɪx}}&lt;ref&gt;Nach {{Literatur | Autor=Ingrid Hove | Titel=Schweizer Hochdeutsch. Die Aussprache des Deutschen in der Schweiz | TitelErg=Vortrag, gehalten an der Jahrestagung des Schweizerischen Vereins für die deutsche Sprache und der Gesellschaft für deutsche Sprache, Luzern, 22. Juni 2007 | Online=[https://doc.rero.ch/record/9642/files/Hove_07_SchweizerHochdeutsch.pdf#page=5 URL: PDF 177 kB] | Zugriff=2017-06-05 }}.&lt;/ref&gt;
+:{{Hörbeispiele}} {{Audio|De-ich.ogg}}, {{Audio|De-ich2.ogg}}, {{Audio|De-at-ich.ogg|spr=at}}
+:{{Reime}} {{Reim|ɪç|Deutsch}}
+
+{{Bedeutungen}}
+:[1] bezeichnet die [[eigen]]e [[Person]]; ''grammatikalisch:'' 1. Person Singular
+
+{{Herkunft}}
+:Die diesem seit dem 8. Jahrhundert bezeugten [[Erbwort]] zugrundeliegenden [[germanisch]]en Formen lauten ''*ek/ekan.''&lt;ref name="Kluge"&gt;{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Stichwort »ich«, Seite 431.&lt;/ref&gt; Diese beiden Formen werden in den [[runisch]]en Texten noch als ''ek'' (am Satzanfang) und ''-eka'' ([[enklitisch]] nach dem [[Verb]]) unterschieden.&lt;ref name="Kluge"/&gt; In den späteren Sprachen mussten diese zusammenfallen, so dass ein Unterschied nicht mehr erkennbar ist: so auch in [[gotisch]]em {{Üt|got|𐌹𐌺|ik}}, [[altnordisch]]em ''{{Ü|non|ik}}'' (altostnordischem ''{{Ü|non|iak}}''; vergleiche [[schwedisch]] ''{{Ü|sv|jag}}''&lt;ref name="Pfeifer"&gt;{{Ref-Pfeifer}}&lt;/ref&gt;&lt;ref name="DHW"&gt;{{Lit-Duden: Herkunftswörterbuch|A=5 (neu bearbeitet)}}, Stichwort »ich«, Seite 398.&lt;/ref&gt;), [[altenglisch]]em ''{{Ü|ang|ic}},'' [[altfriesisch]]em ''{{Ü|ofs|ik}},'' [[altsächsisch]]em ''{{Ü|osx|ik}}'' (vergleiche [[mittelniederdeutsch]] ''{{Ü|gml|ik}}''&lt;ref name="Pfeifer"/&gt;&lt;ref name="DHW"/&gt;), [[althochdeutsch]]em ''{{Ü|goh|ih}}'' (vergleiche [[mittelhochdeutsch]] ''{{Ü|gmh|ich}}'').&lt;ref name="Kluge"/&gt; Die beiden germanischen Formen gehen auf die (nicht belegten, aber rekonstruierten) [[indoeuropäisch]]en Formen ''*eǵ'' und ''*eǵom'' ‚ich‘&lt;ref name="DHW"/&gt;&lt;ref name="Pfeifer"/&gt; zurück.&lt;ref name="Kluge"/&gt; Beide Formen nebeneinander zeigen auch die [[slawische Sprache|slawischen Sprachen]], etwa in [[altrussisch]]em {{Üt|orv|ꙗ|&lt;small&gt;{{ISO 9}}&lt;/small&gt; â}}&lt;ref name="Срезневский"&gt;{{Literatur | Autor=И[змаил]. И[ванович]. Срезневский | Titel=Матеріалы для словаря древне-русского языка по письменнымъ памятникамъ | Band=Томъ первый. А — К. | Verlag=типографія Императорской Академіи Наукъ | Ort=Санктпетербургъ | Jahr=1893, Stichwort »АЗЪ = ꙖЗЪ = Ꙗ« | Spalten=10–11 | Online=Zitiert nach Wikisource-Quellentext „[https://commons.wikimedia.org/w/index.php?title=File%3A%D0%A1%D1%80%D0%B5%D0%B7%D0%BD%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_-_%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B_%D0%B4%D0%BB%D1%8F_%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8F_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0_%D0%BF%D0%BE_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC%2C_%D1%82%D0%BE%D0%BC_1.pdf&amp;page=16 Срезневский - Материалы для словаря древнерусского языка по письменным памятникам, том 1]“ }}.&lt;/ref&gt; neben {{Üt|orv|ꙗзъ|&lt;small&gt;{{ISO 9}}&lt;/small&gt; âzŭ}}&lt;ref name="Срезневский"/&gt; (mit problematischem [[Vokalismus]]), und [[hethitisch]]em {{Üt|hit|𒌑𒊌|&lt;small&gt;Kloekhorst:&lt;/small&gt; ūk; ú-uk, ú-k, ú-g}} ‚ich‘&lt;ref name="Kloekhorst"&gt;Nach {{Literatur | Autor=[[w:en:Alwin Kloekhorst|Alwin Kloekhorst]] | Titel=The Hittite Inherited Lexicon | Verlag=Leiden University Centre for Linguistics, Faculty of Arts, Leiden University | Jahr=2007 | Seiten=1054 | Online=Dissertation; [https://openaccess.leidenuniv.nl/handle/1887/11996 URL] }}.&lt;/ref&gt; neben {{Üt|hit|𒌑𒊌𒂵|ugga; ú-g-ga}}&lt;ref&gt;Nach {{Literatur | Autor=Olivier Lauffenburger | Titel=Hittite Grammar | Tag=14 | Monat=08 | Jahr=2008 | Stichwort »A. Personal pronouns« | Seiten=38 | Online=E-Book: [http://www.assyrianlanguages.org/hittite/hittite_grammar.pdf#page=38 URL: PDF 800 kB] | Zugriff=2017-06-05 }}.&lt;/ref&gt; (ebenfalls mit problemtischem Vokalismus).&lt;ref name="Kluge"/&gt; Nur die kürzere Form haben die [[baltische Sprache|baltischen Sprachen]] ([[litauisch]] ''{{Ü|lt|aš}},'' altlitauisch auch ''{{Ü|lt|eš}},'' [[lettisch]] ''{{Ü|lv|es}}''&lt;ref name="Pfeifer"/&gt; und so weiter mit unregelmäßig entwickeltem Vokalismus und [[Konsonantismus]]), nur die längeren Formen haben die [[indoiranische Sprache|indoiranischen Sprachen]] ([[altindisch]] {{Üt|sa|अहम्|&lt;small&gt;[[Hilfe:IAST|IAST]]:&lt;/small&gt; aham}} mit unregelmäßigem Konsonantismus).&lt;ref name="Kluge"/&gt; Eine dritte (wohl [[morphologisch]] selbstständige) indoeuropäische Ausgangsform ''*-ō'' liegt in [[griechisch]]em {{Üt|grc|ἐγώ|egō}}, in [[lateinisch]]em ''{{Ü|la|ego}},'' wohl auch in der althochdeutschen [[Emphase]]form ''{{Ü|goh|ihha}}'' und vielleicht in hethitisch {{Üt|hit|𒌑𒊌|&lt;small&gt;Kloekhorst:&lt;/small&gt; ūk; ú-uk, ú-k, ú-g}}&lt;ref name="Kloekhorst"/&gt; vor.&lt;ref name="Kluge"/&gt;
+:Das indoeuropäische Pronomen ''*eǵ'' ist vielleicht mit dem ich-[[deiktisch]]en Pronomen ''*ḱe-/ḱi-'' in Verbindung zu bringen; die Verschiedenheit der Artikulationsart ist dabei ungeklärt.&lt;ref name="Kluge"/&gt; Andererseits ist indoeuropäisches ''*eg̑(h)om'' ‚ich‘ vielleicht als ein [[Neutrum]] mit der Bedeutung ‚(meine) Hierheit‘ zu betrachten, das sich aus dem indoeuropäischen Pronominalstamm ''*e-'' (siehe »[[er]]«, »[[es]]«) und einer in zahlreichen Varianten erscheinenden [[Partikel]] ''*-g̑(h)e-, *-g̑(h)o-'' entwickelt hat.&lt;ref name="Pfeifer"/&gt;
+:Die [[obliquer Kasus|obliquen Kasus]] werden von anderen Stämmen gebildet&lt;ref name="DHW"/&gt;; die mit ''m-'' [[Anlaut|anlautend]]en&lt;ref name="Pfeifer"/&gt; Singularformen werden seit alter Zeit&lt;ref name="Kluge"/&gt; von dem indoeuropäischen&lt;ref name="Pfeifer"/&gt; Stamm ''*me-'' gebildet (siehe »[[mein]]«, »[[mich]]«, »[[mir]]«)&lt;ref name="Kluge"/&gt;&lt;ref name="Pfeifer"/&gt;; für die Pluralformen siehe »[[wir]]«,  »[[uns]]«, »[[unser]]«.
+
+{{Sinnverwandte Wörter}}
+:[1] [[meinesteils]]
+:[1] {{ugs.|:}} [[unsereiner]], [[unsereins]]; {{scherzh.}}-''[[ironisch]]:'' [[meinereiner]]
+:[1] {{geh.}} ''oder'' {{ugs.}} {{scherzh.|:}} [[meine Wenigkeit]]
+
+{{Beispiele}}
+:[1] ''Ich'' lerne Deutsch.
+:[1] Herr, erbarme dich ''meiner!''
+:[1] Sie bat ihn statt ''meiner.''
+:[1] Kannst du ''mir'' bitte die Butter reichen.
+:[1] Willst du mit ''mir'' ins Kino gehen?
+:[1] Warum fragst du ''mich'' das?
+:[1] „Denk ''ich'' an Deutſchland in der Nacht,
+::Dann bin ''ich'' um den Schlaf gebracht,
+::''Ich'' kann nicht mehr die Augen ſchließen,
+::Und meine heißen Thränen fließen.“&lt;ref&gt;{{Literatur | Autor=[[w:Heinrich Heine|Heinrich Heine]] | Titel=[[w:Nachtgedanken|Nachtgedanken]] | Sammelwerk=Neue Gedichte | Auflage=1. | Verlag=Hoffmann und Campe | Ort=Hamburg | Jahr=1844 | Seiten=274 | Online=Zitiert nach {{GBS|BGwHAAAAQAAJ|PA274|Hervorhebung=ich}} }}.&lt;/ref&gt;
+:[1] „Aber hierbei bemerkte ''ich'' bald, dass, während ''ich'' Alles für falsch behaupten wollte, doch nothwendig ''ich'' selbst, der dies dachte, etwas sein müsse, und ''ich'' fand, dass die Wahrheit: ''‚Ich'' denke, also bin ''ich‘'', so fest und so gesichert sei, dass die übertriebensten Annahmen der Skeptiker sie nicht erschüttern können.“&lt;ref&gt;{{Literatur | Autor=[[w:René Descartes|René Descartes]] | Herausgeber=Unter Mitwirkung namhafter Gelehrten herausgegeben, beziehungsweise übersetzt, erläutert und mit Lebensbeschreibungen versehen von J[ulius]. H[einrich]. v[on]. Kirchmann | Titel=[[w:Discours de la méthode|Abhandlung über die Methode, richtig zu denken und die Wahrheit in den Wissenschaften zu suchen]] | Sammelwerk=Philosophische Bibliothek oder Sammlung der Hauptwerke der Philosophie alter und neuer Zeit | Band=Fünfundzwanzigster Band. René Descartes’ philosophische Werke. Erste Abteilung | Verlag=Verlag von L. Heimann | Ort=Berlin | Jahr=1870 | Seiten=45–46 | Online=Zitiert nach {{GBS|qusLAwAAQBAJ|PA45|Hervorhebung=ich+denke+also+bin+ich}} }}.&lt;/ref&gt;
+:[1] ''„Ich'' an deiner Stelle würde nicht warten, bis er auf mich zukommt.“&lt;ref&gt;{{Literatur | Autor=[[w:Lion Feuchtwanger|Lion Feuchtwanger]] | Titel=[[w:Die Geschwister Oppermann|Die Geschwister Oppermann]] | Verlag=Querido Verlag | Ort=Amsterdam | Jahr=1933 | Seiten=164 | Online=Zitiert nach {{GBS|kss5AAAAMAAJ|PA164|Hervorhebung="ich+an+deiner+Stelle"}} }}.&lt;/ref&gt;
+:[1] „Seine Hand griff so hart um meinen Hals[,] dass ''ich'' gleich hochkam; er hatte ''mich'' gar nicht ansehen wollen. So schrägköpfig allein neben ''mir'' abseits im Dunkeln: als ob er nur die Hand frei hatte[,] um sich ''meiner'' zu vergewissern.“&lt;ref&gt;{{Literatur | Autor=[[w:Uwe Johnson|Uwe Johnson]] | Titel=[[w:Mutmassungen über Jakob|Mutmassungen über Jakob]] | TitelErg=Roman | Band=Erstes bis fünftes Tausend | Verlag=Suhrkamp Verlag | Ort=Frankfurt am Main | Jahr=1959 | Seiten=157 }}.&lt;/ref&gt;
+:[1] „Gut, Gottlieb, schön, meine Herren, soll auch keen Vorwurf sein, bloß ''ich'' für meine Person, für meine Wenigkeit habe zugehört, und es war sehr schön, wie er alles beleuchtete, mit Ruhe, aber kräftig, bei seiner schwachen Stimme, und der Mann ist ja schwach auf der Brust, und wie alles seine Ordnung hatte und wie dann die Resolution kam, jeder Punkt sauber, eine feine Sache, ein Kopf, und genau bis auf die Toiletten, die ihnen nicht gefallen haben.“&lt;ref&gt;{{Literatur | Autor=[[w:Alfred Döblin|Alfred Döblin]] | Titel=[[w:Berlin Alexanderplatz (Roman)|Berlin Alexanderplatz]] | Titelerg=Die Geschichte von Franz Biberkopf | Verlag=Walter-Verlag | Ort=Olten/Freiburg im Breisgau | Jahr=1961 | Seiten=63 | Online=Zitiert nach {{GBS|EHIMAQAAIAAJ|PA63|Hervorhebung="ich+für+meine+Person"}}; Erstausgabe im S. Fischer Verlag, Berlin 1929 }}.&lt;/ref&gt;
+:[1] „‚Die Nacht ist zu Ende!‘ erklärte sie, ''‚ich'' für mein Teil, ''ich'' werde jetzt baden, ein Sonntagskleid anziehn.‘“&lt;ref&gt;{{Literatur | Autor=[[w:Anna Seghers|Anna Seghers]] | Titel=[[w:Das siebte Kreuz|Das siebte Kreuz]] | Verlag=Aufbau Verlag | Ort=Berlin | Jahr=1961 | Seiten=373 | Online=Zitiert nach {{GBS|ACsPAQAAMAAJ|PA373|Hervorhebung="ich+für+mein+Teil"}}; Erstausgabe im Verlag “El Libro Libre”, Mexiko 1942 }}.&lt;/ref&gt;
+:[1] ''„Ich'' für meinen Teil geh jetzt schlafen, und, Märtke, du schon überhaupt!“&lt;ref&gt;{{Literatur | Autor=[[w:Erwin Strittmatter|Erwin Strittmatter]] | Titel=Ole Bienkopp | TitelErg=Roman | Verlag=Sigbert Mohn Verlag | Ort=Gütersloh | Jahr=1963 | Seiten=260 | Kommentar=Lizenz des Aufbau-Verlag, Berlin; Ausgabe für die BRD }}.&lt;/ref&gt;
+:[1] ''„Ich'' habe innerlich kalt und grossen Durst.“&lt;ref&gt;{{Literatur | Autor=Diane d’Henri | Titel=Die Frau des Geliebten der Mutter | TitelErg=Aufzeichnungen | Auflage=4. | Verlag=Zytglogge | Ort=Bern | Jahr=1988 | ISBN=3-7296-0275-6 | Seiten=61 | Online=Zitiert nach {{GBS|cWFJAAAAYAAJ|PA61|Hervorhebung="Ich+habe+innerlich+kalt+und+grossen+Durst"}} }}.&lt;/ref&gt;
+:[1] „Um ''mich'' herum schwieg die Große Dürre für einen kurzen Moment, dann begannen Grillen zu zirpen, Fledermäuse durch die Finsternis zu huschen, {{L|Gecko|Gegos}} zu keckern und Schakale zu heulen, und in weiter Ferne kündigte ein heller Schein über dem Horizont die Geburt des Mondes an.“&lt;ref&gt;{{Literatur | Autor=[[w:Giselher W. Hoffmann|Giselher W. Hoffmann]] | Titel=Land der wasserlosen Flüsse | TitelErg=Roman | Auflage=1. | Verlag=Hoffmann Twins | Ort=Swakopmund | Jahr=1989 | ISBN=0-620-14233-2 | Seiten=291 | Online=Zitiert nach {{GBS|CJfPAAAAMAAJ|PA291|Hervorhebung="um+mich+herum"}} }}.&lt;/ref&gt;
+:[1] ''„Mir'' ist es lieber, die Gläubiger dieser Kirche, denen sie allen das ewige Leben versprochen hat (aber nicht das ewigwährende Bankkonto) sind gebückt und beschäftigt, dann erfinden sie wenigstens keine dramatisierten Märchen über geschächtete Kinder (mei liabs Andele vom Rinn, am Judenstein in Tirol: der Bischof in der Gestalt eines Adlers hat dich leider aus deiner angestammten Jaucherinne gerissen und mitsamt dem ganzen Blut, das aber von seinen eigenen Händen gekommen ist, vom Seziertisch gespült! Nach welchen golden behämmerten Strahlen sollen wir denn jetzt, nach dem großen gemeinschaftlichen Verhuschen und Vertuschen, greifen, da wir doch alle so kleine Lichter sind?), deren Blut über uns gekommen ist und uns gewaschen aber nicht naßgemacht hat.“&lt;ref&gt;{{Literatur | Autor=[[w:Elfriede Jelinek|Elfriede Jelinek]] | Titel=[[w:Die Kinder der Toten|Die Kinder der Toten]] | Auflage=1. | Verlag=Rowohlt | Ort=Reinbek bei Hamburg | Jahr=1995 | ISBN=3-498-03328-X | Seiten=374 }}.&lt;/ref&gt;
+:[1] ''„Ich'' denke, also bin ''ich. Ich'' will, also lebe ''ich.'' Im Denken habe ''ich'' nur die Evidenz des toten Seins - daher seine Vorwürfe an {{L|w:Baruch de Spinoza|Spinoza}} -, der Dinge, und mache ''mich'' selbst zu einem Ding. Im Wollen habe ''ich'' die Evidenz, dass ''ich'' lebend bin.“&lt;ref&gt;{{Literatur | Autor=[[w:Hannah Arendt|Hannah Arendt]] | Herausgeber=Ursula Ludz, ‎Ingeborg Nordmann, in Zusammenarbeit mit dem [[w:Hannah-Arendt-Institut für Totalitarismusforschung|Hannah-Arendt-Institut, Dresden]] | Titel=Denktagebuch | TitelErg=1950 bis 1973 | Band=Erster Band | Verlag=Piper | Ort=München/Zürich | Jahr=2002 | ISBN=3-492-04429-8 | Seiten=176 | Online=Zitiert nach {{GBS|3W0NAQAAMAAJ|PA176|Hervorhebung=ich}} }}.&lt;/ref&gt;
+:[1] ''„Mir'' zuckten nicht nur die Hände, auch das Schlucken im Hals. ''Ich'' wusste, wie man hungert und das Essen streckt oder verschlingt, wenn man es endlich hat. Wie lang man kaut und wann man schluckt, um manierlich zu essen, wusste ''ich'' nicht mehr. Der Vater saß ''mir'' gegenüber, und die Tischplatte schien ''mir'' so groß wie die halbe Welt. Er schaute ''mir'' mit halbgeschlossenen Augen zu und verbarg sein Mitleid.“&lt;ref&gt;{{Literatur | Autor=[[w:Herta Müller|Herta Müller]] | Titel=[[w:Atemschaukel|Atemschaukel]] | Auflage=1. | Verlag=Carl Hanser Verlag | Ort=München | Jahr=2009 | ISBN=978-3-446-23391-1 | Seiten=275 }}.&lt;/ref&gt;
+:[1] „Jetzt bin ''ich'' hellwach. Der Schlaf hat praktisch nie richtig Lust auf ''mich,'' er verlässt ''mich'' sehr schnell um Mitternacht, nachdem er ''mich'' den ganzen Abend bedrängt hat.“&lt;ref&gt;{{Literatur | Autor=[[w:Mathias Énard|Mathias Énard]] | Titel=Kompass | TitelErg=Roman | Verlag=Hanser Berlin im Carl Hanser Verlag | Ort=München | Jahr=2016 | ISBN=978-3-446-25315-5 | Seiten=81 | Originaltitel=Boussole | Übersetzer=Holger Fock und Sabine Müller aus dem Französischen }}.&lt;/ref&gt;
+:[1] „Sie wollten ''mich'' zum Islam bekehren, um zu verhindern, dass meine Seele ewig in der Hölle schmort, ''ich'' wollte sie zu meiner säkularen Einstellung bekehren, um zu verhindern, dass sie ihr Leben für ein illusionäres Jenseits vergeuden. ''Ich'' musste mich, wie in Brasilien, mit Überzeugungen und Wertvorstellungen auseinandersetzen, die ''ich'' in einem bestimmten soziokulturellen Kontext unhinterfragt übernommen hatte – von meinem Atheismus bis zu meiner Vorstellung von einem gelungenen Leben.“&lt;ref&gt;{{Literatur | Autor=[[w:Carlos Fraenkel|Carlos Fraenkel]] | Titel=Mit Platon in Palästina | TitelErg=Vom Nutzen der Philosophie in einer zerrissenen Welt | Verlag=Carl Hanser Verlag | Ort=München | Jahr=2016 | ISBN=978-3-446-25067-3 | Seiten=153 | Originaltitel=Teaching Plato in Palestine. Philosophy in a Divided World | Übersetzer=Matthias Fienbork aus dem Englischen }}.&lt;/ref&gt;
+:[1] „Jede bemalte Schuhleistenfigur ist darüber hinaus in wiederholenden Schriftzügen mit dem sufischen Sprichwort ana jalis dhakarani, wa man dhakarani, ana jalisuhu ({{L|deutsch|dt.}} ''Ich'' bin der Gefährte dessen, der sich ''meiner'' erinnert, und der sich ''meiner'' erinnert, dessen Gefährte bin ''ich)'' versehen.“&lt;ref&gt;{{Literatur | Autor=Judith Bihr | Titel=Muster der Ambivalenz | TitelErg=Subversive Praktiken in der ägyptischen Kunst der Gegenwart | Verlag=transcript Verlag | Ort=Bielefeld | Jahr=2017 | ISBN=978-3-8376-3555-3 | Seiten=256 | Online=Zitiert nach {{GBS|fVLZDQAAQBAJ|PA256|Hervorhebung=ich+meiner}} }}.&lt;br /&gt;Die Kursivsetzung im Originalsatz der Umschrift des arabischen Sprichworts »ana jalis dhakarani, wa man dhakarani, ana jalisuhu« wurde nicht übernommen.&lt;/ref&gt;
+:[1] ''„Ich'' habe meine Tochter nicht geboren. Sie war mit ihrer Mutter auf dem Schiff, aber ihre Mutter ist ertrunken. ''Ich'' habe Amina so lange gehalten, bis wir gerettet wurden, und dann wollte ''ich'' nicht, dass sie in einem Heim aufwächst. ''Ich'' wollte sie nicht klauen. Jetzt kann ''ich'' aber nicht mehr schlafen, ''ich'' habe Angst, dass es rauskommt. ''Ich'' weiß, dass ''ich'' kein Anrecht auf meine Tochter habe, und gleichzeitig ist es meine größte Angst, dass jemand sie ''mir'' wieder wegnimmt.“&lt;ref&gt;{{Literatur | Autor=[[w:Olga Grjasnowa|Olga Grjasnowa]] | Titel=Gott ist nicht schüchtern | TitelErg=Roman | Verlag=aufbau digital | Ort=Berlin | Jahr=2017 | ISBN=978-3-8412-1286-3 | Seiten=‹ohne Seitenangabe› | Online=E-Book; zitiert nach {{GBS|8ruADQAAQBAJ|PT237|Hervorhebung=ich+mir}} }}.&lt;/ref&gt;
+:[1] „Manchmal saß ''ich'' die ganze Nacht draußen auf dem Balkon, badete in der abgekühlten Luft, sah auf die Lichtstraße, die der Mond auf das dunkle Wasser warf, und konnte mich nicht satthören an der Stille, in der nur noch ab und zu einer der unsichtbaren, im dunklen Schilf versteckten Wasservögel einen leisen, schlaftrunkenen Laut von sich gab.“&lt;ref&gt;{{Literatur | Autor=[[w:Natascha Wodin|Natascha Wodin]] | Titel=Sie kam aus Mariupol | Verlag=Rowohlt | Ort=Reinbek bei Hamburg | Jahr=2017 | ISBN=978-3-644-00056-8 | Seiten=‹ohne Seitenangabe› | Online=E-Book; zitiert nach {{GBS|HEWFDQAAQBAJ|PT12|Hervorhebung=ich}} }}.&lt;/ref&gt;
+
+{{Redewendungen}}
+:[1] [[darf ich bitten|darf ''ich'' bitten]]?
+:[1] [[das lobe ich mir|das lobe ''ich mir'']]!
+:[1] [[Gott soll mich strafen, wenn|Gott soll ''mich'' strafen, wenn …]]
+:[1] [[Gott steh mir bei|Gott steh ''mir'' bei]]!
+:[1] [[ich denk, ich hör nicht recht|''ich'' denk, ''ich'' hör nicht recht]]! / [[ich denk, ich seh nicht recht|''ich'' denk, ''ich'' seh nicht recht]]!
+:[1] [[ich habe mir sagen lassen|ich habe ''mir'' sagen lassen, …]]
+:[1] [[ich kann mir nicht helfen|''ich'' kann mir nicht helfen(, aber …)]]
+:[1] [[nach mir die Sintflut|nach ''mir'' die Sintflut]]!
+:[1] [[was sage ich|was sage ''ich'']]
+:[1] [[wasch mich, aber mach mich nicht nass|wasch ''mich,'' aber mach ''mich'' nicht nass]]! / [[wasch mir den Pelz, aber mach mich nicht nass|wasch ''mir'' den Pelz, aber mach ''mich'' nicht nass]]! / [[wasch mir den Pelz, und mach mich nicht nass|wasch ''mir'' den Pelz, und mach ''mich'' nicht nass]]!
+:[1] [[wenn ich bitten darf|wenn ''ich'' bitten darf]]
+:[1] [[wie kommst du mir vor|wie kommst du ''mir'' vor]]? / [[wie kommst du mir eigentlich vor|wie kommst du ''mir'' eigentlich vor]]?
+*{{scherzh.|:}}
+:[1] [[nie sollst du mich befragen|nie sollst du ''mich'' befragen]]
+:[1] [[was verschafft mir die Ehre|was verschafft ''mir'' die Ehre]]?
+*''[[ironisch]]:''
+:[1] [[das hat mir gerade noch gefehlt|das hat ''mir'' gerade noch gefehlt]] / [[das hat mir zu meinem Glück noch gefehlt|das hat ''mir'' zu meinem Glück noch gefehlt]] / [[das hat mir zu meinem Glück gerade noch gefehlt|das hat ''mir'' zu meinem Glück gerade noch gefehlt]]
+*{{ugs.|:}}
+:[1] [[da fragst du mich zu viel|da fragst du ''mich'' zu viel]]
+:[1] [[da hört für mich der Spaß auf|da hört für ''mich'' der Spaß auf]]
+:[1] [[da möchte ich nicht begraben sein|da möchte ''ich'' nicht begraben sein]] / [[dort möchte ich nicht begraben sein|dort möchte ''ich'' nicht begraben sein]]
+:[1] [[da sage ich nicht Nein|da sage ''ich'' nicht Nein]]
+:[1] [[dafür kann ich mir nichts kaufen|dafür kann ''ich'' mir nichts kaufen]]
+:[1] [[dann will ich nichts gesagt haben|dann will ''ich'' nichts gesagt haben]]
+:[1] ''[[ironisch]]:'' [[das habe ich gern|das habe ''ich'' gern]]! / [[das habe ich gerne|das habe ''ich'' gerne]]!
+:[1] [[das halte ich für ein Gerücht|das halte ''ich'' für ein Gerücht]]
+:[1] {{scherzh.|:}} [[das sagt mir mein kleiner Finger|das sagt ''mir'' mein kleiner Finger]]
+:[1] [[dass ich nicht kichere|dass ''ich'' nicht kichere]]!
+:[1] [[dass ich nicht lache|dass ''ich'' nicht lache]]!
+:[1] [[dem hätte ich etwas anderes erzählt|dem hätte ''ich'' etwas anderes erzählt]] / [[dem hätte ich was anderes erzählt|dem hätte ''ich'' was anderes erzählt]] / [[dem werde ich etwas anderes erzählen|dem werde ''ich'' etwas anderes erzählen]] / [[dem werde ich was anderes erzählen|dem werde ''ich'' was anderes erzählen]]
+:[1] [[der hätte ich etwas anderes erzählt|der hätte ''ich'' etwas anderes erzählt]] / [[der hätte ich was anderes erzählt|der hätte ''ich'' was anderes erzählt]] / [[der werde ich etwas anderes erzählen|der werde ''ich'' etwas anderes erzählen]] / [[der werde ich was anderes erzählen|der werde ''ich'' was anderes erzählen]]
+:[1] ''[[ironisch]]:'' [[du bist mir der Rechte|du bist ''mir'' der Rechte]] / [[du bist mir der Richtige|du bist ''mir'' der Richtige]] / {{landsch.|:}} [[du bist mir der Schlankste|du bist ''mir'' der Schlankste]]
+:[1] [[du kannst mir viel erzählen|du kannst ''mir'' viel erzählen]]
+:[1] [[frag mich was Leichtes|frag ''mich'' was Leichtes]]! / [[frag mich was Leichteres|frag ''mich'' was Leichteres]]!
+:[1] [[hol mich der Teufel|hol ''mich'' der Teufel]]! / [[der Teufel soll mich holen|der Teufel soll ''mich'' holen]]!
+:[1] [[ich bin fertig|''ich'' bin fertig]]!
+:[1] [[ich bitte Sie|''ich'' bitte Sie]]! / [[aber ich bitte Sie|aber ''ich'' bitte Sie]]!
+:[1] [[ich denk, mein Schwein pfeift|''ich'' denk, mein Schwein pfeift]] / [[ich glaub, mein Schwein pfeift|''ich'' glaub, mein Schwein pfeift]]
+:[1] {{scherzh.|:}} [[ich denk, mich knutscht ein Elch|''ich'' denk, ''mich'' knutscht ein Elch]] / [[ich denk, mich küsst ein Elch|''ich'' denk, ''mich'' küsst ein Elch]]
+:[1] [[ich kann dir sagen|''ich'' kann dir sagen]] / [[ich kann euch sagen|''ich'' kann euch sagen]] / [[ich kann Ihnen sagen|''ich'' kann Ihnen sagen]]
+:[1] [[ich muss doch sehr bitten|''ich'' muss doch sehr bitten]]!
+:[1] [[ich will mich hängen lassen, wenn|''ich'' will mich hängen lassen, wenn …]]
+:[1] [[jemand fehlt mir noch in meiner Käfersammlung|jemand fehlt ''mir'' noch in meiner Käfersammlung]] / [[jemand fehlt mir gerade noch in meiner Käfersammlung|jemand fehlt ''mir'' gerade noch in meiner Käfersammlung]]
+:[1] [[jemand fehlt mir noch in meiner Raupensammlung|jemand fehlt ''mir'' noch in meiner Raupensammlung]] / [[jemand fehlt mir gerade noch in meiner Raupensammlung|jemand fehlt ''mir'' gerade noch in meiner Raupensammlung]]
+:[1] ''[[ironisch]]:'' [[jemand kann mich gern haben|jemand kann ''mich'' gern haben]]
+:[1] [[mein Name ist Hase, ''ich'' weiß von nichts]]
+:[1] [[mir nichts, dir nichts|''mir'' nichts, dir nichts]]
+:[1] [[na, ich danke|na, ''ich'' danke]]!
+:[1] [[oder wie sehe ich das|oder wie sehe ''ich'' das]]?
+:[1] [[rutsch mir den Buckel herunter|rutsch ''mir'' den Buckel herunter]]! / [[rutsch mir den Buckel runter|rutsch ''mir'' den Buckel runter]]!
+:[1] [[und wer küsst mich|und wer küsst ''mich'']]? / [[und wer küsst mir|und wer küsst ''mir'']]?
+:[1] [[von mir aus|von ''mir'' aus]]
+:[1] [[wo werd ich denn|wo werd ''ich'' denn]]
+*''[[salopp]]:''
+:[1] ''verhüllend:'' [[jemand kann mich mal|jemand kann ''mich'' mal]] / [[jemand kann mir mal|jemand kann ''mir'' mal]]
+:[1] {{österr.|:}} [[ich bin ja kein Kopfschüssler|''ich'' bin ja kein Kopfschüssler]]
+:[1] [[ich denk, mich laust der Affe|''ich'' denk, ''mich'' laust der Affe]]! / [[mich laust der Affe|''mich'' laust der Affe]]!
+:[1] [[jemand kann mich am Abend besuchen|jemand kann ''mich'' am Abend besuchen]]
+:[1] ''verhüllend:'' [[leck mich|leck ''mich'']]! / [[leckt mich|leckt ''mich'']]!
+:[1] ''verhüllend:'' [[leck mich am Ärmel|leck ''mich'' am Ärmel]]!
+:[1] [[leck mich fett|leck ''mich'' fett]]
+*''[[derb]]:''
+:[1] [[blas mir den Hobel aus|blas ''mir'' den Hobel aus]]! / [[du kannst mir am Hobel blasen|du kannst ''mir'' am Hobel blasen]]! / [[du kannst mir den Hobel blasen|du kannst ''mir'' den Hobel blasen]]!
+:[1] [[du kannst mich kreuzweise|du kannst ''mich'' kreuzweise]]! / [[du kannst mich mal kreuzweise|du kannst ''mich'' mal kreuzweise]]!
+:[1] [[Gott verdamm mich|Gott verdamm ''mich'']]!
+:[1] [[leck mich am Arsch|leck ''mich'' am Arsch]]!
+*{{vatd.|:}}
+:[1] [[ich bin so frei|''ich'' bin so frei]]
+
+{{Sprichwörter}}
+:[1] [[wes Brot ich ess, des Lied ich sing|wes Brot ''ich'' ess, des Lied ''ich'' sing]]
+:[1] [[wie du mir, so ich dir|wie du ''mir,'' so ''ich'' dir]]
+
+{{Geflügelte Worte}}
+:[1] [[ach, ich bin des Treibens müde|ach, ''ich'' bin des Treibens müde]]
+:[1] [[ach, ich hab sie ja nur auf die Schulter geküsst|ach, ''ich'' hab sie ja nur auf die Schulter geküsst]]
+:[1] [[ach, wie ists möglich dann, dass ich dich lassen kann|ach, wie ists möglich dann, dass ''ich'' dich lassen kann]]
+:[1] [[auch ich war in Arkadien|auch ''ich'' war in Arkadien]]
+:[1] [[auf diese Bank von Stein will ich mich setzen|auf diese Bank von Stein will ''ich'' mich setzen]]
+:[1] [[da steh ich, ein entlaubter Stamm|da steh ''ich,'' ein entlaubter Stamm]]!
+:[1] [[da steh nun, ich armer Tor! Und bin so klug als wie zuvor|da steh ''ich'' nun, ''ich'' armer Tor! Und bin so klug als wie zuvor]]
+:[1] [[dann mach ich mir ’nen Schlitz ins Kleid|dann mach ''ich'' mir ’nen Schlitz ins Kleid]]
+:[1] [[den lieb ich, der Unmögliches begehrt|den lieb ''ich,'' der Unmögliches begehrt]]
+:[1] [[denk ich an Deutschland in der Nacht, dann bin ich um den Schlaf gebracht|denk ''ich'' an Deutschland in der Nacht, dann bin ''ich'' um den Schlaf gebracht]]
+:[1] [[die Gründe kenne ich nicht, aber ich muss sie missbilligen|die Gründe kenne ''ich'' nicht, aber ''ich'' muss sie missbilligen]]
+:[1] [[die Rache ist mein|die Rache ist ''mein'']] / [[mein ist die Rache|''mein'' ist die Rache]]
+:[1] [[Freiheit, die ich meine|Freiheit, die ''ich'' meine]]
+:[1] [[hier bin ich Mensch, hier darf ich’s sein|hier bin ''ich'' Mensch, hier darf ''ich''’s sein]]
+:[1] [[hier ist die Stelle, wo ich sterblich bin|hier ist die Stelle, wo ''ich'' sterblich bin]]
+:[1] [[hier stehe ich, ich kann nicht anders|hier stehe ''ich, ich'' kann nicht anders]]
+:[1] [[himmlisch war’s, wenn ich bezwang meine sündige Begier|himmlisch war’s, wenn ''ich'' bezwang meine sündige Begier]]
+:[1] [[ich besaß es doch einmal, was so köstlich ist|''ich'' besaß es doch einmal, was so köstlich ist]]!
+:[1] [[ich bin allein auf weiter Flur|''ich'' bin allein auf weiter Flur]]
+:[1] [[ich bin der Letzte meines Stammes|''ich'' bin der Letzte meines Stammes]]
+:[1] [[ich bin der Mann der bleichen Furcht nicht|''ich'' bin der Mann der bleichen Furcht nicht]]
+:[1] [[ich bin des trocknen Tons nun satt|''ich'' bin des trocknen Tons nun satt]]
+:[1] [[ich bin drin|''ich'' bin drin]]!
+:[1] [[ich bin ein Berliner|''ich'' bin ein Berliner]]
+:[1] [[ich bin ein Elefant, Madame|''ich'' bin ein Elefant, Madame]]
+:[1] [[ich bin ein freier Mann und singe|''ich'' bin ein freier Mann und singe]]
+:[1] [[ich bin ein Mensch, nichts Menschliches ist mir fremd|''ich'' bin ein Mensch, nichts Menschliches ist mir fremd]]
+:[1] [[ich bin es müde, über Sklaven zu herrschen|''ich'' bin es müde, über Sklaven zu herrschen]]
+:[1] [[ich bin kein ausgeklügelt Buch|''ich'' bin kein ausgeklügelt Buch]]
+:[1] [[ich bin nicht in der Gebelaune heut|''ich'' bin nicht in der Gebelaune heut]]
+:[1] [[ich bin nur ein armer Wandergesell|''ich'' bin nur ein armer Wandergesell]]
+:[1] [[ich bin o.k., du bist o.k.|''ich'' bin o.k., du bist o.k.]]
+:[1] [[ich bin so satt, ich mag kein Blatt|''ich'' bin so satt, ''ich'' mag kein Blatt]]
+:[1] [[ich bin so wild nach deinem Erdbeermund|''ich'' bin so wild nach deinem Erdbeermund]]
+:[1] [[ich bin von Kopf bis Fuß auf Liebe eingestellt|''ich'' bin von Kopf bis Fuß auf Liebe eingestellt]]
+:[1] [[ich bin zu alt, um nur zu spielen, zu jung, um ohne Wunsch zu sein|''ich'' bin zu alt, um nur zu spielen, zu jung, um ohne Wunsch zu sein]]
+:[1] [[ich danke dir, Gott, dass ich nicht bin wie die andern Leute|''ich'' danke dir, Gott, dass ''ich'' nicht bin wie die andern Leute]]
+:[1] [[ich denke einen langen Schlaf zu tun|''ich'' denke einen langen Schlaf zu tun]]
+:[1] [[ich denk, mich tritt ein Pferd|''ich'' denk, ''mich'' tritt ein Pferd]]
+:[1] [[ich erwachte eines Morgens und fand, dass ich berühmt war|''ich'' erwachte eines Morgens und fand, dass ''ich'' berühmt war]]
+:[1] [[ich fühle eine Armee in meiner Faust|''ich'' fühle eine Armee in meiner Faust]]
+:[1] [[ich geh aus, und du bleibst da|''ich'' geh aus, und du bleibst da]]
+:[1] [[ich grolle nicht, und wenn das Herz auch bricht|''ich'' grolle nicht, und wenn das Herz auch bricht]]
+:[1] [[ich grüße dich, du einzige Phiole|''ich'' grüße dich, du einzige Phiole]]
+:[1] [[ich hab es getragen sieben Jahr|''ich'' hab es getragen sieben Jahr]]
+:[1] [[ich hab getan, was ich nicht lassen konnte|''ich'' hab getan, was ''ich'' nicht lassen konnte]]
+:[1] [[ich hab hier bloß ein Amt und keine Meinung|''ich'' hab hier bloß ein Amt und keine Meinung]]
+:[1] [[ich hab meine Tante geschlachtet|''ich'' hab meine Tante geschlachtet]]
+:[1] [[ich hab mein Herz in Heidelberg verloren|''ich'' hab mein Herz in Heidelberg verloren]]
+:[1] [[ich hab mein Sach auf nichts gestellt|''ich'' hab mein Sach auf nichts gestellt]]
+:[1] [[ich hab noch einen Koffer in Berlin|''ich'' hab noch einen Koffer in Berlin]]
+:[1] [[ich habe das Meinige getan|''ich'' habe das Meinige getan]]
+:[1] [[ich habe gelebt und geliebet|''ich'' habe gelebt und geliebet]] / [[ich habe genossen das irdische Glück, ich habe gelebt und geliebet|''ich'' habe genossen das irdische Glück, ''ich'' habe gelebt und geliebet]]
+:[1] [[ich habe jetzt keine Zeit, müde zu sein|''ich'' habe jetzt keine Zeit, müde zu sein]]
+:[1] [[ich habe schon so viel für dich getan|''ich'' habe schon so viel für dich getan]]
+:[1] [[ich habs gewagt|''ich'' habs gewagt]]
+:[1] [[ich hatte einst ein schönes Vaterland|''ich'' hatte einst ein schönes Vaterland]]
+:[1] [[ich kam, ich sah, ich siegte|''ich'' kam, ''ich'' sah, ''ich'' siegte]]
+:[1] [[ich kann allem widerstehen, nur nicht der Versuchung|''ich'' kann allem widerstehen, nur nicht der Versuchung]]
+:[1] [[ich kann den Blick nicht von euch wenden|''ich'' kann den Blick nicht von euch wenden]]
+:[1] [[ich kann gar nicht so viel fressen, wie ich kotzen möchte|''ich'' kann gar nicht so viel fressen, wie ''ich'' kotzen möchte]]
+:[1] [[ich kann nicht Fürstendiener sein|''ich'' kann nicht Fürstendiener sein]]
+:[1] [[ich kanns nicht fassen|''ich'' kanns nicht fassen]]
+:[1] [[ich kenne die Weise, ich kenne den Text|''ich'' kenne die Weise, ''ich'' kenne den Text]]
+:[1] [[ich liebe dich, mich reizt deine schöne Gestalt|''ich'' liebe dich, ''mich'' reizt deine schöne Gestalt]]
+:[1] [[ich liebe dir, ich liebe dich|''ich'' liebe dir, ''ich'' liebe dich]]
+:[1] [[ich sage wenig, denke desto mehr|''ich'' sage wenig, denke desto mehr]]
+:[1] [[ich schnitt es gern in alle Rinden ein|''ich'' schnitt es gern in alle Rinden ein]]
+:[1] [[ich seh dir in die Augen, Kleines|''ich'' seh dir in die Augen, Kleines]]
+:[1] [[ich singe, wie der vogel singt|''ich'' singe, wie der Vogel singt]]
+:[1] [[ich tanze mit dir in den Himmel hinein|''ich'' tanze mit dir in den Himmel hinein]]
+:[1] [[ich träume als Kind mich zurücke|''ich'' träume als Kind mich zurücke]]
+:[1] [[im tiefen Keller sitz ich hier|im tiefen Keller sitz ''ich'' hier]]
+:[1] [[mich wundert, dass ich so fröhlich bin|''mich'' wundert, dass ''ich'' so fröhlich bin]]
+:[1] [[mit Verlaub, ich bin so frei|mit Verlaub, ''ich'' bin so frei]]
+:[1] [[o wüsst ich doch den Weg zurück|o wüsst ''ich'' doch den Weg zurück]]!
+:[1] [[ob blond, ob braun, ich liebe alle Frau’n|ob blond, ob braun, ''ich'' liebe alle Frau’n]]
+:[1] [[soll ich meines Bruders Hüter sein|soll ''ich'' meines Bruders Hüter sein]]?
+:[1] [[vom Vater hab ich die Statur|vom Vater hab ''ich'' die Statur]]
+:[1] [[was frag ich viel nach Geld und Gut|was frag ''ich'' viel nach Geld und Gut]]
+:[1] [[wie herrlich leuchtet mir die Natur|wie herrlich leuchtet ''mir'' die Natur]]
+:[1] [[zwar weiß ich viel, doch möcht ich alles wissen|zwar weiß ''ich'' viel, doch möcht ''ich'' alles wissen]]
+*{{scherzh.|:}}
+:[1] [[ich ging im Walde so für mich hin|''ich'' ging im Walde so für ''mich'' hin]]
+:[1] [[ich habe fertig|''ich'' habe fertig]]
+:[1] [[ich würde dir ohne Bedenken eine Kachel aus meinem Ofen schenken|''ich'' würde dir ohne Bedenken eine Kachel aus meinem Ofen schenken]]
+:[1] [[was ich geschrieben habe, das habe ich geschrieben|was ''ich'' geschrieben habe, das habe ''ich'' geschrieben]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] ''ich'' [[für]] [[mein]]/[[mein]]en [[Teil]], ''ich'' [[für]] [[mein]]e [[Person]], ''ich'' [[meinerseits]], [[was]] ''mich'' [[anbelangen|anbelangt]]/[[anbetreffen|anbetrifft]]/[[angehen|angeht]]/[[anlangen|anlangt]]/[[betreffen|betrifft]]
+:[1] [[ich liebe dich|''ich'' liebe dich]]
+
+{{Wortbildungen}}
+:[[Ich]], [[Ich-Jetzt-Hier-Origo]], [[Ichlaut]]/[[Ich-Laut]]/[[ich-Laut]], [[Ichwelt]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=bezeichnet die eigene Person; 1. Person Singular|Ü-Liste=
+*{{af}}: {{Ü|af|ek}}, {{ugs.}} ''[[emphatisch]] auch:'' {{Ü|af|ekke}}
+*{{egy}}: &lt;hiero&gt;M17-W24:V31&lt;/hiero&gt;&lt;ref name="KoptHWB"&gt;{{Literatur | Autor=Wilhelm Spiegelberg | Titel=Koptisches Handwörterbuch | | Verlag=Carl Winters Universitätsbuchhandlung | Ort=Heidelberg | Jahr=1921 | Seiten=7 }}.&lt;/ref&gt; (ỉnk; &lt;small&gt;[[w:Gardiner-Liste|Gardiner]]:&lt;/small&gt; jnk)
+**[[w:Mittelägyptisch|Mittelägyptisch]]: &lt;hiero&gt;G43-A1&lt;/hiero&gt;&lt;ref name="Wallis Budge"&gt;{{Literatur | Autor=[[w:E. A. Wallis Budge|Sir Ernest A[lbert]. Wallis Budge]] | Titel=An Egyptian Hieroglyphic Dictionary | TitelErg=With an Index of English Words, King List and Geographical List with Indexes, List of Hieroglyphic Characters, Coptic and Semitic Alphabets | Band=Volume Ⅰ | Verlag=Cosimo Classics | Ort=New York | Jahr=2010 | ISBN=978-1-61640-461-1 | Seiten=152 | Online=Zitiert nach {{GBS|WUppj1LHdJ4C|PA152|Hervorhebung=pronoun}}; Erstausgabe 1920 }}.&lt;/ref&gt; (&lt;small&gt;[[w:Gardiner-Liste|Gardiner]]:&lt;/small&gt; w; &lt;small&gt;[[w:Wallis Budge|Wallis Budge]]:&lt;/small&gt; uȧ&lt;ref name="Wallis Budge"/&gt;), &lt;hiero&gt;G43-A42&lt;/hiero&gt;&lt;ref name="Wallis Budge"/&gt; (&lt;small&gt;[[w:Gardiner-Liste|Gardiner]]:&lt;/small&gt; w; &lt;small&gt;[[w:Wallis Budge|Wallis Budge]]:&lt;/small&gt; uȧ&lt;ref name="Wallis Budge"/&gt;), &lt;hiero&gt;G43-Z1&lt;/hiero&gt;&lt;ref name="Wallis Budge"/&gt; (&lt;small&gt;[[w:Gardiner-Liste|Gardiner]]:&lt;/small&gt; w; &lt;small&gt;[[w:Wallis Budge|Wallis Budge]]:&lt;/small&gt; uȧ&lt;ref name="Wallis Budge"/&gt;), &lt;hiero&gt;G43-M17&lt;/hiero&gt;&lt;ref name="Wallis Budge"/&gt; (wỉ; &lt;small&gt;[[w:Gardiner-Liste|Gardiner]]:&lt;/small&gt; wj; &lt;small&gt;[[w:Wallis Budge|Wallis Budge]]:&lt;/small&gt; uȧ&lt;ref name="Wallis Budge"/&gt;), &lt;hiero&gt;Z7-A1&lt;/hiero&gt;&lt;ref name="Wallis Budge"/&gt; (&lt;small&gt;[[w:Gardiner-Liste|Gardiner]]:&lt;/small&gt; w; &lt;small&gt;[[w:Wallis Budge|Wallis Budge]]:&lt;/small&gt; uȧ&lt;ref name="Wallis Budge"/&gt;), &lt;hiero&gt;Z7:Z1&lt;/hiero&gt;&lt;ref name="Wallis Budge"/&gt; (&lt;small&gt;[[w:Gardiner-Liste|Gardiner]]:&lt;/small&gt; w; &lt;small&gt;[[w:Wallis Budge|Wallis Budge]]:&lt;/small&gt; uȧ&lt;ref name="Wallis Budge"/&gt;)
+*{{akk|DMG}}: {{Üt|akk|𒀀𒈾𒆪|anāku}}
+*{{sq}}: {{Ü|sq|unë}}
+*{{grc}}: {{Üt|grc|ἐγώ|egō}}
+*{{cu}}: {{Üt|cu|азъ|}}
+*{{orv|ISO 9}}: {{Üt|orv|ꙗ|â}}&lt;ref name="Срезневский"/&gt;, {{Üt|orv|ꙗзъ|âzŭ}}&lt;ref name="Срезневский"/&gt;
+*{{am}} &lt;small&gt;([http://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&amp;uid=vsytndbyev B&amp;D])&lt;/small&gt;: {{Üt|am|እኔ|ʾəne}}
+*Antillen-Kreolisch:
+**Martinique-Kreolisch: {{Ü|gcf|man}}&lt;ref&gt;{{Literatur | Autor=Raphaël Confiant | Titel=Dictionnaire créole martiniquais-français | Band=Volume 2: L–Z | Verlag=Ibis Rouge | Ort=Matoury | Jahr=2007 | ISBN=978-2-84450-307-7, Stichwort »man¹« | Online=[http://www.potomitan.info/dictionnaire/m.pdf#page=16 URL: PDF 337 kB] }}.&lt;/ref&gt;, {{Ü|gcf|mwen}}&lt;ref&gt;Ebenda, Stichwort »mwen¹« ([http://www.potomitan.info/dictionnaire/m.pdf#page=61 URL: PDF 337 kB]).&lt;/ref&gt;; {{va.|:}} {{Ü|gcf|mo}}&lt;ref&gt;Ebenda, Stichwort »mo¹« ([http://www.potomitan.info/dictionnaire/m.pdf#page=51 URL: PDF 337 kB]).&lt;/ref&gt;
+*{{ar|DMG}}:
+**{{KA}}: {{Üxx4|ar|ان|v=أَنْ٬ أَنَ|d=an, ana|DMG=0}}&lt;ref name="Lane"&gt;{{Lit-Lane: Arabic-English Lexicon}}, Stichwort »{{Arab|أَنْ}}«, Seite 103–104.&lt;/ref&gt;, {{Üxx4|ar|انا|v=أَنَا|d=anā|DMG=0}}&lt;ref name="Lane"/&gt;, {{Üxx4|ar|آن|v=آنَ|d=āna|DMG=0}}&lt;ref name="Lane"/&gt;, {{Üxx4|ar|انه|v=أَنَهْ|d=anah|DMG=0}}&lt;ref name="Lane"/&gt;
+**{{xaa}}: {{Üxx4|ar|انا|v=اَنَا|d=anā|DMG=0}}&lt;ref name="Corriente"&gt;{{Literatur | Autor=Federico Corriente | Titel=A Dictionary of Andalusi Arabic | Verlag=Brill | Ort=Leiden/New York/Köln | Jahr=1997 (Handbuch der Orientalistik. Erste Abteilung, der Nahe und Mittlere Osten; Band 29, {{ISSN|0169-9423}}) | ISBN=978-90-04-09846-6 }}, Stichwort »*{ʾN} Ⅱ«, Seite 28.&lt;/ref&gt;&lt;ref name="Schiaparelli"&gt;{{Literatur | Autor=C[elestino]. Schiaparelli | Titel-P=Vocabulista in Arabico | TitelErg=pubblicato per la prima volta sopra un codice della Biblioteca Riccardiana di Firenze | Verlag=Tipografia dei Successori Le Monnier | Ort=Firenze | Jahr=1871 | Seiten=362 | Online=Zitiert nach {{IA|vocabulistainara00bibluoft#page/362/mode/1up/search/ego|FB}} }}.&lt;/ref&gt;, {{Üxx4|ar|اني|v=اَنِي|d=anī|DMG=0}}&lt;ref name="Corriente"/&gt;&lt;ref name="Schiaparelli"/&gt;
+**{{MHA}}: {{Üxx4|ar|انا|v=أَنَا|d=anā|DMG=0}}
+**[[w:Maghrebinisches Arabisch|Maghrebinisches Arabisch]]:
+***[[w:Hassania|Ḥassāniyya]]: ''[[Mali]]:'' {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' āna&lt;ref name="Heath"&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Jeffrey Heath | Titel=Hassaniya Arabic (Mali) – English – French Dictionary | Verlag=Harrassowitz Verlag | Ort=Wiesbaden | Jahr=2004 (Semitica viva ; Band 33, {{ISSN|0931-2811}})| ISBN=3-447-05012-8 }}, Stichwort »ana«, Seite 5.&lt;/ref&gt;|DMG=0}},  ''[[selten]]er:'' {{Üxx4|ar|يانا|v=يَانَا|d=yānā; ''mundartnah:'' yāna&lt;ref name="Heath"/&gt;|DMG=0}}
+***{{ary}}: {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' ana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Herausgeber=Richard S. Harrell; compiled by Thomas Fox, Mohammed Abu-Talib, with the assistance of Ahmed Ben Thami, Allal Chreibi, Habiba Kanouni, Ernest Ligon, Mohammed Mekaoui | Titel=A Dictionary of Moroccan Arabic | TitelErg=Moroccan–English | Verlag=Georgetown University Press | Ort=Washington, D.C. | Jahr=1966 }}, Stichwort »ana«, Seite 2.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Ernest T. Abdel-Massih | Titel=Advanced Moroccan Arabic | Verlag=The University of Michigan | Ort=Ann Arbor | Jahr=1974 }}, Stichpunkt »a) Independent Subject Pronouns«, Seite 178, Stichwort »ana«, Seite 191 (arabisch-englischer Teil) sowie Stichwort »I«, Seite 230 (englisch-arabischer Teil).&lt;/ref&gt;, āna&lt;ref name="Moscoso García"&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Francisco Moscoso García | Titel=Diccionario español – árabe marroquí | Verlag=Junta de Andalucía, Dirección General de Coordinación de Políticas Migratorias | Ort=Sevilla | Jahr=2005 | ISBN=84-689-2464-4 }}, Stichwort »Yo«, Seite 287.&lt;/ref&gt;|DMG=0}}&lt;ref&gt;{{Literatur | Autor=B[elqacem]. Tedjini | Titel-P=Dictionnaire arabe-français | TitelErg=[Maroc] | Verlag=Société d’Éditions Géographiques, Maritimes et Coloniales | Ort=Paris | Jahr=1923 | Seiten=9 }}.&lt;/ref&gt;, ''alleinstehend:'' {{Üxx4|ar|انايا|v=أَنَايَا|d=anāyā; ''mundartnah:'' ānāya&lt;ref name="Moscoso García"/&gt;|DMG=0}}; ''Nordmarokko:'' {{Üxx4|ar|يانا|v=يَانَا|d=yānā; ''mundartnah:'' yāna&lt;ref name="Moscoso García"/&gt;|DMG=0}}
+***{{arq}}: {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' ana&lt;ref name="Ben Sedira-xx"&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Belkassem Ben Sedira | Titel=Dictionnaire français-arabe de la langue parlée en Algérie | Auflage=5. | Verlag=Adolphe Jourdan | Ort=Alger | Jahr=1910 | Seiten=ⅹⅹ sowie Stichwort »Je (moi)«, Seite 330 | Online=Zitiert nach {{IA|dictionnairefran00abaluoft#page/n31/mode/1up/search/ana|FB}} }}.&lt;/ref&gt;|DMG=0}}, ''alleinstehend:'' {{Üxx4|ar|انايا|v=أَنَايَا|d=anāyā; ''mundartnah:'' anaya&lt;ref name="Ben Sedira-xx"/&gt;|DMG=0}}
+***{{aeb}}: {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' āna&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Wahid Ben Alaya | Titel=Tunesisch-Arabisch Wort für Wort | Auflage=7. | Verlag=R&lt;small cap&gt;EISE&lt;/small cap&gt;-K&lt;small cap&gt;NOW&lt;/small cap&gt;-H&lt;small cap&gt;OW&lt;/small cap&gt; Verlag Peter Rump GmbH | Ort=Bielefeld | Jahr=2006 (Kauderwelsch Band 73) | ISBN=978-3-89416-263-4 }}, Stichwort »ich«, Seite 141.&lt;/ref&gt;, ana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Robert J. Scholes, Toufik Abida | Titel=Spoken Tunisian Arabic | TitelErg=First Draft | Verlag=Indiana University | Ort=Bloomington | Jahr=1966 }}, Seite 38.&lt;/ref&gt;, ama&lt;ref&gt;Mundartnahe Umschrift nach ebenda, Stichpunkt »16. Personal Pronouns«, Seite 27.&lt;/ref&gt;|DMG=0}}; {{reg.}} ''([[w:Sousse|Sūsa]]):'' {{Üxx4|ar|اني|v=أَنِي|d=anī; ''mundartnah:'' {{Lautschrift|ɛːni}}&lt;ref&gt;Mundartnahe Transkription nach {{Literatur | Autor=Fathi Talmoudi | Titel=The Arabic Dialect of Sūsa (Tunisia) | Verlag=ACTA UNIVERSITATIS GOTHOBURGENSIS | Ort=University of Göteborg | Jahr=1980 (ORIENTALIA GOTHOBURGENSIA ; 4, {{ISSN|0078-656X}}) | ISBN=91-7346-079-6 }}, Stichpunkt »2.9.1.1 Independent personal pronouns«, Seite 143.&lt;/ref&gt; āni|DMG=0}}
+***{{ayl}}: {{Üxx4|ar|اني|v=أَنِي|d=anī; ''mundartnah:'' anē&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Eerik Dickenson | Titel=Spoken Libyan Arabic | Verlag=Dunwoody Press | Ort=Springfield (VA) | Jahr=2004 | ISBN=1-931546-05-3 }}, Stichwort »anee«, Seite 376.&lt;/ref&gt;|DMG=0}}; ''[[w:en:Judeo-Tripolitanian Arabic|jüdische Mundart von]] [[w:Tripolis|Ṭarābulus]]:'' {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' aná ~ ána&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Sumikazu Yoda | Titel=The Arabic Dialect of the Jews in Tripoli (Libya) | TitelErg=Grammar, Text and Glossary | Verlag=Otto Harrassowitz | Ort=Wiesbaden | Jahr=2005 (Semitica viva ; Band 35, {{ISSN|0931-2811}}) | ISBN=3-447-05133-7 }}, Stichpunkt »2.1.1.1. Independent pronouns«, Seite 115 sowie Stichwort »aná ~ ána«, Seite 315 (Glossary).&lt;/ref&gt;|DMG=0}}
+**{{arz}}:
+***Alexandrinisches Arabisch: {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' ana&lt;ref name="ZDMG"&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Peter Behnstedt | Titel=Zum ursprünglichen Dialekt von Alexandria | Sammelwerk=Zeitschrift der Deutschen Morgenländischen Gesellschaft | Band=Band 130 | Jahr=1980 | Seiten=39 | Online=Zitiert nach [http://menadoc.bibliothek.uni-halle.de/dmg/periodical/pageview/126086 Digitalisat] der [[w:Martin-Luther-Universität Halle-Wittenberg|MLU]] }}.&lt;/ref&gt;|DMG=0}}, {{Üxx4|ar|اني|v=أَنِي|d=anī; ''mundartnah:'' ani&lt;ref name="ZDMG"/&gt;|DMG=0}}
+***[[w:en:Cairene Arabic|Kairinisches Arabisch]]: {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' ana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=El-Said Badawi, Martin Hinds | Titel=A Dictionary of Egyptian Arabic | TitelErg=Arabic-English | Verlag=Librairie du Liban | Ort=Beirut | Jahr=1986 }}, Stichwort »{{Arab|أنا}}«, Seite 39.&lt;/ref&gt;|DMG=0}}
+***[[w:en:Sa'idi Arabic|Ṣaʿīdī-Arabisch]]: {{Üxx4|ar|اني|v=أَنِي|d=anī; ''mundartnah:'' áni&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Abdelghany A. Khalafallah | Titel=A Descriptive Grammar of Saɛi:di Egyptian Colloquial Arabic | Verlag=Mouton | Ort=Den Haag/Paris | Jahr=1969 }}, Stichpunkt »10. PRONOUNS«, Seite 76.&lt;/ref&gt;|DMG=0}}
+**[[w:en:Levantine Arabic|Levantinisches Arabisch]]:
+***[[w:Palästinensisch-Arabisch|Palästinensisch-Arabisch]]: {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' änä&lt;ref name="Bauer162"&gt;Mundartliche Umschrift nach {{Lit-Bauer: Wörterbuch der arabischen Umgangssprache|A=2}}, Stichwort »ich«, Seite 162.&lt;/ref&gt;&lt;ref name="Bauer174"&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Leonhard Bauer | Titel=Wörterbuch des paläſtininſchen Arabiſch | TitelErg=Deutſch-Arabiſch | Verlag=H. B. Wallmann, Verlagsbuchhandlung/Syriſches Waiſenhaus, Buchhandlung | Ort=Leipzig/Jeruſalem | Jahr=1933, Stichwort »ich« | Seiten=174 }}.&lt;/ref&gt;|DMG=0}}; {{reg.}} ''([[w:Nablus|Nābulus]]):'' {{Üxx4|ar|اني|v=أَنِي|d=anī; ''mundartnah:'' ǟni&lt;ref name="Bauer162"/&gt;&lt;ref name="Bauer174"/&gt;|DMG=0}}
+***[[w:Libanesisch-Arabisch|Libanesisch-Arabisch]]: {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' änä&lt;ref name="Bauer162"/&gt;&lt;ref name="Bauer174"/&gt;, ana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Maksoud N. Feghali | Titel=Spoken Lebanese | Band=First Edition | Verlag=Parkway Publishers | Ort=Boone (NC) | Jahr=1999 (©1998) | ISBN=1-887905-14-6 }}, Stichpunkt »P&lt;small cap&gt;RONOUNS&lt;/small cap&gt;«, Seite 4.&lt;/ref&gt;, ''([[w:Tripoli (Libanon)|Ṭarābulus]])'' anä&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Hassan El-Hajjé | Titel-P=Le parler arabe de Tripoli | TitelErg=(Liban) | Verlag=Librairie C. Klincksieck | Ort=Paris | Jahr=1954, Stichpunkt »LE PRONOM PERSONNEL« | Seiten=33 }}.&lt;/ref&gt;|DMG=0}}
+***[[w:Syrisch-Arabisch|Syrisch-Arabisch]]: {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' ana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Mark W. Cowell | Titel-P=A Reference Grammar of Syrian Arabic | TitelErg=[based on the dialect of Damascus] | Verlag=Georgetown University Press | Ort=Washington, D.C. | Jahr=1964 (Arabic Series ; Number 7) | ISBN=0-87840-009-5, Stichpunkt »PERSONAL PRONOUNS« | Seiten=539 }}.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Mary-Jane Liddicoat, Richard Lennane, Iman Abdul Rahim | Titel=Syrian Colloquial Arabic | TitelErg=A Functional Course. Revised Edition | Verlag=M-J Liddicoat, Richard Lenanne | Ort=Griffith ACT (Australia) | Jahr=1999 (Series: Integrated Arabic) | ISBN=0-646-36958-X }}, Stichpunkt »PERSONAL PRONOUNS«, Seite 29.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Herausgeber=Karl Stowasser, Moukhtar Ani | Titel=A Dictionary of Syrian Arabic | TitelErg=English–Arabic | Verlag=Georgetown University Press | Ort=Washington, D.C. | Jahr=2004 (Georgetown classics in Arabic language and linguistics) | ISBN=1-58901-105-8 }}, Stichwort »I«, Seite 121.&lt;/ref&gt;|DMG=0}}; {{reg.|:}} ''([[w:Hauran|Ḥawrān]], [[w:An-Nabk|an-Nabk]])'' {{Üxx4|ar|اني|v=أَنِي|d=anī; ''mundartnah: (Ḥawrān)'' ani&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=J[ean]. Cantineau | Titel=Les parlers arabes du Ḥōrân | Band=Volume 1 | Verlag=Librairie C. Klincksieck | Ort=Paris | Jahr=1946, Stichpunkt »LE PRONOM PERSONNEL« | Seiten=193 }}.&lt;/ref&gt;, ''(an-Nabk)'' anē&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Sabine Gralla | Titel=Der arabische Dialekt von Nabk (Syrien) | Verlag=Otto Harrassowitz | Ort=Wiesbaden | Jahr=2006 (Semitica viva ; Band 37, {{ISSN|0931-2811}})| ISBN=978-3-447-05449-2, Stichpunkt »2.1.1. Selbständiges Personalpronomen« | Seiten=27 }}.&lt;/ref&gt;|DMG=0}}, ''([[w:Hama (Syrien)|Ḥamāh]])'' {{Üxx4|ar|آني|v=آنِي|d=ānī; ''mundartnah:'' āni&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Herausgeber=Bernhard Lewin | Titel=Arabische Texte im Dialekt von Hama | TitelErg=Mit Einleitung und Glossar | Verlag=In Kommission bei Franz Steiner Verlag | Ort=Wiesbaden/Beirut | Jahr=1966 (Beiruter Texte und Studien ; Band 2), Stichwort »{{Arab|آني}}« | Seiten=199 (Glossar) }}.&lt;/ref&gt;|DMG=0}}
+**[[w:Irakisch-Arabisch|Irakisch-Arabisch]]: {{Üxx4|ar|آني|v=آنِي|d=ānī; ''mundartnah:'' āni&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=D.R. Woodhead, Wayne Beene (Hrsg.); under the technical direction of Karl Stowasser, with the assistance of Majid Damah, Faisal Al-Khalaf, Husain Mustafa, Darrel Smith, Ronald G. Wolfe | Titel=A Dictionary of Iraqi Arabic | TitelErg=Arabic–English | Verlag=Georgetown University Press | Ort=Washington, D.C. | Jahr=1967 | ISBN=0-87840-281-0 }}, Stichwort »ˀ-a-n-y, ˀaani«, Seite 1.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Herausgeber=Beverly E. Clarity, Karl Stowasser, Ronald G. Wolfe, D.R. Woodhead, Wayne Beene | Titel=A Dictionary of Iraqi Arabic | TitelErg=English–Arabic Arabic–English | Verlag=Georgetown University Press | Ort=Washington, D.C. | Jahr=2003 | ISBN=0-87840-136-9 }}, Stichwort »ˀ-a-n-y, ˀaani«, Seite 1 (arabisch-englischer Teil).&lt;/ref&gt;|DMG=0}}; ''[[w:en:Judeo-Iraqi Arabic|jüdisch regional]] ([[w:Akrê|ʿAqra]], [[w:Erbil|Arbīl]], [[w:en:Baghdad Jewish Arabic|Baġdād]]):'' {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' ana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Otto Jastrow | Titel=Der arabische Dialekt der Juden von ʿAqra und Arbīl | Verlag=Otto Harrassowitz | Ort=Wiesbaden | Jahr=1990 (Semitica Viva ; Band 5, {{ISSN|0931-2811}})| ISBN=3-447-02950-1, Stichpunkt »2.1. Personalpronomina« | Seiten=371 (Glossar) }}.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Haim Blanc | Titel=Communal Dialects in Baghdad | Verlag=Harvard University Press | Ort=Cambridge (MA)| Jahr=1964 | Seiten=162 }}.&lt;/ref&gt;|DMG=0}}
+**[[w:en:Saudi Arabic|Saudisches Arabisch]]: {{Üxx4|ar|انا|v=أَنَا|d=''nur in Südost-Saudi-Arabien ([[w:Provinz Dschāzān|Ǧāzān]]: Ǧabal Fayfāʾ)'' anā&lt;ref name="Behnstedt90"&gt;{{Literatur | Autor=Peter Behnstedt | Titel=Dialect Atlas of North Yemen and Adjacent Areas | Verlag=Brill | Ort=Leiden/Boston | Jahr=2016 (Handbuch der Orientalistik: Abteilung 1, Der Nahe und Mittlere Osten ; Band 114, {{ISSN|0169-9423}}) | ISBN=978-90-04-32569-2 }}, Karte 039, Seite 90.&lt;/ref&gt; ''sowie ([[w:Provinz Asir|ʿAsīr]]: al-Qawz, Bāriq)'' āna&lt;ref name="Behnstedt90"/&gt;, ''sonst überwiegend mundartnah:'' ana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Merrill Y. Van Wagoner, Arnold Satterthwait, Frank Rice | Titel-P=Spoken Arabic | TitelErg=(Saudi) | Verlag=Spoken Language Services, Inc. | Ort=Ithaca (NY) | Jahr=1977 | ISBN=0-87950-410-2, Stichpunkt »Personal Pronouns« | Seiten=17 }}.&lt;/ref&gt;, ána&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Clive Holes | Titel=Colloquial Arabic of the Gulf and Saudi Arabia | Verlag=Routledge | Ort=London/New York | Jahr=2000 (©1984) | ISBN=0-415-08027-4 | Seiten=54 | Kommentar=Reprint der 1. Ausgabe, 1984 }}.&lt;/ref&gt;|DMG=0}}
+**[[w:en:Yemeni Arabic|Jemenitisch-Arabisch]]: {{Üxx4|ar|انا|v=أَنَا|d=''Ostjemen (im-Maṯ̣ṯ̣a/Minabbih, Ǧabal Ǧalḥa, Gaṭābir, Ḫašīr, Ẓaḥyān, im-Ṭalḥ, Ḫamir, Wādī Ḫamir, Sinnatayn, Yašīʿ, im-Ġūleh, Ḥāmideh, Raydah, ʾAzzīleh, ʿAmrān, Ṯula, Kawkabān, [[w:Sanaa|Ṣanaʿāʾ]], Manāḫah, Gāʾideh, Radāʿ, im-ʿĀgir, Ḥammām Damt, Mukayras):'' anā&lt;ref&gt;{{Literatur | Autor=Drs. Marijke Huizinga | Titel=Spoken Yemeni Arabic | TitelErg=An Elementary Glossary with Emphasis on Medical Terminology, An Elementary Pedagogical Grammar, Conversations in Hospital | Verlag=VU Boekhandel/Uitgeverij | Ort=Amsterdam | Jahr=1984 | ISBN=978-90-6256-113-1 }}, Stichpunkt »6.1. Personal pronouns in the subject-form«, Seite 103.&lt;/ref&gt;&lt;ref name="Behnstedt90"/&gt;, ''sonst überwiegend mundartnah:'' ana&lt;ref name="Behnstedt90"/&gt;, ''(as-Sagāyif, aš-Šiyan)'' na&lt;ref name="Behnstedt90"/&gt;, ''(Gāʾideh)'' āna&lt;ref name="Behnstedt90"/&gt;|DMG=0}}; {{reg.|:}} ''(Umgebung westlich von [[w:Sa'da|Ṣaʿda]])'' {{Üxx4|ar|اني|v=أَنِي|d=anī; ''mundartnah:'' ani&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Peter Behnstedt | Titel=Die Dialekte der Gegend von Ṣaʿdah (Nord-Jemen) | Verlag=Otto Harrassowitz | Ort=Wiesbaden | Jahr=1987 (Semitica viva ; Band 1, {{ISSN|0931-2811}}) | ISBN=3-447-02665-0 }}, Karte 16, Seite 116.&lt;/ref&gt;&lt;ref name="Behnstedt90"/&gt;|DMG=0}}, ''(Nordostjemen: al-Ḥayrah, Mīdi; Ostjemen von az-Zuhrah bis [[Aden|ʿAdan]]; Ḥuṣūn al-Ǧalāl, [[w:Ma'rib|Maʾrib]]; [[w:Hadramaut|Ḥaḍramawt]])'' {{Üxx4|ar|انا|v=أَنَا|d=anā, ''mundartnah:'' ana&lt;ref name="Behnstedt90"/&gt;, ''(Ḥugariyyah)'' ala&lt;ref name="Behnstedt90"/&gt;|DMG=0}} {{m}} / {{Üxx4|ar|اني|v=أَنِي|d=anī; ''mundartnah:'' ani&lt;ref name="Behnstedt90"/&gt;|DMG=0}} {{f}}
+**[[w:en:Omani Arabic|Omanisches Arabisch]]: {{reg.}} ''(Küstengebiet des [[w:Dhofar|Gouvernements Ẓufār]])'' {{Üxx4|ar|آنا|v=آنَا|d=ānā&lt;ref name="Davey"&gt;{{Literatur | Autor=Richard J. Davey | Titel-P=Coastal Dhofārī Arabic: | TitelErg=a sketch grammar | Verlag=University of Manchester | Jahr=2013, Stichpunkt »3.6.1 Personal pronouns« | Seiten=99 }}.&lt;/ref&gt;|DMG=0}}, {{Üxx4|ar|آني|v=آنِي|d=ānī&lt;ref name="Davey"/&gt;|DMG=0}}
+**[[w:en:Gulf Arabic|Golf-Arabisch]]:
+***[[w:Bahraini Arabic|Bahrainisch-Arabisch]]: {{Üxx4|ar|آنا|v=آنَا|d=ānā&lt;ref&gt;{{Literatur | Autor=Clive Holes | Titel=Dialect, Culture, and Society in Eastern Arabia | Band=Volume One: Glossary | Verlag=Brill | Ort=Leiden/Boston/Köln | Jahr=2001 (Handbook of Oriental Studies: Section One, The Near and Middle East ; volume 51, {{ISSN|0169-9423}})| ISBN=90-04-10763-0, Stichwortt »A-N-A²« | Seiten=2 }}.&lt;/ref&gt;|DMG=0}}, {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah (Araber):'' ana, āna&lt;ref name="Holes22"&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Clive Holes | Titel=Dialect, Culture, and Society in Eastern Arabia | Band=Volume One: Glossary | Verlag=Brill | Ort=Leiden/Boston/Köln | Jahr=2001 (Handbook of Oriental Studies: Section One, The Near and Middle East ; volume 51, {{ISSN|0169-9423}})| ISBN=90-04-10763-0, Stichwortt »ʾ-N-A« | Seiten=22 }}.&lt;/ref&gt;|DMG=0}}, {{Üxx4|ar|اني|v=أَنِي|d=anī; ''mundartnah ([[w:Bahraini people|Baḥarna]]):'' ani&lt;ref name="Holes22"/&gt;|DMG=0}} {{f}}
+***[[Vereinigte Arabische Emirate|VAE]]-Arabisch: ''[[Abu Dhabi]]:'' {{Üxx4|ar|آنا|v=آنَا|d=ānā; ''mundarnah:'' āna|DMG=0}}&lt;ref name="Qafisheh"&gt;{{Literatur | Autor=Hamdi A. Qafisheh; in consultation with Tim Buckwalter, Ernest N. McCarus | Titel=NTC’s Gulf Arabic-English Dictionary | Verlag=NTC Publishing Group | Ort=Lincolnwood (Chicago) | Jahr=1997 | ISBN=0-8442-4606-9 }}, Stichwort »{{Arab|ءاﻥا}} ''’aanaa''«, Seite 1.&lt;/ref&gt;, {{Üxx4|ar|آني|v=آنِي|d=ānī; ''mundarnah:'' āni|DMG=0}}&lt;ref name="Qafisheh"/&gt;, {{Üxx4|ar|انا|v=أَنَا|d=anā; ''mundartnah:'' ana&lt;ref&gt;Mundart nahe Umschrift nach {{Literatur | Autor=Hamdi A. Qafisheh | Titel=Basic Gulf Arabic | TitelErg=Based on Colloquial Abu Dhabi Arabic | Verlag=Environmental Research Laboratory, University of Arizona | Ort=Tucson | Jahr=1970 }}, Stichwort »'ana«, Seite 293 (Arabic-English Glossary).&lt;/ref&gt;|DMG=0}}&lt;ref name="Qafisheh"/&gt;, {{Üxx4|ar|اني|v=أَنِي|d=anī; ''mundarnah:'' ani|DMG=0}}&lt;ref name="Qafisheh"/&gt;
+*{{arc}}:
+**Altaramäisch &lt;small&gt;(CAL)&lt;/small&gt;:
+***[[w:Sam'al|Sam’alisch]] ([[w:Zincirli|Zincirli]]): {{Üxx4|arc|𐡀𐡍𐡊𐡉|d=ˀnky}}&lt;ref&gt;{{Ref-CAL|)nky|ˀnky}}&lt;/ref&gt;
+**Klassisches Aramäisch &lt;small&gt;(CAL)&lt;/small&gt;:
+***[[w:Jüdisch-palästinensisches Aramäisch|Jüdisch-palästinensisches Aramäisch]]: {{Üxx4|arc|𐡀𐡍𐡄|d=ˀnh: ˀenā, ˀănā}}&lt;ref&gt;{{Ref-CAL|)nh|ˀnh (ˀenā, ˀănā)}}&lt;/ref&gt;
+***Samaritanisch-palästinensisches Aramäisch: {{Üxx4|arc|אנא|d=åna}}&lt;ref name="Tal47"&gt;{{Literatur | Autor=Abraham Tal | Titel=A Dictionary of Samaritan Aramaic | Verlag=Brill | Ort=Leiden/Boston/Köln | Jahr=2000 (Handbuch der Orientalistik, Erste Abteilung: Der Nahe und Mittlere Osten ; Band 50, {{ISSN|0169-9423}}) | ISBN=90-04-11645-1 }}, Stichwort »¹{{Hebr|אנה}}«, Seite 47.&lt;/ref&gt;, {{Üxx4|arc|אנה|d=åna}}&lt;ref name="Tal47"/&gt;; ''Hebraismen:'' {{Üxx4|arc|אני|d=ˀny}}&lt;ref&gt;{{Ref-CAL|)ny|ˀny}}&lt;/ref&gt;&lt;ref&gt;{{Literatur | Autor=Abraham Tal | Titel=A Dictionary of Samaritan Aramaic | Verlag=Brill | Ort=Leiden/Boston/Köln | Jahr=2000 (Handbuch der Orientalistik, Erste Abteilung: Der Nahe und Mittlere Osten ; Band 50, {{ISSN|0169-9423}}) | ISBN=90-04-11645-1 }}, Stichwort »{{Hebr|אני}}«, Seite 48.&lt;/ref&gt;, {{Üxx4|arc|אנכי|d=ˀnky}}&lt;ref&gt;{{Literatur | Autor=Abraham Tal | Titel=A Dictionary of Samaritan Aramaic | Verlag=Brill | Ort=Leiden/Boston/Köln | Jahr=2000 (Handbuch der Orientalistik, Erste Abteilung: Der Nahe und Mittlere Osten ; Band 50, {{ISSN|0169-9423}}) | ISBN=90-04-11645-1 }}, Stichwort »{{Hebr|אנכי}}«, Seite 49.&lt;/ref&gt;
+**Neuaramäisch:
+***Ostaramäisch:
+****jüdische Mundarten: {{reg.|:}} ''([[Türkei]]: [[w:Çukurca|Čalla (Çelê)]]; [[Irak]]: [[w:Amediye|Amidya]], Betanure, [[w:Dohuk|Dihok]], Nerwa, [[w:Zaxo|Zakho]], [[w:Erbil|Arbel (Hewlêr)]], [[w:Koya (Irak)|Koy Sanjaq]], [[w:Sulaimaniyya|Sulaimaniyya (Silêmanî)]], [[w:Halabdscha|Halabdscha (Helebce)]]; [[Iran]]: [[w:Aserbaidschan (Iran)|Aserbaidschan]])'' {{Üxx4|arc|אנא|v=אֲנָא|d=ʾ&lt;sup&gt;a&lt;/sup&gt;nāʾ; ''mundartnah:'' ʾāna&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Steven E. Fassberg | Titel=The Jewish Neo-Aramaic Dialect of Challa | Verlag=Brill | Ort=Leiden/Boston | Jahr=2010 (Studies in Semitic Languages and Linguistics; Volume 54, {{ISSN|0081-8461}})| ISBN=978-90-04-17682-9 | Seiten=35, 265 (Glossary) }}.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Hezy Mutzafi | Titel-P=The Jewish Neo-Aramaic Dialect of Betanure | TitelErg=(Province of Dihok) | Verlag=Harrassowitz Verlag | Ort=Wiesbaden | Jahr=2008 (Semitica viva ; Band 43, {{ISSN|0931-2811}}) | ISBN=978-3-447-05710-3 | Seiten=40 }}.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Yona Sabar | Titel=A Jewish Neo-Aramaic Dictionary | TitelErg=Dialects of Amidya, Dihok, Nerwa and Zakho, northwestern Iraq. Based on old and new manuscripts, oral and written bible translations, folkloric texts, and diverse spoken registers, with an introduction to grammar and semantics, and an index of Talmudic words which have reflexes in Jewish Neo-Aramaic | Verlag=Harrassowitz Verlag | Ort=Wiesbaden | Jahr=2002 (Semitica viva ; Band 28, {{ISSN|0931-2811}}) | ISBN=3-447-04557-4 | Seiten=98 }}.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Geoffrey Khan | Titel=A Grammar of Neo-Aramaic | TitelErg=The Dialect of the Jews of Arbel | Verlag=Brill | Ort=Leiden/Boston/Köln | Jahr=1999 (Handbuch der Orientalistik, Erste Abteilung: Der Nahe und Mittlere Osten, {{ISSN|0169-9423}})| ISBN=90-04-11510-2 | Seiten=81 }}.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Hezy Mutzafi | Titel-P=The Jewish Neo-Aramaic Dialect of Koy Sanjaq | TitelErg=(Iraqi Kurdistan) | Verlag=Harrassowitz Verlag | Ort=Wiesbaden | Jahr=2004 (Semitica viva ; Band 32, {{ISSN|0931-2811}}) | ISBN=3-447-04915-4 | Seiten=60, 212 (Glossary) }}.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Geoffrey Khan | Titel=The Jewish Neo-Aramaic Dialect of Sulemaniyya and Ḥalabja | Verlag=Brill | Ort=Leiden/Boston | Jahr=2004 (Studies in Semitic Languages and Linguistics; Volume 44, {{ISSN|0081-8461}})| ISBN=90-04-13869-2 | Seiten=73 }}.&lt;/ref&gt;, ʾana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Jared Greenblatt | Titel=The Jewish Neo-Aramaic Dialect of Amədya | Verlag=Brill | Ort=Leiden | Jahr=2011 (Studies in Semitic Languages and Linguistics; Volume 61, {{ISSN|0081-8461}})| ISBN=978-90-04-18257-8 | Seiten=77 }}.&lt;/ref&gt;, ana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Irene Garbell | Titel=The Jewish Neo-Aramaic Dialect of Persian Azerbaijan | TitelErg=The Linguistic Analysis and Folkloristic Texts | Verlag=Mouton | Ort=The Hague | Jahr=1965 (Janua linguarum, Series practica ; 3)| Seiten=62 }}.&lt;/ref&gt;&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Geoffrey Khan | Titel=The Neo-Aramaic Dialect of Urmi | Auflage=1. | Verlag=Gorgias Press | Ort=Piscataway (NJ) | Jahr=2008 | ISBN=978-1-59333-425-3 | Seiten=55 }}.&lt;/ref&gt;}}
+****christliche Mundarten: {{reg.}} ''([[Türkei]]: [[w:en:Jilu|Jilu]]; [[Irak]]: Barwar, [[w:Soran|Diyana]]-Zariwaw):'' {{Üxx4|arc|ܐܢܐ|d=ʾanaʾ; ''mundartnah:'' ana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Samuel Ethan Fox | Titel=The Neo-Aramaic Dialect of Jilu | Verlag=Harrassowitz Verlag | Ort=Wiesbaden | Jahr=1997 (Semitica viva ; Band 16, {{ISSN|0931-2811}})| ISBN=3-447-03889-6 | Seiten=43 }}.&lt;/ref&gt;, ʾána&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Geoffrey Khan | Titel=The Neo-Aramaic Dialect of Barwar | Band=Volume Two: Lexicon | Verlag=Brill | Ort=Leiden/Boston | Jahr=2008 (Handbook of Oriental Studies, Section One: The Near and Middle East; Volume 96, {{ISSN|0169-9423}}) | ISBN=978-90-04-17264-7 | Seiten=141 }}.&lt;/ref&gt;, ʾana&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Lidia Napiorkowska | Titel=A Grammar of the Christian Neo-Aramaic Dialect of Diyana-Zariwaw | Verlag=Brill | Ort=Leiden/Boston | Jahr=2015 (Studies in Semitic Languages and Linguistics ; volume 81, {{ISSN|0081-8461}})| ISBN=978-90-04-29032-7 | Seiten=87 }}.&lt;/ref&gt;}}
+*****[[w:Turoyo|Ṭūrōyo]]: {{reg.}} ''([[w:Öğündük|Mīdin]] im [[w:Tur Abdin|Ṭūr ʿAbdīn]]):'' {{Üxx4|arc|ܐܢܐ‎|d=ʾanaʾ; ''mundartnah:'' ʾóno&lt;ref&gt;Mundartnahe Umschrift nach {{Literatur | Autor=Otto Jastrow | Titel=Laut- und Formenlehre des neuaramäischen Dialekts von Mīdin im Ṭūr ʿAbdīn | Auflage=4., unveränderte | Verlag=Harrassowitz | Ort=Wiesbaden | Jahr=1993 (Semitica viva; Band 9; {{ISSN|0931-2811}}) | ISBN=3-447-03334-7 | Seiten=33 }}.&lt;/ref&gt;}}
+*{{hy}} &lt;small&gt;([[w:Armenisches_Alphabet#Buchstaben|DIN 32706]])&lt;/small&gt;: {{Üt|hy|ես|es}}
+*{{az}}: {{Ü|az|mən}}
+*{{ast}}: {{Ü|ast|yo}}
+*{{ay}}: {{Ü|ay|naya}}
+*{{eu}}: {{Ü|eu|ni}}, ''ergativ:'' {{Ü|eu|nik}}
+*{{bn}} &lt;small&gt;([[w:ISO 15919|ISO 15919]])&lt;/small&gt;: {{Üt|bn|অহং|ahaṁ}}, {{Üt|bn|আমা|āmā}}
+*{{bs}}: {{Ü|bs|ja}}
+*{{br}}: {{Ü|br|me}}
+*{{bg}} &lt;small&gt;([[w:ISO 9|ISO 9]])&lt;/small&gt;: {{Üt|bg|аз|az}}
+*{{zh}}:
+**[[Hochchinesisch|Hochchinesisch]]/[[Mandarin]] &lt;small&gt;([[w:Pinyin|Pinyin]])&lt;/small&gt;: {{Üt|zh|我|wǒ}}
+**{{yue}} &lt;small&gt;([[w:Jyutping|Jyutping]])&lt;/small&gt;: {{Üt|yue|我|ngo&lt;sup&gt;5&lt;/sup&gt;}}
+*{{da}}: {{Ü|da|jeg}}
+*{{en}}: {{Ü|en|I}}, ''auch'' {{Ü|en|me}}
+**{{ang}}: {{Ü|ang|ic}}
+**{{enm}}: {{Ü|enm|ich}}, {{Ü|enm|ī}}
+*{{eo}}: {{Ü|eo|mi}}
+*{{et}}: {{Ü|et|ma}}, {{Ü|et|mina}}
+*{{fo}}: {{Ü|fo|eg}}; {{reg.}} ''([[w:Suðuroy|Suðuroy]]):'' {{Ü|fo|jeg}}&lt;ref&gt;{{Ref-Føroysk orðabók|jeg}}&lt;/ref&gt;
+*{{fi}}: {{Ü|fi|minä}}
+*{{fr}}: {{Ü|fr|je}}, ''auch'' {{Ü|fr|moi}}
+*{{fur}}: {{Ü|fur|jo}}
+*{{gl}}: {{Ü|gl|eu}}
+*{{ka}} &lt;small&gt;([[w:Georgisches Alphabet#Umschrift|DIN 32707]])&lt;/small&gt;: {{Üt|ka|მე|me}}
+*{{gez}} &lt;small&gt;(Leslau)&lt;/small&gt;: {{Üt|gez|አነ|ʾana}}
+*{{got}}: {{Üt|got|𐌹𐌺|ik}}
+*{{el|iU}}: {{Üt|el|εγώ|egó}}
+*{{gn}}: {{Ü|gn|che}}
+*{{gu}} &lt;small&gt;([[w:ISO 15919|ISO 15919]])&lt;/small&gt;: {{Üt|gu|મેં|mēṁ}}, {{Üt|gu|મીં|mīṁ}}, {{Üt|gu|હું|huṁ}}
+*{{ht}}: {{Ü|ht|mwen}}; {{reg.|:}} {{Ü|ht|mren}}, ''(südliches Haiti)'' {{Ü|ht|men}}; ''[[Proklise|proklitisch]]:'' {{Ü|ht|m}}
+*{{he|CHA}}: {{Üxx4|he|אני|v=אֲנִי|d=ʾ&lt;sup&gt;a&lt;/sup&gt;nī|CHA=0}}; ''vor- bis nachbiblisch; mittelhebräisch selten; neuhebräisch bisweilen förmlich, schriftsprachlich:'' {{Üxx4|he|אנוכי|v=אֲנֹכִי|d=ʾ&lt;sup&gt;a&lt;/sup&gt;noḵī|CHA=0}}
+*{{hit}} &lt;small&gt;(Kloekhorst)&lt;/small&gt;: {{Üt|hit|𒌑𒊌|ūk: ú-uk, ú-k, ú-g}}&lt;ref name="Kloekhorst"/&gt;
+*{{hi}} &lt;small&gt;([[w:ISO 15919|ISO 15919]])&lt;/small&gt;: {{Üt|hi|मै|mai}}, {{Üt|hi|मुझे|mujhē}}
+*{{io}}: {{Ü|io|me}}
+*{{id}}: {{Ü|id|aku}}, {{Ü|id|saya}}, {{Ü|id|gue}}
+*{{ia}}: {{Ü|ia|io}}
+*{{ga}}: {{Ü|ga|mé}}
+*{{zu}}: {{Ü|zu|mina}}
+*{{is}}: {{Ü|is|ég}}
+*{{it}}: {{Ü|it|io}}
+**{{nap}}: {{Ü|nap|i}}
+**{{scn}}: {{Ü|scn|iò}}, {{Ü|scn|iù}}, {{Ü|scn|iu}}
+**{{vec}}: {{Ü|vec|mi}}
+*{{ja}} &lt;small&gt;([[Hilfe:Hepburn-System|Hepburn]])&lt;/small&gt;: {{Üt|ja|私|わたくし, watakushi; わたし, watashi; わっち, watchi; ''Kansai-Dialekt:'' わて, wate}}; {{Üt|ja|我|われ, ware}}, {{Üt|ja|俺|おれ, ore}}; {{ugs.|:}} {{Üt|ja|僕|ぼく, boku}}
+*{{yi|YIVO}}: {{Üxx4|yi|איך|d=ikh|YIVO=0}}
+*{{kn}} &lt;small&gt;([[w:ISO 15919|ISO 15919]])&lt;/small&gt;: {{Üt|kn|ನಾನು|nānu}}
+*{{csb}}: {{Ü|csb|jô}}
+*{{ks}}: {{Üt|ks|बॖ|bụ}}
+*{{ca}}: {{Ü|ca|jo}}
+*{{tlh}}: {{Ü|tlh|jIH}}
+*{{cop|KNAB}}:
+**Achmimisch: {{Koptisch|{{Ü|cop|ⲁⲛⲁⲕ}}}}&lt;ref name="KoptHWB"/&gt; (anak)
+**[[w:Bohairisch|Bohairisch]]: {{Koptisch|{{Ü|cop|ⲁⲛⲟⲕ}}}}&lt;ref name="KoptHWB"/&gt; (anok)
+**[[w:Sahidisch|Sahidisch]]: {{Koptisch|{{Ü|cop|ⲁⲛⲟⲕ}}}}&lt;ref name="KoptHWB"/&gt; (anok), ''tonlos:'' {{Koptisch|{{Ü|cop|ⲁⲛⲅ-}}}}&lt;ref name="KoptHWB"/&gt; (ang-)
+*{{ko}} &lt;small&gt;([[w:Revidierte Romanisierung|RR]])&lt;/small&gt;: {{Üt|ko|나|na}}, {{Üt|ko|저|jeo}}, {{Üt|ko|제|je}}
+*{{co}}: {{Ü|co|eiu}}, {{Ü|co|eo}}, {{Ü|co|eu}}, {{Ü|co|ghjeu}}
+*{{hr}}: {{Ü|hr|ja}}
+*{{ku}}:
+**[[Kurmandschi]]: {{Ü|ku|ez}}, {{Ü|ku|min}}
+**{{ckb}}: {{Üxx4|ckb|ئه‌ز|d=ez}}, {{Üxx4|ckb|من|d=min}}
+*{{lad}}: {{Üxx4|lad|ייו|d=[[yo#yo (Ladino)|yo]]}}
+*{{lo}} &lt;small&gt;(ALA-LC)&lt;/small&gt;: {{Üt|lo|ຂ້ອຢ|khǫy}}
+*{{la}}: {{Ü|la|ego}}
+*{{ltg}}: {{Ü|ltg|es}}
+*{{lv}}: {{Ü|lv|es}}
+*{{lt}}: {{Ü|lt|aš}}
+*{{liv}}: {{Ü|liv|minā}}
+*{{lb}}: {{Ü|lb|ech}}
+*{{mt}}: {{Ü|mt|jien}}, {{Ü|mt|jiena}}
+*{{mr}} &lt;small&gt;([[w:ISO 15919|ISO 15919]])&lt;/small&gt;: {{Üt|mr|मी|mī}}
+*{{mk}}: {{Üt|mk|јас|jas}}
+*{{mn}} &lt;small&gt;([[w:ISO 9|ISO 9]])&lt;/small&gt;: {{Üt|mn|би|bi}}
+*{{mfe}}: {{Ü|mfe|mo}}&lt;ref&gt;{{Literatur | Autor=Dr. Danielle Police-Michel, Assoc. Prof. Arnaud Carpooran, Dr. Guilhem Florigny | Titel=Gramer Kreol Morisien | Band=Volim Ⅰ, Dokiman Referans | Verlag=Akademi Kreol Morisien/Ministry of Education and Human Resources | Ort=Phoenix (Mauritius) | Jahr=2011 | ISBN=978-9-994920-85-3 | Seiten=58, 71 }}.&lt;/ref&gt;&lt;ref&gt;{{Literatur | Autor=Paul Choy | Titel=Learn Kreol Morisien | TitelErg=A Beginners Guide to Mauritian Creole | Auflage=2. | Verlag=Pachworks | Ort=[sine loco] | Jahr=2013 | Seiten=11 | Kommentar=E-Book }}.&lt;/ref&gt;, ''[[emphatisch]]:'' {{Ü|mfe|mwa}}&lt;ref&gt;{{Literatur | Autor=Dr. Danielle Police-Michel, Assoc. Prof. Arnaud Carpooran, Dr. Guilhem Florigny | Titel=Gramer Kreol Morisien | Band=Volim Ⅰ, Dokiman Referans | Verlag=Akademi Kreol Morisien/Ministry of Education and Human Resources | Ort=Phoenix (Mauritius) | Jahr=2011 | ISBN=978-9-994920-85-3 | Seiten=58, 73 }}.&lt;/ref&gt;
+*{{na}}: {{Ü|na|a}}
+*{{ne}} &lt;small&gt;([[w:ISO 15919|ISO 15919]])&lt;/small&gt;: {{Üt|ne|म|ma}}
+*{{nds}}: {{Ü|nds|ik}}, {{Ü|nds|ick}}
+**{{osx}}: {{Ü|osx|ik}}
+**{{gml}}: {{Ü|gml|ik}}, {{Ü|gml|ek}}
+**{{pdt}}: {{Ü|pdt|ekj}}
+*{{nl}}: {{Ü|nl|ik}}; {{ugs.|:}} {{Ü|nl|ikke}}
+**{{dum}}: {{Ü|dum|ic}}, {{Ü|dum|icke}}
+*{{no}}:
+**{{nb}}: {{Ü|nb|jeg}}
+**{{nn}}: {{Ü|nn|eg}}
+*{{nov}}: {{Ü|nov|me}}
+*{{oc}}: {{Ü|oc|jo}}, {{Ü|oc|ieu}}
+*{{pa}}
+**[[w:Gurmukhi-Schrift|Gurmukhī]] &lt;small&gt;([[w:ISO 15919|ISO 15919]])&lt;/small&gt;: {{Üt|pa|ਮੈਂ|maiṁ}}
+**[[w:Shahmukhi|Shahmukhī]] &lt;small&gt;([[Hilfe:DMG|DMG]])&lt;/small&gt;: {{Üxx4|pnb|میں|d=mayṅ|DMG=0}}
+*{{ps}}: {{Üt|ps|زه|}}
+*{{fa}}:
+**Farsi, {{prs|DMG}}: {{Üxx4|fa|من|v=مَنْ|d=män, man|DMG=0}}
+**{{tg}} &lt;small&gt;([[w:ISO 9|ISO 9]])&lt;/small&gt;: {{Üt|tg|ман|man}}
+*{{phn}}: {{Üxx4|phn|𐤀𐤍𐤊|d=ʾnk&lt;ref&gt;{{Literatur | Autor=Charles R. Krahmalkov | Titel=Phoenician-Punic Dictionary | Verlag=Uitgeverij Peeters en Departement Oosterse Studies | Ort=Leuven/Louvain | Jahr=2000 | ISBN=90-429-0770-3, Stichwort »ʾNK« | Seiten=63–64 }}.&lt;/ref&gt;|CHA=0}}&lt;ref&gt;{{Literatur | Titel=[[w:Corpus Inscriptionum Semiticarum|Corpus Inscriptionum Semiticarum]] | Band=Pars Prima, Inscriptiones Phœnicias Continens, Tomus Ⅰ | Verlag=E Reipublicæ Typographeo | Ort=Parisiis | Jahr=Ⅿ ⅮⅭⅭⅭ ⅬⅩⅩⅪ [1881] | Seiten=3, 13, 68, 75, 76, 120, 121, 123, 124, 125, 127, 136, 145 | Online=Zitiert nach {{IA|CorpusInscriptionumSemiticarumI1/Corpus_inscriptionum_semiticarum_I_1#page/n23/mode/1up|FB}} }}.&lt;/ref&gt;; ''[[selten]]er:'' {{Üxx4|phn|𐤀𐤍|d=ʾn&lt;ref&gt;{{Literatur | Autor=Charles R. Krahmalkov | Titel=Phoenician-Punic Dictionary | Verlag=Uitgeverij Peeters en Departement Oosterse Studies | Ort=Leuven/Louvain | Jahr=2000 | ISBN=90-429-0770-3, Stichwort »ʾN Ⅱ« | Seiten=63 }}.&lt;/ref&gt;|CHA=0}}&lt;ref&gt;{{Literatur | Titel=[[w:Corpus Inscriptionum Semiticarum|Corpus Inscriptionum Semiticarum]] | Band=Pars Prima, Inscriptiones Phœnicias Continens, Tomus Ⅰ | Verlag=E Reipublicæ Typographeo | Ort=Parisiis | Jahr=Ⅿ ⅮⅭⅭⅭ ⅬⅩⅩⅪ [1881] | Seiten=124 | Online=Zitiert nach {{IA|CorpusInscriptionumSemiticarumI1/Corpus_inscriptionum_semiticarum_I_1#page/n145/mode/1up|FB}} }}.&lt;/ref&gt;, {{Üxx4|phn|𐤀𐤍𐤊𐤉|d=ʾnky|CHA=0}}&lt;ref&gt;{{Literatur | Titel=[[w:Corpus Inscriptionum Semiticarum|Corpus Inscriptionum Semiticarum]] | Band=Pars Prima, Inscriptiones Phœnicias Continens, Tomus Ⅰ | Verlag=E Reipublicæ Typographeo | Ort=Parisiis | Jahr=Ⅿ ⅮⅭⅭⅭ ⅬⅩⅩⅪ [1881] | Seiten=125 | Online=Zitiert nach {{IA|CorpusInscriptionumSemiticarumI1/Corpus_inscriptionum_semiticarum_I_1#page/n146/mode/1up|FB}} }}.&lt;/ref&gt;
+*{{pl}}: {{Ü|pl|ja}}, {{refl.|:}} {{Ü|pl|się}}
+*{{pt}}: {{Ü|pt|eu}}
+*{{qu}}: ''[[Peru]]:'' {{Ü|qu|noqa}}&lt;ref&gt;{{Literatur | Herausgeber=Academia Mayor de la Lengua Quechua/Qheswa Simi Hamut’ana Kurak Suntur | Titel=Diccionario Quechua-Español-Quechua/Qheswa-Español-Qheswa Simi Taqe | Bande=Segunda edición | Verlag=Gobierno Regional Cusco | Ort=Cusco, Perú | Jahr=2005 | Seiten=116 }}.&lt;/ref&gt;, {{Ü|qu|ñoqa}}&lt;ref&gt;Ebenda, Seite 118.&lt;/ref&gt;; ''[[Bolivien]]:'' {{Ü|qu|nuqa}}&lt;ref name="Laime Ajacopa"&gt;{{Literatur | Autor=Teofilo Laime Ajacopa | Titel=Diccionario bilingüe/Iskay simipi yuyayk’ancha | TitelErg=Quechua – Castellano, Castellano – Quechua | Band=Segunda edición mejorada | Verlag=[sine editio] | Ort=La Paz, Bolivia | Jahr=2007 | Seiten=69 }}.&lt;/ref&gt;, {{Ü|qu|ñuqa}}&lt;ref name="Laime Ajacopa"/&gt;
+*{{rm}}: {{Ü|rm|jau}}
+**Surmeirisch: {{Ü|rm|ia}}
+**Surselvisch: {{Ü|rm|jeu}}
+**Sutselvisch: {{Ü|rm|jou}}
+**Oberengadinisch: {{Ü|rm|eau}}
+**Unterengadinisch: {{Ü|rm|eu}}
+*{{rom}}:&lt;ref&gt;Alle Übersetzungen nach [http://romani.uni-graz.at/romlex/lex.xml ROMLEX Lexical Database der Universität Graz].&lt;/ref&gt;
+**Nord-Romani:
+***Finnisches Kalo: {{Ü|rm|me}}
+***Lettisches Romani: {{Ü|rom|me}}
+***Litauisches Romani: {{Ü|rom|mê}}
+***Nordrussisches Romani (Xaladitka): {{Ü|rom|mê}}
+***Sinti-Romani: {{Ü|rom|me}}
+***[[w:Welsh-Romani (Kååle)|Welsh-Romani (Kååle)]]: {{Ü|rom|maj}}, ''[[emphatisch]]:'' {{Ü|rom|maja}}; {{Ü|rom|me}}, ''[[emphatisch]]:'' {{Ü|rom|mea}}
+**Zentral-Romani:
+***Burgenland-Romani: {{Ü|rom|me}}
+***Ostslowakisches Romani: {{Ü|rom|me}}
+***Prekmurski-Romani: {{Ü|rom|me}}
+***Romungro-Romani: {{Ü|rom|me}}
+***Ungarisches Vend-Romani: {{Ü|rom|me}}
+***Veršend-Romani: {{Ü|rom|me}}
+**Balkan-Romani:
+***Arli-Romani: ''[[Kosovo]], [[Mazedonien]]:'' {{Ü|rom|me}}
+***Bugurdži-Romani: {{Ü|rom|me}}
+***Džambazi-Romani: {{Ü|rom|me}}
+***Gurvari-Romani: {{Ü|rom|me}}
+***Krim-Romani: {{Ü|rom|me}}
+***Sepečides-Romani: {{Ü|rom|me}}
+***Sofia Erli-Romani: {{Ü|rom|me}}
+***Ursari-Romani: {{Ü|rom|me}}
+**{{rmy}}:
+***Gurbet-Romani: {{Ü|rom|me}}
+***[[w:Kalderasch|Kalderaš]]-Romani: {{Ü|rom|me}}
+***Lovari-Romani: {{Ü|rom|me}}
+*{{ro}}: {{Ü|ro|eu}}
+*{{ru}}: {{Üt|ru|я}}
+*{{sa}} &lt;small&gt;([[Hilfe:IAST|IAST]])&lt;/small&gt;: ''Ich bin'' {{Üt|sa|अस्मि|asmi}}, {{Üt|sa|अहम्|aham}}
+*{{sc}}: {{Ü|sc|eo}}
+*{{sv}}: {{Ü|sv|jag}}
+*{{sr}}: {{Üt|sr|ја|ja}}
+*{{sh}}: {{Üt|sh|ја|ja}}
+*{{sk}}: {{Ü|sk|ja}}
+*{{sl}}: {{Ü|sl|jaz}}
+*{{sla}}: ''betont:'' {{Ü|sla|jǻu̯}}&lt;ref name="Lorentz"&gt;{{Literatur | Autor=[[w:Friedrich Lorentz|Friedrich Lorentz]] | Titel=Slovinzische Grammatik | Verlag=Изданіе Второго Отдѣленія Императогской Академіи Наукъ | Ort=St.&amp;nbsp;Petersburg | Jahr=1903, Stichpunkt »a. Die persönlichen Pronomina« | Seiten=273 | Online=[http://pbc.gda.pl/dlibra/docmetadata?id=899 Digitalisat] }}.&lt;/ref&gt;, ''unbetont:'' {{Ü|sla|jå}}&lt;ref name="Lorentz"/&gt;
+*{{wen}}:
+**{{dsb}}: {{Ü|dsb|ja}}
+**{{hsb}}: {{Ü|hsb|ja}}
+*{{es}}: {{Ü|es|yo}}
+*{{sw}}: {{Ü|sw|mimi}}
+*{{sux|DMG}}: {{Üt|sux|𒂷𒂊|ĝá-e}}, {{Üt|sux|𒂷|ĝá, ĝe&lt;sub&gt;26&lt;/sub&gt;}}
+*{{syr|ALA-LC}}: {{Üxx4|syr|ܐܢܐ|v=ܐܶܢܳܐ, ܐܸܢܵܐ; ܐܻܢܳܐ|d=ʾeno; ʾino|ALA-LC=0}}&lt;ref&gt;{{Literatur | Herausgeber=J[essie]. Payne Smith | Titel-P=A Compendious Syriac Dictionary | TitelErg=founded upon the Thesaurus Syriacus of R. Payne Smith | Verlag=At the Clarendon Press | Ort=Oxford | Jahr=1903 | Seiten=21 | Online=Zitiert nach {{IA|compendioussyria00payn#page/21/mode/1up/search/synagogue|FB}} }}.&lt;/ref&gt;&lt;ref&gt;{{Literatur | Autor=Michael Sokoloff | Titel=A Syriac Lexicon | Titelerg=A Translation from the Latin, Correction, Expansion, and Update of C. Brockelmann’s ''Lexicon Syriacum'' | Verlag=Eisenbrauns/Gorgias Press | Ort=Winona Lake (IN)/Piscataway (NJ) | Jahr=2009 | ISBN=978-1-57506-180-1 (Eisenbrauns), ISBN 978-1-60724-620-6 (Gorgias Press) | Seiten=58 }}.&lt;/ref&gt;
+*{{tl}}: {{Ü|tl|ako}}
+*{{ta}} &lt;small&gt;([[w:ISO 15919|ISO 15919]])&lt;/small&gt;: {{Üt|ta|நான்|nāṉ}}
+*{{tet}}: {{Ü|tet|ha'u}}
+*{{th}} &lt;small&gt;([[Hilfe:RTGS|RTGS]])&lt;/small&gt;: {{Üt|th|ฉัน|chăn}}; {{ugs.}} ''[[emphatisch]]:'' {{Üt|th|ดิฉัน|dì-chăn}}; ''nur von Männern gebraucht:'' {{Üt|th|ผม|pŏm}}
+*{{tig}} &lt;small&gt;(B&amp;D)&lt;/small&gt;: {{Üt|tig|አና|ʾäna}}
+*{{ti}} &lt;small&gt;(ALA-LC)&lt;/small&gt;: {{Üt|ti|ኣነ|ʾāna}}
+*{{cs}}: {{Ü|cs|já}}
+*{{tr}}: {{Ü|tr|ben}}
+**{{ota}}: {{Üxx4|ota|من|v=مَنْ|d=män, men; &lt;small&gt;{{İA}}&lt;/small&gt; men}}&lt;ref&gt;{{Lit-Devellioğlu: Osmanlıca-Türkçe Ansiklopedik Lûgat}}, Stichwort »men {{Arab|من}}«, Seite 730.&lt;/ref&gt;; ''[[Philosophie]]:'' {{Üxx4|ota|انه|v=أَنَه|d=änä, ene; &lt;small&gt;{{İA}}&lt;/small&gt; ene}}&lt;ref&gt;Ebenda, Stichwort »ene {{Arab|أنه}}«, Seite 265.&lt;/ref&gt;
+*{{uga}}: {{Üt|uga|𐎀𐎐|an}}&lt;ref&gt;{{Literatur | Autor=Gregorio del Olmo Lete, Joaquín Sanmartín | Titel=A Dictionary of the Ugaritic Language in the Alphabetic Tradition | Band=Part One: [ʾ(a/i/u–k] | Verlag=Brill | Ort=Leiden/Boston | Jahr=2003 (Handbook of the Oriental Studies: Section One, The Near and Middle East ; volume 67, {{ISSN|0169-9423}})| ISBN=90-04-12891-3 | Seiten=76 | Originaltitel=Diccionario de la lengua urarítica | Übersetzer=Wilfred G.E. Watson aus dem Spanischen ins Englische }}.&lt;/ref&gt;, {{Üt|uga|𐎀𐎐𐎋|ank}}&lt;ref&gt;Ebenda, Seite 79–80.&lt;/ref&gt;
+*{{uk}}: {{Üt|uk|я|ja}}
+*{{hu}}: {{Ü|hu|én}}
+*{{vi}}: {{Ü|vi|tôi}}
+*{{vo}}: {{Ü|vo|ob}}
+*{{be}}: {{Üt|be|я|ja}}
+|Dialekttabelle=
+*'''Niederfränkisch:'''
+**[[Düsseldorferisch]]: [[ech]]
+*'''Westmitteldeutsch:'''
+**[[Mittelfränkisch]]:
+***[[Ripuarisch]]: {{Lautschrift|eç}}&lt;ref name="RhWB"&gt;{{Ref-Rheinisch|ich Ⅴ|id=RI00055}}&lt;br /&gt;Die Transkription nach [[w:Teuthonista (Lautschrift)|Teuthonista]] wurde an die in diesem Projekt übliche des [[w:Internationales Phonetisches Alphabet|IPA]] angeglichen.&lt;/ref&gt;, {{Lautschrift|ɪç}}&lt;ref name="RhWB"/&gt;, {{Lautschrift|iːç}}&lt;ref name="RhWB"/&gt;, {{Lautschrift|eɪ̯ç}}&lt;ref name="RhWB"/&gt;
+****{{ksh}}: [[ich]]&lt;ref&gt;Online-Wörterbuch der Akademie för uns kölsche Sproch, Stichwort »ich« ([https://www.koelsch-akademie.de/de/nc/veroeffentlichungen/online-woerterbuch/ich/von/2/action//list/ URL], abgerufen am 7. Mai 2021).&lt;/ref&gt;, ''Köln-Brühl:'' {{Lautschrift|ix}}&lt;ref name="RhWB"/&gt;, ''Köln-Pulheim:'' {{Lautschrift|iːx}}&lt;ref name="RhWB"/&gt;
+***[[Moselfränkisch]]: {{Lautschrift|ɛix}}&lt;ref name="RhWB"/&gt;, {{Lautschrift|eix}}&lt;ref name="RhWB"/&gt;, {{Lautschrift|ɛːix}}&lt;ref name="RhWB"/&gt;, ''an der [[Saar]] im Süden:'' {{Lautschrift|aix}}&lt;ref name="RhWB"/&gt;
+*****''[[w:Britten (Losheim am See)|Britten]]:'' {{Lautschrift|æɪ̯ʃ}}&lt;ref name="Besse169"&gt;{{Literatur | Autor=Maria Besse | Titel=Britter Wörterbuch | TitelErg=Moselfränkischer Dialekt am „Tor zum Hochwald“, Britten — Gemeinde Losheim am See (Saarland) | Verlag=Verein für Heimatkunde in der Gemeinde Losheim am See e.&amp;nbsp;V. | Ort=Losheim am See | Jahr=2004 | ISBN=3-00-014131-6 }}, Stichwort »ich«, Seite 169.&lt;/ref&gt;, {{Lautschrift|ɪʃ}}&lt;ref name="Besse169"/&gt;; {{Dat.}} {{Lautschrift|miːɐ̯}}&lt;ref name="Besse222"&gt;{{Literatur | Autor=Maria Besse | Titel=Britter Wörterbuch | TitelErg=Moselfränkischer Dialekt am „Tor zum Hochwald“, Britten — Gemeinde Losheim am See (Saarland) | Verlag=Verein für Heimatkunde in der Gemeinde Losheim am See e.&amp;nbsp;V. | Ort=Losheim am See | Jahr=2004 | ISBN=3-00-014131-6 }}, Stichwort »mir«, Seite 222.&lt;/ref&gt;, {{Lautschrift|mɪɐ̯}}&lt;ref name="Besse222"/&gt;, ''in unbetonter Stellung:'' {{Lautschrift|mɐ}}&lt;ref name="Besse222"/&gt;; {{Pl.}} {{Lautschrift|miːɐ̯}}&lt;ref name="Besse348"&gt;{{Literatur | Autor=Maria Besse | Titel=Britter Wörterbuch | TitelErg=Moselfränkischer Dialekt am „Tor zum Hochwald“, Britten — Gemeinde Losheim am See (Saarland) | Verlag=Verein für Heimatkunde in der Gemeinde Losheim am See e.&amp;nbsp;V. | Ort=Losheim am See | Jahr=2004 | ISBN=3-00-014131-6 }}, Stichwort »wir«, Seite 348.&lt;/ref&gt;, {{Lautschrift|mɪɐ̯}}&lt;ref name="Besse348"/&gt;
+****Hunsrückisch: [[äijsch]]{{QS Herkunft|unbelegt}}
+*****Riograndenser Hunsrückisch: {{Lautschrift|ɪç}}&lt;ref&gt;{{Lit-Altenhofen: Hunsrückisch in Rio Grande do Sul}}, Seite 307, 309.&lt;/ref&gt;; {{Akk.}} {{Lautschrift|mɪç}}&lt;ref&gt;Ebenda, Seite 343.&lt;/ref&gt;; {{Pl.}} ''Travessão Dois Irmãos, Pinhal Alto, Morro Belo überwiegend, Morro Azul, Forquetinha, Bela Vista, Linha Maraney, São José do Inhacorá, Linha São João:'' {{Lautschrift|meːɐ}} ~ {{Lautschrift|ˈmeːɐ}}&lt;ref name="Altenhofen313"&gt;Ebenda, Seite 313.&lt;/ref&gt;, ''Morro Belo seltener, Linha Schwerin, Linha Maraney:'' {{Lautschrift|miːɐ}} ~ {{Lautschrift|ˈmiːɐ}}&lt;ref name="Altenhofen313"/&gt;, ''Linha Schwerin:'' {{Lautschrift|miːə}}&lt;ref name="Altenhofen313"/&gt;, ''sonst allgemein in [[enklitisch]]er Stellung und durch [[Assimilation]] an den vorangehenden [[Nasal]] des Verbs:'' {{Lautschrift|mɐ}}&lt;ref name="Altenhofen313"/&gt;; {{Gen.}} ''allgemein:'' {{Lautschrift|ˈunzɐ}}&lt;ref name="Altenhofen182,308"&gt;Ebenda, Seite 182, 308.&lt;/ref&gt;, ''Linha Schwerin:'' {{Lautschrift|ˈunzə}}&lt;ref name="Altenhofen182,308"/&gt;, {{scherzh.}} {{va.|,}} ''sonst besonders in Pinhal Alto'' {{va.|,}} ''in Morro Belo fami(lio)lektal:'' {{Lautschrift|uːs}}&lt;ref name="Altenhofen310"&gt;Ebenda, Seite 310.&lt;/ref&gt;, {{Lautschrift|us}}&lt;ref name="Altenhofen310"/&gt;, {{Lautschrift|ˈuːzə}}&lt;ref name="Altenhofen310"/&gt;; {{Dat.}} ''allgemein:'' {{Lautschrift|uns}}&lt;ref name="Altenhofen182,308"/&gt;, ''Morro Belo fami(lio)lektal'' {{va.|,}} ''Linha Maraney:'' {{Lautschrift|uːs}}&lt;ref name="Altenhofen310"/&gt;; {{Akk.}} ''allgemein:'' {{Lautschrift|uns}}&lt;ref name="Altenhofen182,308"/&gt;, ''Morro Belo fami(lio)lektal'' {{va.|,}} ''Linha Maraney:'' {{Lautschrift|uːs}}&lt;ref name="Altenhofen310"/&gt;
+**[[Rheinfränkisch]]: {{Lautschrift|aix}}&lt;ref name="RhWB"/&gt;, {{Lautschrift|ɛix}}&lt;ref name="RhWB"/&gt;, {{Lautschrift|æix}}&lt;ref name="RhWB"/&gt;, {{Lautschrift|eix}}&lt;ref name="RhWB"/&gt;
+***[[Hessisch]]: [[isch]]
+****[[w:Südhessisch|Südhessisch]]: ''[[w:Region Starkenburg|Starkenburg]], [[w:Rheinhessen|Rheinhessen]]:'' {{Lautschrift|ix}}&lt;ref name="ShWb"&gt;{{Lit-Maurer: Südhessisches Wörterbuch|B=3}}, Stichwort »ich«, Spalte 880–882.&lt;br /&gt;Die Transkription nach [[w:Teuthonista (Lautschrift)|Teuthonista]] wurde an die in diesem Projekt übliche des [[w:Internationales Phonetisches Alphabet|IPA]] angeglichen.&lt;/ref&gt;, {{Lautschrift|iʃ}}&lt;ref name="ShWb"/&gt;, ''Rehbach:'' {{Lautschrift|iːx}}&lt;ref name="ShWb"/&gt;, ''[[w:Ober-Hainbrunn|Ober-]] und [[w:Unter-Hainbrunn|Unter-Hainbrunn]], [[w:Hirschhorn|Hirschhorn]], [[w:Neckarsteinach|Neckarsteinach]]:'' {{Lautschrift|iːʃ}}&lt;ref name="ShWb"/&gt;, ''südlicher [[w:Odenwald|Odenwald]] ([[w:Eberbach|Eberbach]], [[w:Brombach (Fürth im Odenwald)|Brombach]], [[w:Heiligkreuzsteinach|Heiligkreuzsteinach]], [[w:Schriesheim|Schriesheim]]), [[w:Wimpfen|Wimpfen]], [[w:Hohenstadt (Bad Wimpfen)|Hohenstadt]]:'' {{Lautschrift|iː}}&lt;ref name="ShWb"/&gt;; {{Dat.}} ''verbreitet im Dreieck [[w:Dieburg|Dieburg]]–[[w:Balkhausen (Seeheim-Jugenheim)|Balkhausen]]–Rehbach:'' {{Lautschrift|miːəʳ}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|miːɐ}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|miːə}}&lt;ref name="ShWb"/&gt;, ''[[w:Neu-Isenburg|Neu-Isenburg]], [[w:Langen (Hessen)|Langen]], [[w:Haßloch (Rüsselsheim am Main)|Haßloch]], [[Darmstadt]], [[Mainz]] und Umgebung, [[w:Landkreis Mainz-Bingen|Bingen]]:'' {{Lautschrift|miːɐ}}&lt;ref name="ShWb"/&gt;, ''nordwestlicher Odenwald, [[Darmstadt]], [[w:Pfungstadt|Pfungstadt]], [[w:Hahn (Pfungstadt)|Hahn]]:'' {{Lautschrift|meːʳ}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|meːɐ}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|meːə}}&lt;ref name="ShWb"/&gt;, ''[[w:Beerfelden|Beerfelden]], [[w:Bürstadt|Bürstadt]], [[w:Heidesheim am Rhein|Heidesheim]], südliches [[w:Rheinhessen|Rheinhessen]]:'' {{Lautschrift|mɛːʳ}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|mɛː}}&lt;ref name="ShWb"/&gt;, ''in unbetonter Stellung: ([[w:Zell im Odenwald|Zell im Odenwald]])'' {{Lautschrift|miːə}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|məʳ}}&lt;ref name="ShWb"/&gt;, ''([[w:Rohrbach (Ober-Ramstadt)|Rohrbach]])'' {{Lautschrift|meə}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|mə}}&lt;ref name="ShWb"/&gt;, ''([[Darmstadt]])'' {{Lautschrift|mɛɐ}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|mɐ}}&lt;ref name="ShWb"/&gt;, ''([[w:Odenwald|Odenwald]], südliches Ried, [[w:Rheinhessen|Rheinhessen]])'' {{Lautschrift|məʳ}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|mɐ}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|mə}}&lt;ref name="ShWb"/&gt;; {{Akk.}} ''[[w:Region Starkenburg|Starkenburg]], [[w:Rheinhessen|Rheinhessen]]:'' {{Lautschrift|mix}}&lt;ref name="ShWb"/&gt;, {{Lautschrift|miʃ}}&lt;ref name="ShWb"/&gt;, ''in unbetonter Stellung: ([[w:Zell im Odenwald|Zell im Odenwald]])'' {{Lautschrift|məx}}&lt;ref name="ShWb"/&gt;
+****{{pdc}}: {{Lautschrift|ɪç}}&lt;ref&gt;{{Lit-Kelz: Phonologische Analyse des Pennsylvaniadeutschen}}, Seite 46.&lt;/ref&gt;&lt;ref&gt;Nach {{Lit-Bachmann Lambert: Non-English Words of the Pennsylvania-German Dialect}}, Stichwort »ich«, Seite 85 ([https://babel.hathitrust.org/cgi/pt?id=uc1.$b1811;view=1up;seq=121 Digitalisat] der HATHI TRUST Digital Library).&lt;/ref&gt;&lt;ref&gt;Nach {{Lit-Beam: Pennsylvania German Dictionary|A=1}}, Stichwort »I«, Seite 72.&lt;/ref&gt;; {{Dat.}} {{Lautschrift|miɐ}}&lt;ref name="Kelz"&gt;{{Lit-Kelz: Phonologische Analyse des Pennsylvaniadeutschen}}, Seite 91, 99.&lt;/ref&gt;; {{Akk.}} {{Lautschrift|miɐ}}&lt;ref name="Kelz"/&gt;
+***[[Pfälzisch]]: [[isch]]
+*'''Westoberdeutsch ([[Alemannisch]]):'''
+**[[Schwäbisch]]: i{{QS Herkunft|unbelegt}}
+**[[w:Niederalemannisch|Niederalemannisch]]:
+***[[w:Oberrheinalemannisch|Oberrheinalemannisch]]:
+****[[Elsässisch]]: ''Südstreifen von [[w:Pfetterhouse|Pfetterhausen]] nach [[w:Kembs|Kembs]], [[w:Soultzmatt|Sulzmatt]], [[w:Rouffach|Rufach]]:'' {{Lautschrift|ix}}&lt;ref name="ElsWB"&gt;Nach {{Ref-Elsässisch|ich}}&lt;br /&gt;Die Transkription nach Johann Friedrich Kräuter wurde an die in diesem Projekt übliche des [[w:Internationales Phonetisches Alphabet|IPA]] angepasst.&lt;/ref&gt;, ''[[w:Durrenentzen|Dürrenenzen]], Unterelsass, Weststreifen vom [[w:Donon|Donon]] ab meist am Ostrand des Gebirges bis zum Wasichenstein:'' {{Lautschrift|ɪx}}&lt;ref name="ElsWB"/&gt;, {{Lautschrift|ex}}&lt;ref name="ElsWB"/&gt;, ''in unbetonter Stellung besonders im Oberelsass:'' {{Lautschrift|i}}&lt;ref name="ElsWB"/&gt;; {{Dat.}} ''[[w:Soultzmatt|Sulzmatt]], Unterelsass:'' {{Lautschrift|meːr}}&lt;ref name="ElsWB"/&gt;, ''[[w:Hochfelden (Bas-Rhin)|Hochfelden]], [[w:Schwindratzheim|Schwindratzheim]]:'' {{Lautschrift|miɛr}}&lt;ref name="ElsWB"/&gt;, ''in unbetonter Stellung:'' {{Lautschrift|mr}}&lt;ref name="ElsWB"/&gt;; {{Akk.}} {{Lautschrift|mɪx}}&lt;ref name="ElsWB"/&gt;, {{Lautschrift|mix}}&lt;ref name="ElsWB"/&gt;, {{Lautschrift|mex}}&lt;ref name="ElsWB"/&gt;, ''in unbetonter Stellung in [[w:Durrenentzen|Dürrenenzen]], [[w:Strasbourg|Straßburg]], [[w:Kochersberg (Landschaft)|Kochersberg]], Zornthal:'' {{Lautschrift|mi}}&lt;ref name="ElsWB"/&gt;; {{Pl.}} {{Lautschrift|meːr}}&lt;ref name="ElsWB"/&gt;, ''[[w:Hochfelden (Bas-Rhin)|Hochfelden]], [[w:Schwindratzheim|Schwindratzheim]]:'' {{Lautschrift|mɪɛr}}&lt;ref name="ElsWB"/&gt;, ''in unbetonter Stellung:'' {{Lautschrift|mər}}&lt;ref name="ElsWB"/&gt;; {{Dat.}} ''[[w:Kochersberg (Landschaft)|Kochersberg]]:'' {{Lautschrift|ʊns}}&lt;ref name="ElsWB"/&gt;, {{Lautschrift|ø̃ːns}}&lt;ref name="ElsWB"/&gt;, ''[[w:Gimbrett|Gimbrett]], [[w:Mittelhausen (Bas-Rhin)|Mittelhausen]]:'' {{Lautschrift|yns}}&lt;ref name="ElsWB"/&gt;, ''in unbetonter Stellung in Zornthal:'' {{Lautschrift|is}}&lt;ref name="ElsWB"/&gt;, {{Lautschrift|əs}}&lt;ref name="ElsWB"/&gt;
+**[[w:Höchstalemannisch|Höchstalemannisch]]:
+***[[w:Senslerdeutsch|Senslerdeutsch]]: ''in betonter Stellung:'' {{Lautschrift|iː}}&lt;ref name="SenslWB"&gt;Nach {{Literatur | Autor=Christian Schmutz, Walter Haas; unter Mithilfe von Ingrid Hove Seewer und Barbara Bättig; Zeichnungen von Anna Haas | Titel=Senslerdeutsches Wörterbuch | TitelErg=Mundartwörterbuch des Sensebezirks im Kanton Freiburg mit Einschluss der Stadt Freiburg und der Pfarrei Gurmels | Auflage=2., ergänzte und korrigierte | Verlag=Deutschfreiburger Heimatkundeverein/Paulusverlag | Ort=Freiburg, Schweiz | Jahr=2004 (Deutschfreiburger Beiträge zur Heimatkunde; Band 65) | ISBN=978-3-7228-0632-7 }}, Stichwort »i²« sowie Stichwort »ii¹«, Seite 277.&lt;/ref&gt;, ''in unbetonter Stellung:'' {{Lautschrift|i}}&lt;ref name="SenslWB"/&gt;
+*'''Ostmitteldeutsch:'''
+**[[Berlinisch]]: [[ick]]&lt;ref name="DRB"&gt;{{Literatur | Autor=Hans Meyer, Siegfried Mauermann (Verfasser); bearbeitet und ergänzt von Walther Kiaulehn | Titel-P=Der richtige Berliner | TitelErg=in Wörtern und Redensarten | Auflage=Neuausgabe der 10. | Verlag=C. H. Beck | Ort=München | Jahr=1985 | ISBN=3-406-30611-X }}, Stichwort »ick«, Seite 107.&lt;/ref&gt; {{Lautschrift|ɪ̹k}}&lt;ref&gt;{{Literatur | Autor=Walter Hedemann | Titel=Berlin | Herausgeber=Deutsches Spracharchiv | Sammelwerk=Lautbibliothek der deutschen Mundarten | Band=Band 8 | Verlag=Vandenhoek &amp; Ruprecht | Ort=Göttingen | Jahr=1958 }}, [[passim#passim (Deutsch)|passim]].&lt;/ref&gt;&lt;ref&gt;{{Literatur | Autor=[[w:Peter Schlobinski|Peter Schlobinski]] | Titel=Stadtsprache Berlin | TitelErg=Eine soziolinguistische Untersuchung | Verlag=Walter de Gruyter | Ort=Berlin/New York | Jahr=1987 (Soziolinguistik und Sprachkontakt; Band 3)| ISBN=3-11-010914-X | Seiten=65&amp;nbsp;f., 159 }}.&lt;/ref&gt;; ''[[emphatisch]] und/oder alleinstehend:'' [[icke]]&lt;ref name="DRB"/&gt; {{Lautschrift|ˈɪ̹kə}}
+**[[w:Thüringisch-obersächsische Dialektgruppe|Thüringisch-Obersächsisch]]: [[isch]]{{QS Herkunft|unbelegt}}, [[ische]]{{QS Herkunft|unbelegt}}
+**[[w:Erzgebirgisch|Erzgebirgisch]]: [[iech]]{{QS Herkunft|unbelegt}}
+*'''Ostoberdeutsch:'''
+**[[Ostfränkisch]]: [[i]]{{QS Herkunft|unbelegt}}, [[iech]]{{QS Herkunft|unbelegt}}
+**[[Bairisch]]: [[i]]&lt;Ref&gt;{{Lit-Zehetner: Bairisches Deutsch|A=4}}, Stichwort »i«, Seite 197.&lt;/ref&gt;
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia}}
+:[1] {{Ref-DWDS}}
+:[*] {{Ref-OWID}}
+:[1] {{Ref-FreeDictionary}}
+:[1] {{Ref-Duden}}
+:[1] {{Ref-wissen.de|Wörterbuch|ich-0|ich}}
+:[1] {{Ref-Pons}}
+:[*] {{Ref-UniLeipzig}}
+:[1] {{Ref-Grimm}}
+:[1] {{Literatur| Autor=Renate Wahrig-Burfeind | Titel=Brockhaus Wahrig Deutsches Wörterbuch | TitelErg=Mit einem Lexikon der Sprachlehre | Sammelwerk=Digitale Bibliothek | Auflage=9., vollständig neu bearbeitete und aktualisierte | Verlag=wissenmedia in der inmedia ONE GmbH | Ort=Gütersloh/München | Jahr=2012 | ISBN=978-3-577-07595-4 | Kommentar=CD-ROM-Ausgabe }}, Stichwort »ich«.
+:[1] {{Lit-Duden: Universalwörterbuch|A=8}}, Stichwort »ich«, Seite 904.
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|
+:''[[w:Levenshtein-Distanz|Levenshtein-Abstand]] von 1:'' [[ach]], [[dich]], [[iah]], [[mich]], [[och]], [[sich]], [[wich]]
+}}
+
+== ich ({{Sprache|Limburgisch}}) ==
+=== {{Wortart|Personalpronomen|Limburgisch}} ===
+
+{{Worttrennung}}
+:ich
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift||spr=li}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] 1. Person Singular; bezeichnet die eigene Person
+
+{{Beispiele}}
+:[1] „''‚Ich'' höb nog gei geld,’ onderbrak hem de halfer ruw.
+::‚Ja maar, wanneer dan-wel?’
+::‚Dat weit ''ich'' neet; es ''ich'' et höb zal ''ich'' et uch waal komme bringe en laot ''mich'' noe mer mit vrè; ''ich'' höb veul te doon,’ en hij arbeidde voort zonder zijn heer nog met een blik te verwaardigen.”&lt;ref&gt;{{Literatur | Autor=Louis Herman Jean Lamberts-Hurrelbrinck | Titel=In Limburg en daarbuiten | Verlag=Uitgevers-Maatschappy „Elsevier“ | Ort=Amsterdam | Jahr=1894 | Seiten=221 | Online=Zitiert nach {{GBS|VQhWAAAAcAAJ|PA221|Hervorhebung="ich+höb+veul+te+doon"}} }}.&lt;/ref&gt;
+:::„''‚Ich'' habe noch kein Geld,‘ unterbrach ihn der Halfer [= Pachtbauer] forsch.
+:::‚Ja aber, wann denn endlich?‘
+:::‚Das weiß ''ich'' nicht; sobald ''ich'' es habe, werde ''ich'' es euch sehr wohl bringen und nun lasst ''mich'' damit in Frieden; ''ich'' habe viel zu tun,‘ und er arbeitete weiter ohne seinen Herrn noch eines Blickes zu würdigen.“
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=1. Person Singular; bezeichnet die eigene Person|Ü-Liste=
+*{{de}}: {{Ü|de|ich}}
+}}
+
+{{Referenzen}}
+:[1] {{Literatur | Autor=Pierre Bakkes | Titel=Mofers Waordebook | Verlag=Stichting Mofers Waordebook | Ort=Montfort | Jahr=2007 }}, Stichwort „ich“, Seite 167.
+
+{{Quellen}}
+
+== ich ({{Sprache|Mittelenglisch}}) ==
+=== {{Wortart|Personalpronomen|Mittelenglisch}} ===
+
+{| class="wikitable float-right hintergrundfarbe2" style="margin:0 0 0 .4em;"
+! width="65" |
+! [[Hilfe:Singular|Singular]] !! [[Hilfe:Plural|Plural]]
+|-
+! style="text-align:left;" | [[Hilfe:Nominativ|Nominativ]]
+| [[i|ī]], [[ic]], [[ik]], '''ich''' ([[uch]]) || [[we|wē]]
+|-
+! style="text-align:left;" | [[Hilfe:Genitiv|Genitiv]]
+| *min || *ure
+|-
+! style="text-align:left;" | Objektiv&lt;br /&gt; [[Hilfe:Dativ|Dativ]] und [[Hilfe:Akkusativ|Akkusativ]]
+| [[me|mē]] || [[us]], [[ous]]
+|}
+
+{{Nebenformen}}
+:[[i|ī]], [[ic]], [[ik]], [[uch]]
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift||spr=enm}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ich
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=bezeichnet die eigene Person|Ü-Liste=
+*{{de}}: {{Ü|de|ich}}
+*{{la}}: {{Ü|la|ego}}, {{Ü|la|ego|egō}}
+}}
+
+{{Referenzen}}
+:[1] Henry Sweet: ''First Middle English primer[:] Extracts from the Ancren Riwle and Ormulum with grammar and glossary.'' Oxford, 1884, S. 10
+:[1] Henry Sweet: ''Second Middle English primer[:] Extracts from Chaucer with grammar and glossary.'' 2. Aufl., Oxford, 1899, S. 13
+:[1] K. Böddeker: ''Altenglische Dichtungen des MS. Harl. 2253. Mit Grammatik und Glossar herausgegeben.'' Berlin, 1878, S. 28
+:[1] R. Morris: ''Specimens of Early English selected from the Chief English Authors A. D. 1250–A. D. 1400 with Grammatical Introduction, Notes, and Glossary.'' Oxford, 1867, S. xiv f. und xxix f.
+:[1] Oliver Farrar Emerson: ''A Middle English Reader edited, with Grammatical Introduction, Notes, and Glossary. New and revised edition.'' New York, 1915, S. xcv f.
+
+== ich ({{Sprache|Mittelhochdeutsch}}) ==
+=== {{Wortart|Personalpronomen|Mittelhochdeutsch}} ===
+
+{{Mittelhochdeutsch Personalpronomen 1}}
+
+{{Worttrennung}}
+:ich
+
+{{Bedeutungen}}
+:[1] 1. Person Singular; bezeichnet die eigene Person
+
+{{Beispiele}}
+:[1] ''„Ich'' saz ûf eime steine
+::und dahte bein mit beine,
+::dar ûf satzt ''ich'' den ellenbogen;
+::''ich'' hete in mîne hant gesmogen
+::daz kinne und ein mîn wange.
+::dô dâhte ''ich'' mir vil ange,
+::wie man zer welte solte leben.
+::deheinen rât kond ''ich'' gegeben,[…]“&lt;ref&gt;{{Literatur | Autor=[[w:Walther von der Vogelweide|Walther von der Vogelweide]] | Titel=[[w:Reichston|Reichston]] | Herausgeber=Jörg Schäfer | Sammelwerk=Walther von der Vogelweide - Werke | Auflage=13. | Verlag=Wissenschaftliche Buchgesellschaft | Ort=Darmstadt | Jahr=1972 | Seiten=222, Verse 1–8 | Online=Zitiert nach {{Wikisource|Reichston}} }}.&lt;/ref&gt;
+::::''„Ich'' sass auf einem Steine
+:::Und deckte Bein mit Beine,
+:::Darauf der Ellenbogen ruht;
+:::In meine Hand geschmieget gut
+:::Mein Kinn und eine Wange.
+:::Da dacht’ ''ich'' viel und lange
+:::Weshalb auf dieser Welt wir leben,
+:::Und konnte keinen Rat doch geben,[…]“&lt;ref&gt;{{Literatur | Titel=1. Der Wahlstreit | Herausgeber=Const[anze]. Heisterbergk | Sammelwerk=Walther von der Vogelweide | WerkErg=Eine Gabe für das deutsche Haus | Verlag=E. Pierson’s Verlag | Ort=Dresden/Leipzig | Jahr=1910 | Seiten=159 | Online=Zitiert nach {{IA|walthervondervo00heisgoog#page/n182/mode/1up/search/Steine|FB}} }}.&lt;/ref&gt;
+:[1] „Dû bist mîn, ''ich'' bin dîn,
+::des solt dû gewis sîn.“&lt;ref&gt;{{Literatur | Autor=Anonymus | Herausgeber=unter Benutzung der Ausgaben von Karl Lachmann und Moriz Haupt, Friedrich Vogt und Carl von Kraus bearbeitet von Hugo Moser und Helmut Tervooren | Titel=Des Minnesangs Frühling | Auflage=38., neu revidierte | Verlag=Hirzel | Ort=Stuttgart | Jahr=1988 | Seiten=21, Gedicht Ⅷ, Verse 1–2 | Online=Zitiert nach {{Wikisource|Dû bist mîn, ich bin dîn}}; wissenschaftliche Edition }}.&lt;/ref&gt;
+:::„Du bist mein, ''ich'' bin dein,
+:::dessen sollst du gewiss sein.“
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=1. Person Singular; bezeichnet die eigene Person|Ü-Liste=
+*{{de}}: {{Ü|de|ich}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Lexer}}
+:[1] {{Ref-MittelhochdeutschBMZ}}
+:[*] Findebuch zum mittelhochdeutschen Wortschatz „[http://woerterbuchnetz.de/FindeB/?lemid=FI00003 ich]“
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|
+:''[[w:Levenshtein-Distanz|Levenshtein-Abstand]] von 1:'' [[îch]], [[icht]]
+|spr=gmh}}
+
+== ich ({{Sprache|Polnisch}}) ==
+=== {{Wortart|Personalpronomen|Polnisch}} ===
+
+{{Polnisch Personalpronomen 3Pl}}
+
+{{Anmerkung|zur Verwendung}}
+:[1, 2] ''Ich'' wird sowohl in ''unbetonter'' als auch ''betonter'' Stellung verwendet. Nach Präpositionen muss aber [[nich]] verwendet werden.
+
+{{Worttrennung}}
+:ich
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ix}}
+:{{Hörbeispiele}} {{Audio|Pl-ich.ogg}}
+:{{Reime}} {{Reim|ix|Polnisch}}
+
+{{Grammatische Merkmale}}
+:[1] Genitiv Plural des Personalpronomens '''[[oni#Polnisch|oni]]'''
+:[2] Genitiv Plural des Personalpronomens '''[[one#Polnisch|one]]'''
+:[3] Akkusativ Plural des Personalpronomens '''[[oni#Polnisch|oni]]'''
+
+{{Beispiele}}
+:[1] Widzisz tych chopaków? - Nie, nie widzę ''ich.''
+::Siehst du diese Jungen? - Nein, ich sehe ''sie'' nicht.
+:[3] „Ludzie ci nie żądali niczego, wypowiadali tylko swoją radość. Ale książę, słuchając ''ich'' od rana do południa i od południa do wieczora, czuł zamęt w głowie […]”&lt;ref&gt;{{Wikisource|pl:Faraon I/18|Faraon, Bolesław Prus}}&lt;/ref&gt;
+::„Diese Menschen forderten nichts, sie äußerten nur ihre Freude. Der Prinz aber, der ''sie'' vom Morgen bis zum Nachmittag und vom Nachmittag bis zum Abend anhörte, verspürte ein Durcheinander im Kopf […]“
+
+{{Grundformverweis Dekl|oni|spr=pl}}
+{{Grundformverweis Dekl|one|spr=pl}}
+
+{{Quellen}}
+
+== ich ({{Sprache|Slowakisch}}) ==
+=== {{Wortart|Personalpronomen|Slowakisch}} ===
+
+{{Slowakisch Personalpronomen 3}}
+
+{{Worttrennung}}
+:ich
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift||spr=sk}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Grammatische Merkmale}}
+* Genitiv Plural des Personalpronomens '''[[oni#Slowakisch|oni]]'''
+* Akkusativ Plural des Personalpronomens '''[[oni#Slowakisch|oni]]'''
+* Genitiv Plural des Personalpronomens '''[[ony#Slowakisch|ony]]'''
+* Akkusativ Plural des Personalpronomens '''[[ony#Slowakisch|ony]]'''
+
+{{Grundformverweis Dekl|oni|spr=sk}}
+{{Grundformverweis Dekl|ony|spr=sk}}
+
+{{Ähnlichkeiten 2|[[jich]], [[lich]], [[mich]], [[nich]]}}</text>
+            <sha1>tg4gwpbb2inbvrlbho2zorawuxwhg6c</sha1>
+        </revision>
+    </page>
+</mediawiki>

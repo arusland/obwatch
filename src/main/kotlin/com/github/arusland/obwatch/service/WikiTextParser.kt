@@ -167,6 +167,7 @@ class WikiTextParser {
             .removeRef()
     }
 
+    @OptIn(ExperimentalStdlibApi::class)
     private fun parseCases(wikiText: String, genus: Genus): List<CaseInfo> {
         // |Nominativ Plural=Mütter
         val result = mutableListOf<CaseInfo>()
