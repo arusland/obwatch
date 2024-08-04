@@ -119,7 +119,9 @@ class ObsidianWatcher(
                 addNewWord(newWord, dictResultDef)
                 async { writeResultsToFile() }
             } else {
-                log.warn("No definition found for the word (RU): {}", newWord)
+                val potentialGermanWord = changeKeyboardLanguageRu2Ge(newWord)
+                log.debug("No definition found for the word (RU): {}, try to change keyboard and find word: {}", newWord, potentialGermanWord)
+                searchNewWordGerman(potentialGermanWord, tryAnotherForm = true)
             }
         }
     }
@@ -156,6 +158,43 @@ class ObsidianWatcher(
     private fun isRussianWord(word: String): Boolean = word.any { it in 'а'..'я' || it in 'А'..'Я' }
 
     private fun hasUmlaut(word: String): Boolean = word.any { it in "äöüÄÖÜß" }
+
+    /**
+     * Qwerty mapping from Russian to German.
+     */
+    private fun changeKeyboardLanguageRu2Ge(newWord: String): String {
+        return newWord.map {
+            when (it) {
+                'й' -> 'q'
+                'ц' -> 'w'
+                'у' -> 'e'
+                'к' -> 'r'
+                'е' -> 't'
+                'н' -> 'y'
+                'г' -> 'u'
+                'ш' -> 'i'
+                'щ' -> 'o'
+                'з' -> 'p'
+                'ы' -> 's'
+                'ф' -> 'a'
+                'в' -> 'd'
+                'а' -> 'f'
+                'п' -> 'g'
+                'р' -> 'h'
+                'о' -> 'j'
+                'л' -> 'k'
+                'д' -> 'l'
+                'я' -> 'z'
+                'ч' -> 'x'
+                'с' -> 'c'
+                'м' -> 'v'
+                'и' -> 'b'
+                'т' -> 'n'
+                'ь' -> 'm'
+                else -> it
+            }
+        }.joinToString("")
+    }
 
     private fun writeResultsToFile() {
         synchronized(lastResults) {
