@@ -63,7 +63,15 @@ class ObsidianWatcher(
         prevTokens.clear()
         prevTokens.putAll(tokens)
         if (newToken != null) {
-            searchNewWord(newToken)
+            try {
+                searchNewWord(newToken)
+            } catch (ex: Exception) {
+                log.error("Error while searching for new word: {}", newToken, ex)
+                runBlocking {
+                    addNewWord(newToken, null, error = ex)
+                    async { writeResultsToFile() }
+                }
+            }
         } else {
             log.warn("No words found in the file")
         }
@@ -141,12 +149,13 @@ class ObsidianWatcher(
     private fun addNewWord(
         newWord: String,
         dictResult: DictResult?,
-        wikiTextInfo: WikiTextInfo? = null
+        wikiTextInfo: WikiTextInfo? = null,
+        error: Exception? = null
     ) {
         synchronized(lastResults) {
             // get term from dictionary api first
             val term = (dictResult?.def?.get(0)?.text ?: wikiTextInfo?.word) ?: newWord
-            val result = FoundResult(term, dictResult, wikiTextInfo)
+            val result = FoundResult(term, dictResult, wikiTextInfo, error)
             lastResults.removeIf { it.term.lowercase() == newWord.lowercase() }
             lastResults.add(0, result)
             if (lastResults.size > MAX_WORDS_SIZE) {
@@ -221,6 +230,14 @@ class ObsidianWatcher(
                 writer.write(definition.tr.map { translationAsString(it) }.joinToString(", ") { it })
                 writer.write("\n")
             }
+        } else if (result.error != null) {
+            writer.write(
+                """==Translation failed:==
+```
+${result.error.message}
+```
+"""
+            )
         }
 
         writeWikiTextInfo(writer, result.wikiTextInfo)
@@ -314,7 +331,8 @@ class ObsidianWatcher(
     data class FoundResult(
         val term: String,
         val result: DictResult?,
-        val wikiTextInfo: WikiTextInfo?
+        val wikiTextInfo: WikiTextInfo?,
+        val error: Exception?
     ) {
         fun hasResult(): Boolean {
             return result != null || wikiTextInfo != null
