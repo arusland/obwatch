@@ -131,7 +131,7 @@ class CaseInfo(val type: CaseType, val genus: Genus, val singular: String, val p
 
     private companion object {
         const val NO = "-"
-        val NO_SET = mutableSetOf("—", "-")
+        val NO_SET = mutableSetOf("—", "-", "–")
     }
 }
 
