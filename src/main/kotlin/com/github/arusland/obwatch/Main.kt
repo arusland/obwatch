@@ -3,6 +3,7 @@ package com.github.arusland.obwatch
 import com.github.arusland.obwatch.service.ObsidianWatcher
 import com.github.arusland.obwatch.service.WikidataService
 import com.github.arusland.obwatch.service.YandexDictService
+import java.nio.file.Files
 import java.nio.file.Paths
 
 fun main(args: Array<String>) {
@@ -11,7 +12,9 @@ fun main(args: Array<String>) {
         return
     }
     val targetPath = Paths.get(args[0])
-    ObsidianWatcher(targetPath, YandexDictService(getApiKey()), WikidataService(Paths.get("wikidata-cache"))).start()
+    // cache path in temp dir
+    val cachePath = Files.createTempDirectory("obwatch-cache")
+    ObsidianWatcher(targetPath, YandexDictService(getApiKey()), WikidataService(cachePath)).start()
 }
 
 private fun getApiKey(): String =
