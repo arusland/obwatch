@@ -6,14 +6,14 @@ data class DictResult(
 
 data class Definition(
     val text: String,
-    val pos: String,
+    val pos: String?,
     val ts: String?,
     val tr: List<Translation>
 )
 
 data class Translation(
     val text: String,
-    val pos: String,
+    val pos: String?,
     val fr: Int,
     val gen: String?,
     val syn: List<Synonym>?,

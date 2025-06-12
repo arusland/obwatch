@@ -216,7 +216,8 @@ class ObsidianWatcher(
         writer.write("\n\n")
         if (dictResult != null && dictResult.def.isNotEmpty()) {
             dictResult.def.forEach { definition ->
-                writer.write("**${definition.text}** _\\[${definition.pos}\\]_: ")
+                val pos = definition.pos?.let { " _\\[$it\\]_" } ?: ""
+                writer.write("**${definition.text}**$pos: ")
                 writer.write(definition.tr.map { translationAsString(it) }.joinToString(", ") { it })
                 writer.write("\n")
             }
