@@ -37,6 +37,7 @@ class WikidataService(private val cachePath: Path) {
 
         val request = Request.Builder()
             .url(url)
+            .header("User-Agent", "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/142.0")
             .build()
 
         log.debug("Requesting word: {}", term)
