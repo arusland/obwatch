@@ -16,6 +16,17 @@ open class WikiTextInfo(
 
     open fun hasExamples(): Boolean = examples.isNotEmpty()
 
+    open fun hasAnyContent(): Boolean {
+        var info: WikiTextInfo? = this
+        while (info != null) {
+            if (info.hasTable() || info.hasExamples()) {
+                return true
+            }
+            info = info.next
+        }
+        return false
+    }
+
     override fun toString(): String {
         return "WikiTextInfo(word='$word', type='$type', examples='$examples')"
     }

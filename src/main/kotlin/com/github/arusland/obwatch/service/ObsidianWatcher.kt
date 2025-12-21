@@ -95,7 +95,11 @@ class ObsidianWatcher(
 
             if (dictResult != null && dictResult.def[0].text == newWord || wikiTextInfo != null && wikiTextInfo.isNotEmpty()) {
                 addNewWord(newWord, dictResult, wikiTextInfo)
-                async { writeResultsToFile() }
+                if (wikiTextInfo != null && !wikiTextInfo.hasAnyContent() && wikiTextInfo.baseForm.isNotBlank()) {
+                    searchNewWordGerman(wikiTextInfo.baseForm, false)
+                } else {
+                    async { writeResultsToFile() }
+                }
             } else if (tryAnotherForm && wikiTextInfo != null && wikiTextInfo.baseForm.isNotBlank()) {
                 log.debug(
                     "No definition found for the word: {}, try to find base form: {}",
