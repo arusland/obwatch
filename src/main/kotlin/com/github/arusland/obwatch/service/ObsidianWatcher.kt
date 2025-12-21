@@ -250,7 +250,16 @@ ${result.error.message}
         var info = wikiTextInfo
         while (info != null) {
             if (info.isNotEmpty()) {
+                // show type if info does not have table and examples
+                if (!info.hasTable() && !info.hasExamples()) {
+                    writer.write("\n")
+                    writer.write("**${info.type}**")
+                    if (info.baseForm.isNotBlank()) {
+                        writer.write(" (base form: **${info.baseForm}**)")
+                    }
+                }
                 writer.write("\n")
+
                 if (info.hasTable()) {
                     when (info) {
                         is NounInfo -> {
@@ -290,6 +299,8 @@ ${result.error.message}
 
                 if (info is VerbInfo) {
                     writer.write("\nAll verb forms: [Flexion](https://de.wiktionary.org/wiki/Flexion:${info.word})\n")
+                } else if (info is NounInfo) {
+                    writer.write("\nSee on [wiktionary](https://de.wiktionary.org/wiki/${info.word})\n")
                 }
             }
             info = info.next

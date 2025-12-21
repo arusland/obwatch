@@ -8,11 +8,13 @@ open class WikiTextInfo(
     val baseForm: String,
     val next: WikiTextInfo?
 ) {
-    open fun isEmpty(): Boolean = this.javaClass === WikiTextInfo::class.java && examples.isEmpty()
+    open fun isEmpty(): Boolean = false
 
     open fun isNotEmpty(): Boolean = !isEmpty()
 
     open fun hasTable(): Boolean = false
+
+    open fun hasExamples(): Boolean = examples.isNotEmpty()
 
     override fun toString(): String {
         return "WikiTextInfo(word='$word', type='$type', examples='$examples')"
