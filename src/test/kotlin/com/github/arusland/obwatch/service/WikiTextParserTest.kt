@@ -86,4 +86,15 @@ class WikiTextParserTest {
             info5?.examples?.get(0)
         )
     }
+
+    @Test
+    fun testParseMeanings() {
+        val info = WikiTextParser().parse(ResourceUtil.readResource("/Resilienz.wikitext"))!!
+        println(info)
+        assertNotNull(info)
+        assertTrue(info.meanings.isNotEmpty(), "Meanings should not be empty")
+        assertEquals(2, info.meanings.size)
+        assertEquals("fachsprachlich, Physik, Mechanik, Festkörpermechanik, Werkstoffmechanik, Zahnmedizin: Fähigkeit elastischen Materials, nach starker Verformung in den Ausgangszustand zurückzukehren", info.meanings[0])
+        assertEquals("Fähigkeit von Lebewesen, ökonomischen oder sonstigen Systemen, sich gegen erheblichen Druck von außen selbst zu behaupten, äußeren Störungen standzuhalten", info.meanings[1])
+    }
 }

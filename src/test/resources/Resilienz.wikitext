@@ -1,0 +1,74 @@
+== Resilienz ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=f
+|Nominativ Singular=Resilienz
+|Nominativ Plural=Resilienzen
+|Genitiv Singular=Resilienz
+|Genitiv Plural=Resilienzen
+|Dativ Singular=Resilienz
+|Dativ Plural=Resilienzen
+|Akkusativ Singular=Resilienz
+|Akkusativ Plural=Resilienzen
+}}
+
+{{Worttrennung}}
+:Re·si·li·enz, {{Pl.}} Re·si·li·en·zen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ʁeziˈli̯ɛnt͡s}}
+:{{Hörbeispiele}} {{Audio|De-Resilienz.ogg}}
+:{{Reime}} {{Reim|ɛnt͡s|Deutsch}}
+
+{{Bedeutungen}}
+:[1] {{K|fachsprachlich|Physik|Mechanik|Festkörpermechanik|Werkstoffmechanik|Zahnmedizin}} [[Fähigkeit]] [[elastisch]]en [[Material]]s, nach [[stark]]er [[Verformung]] in den [[Ausgangszustand]] [[zurückkehren|zurückzukehren]]<ref>{{Literatur | Autor=Andrew Gray | Titel=Allgemeine und spezielle Mechanik | Sammelwerk=Lehrbuch der Physik | WerkErg=Autorisierte deutsche Ausgabe von Felix Auerbach | Band=Erster Band | Verlag=Vieweg und Sohn | Ort=Braunschweig | Jahr=1904 | Kapitel=Resilienz. Plötzliche Kraftanwendung | Seiten=763&nbsp;ff. | Originaltitel=A treatise on physics. Vol. 1. Dynamics and properties of matter | Originalsprache=en | Übersetzer= | Online=Online: [https://books.google.de/books?id=FGUSAAAAIAAJ&q=Resilienz+Physik&dq=Resilienz+Physik&hl=de&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwjy7PyD_-H0AhVvQvEDHal_CTg4HhDoAXoECAIQAg Google Books] | Zugriff=2021-12-15}}</ref>
+:[2] [[Fähigkeit]] von [[Lebewesen]], [[ökonomisch]]en oder [[sonstig]]en [[System]]en, sich gegen [[erheblich]]en [[Druck]] von außen selbst zu [[behaupten]], äußeren [[Störung]]en [[standhalten|standzuhalten]]
+
+{{Herkunft}}
+:Zugrunde liegt das [[lateinisch]]e Verb ''{{Ü|la|resilire}}'' „zurückspringen, abprallen“.<ref>{{Ref-Duden|Resilienz}}</ref>
+
+{{Sinnverwandte Wörter}}
+:[1] [[Elastizität]]
+:[2] [[Robustheit]], [[Selbstregulation]], [[Standhaftigkeit]], [[Widerstandsfähigkeit]], [[Widerstandskraft]], [[Zähigkeit]]
+
+{{Beispiele}}
+:[1] „Ein anschauliches Beispiel für ''Resilienz'' im engeren Sinn ist die Fähigkeit von Stehaufmännchen, sich aus jeder beliebigen Lage wieder aufzurichten.“<ref>{{Wikipedia|Resilienz|oldid=94766737}}</ref>
+:[1] „Hierdurch können&lsqb;[[sic]]&rsqb; die ''Resilienz'' der […] entworfenden Carbonbetonstrukturen gegenüber verschiedenen kombinierten äußeren Lasten zuverlässig bewertet werden.“<ref>{{Internetquelle | url=https://www.sfbtrr280.de/forschung/projektbereich-c/teilprojekt-c05/ | titel=Mehrskalenmethode zur Simulation der Resilienz und des Bruchverhaltens heterogener Strukturen | hrsg=Technische Universität Dresden | zugriff=2021-12-14}}</ref>
+:[1] „Die  sozusagen ‚weiche, aber belastungsstabile Endhärte‘ […] und die offensichtliche sowie deutlich fühlbare ''Resilienz'' des […] Silikons gestalten das Arbeiten sowohl direkt am Behandlungsstuhl als auch im Dentallabor aufwandtechnisch und zeitlich äußerst unkompliziert.“<ref>{{Internetquelle | url=https://www.ztm-aktuell.de/kollegentipp/totalprothetik/story/die-sanfte-art-der-prothesen-unterfuetterung__1538.html | titel=Die sanfte Art der Prothesen-Unterfütterung | autor=Markus Th. Firla | hrsg=Spitta GmbH | werk=[https://www.ztm-aktuell.de/ Zahntechnik Magazin] | datum=2009-11-15 | zugriff=2021-12-15 | kommentar=Autor ist Dr. med. dent.}}</ref> 
+:[1] „Dieses intramobile Element [eines Implantates] ist elastisch und soll die ''Resilienz'' des Zahnhalteapparates imitieren […].“<ref>{{Literatur | Autor=Arnold Hohmann, Werner Hielscher | Titel=Lehrbuch der Zahntechnik | Band=Band 2. Prothetik | Auflage=6. | Verlag=Quintessenz Verlag | Ort=Berlin | Jahr=2012 | Seiten=1184 | ISBN=978-3-86867-131-5 | DNB=1025691865 | Online=Online: [https://books.google.de/books?id=2iu6DwAAQBAJ&pg=PA290&dq=Resilienz+elastisch&hl=de&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwiIq9bCgOL0AhXTSPEDHaJYAE84KBC7BXoECAcQCA#v=onepage&q=intramobiles%20Element&f=false Google Bools] | Zugriff=2021-12-14}}.</ref>
+:[2] „In der Individualpsychologie lässt sich mit ''Resilienz'' erklären, warum und wie gedemütigte, missbrauchte Kinder stark werden können, Herren ihres eigenen Lebens.“<ref>Rafaela von Bredow: ''Liebe lieber unvollkommen.'' In: ''DER SPIEGEL'' 52, 2011, Seite 126-135, Zitat Seite 127&nbsp;f.</ref><ref>{{Per-Spiegel Online | Online= http://www.spiegel.de/spiegel/print/d-83328969.html| Autor= Rafaela von Bredow| Titel= Liebe lieber unvollkommen | Nummer=52| Tag= 23| Monat=12| Jahr=2011 | Zugriff=2018-09-23}}</ref>
+:[2] „Rahel sagt, es gehe darum, ihr Viertel unabhängiger von allem zu machen, was man nicht beeinflussen könne, und die Faktoren zu stärken, auf die man Einfluss habe. Sie nennt das ''Resilienz''.“<ref>Anke Dürr und andere: ''Jetzt geht es um die Wurst: Euro-System und Öko-System kollabieren, die Grenzen des Wachstums scheinen erreicht…'' In: ''KULTUR SPIEGEL'' 1, Januar 2012, Seite 14-25, Zitat Seite 21.</ref>
+:[2] „Der Grundstein für ''Resilienz'' - also die Fähigkeit, trotz belastender Erfahrungen seelisch gesund zu bleiben - wird offenbar bereits in frühen Jahren gelegt.“<ref>{{Literatur | Autor=Anne-Ev Ustorf | Titel=Wir Kinder der Kriegskinder | TitelErg=Die Generation im Schatten des Zweiten Weltkriegs|Auflage =4.|Verlag=Herder | Ort=Freiburg/Basel/Wien |Jahr= 2013| Seiten =166.|ISBN=978-3-451-06212-4}} Erste Veröffentlichung 2008.</ref>
+
+{{Wortbildungen}}
+:[[resilient]]; [[Cyber-Resilienz]], [[Resilienzforschung]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=|Ü-Liste=
+*{{en}}: {{Ü|en|resilience}}
+*{{fr}}: {{Ü|fr|résilience}}
+*{{it}}: {{Ü|it|resilienza}} {{f}}
+*{{sr}}: {{Üt?|sr|еластичност|elastičnost}}
+*{{es}}: {{Ü|es|resiliencia}}
+*{{tr}}: {{Ü|tr|dayanıklılık}}
+}}
+
+{{Ü-Tabelle|2|G=|Ü-Liste=
+*{{sv}}: {{Ü|sv|resiliens}} {{u}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Resilienz_(Zahnmedizin)|Resilienz (Zahnmedizin)}}
+:[2] {{Wikipedia}}
+:[2] {{Wikipedia|Resilienz (Ökosystem)}}
+:[2] {{Wikipedia|Resilienz (Psychologie)}}
+:[2] {{Ref-DWDS}}
+:[*] {{Ref-UniLeipzig}}
+:[2] {{Ref-Duden}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[Residenz]]}}
+
+[[Kategorie:Entlehnung aus dem Lateinischen (Deutsch)]]

@@ -24,7 +24,13 @@ class WikiTextParser {
     private val supRegex = """<sup>[^<]+?</sup>""".toRegex()
 
     // replace wikilink by it's value [[w:René Descartes|Descartes]]
-    private val wikiLinkRegex = """\[\[([^\|]+)\|([^\]]+)\]\]""".toRegex()
+    private val wikiLinkRegex = """\[\[([^\|\]]+)\|([^\]]+)\]\]""".toRegex()
+
+    // replace simple wikilink [[Fähigkeit]] or [[elastisch]]en by plain text
+    private val simpleWikiLinkRegex = """\[\[([^\|\]]+)\]\](\w*)""".toRegex()
+
+    // replace {{K|val1|val2|...}} template by "val1, val2, ...:"
+    private val kTemplateRegex = """\{\{K\|([^}]+)\}\}""".toRegex()
 
     // replace small by it's value <small>...</small>
     private val smallRegex = """<small>([^<]+)</small>""".toRegex()
@@ -94,16 +100,17 @@ class WikiTextParser {
         return result
     }
 
-    private fun parseExamples(wikiText: String): Pair<Int, List<String>> {
+    private fun parseExamples(wikiText: String): Pair<List<String>, List<String>> {
+        val meanings = parseMeanings(wikiText)
         val examples = mutableMapOf<String, String>()
         val extraExamples = mutableListOf<String>()
         var collecting = false
-        val getResult: () -> Pair<Int, List<String>> = {
-            if (examples.size == 1) {
+        val getResult: () -> Pair<List<String>, List<String>> = {
+            if (meanings.size == 1) {
                 // if only one meaning then add extra examples
-                1 to examples.values + extraExamples.take(5)
+                meanings to examples.values + extraExamples.take(5)
             } else {
-                examples.size to examples.values.toList()
+                meanings to examples.values.toList()
             }
         }
         var lastExample: String = ""
@@ -146,6 +153,46 @@ class WikiTextParser {
         return getResult()
     }
 
+    private fun parseMeanings(wikiText: String): List<String> {
+        val meanings = mutableMapOf<String, String>()
+        var collecting = false
+        var lastMeaning: String = ""
+        var lastIndex: String = ""
+        val addMeaning = {
+            if (lastIndex.isNotBlank() && lastMeaning.isNotBlank()) {
+                if (!meanings.containsKey(lastIndex)) {
+                    meanings[lastIndex] = formatText(lastMeaning.trim())
+                }
+                lastMeaning = ""
+                lastIndex = ""
+            }
+        }
+
+        wikiText.lines().forEach { line ->
+            if (collecting && line.isEmpty()) {
+                // when empty line found means that Meanings section is finished
+                addMeaning()
+                return@forEach
+            }
+            if (collecting) {
+                val match = regexIndex.find(line)
+                if (match != null) {
+                    // we need whole meaning, that's why we need wait for next one before adding current
+                    addMeaning()
+                    lastIndex = match.groupValues[1]
+                    lastMeaning = match.groupValues[2]
+                } else {
+                    lastMeaning += " " + line.trim()
+                }
+            } else if (line.startsWith("{{Bedeutungen}}")) {
+                collecting = true
+            }
+        }
+        addMeaning()
+
+        return meanings.values.toList()
+    }
+
     private fun formatExampleBeforeAdd(line: String): String = if (line.startsWith("::")) {
         " (" + line.substring(2) + ")"
     } else
@@ -159,7 +206,9 @@ class WikiTextParser {
 
     private fun formatText(text: String): String {
         return text.replaceSmall()
+            .replaceKTemplate()
             .replaceWikiLink()
+            .replaceSimpleWikiLink()
             .replace("''", "**")
             .replace("[", "\\[")
             .replace("]", "\\]")
@@ -219,6 +268,18 @@ class WikiTextParser {
 
     private fun String.replaceWikiLink(): String  = if (this.contains("[["))
         wikiLinkRegex.replace(this, "$2")
+    else
+        this
+
+    private fun String.replaceSimpleWikiLink(): String = if (this.contains("[["))
+        simpleWikiLinkRegex.replace(this, "$1$2")
+    else
+        this
+
+    private fun String.replaceKTemplate(): String = if (this.contains("{{K|"))
+        kTemplateRegex.replace(this) { match ->
+            match.groupValues[1].replace("|", ", ") + ":"
+        }
     else
         this
 }

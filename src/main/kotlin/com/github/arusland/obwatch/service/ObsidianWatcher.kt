@@ -301,6 +301,16 @@ ${result.error.message}
                     writer.write("\n")
                 }
 
+                // draw meanings
+                if (info.meanings.isNotEmpty()) {
+                    if (info.examples.isNotEmpty()) {
+                        writer.write("\n")
+                    }
+                    writer.write("**Meanings**\n")
+                    writer.write(info.meanings.map { "* $it" }.joinToString("\n") { it })
+                    writer.write("\n")
+                }
+
                 if (info is VerbInfo) {
                     writer.write("\nAll verb forms: [Flexion](https://de.wiktionary.org/wiki/Flexion:${info.word})\n")
                 } else if (info is NounInfo) {
@@ -312,7 +322,7 @@ ${result.error.message}
     }
 
     private fun getExampleSubTitle(info: WikiTextInfo): String {
-        val meaning = if (info.meanings > 1) "${info.meanings} meanings" else ""
+        val meaning = if (info.meanings.size > 1) "${info.meanings.size} meanings" else ""
         return listOf(info.type, meaning)
             .filter { it.isNotEmpty() }
             .joinToString(", ", prefix = " (_", postfix = "_)")
