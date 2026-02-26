@@ -5,6 +5,7 @@ open class WikiTextInfo(
     val type: String,
     val examples: List<String>,
     val meanings: List<String>,
+    val synonyms: List<String>,
     val baseForm: String,
     val next: WikiTextInfo?
 ) {
@@ -37,12 +38,13 @@ class VerbInfo(
     type: String,
     examples: List<String>,
     meanings: List<String>,
+    synonyms: List<String>,
     baseForm: String,
     next: WikiTextInfo?,
     val praeterium: String,
     val partizip2: String,
     val hilfsVerb: String
-) : WikiTextInfo(word, type, examples, meanings, baseForm, next) {
+) : WikiTextInfo(word, type, examples, meanings, synonyms, baseForm, next) {
 
     override fun hasTable(): Boolean = true
 
@@ -56,11 +58,12 @@ class NounInfo(
     type: String,
     examples: List<String>,
     meanings: List<String>,
+    synonyms: List<String>,
     baseForm: String,
     next: WikiTextInfo?,
     val genus: Genus,
     val cases: List<CaseInfo>
-) : WikiTextInfo(word, type, examples, meanings, baseForm, next) {
+) : WikiTextInfo(word, type, examples, meanings, synonyms, baseForm, next) {
 
     override fun toString(): String {
         return "NounInfo(word='$word', type='$type', examples='$examples', genus='$genus', cases=$cases)"
@@ -78,11 +81,12 @@ class AdjectiveInfo(
     type: String,
     examples: List<String>,
     meanings: List<String>,
+    synonyms: List<String>,
     baseForm: String,
     next: WikiTextInfo?,
     val komparativ: String,
     val superlativ: String,
-) : WikiTextInfo(word, type, examples, meanings, baseForm, next) {
+) : WikiTextInfo(word, type, examples, meanings, synonyms, baseForm, next) {
 
     override fun hasTable(): Boolean = komparativ.isNotEmpty() || superlativ.isNotEmpty()
 

@@ -32,6 +32,9 @@ class WikiTextParser {
     // replace {{K|val1|val2|...}} template by "val1, val2, ...:"
     private val kTemplateRegex = """\{\{K\|([^}]+)\}\}""".toRegex()
 
+    // remove {{xxx|:}} label marker templates (e.g. {{ugs.|:}})
+    private val labelMarkerRegex = """\{\{[^|{}]+\|:\}\}""".toRegex()
+
     // replace small by it's value <small>...</small>
     private val smallRegex = """<small>([^<]+)</small>""".toRegex()
 
@@ -58,29 +61,30 @@ class WikiTextParser {
         val type = regexType.find(wikiText)?.groupValues?.get(1) ?: ""
 
         val (meanings, examples) = parseExamples(wikiText)
+        val synonyms = parseSynonyms(wikiText)
         val baseForm = getTemplateValue("Grundformverweis", wikiText)
 
         return when (type) {
             "Substantiv" -> {
                 val genus = Genus.fromValue(getTableValue("Genus", wikiText)) // |Genus=f
                 val cases = parseCases(wikiText, genus)
-                NounInfo(word, type, examples, meanings, baseForm, next, genus, cases)
+                NounInfo(word, type, examples, meanings, synonyms, baseForm, next, genus, cases)
             }
 
             "Verb" -> {
                 val praeterium = getTableValue("Präteritum_ich", wikiText)
                 val partizip2 = getTableValue("Partizip II", wikiText)
                 val hilfsVerb = getTableValue("Hilfsverb", wikiText)
-                VerbInfo(word, type, examples, meanings, baseForm, next, praeterium, partizip2, hilfsVerb)
+                VerbInfo(word, type, examples, meanings, synonyms, baseForm, next, praeterium, partizip2, hilfsVerb)
             }
 
             "Adjektiv" -> {
                 val komparativ = getTableValue("Komparativ", wikiText)
                 val superlativ = getTableValue("Superlativ", wikiText)
-                AdjectiveInfo(word, type, examples, meanings, baseForm, next, komparativ, superlativ)
+                AdjectiveInfo(word, type, examples, meanings, synonyms, baseForm, next, komparativ, superlativ)
             }
 
-            else -> WikiTextInfo(word, type, examples, meanings, baseForm, next)
+            else -> WikiTextInfo(word, type, examples, meanings, synonyms, baseForm, next)
         }
     }
 
@@ -193,6 +197,45 @@ class WikiTextParser {
         return meanings.values.toList()
     }
 
+    private fun parseSynonyms(wikiText: String): List<String> {
+        val synonyms = mutableMapOf<String, String>()
+        var collecting = false
+        var lastSynonym: String = ""
+        var lastIndex: String = ""
+        val addSynonym = {
+            if (lastIndex.isNotBlank() && lastSynonym.isNotBlank()) {
+                if (!synonyms.containsKey(lastIndex)) {
+                    synonyms[lastIndex] = formatSynonymText(lastSynonym.trim())
+                }
+                lastSynonym = ""
+                lastIndex = ""
+            }
+        }
+
+        wikiText.lines().forEach { line ->
+            if (collecting && line.isEmpty()) {
+                addSynonym()
+                collecting = false
+                return@forEach
+            }
+            if (collecting) {
+                val match = regexIndex.find(line)
+                if (match != null) {
+                    addSynonym()
+                    lastIndex = match.groupValues[1]
+                    lastSynonym = match.groupValues[2]
+                } else {
+                    lastSynonym += " " + line.trim()
+                }
+            } else if (line.startsWith("{{Synonyme}}")) {
+                collecting = true
+            }
+        }
+        addSynonym()
+
+        return synonyms.values.toList()
+    }
+
     private fun formatExampleBeforeAdd(line: String): String = if (line.startsWith("::")) {
         " (" + line.substring(2) + ")"
     } else
@@ -202,6 +245,13 @@ class WikiTextParser {
         // {{Grundformverweis Konj|gehen}}
         val regex = """\{\{\s*$prefix[^\|]*?\|([^\}]+)""".toRegex()
         return regex.find(wikiText)?.groupValues?.get(1) ?: ""
+    }
+
+    private fun formatSynonymText(text: String): String {
+        return formatText(text)
+            .removeLabelMarker()
+            .replace(Regex(";\\s+"), ", ")
+            .trim()
     }
 
     private fun formatText(text: String): String {
@@ -280,6 +330,11 @@ class WikiTextParser {
         kTemplateRegex.replace(this) { match ->
             match.groupValues[1].replace("|", ", ") + ":"
         }
+    else
+        this
+
+    private fun String.removeLabelMarker(): String = if (this.contains("{{"))
+        labelMarkerRegex.replace(this, "")
     else
         this
 }

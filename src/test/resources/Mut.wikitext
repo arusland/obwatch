@@ -1,0 +1,172 @@
+{{Siehe auch|[[mut]], [[-mut]]}}
+== Mut ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=m
+|Nominativ Singular=Mut
+|Nominativ Plural=—
+|Genitiv Singular=Mutes
+|Genitiv Singular*=Muts
+|Genitiv Plural=—
+|Dativ Singular=Mut
+|Dativ Singular*=Mute
+|Dativ Plural=—
+|Akkusativ Singular=Mut
+|Akkusativ Plural=—
+|Bild=Raevsky saltanovka.jpg|mini|1|General [[w:Nikolai Nikolajewitsch Rajewski|Rajewski]] zeigte seinen ''Mut,'' als er seine Truppen in der Schlacht anführte
+}}
+
+{{Nicht mehr gültige Schreibweisen}}
+:''bis zur Rechtschreibreform von 1901:'' [[Muth]]
+
+{{Worttrennung}}
+:Mut, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|muːt}}
+:{{Hörbeispiele}} {{Audio|De-Mut2.oga}}
+:{{Reime}} {{Reim|uːt|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[Geisteshaltung]], bei der [[Handlung]]en in einer [[gefährlich]]en, [[kritisch]]en oder waghalsigen [[Situation]] energisch und furchtlos ausgeführt werden
+:[2] [[Gemütszustand]], in dem neue Aufgaben mit [[Zuversicht]] begonnen oder fortgeführt werden
+:[3] {{K|veraltet, mit Adjektiv}} [[Gemüt]]
+
+{{Herkunft}}
+:von {{gmh.}} ''{{Ü|gmh|muot}}'' und {{goh.}} ''{{Ü|goh|muot}}'' (Kraft des Denkens, Gemütszustand, Gesinnung), belegt seit dem 8. Jahrhundert<ref>{{Lit-Pfeifer: Etymologisches Wörterbuch|A=6}}, Seite 903, Eintrag „Mut“.</ref>
+
+{{Synonyme}}
+:[1] [[Furchtlosigkeit]], [[Kühnheit]], [[Risikobereitschaft]], [[Rückgrat]], [[Tapferkeit]], [[Unerschrockenheit]], [[Verwegenheit]], [[Wagemut]]; {{ugs.|:}} [[Courage]], [[Eier]], [[Mumm]]
+:[2] [[Optimismus]], [[Vertrauen]], [[Zuversicht]]
+:[3] [[Charakter]], [[Verfasstheit]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[Tapferkeit]]
+
+{{Gegenwörter}}
+:[1] [[Angst]], [[Feigheit]], [[Furcht]], [[Mutlosigkeit]]
+:[2] [[Pessimismus]], [[Skepsis]], [[Zweifel]]
+
+{{Verkleinerungsformen}}
+:[[Mütchen]]
+
+{{Oberbegriffe}}
+:[1] [[Geisteshaltung]], [[Gesinnung]]
+:[2, 3] [[Gemütsverfassung]], [[Gemütszustand]], [[Laune]], [[Stimmung]]
+
+{{Unterbegriffe}}
+:[1] [[Bekennermut]], ''gehoben:'' [[Heldenmut]], [[Lebensmut]], [[Löwenmut]], [[Mannesmut]], [[Todesmut]], [[Wagemut]], ''veraltet:'' [[Frevelmut]]
+
+{{Beispiele}}
+:[1] Er bewies seinen ''Mut,'' indem er über die gefährliche Brücke ging.
+:[1] Zum Unglück Meister Daniels aber war gleich danach auch sein alter Brauer Petersen gestorben, und die Witwe hatte den ''Mut'' zur Fortsetzung des Geschäfts verloren.<ref>{{DiB-Projekt Gutenberg-DE | Online=https://www.projekt-gutenberg.org/storm/basch/basch3.html | Autor={{W|Theodor Storm}} | Titel=Bötjer Basch }}</ref>
+:[1] Also der Bringer des Heils, und ins Rossegeschirr sich erhebend, Faßt' er die Geißel geschwind' und das schöne Gezäum in die Hände, Und gab edelen ''Mut'' den Rossen zugleich und den Mäulern.<ref>{{DiB-Projekt Gutenberg-DE | Online=https://www.projekt-gutenberg.org/homer/ilias23/chap024.html | Autor={{W|Homer}} | Titel=Ilias | Kapitel=Vierundzwanzigster Gesang, Strophe 440 }}</ref>
+:[1] Der ''Mut'' zu Aktienkäufen scheint hingegen weitgehend verlorengegangen zu sein, zumal die Ausländer in jüngster Zeit vor allem deutsche Aktien verkauft haben - in der Hauptsache, um Währungsgewinne zu realisieren.<ref>{{Per-Zeit Online | Online=http://www.zeit.de/1995/13/Mut_verloren | Autor= | Titel=Mut verloren | Nummer=13/1995 }}</ref>
+:[1] ''Mut'' hat Perspektiven, während Tapferkeit allenfalls Hoffnung haben kann.<ref>{{Per-Zeit Online | Online=http://www.zeit.de/2000/25/Was_ist_Mut_was_Tapferkeit_ | Autor=Eva-Maria Wallas | Titel=Was ist Mut, was Tapferkeit? | Nummer=25/2000 }}</ref>
+:[2] Als die Wände rein gefegt hatten, schienen sie sehr guten ''Mutes,'' und gewiß, sie waren auch in kurzer Zeit sehr viel größer, breiter und glänzender geworden.<ref>{{DiB-Projekt Gutenberg-DE | Online=https://www.projekt-gutenberg.org/goethe/maerchen/maerchen.html | Autor={{W|Johann Wolfgang von Goethe}} | Titel=Das Märchen }}</ref>
+:[2] Da, voll guten ''Mutes,'' setzten sie bei der frischen Brise das Segel wieder, das sie jetzt in vollem Flug nach Westen der Heimat entgegentrug.<ref>{{DiB-Projekt Gutenberg-DE | Online=https://www.projekt-gutenberg.org/gerstaec/zimmermn/zimmerm6.html | Autor={{W|Friedrich Gerstäcker}} | Titel=Der Schiffszimmermann }}</ref>
+:[3] „Übrigens wolle sie der Gattung der Kunstmaler nicht Unrecht tun, denn ihr Mieter von damals, zum Beispiel, habe schon gleich eine Ausnahme von der Vergnügtheit gemacht und sei ein sehr stiller, verschlossener Mann gewesen, eher von schwerem ''Mut'' […].“<ref>{{Literatur|Autor=Thomas Mann|Titel=Doktor Faustus|Verlag=Aufbau-Verlag|Ort=Berlin|Jahr=1956|Seiten=280}}</ref>
+
+{{Redewendungen}}
+:[1] [[allen Mut zusammennehmen|allen ''Mut'' zusammennehmen]] — sich gegen die Angst überwinden
+:[1] [[Erfolg macht Mut|Erfolg macht ''Mut'']]
+:[1] [[mit dem Mut der Verzweiflung|mit dem ''Mut'' der Verzweiflung]] — Mut in einer ausweglosen Situation beweisen
+:[1] [[Mut zur Lücke|''Mut'' zur Lücke]] — Teile des Prüfungsstoffes nicht lernen; wichtige Teile weglassen
+:[1] [[nur Mut|nur ''Mut'']]!
+:[1] [[sich Mut antrinken|sich ''Mut'' antrinken]] — die Angstschwelle durch Alkoholkonsum herabsetzen
+:[1] [[sich Mut machen|sich ''Mut'' machen]] — gegen die Angst argumentieren
+:[2] [[guten Mutes sein|guten ''Mutes'' sein]]
+:[2] [[sei guten Mutes|sei guten ''Mutes'']]! — Sorge dich nicht, du schaffst das schon
+
+{{Charakteristische Wortkombinationen}}
+:[1] ''Mut'' [[aufbringen]], [[beweisen]], [[benötigen]], [[brauchen]], [[brechen]], [[einflößen]], [[erfordern]], [[fassen]], [[haben]], [[machen]], [[schöpfen]], [[verlieren]], [[vermitteln]], [[zeigen]]
+:[1] ''Mut'' zum (zur) [[Anpassung]], [[Aufbruch]], [[Auslandsgeschäft]], [[Auszeit]], [[Denken]], [[Einfachheit]], [[Emotion]], [[Entscheidung]], [[Ethik]], [[Erfolg]], [[Experiment]], [[Farbe]], [[Glauben]], [[Handeln]], [[Hässlichkeit]], [[Innovation]], [[Kind]], [[Kinderkriegen]], [[Klarheit]], [[Leben]], [[Meinung]], [[Nachhaltigkeit]], [[Neuanfang]], [[Offenheit]], [[Reform]], [[Risiko]], [[Selbstständigkeit]], [[Studium]], [[Veränderung]], [[Vision]], [[Wahrheit]], [[Widerspruch]], [[Zukunft]]
+:[1] [[heroisch]]er, [[intellektuell]]er, [[wirklich]]er ''Mut''
+:[2] [[gut]]en ''Mutes''
+:[3] [[schweren Mutes]]
+
+{{Wortbildungen}}
+:''Adjektive:'' [[einmütig]], [[gutmütig]], [[muterfüllt]], [[mutig]], [[mutlos]], [[mutvoll]], [[weichmütig]]
+:''Substantive:'' [[Anmut]], [[Bekennermut]], [[Demut]], [[Edelmut]], [[Freimut]], [[Frevelmut]], [[Frohmut]], [[Gleichmut]], [[Großmut]], [[Heldenmut]], [[Hochmut]], [[Kampfesmut]], [[Kampfmut]], [[Kleinmut]], [[Langmut]], [[Lebensmut]], [[Löwenmut]], [[Mannesmut]], [[Missmut]], [[Mütchen]], [[Mutmacher]], [[Mutprobe]], [[Mutwille]], [[Opfermut]], [[Reumut]], [[Sanftmut]], [[Schwermut]], [[Todesmut]], [[Übermut]], [[Unmut]], [[Wagemut]], [[Wankelmut]], [[Wehmut]]
+:''Verb:'' [[mutmaßen]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=Geisteshaltung in einer gefährlichen, kritischen oder waghalsigen Situation|Ü-Liste=
+*{{ar}}: {{Üt|ar|شجاعة|šaġā'a}} {{f}}
+*{{bg}}: {{Üt|bg|смелост}} {{f}}
+*{{da}}: {{Ü|da|mod}} {{n}}
+*{{en}}: {{Ü|en|courage}}
+*{{eo}}: {{Ü|eo|kuraĝo}}
+*{{fo}}: {{Ü|fo|áræði}} {{n}}, {{Ü|fo|dirvi}} {{n}}, {{Ü|fo|mót}} {{n}}
+*{{fi}}: {{Ü|fi|rohkeus}}
+*{{fr}}: {{Ü|fr|courage}} {{m}}
+*{{ka}}: {{Üt|ka|მხნეობა|mchneoba}}
+*{{el}}: {{Üt|el|θάρρος|thárros}} {{n}}
+*{{kl}}: {{Ü|kl|sapiissuseq}}
+*{{is}}: {{Ü|is|hugrekki}}
+*{{it}}: {{Ü|it|coraggio}} {{m}}, ''metaph.'' {{Ü|it|fegato}} {{m}}
+*{{ja}}: {{Üt|ja|勇気|ゆうき, yûki}}
+*{{ca}}: {{Ü|ca|coratge}} {{m}}, {{Ü|ca|valor}} {{m}}
+*{{tlh}}: {{Ü|tlh|toDuj}}, {{Ü|tlh|qajunpaQ}}
+*{{ko}}: {{Üt|ko|용기|}}
+*{{hr}}: {{Ü|hr|hrabrost}} {{f}}
+*{{ku}}:
+**{{kmr}}: {{Ü|kmr|cesaret}}, {{Ü|kmr|wêrekî}} {{f}}
+*{{la}}: {{Ü|la|animus}} (m), {{Ü|la|fortitudo}} {{f}}
+*{{lt}}: {{Ü|lt|drąsa}} {{f}}
+*{{nah}}
+**{{nci}}: {{Ü|nci|zomalli}}
+*{{nl}}: {{Ü|nl|moed}}, {{Ü|nl|lef}}
+*{{no}}: {{Ü|no|mot}}
+*{{fa}}: {{Üt|fa|پردلی|}}, {{Üt|fa|دلیری|}}, {{Üt|fa|دلاوری|}}
+*{{pl}}: {{Ü|pl|odwaga}} {{f}}
+*{{pt}}: {{Ü|pt|coragem}} {{f}}
+*{{ro}}: {{Ü|ro|curaj}}
+*{{ru}}: {{Üt|ru|мужество}} {{n}}, {{Üt|ru|смелость}} {{f}}
+*{{sv}}: {{Ü|sv|mod}}
+*{{sk}}: {{Ü|sk|smelosť}} {{f}}, {{Ü|sk|pripravenosť}} {{f}}, {{Ü|sk|udatnosť}} {{f}}, {{Ü|sk|neohrozenosť}} {{f}}, {{Ü|sk|nebojácnosť}} {{f}}, {{Ü|sk|odvaha}} {{f}}
+*{{sl}}: {{Ü|sl|pogum}}
+*{{es}}: {{Ü|es|coraje}} {{m}}, {{Ü|es|valor}} {{m}}
+*{{cs}}: {{Ü|cs|odvaha}} {{f}}
+*{{tr}}: {{Ü|tr|cesaret}}
+*{{hu}}: {{Ü|hu|bátorság}}
+*{{ur}}: {{Üt|ur|ہمت|}} {{f}}
+|Dialekttabelle=
+*Berlinerisch: Traute
+*Bairisch: [[Schneid]]
+}}
+{{Ü-Tabelle|2|G=Gemütszustand der Zuversicht, an neue Aufgaben heranzugehen|Ü-Liste=
+*{{en}}: {{Ü|en|confidence}}, {{Ü|en|optimism}}
+*{{fr}}: {{Ü|fr|assurance}} {{f}}, {{Ü|fr|confiance}} {{f}}
+*{{it}}: {{Ü|it|fiducia}} {{f}}, {{Ü|it|confidenza}} {{f}}
+*{{ko}}: {{Üt|ko|용기|}}
+*{{nah}}
+**{{nci}}: {{Ü|nci|zomalli}}
+*{{nl}}: {{Ü|nl|moed}}, {{Ü|nl|lef}}
+*{{no}}: {{Ü|no|tillit}}
+*{{pl}}: {{Ü|pl|ufność}} {{f}}, {{Ü|pl|wiara}} {{f}}
+*{{pt}}: {{Ü|pt|fidúcia}} {{f}}
+*{{ro}}: {{Ü|ro|spirituos}} {{m}}, {{Ü|ro|voios}} {{m}}
+*{{ru}}: {{Üt|ru|уверенность}} {{f}}
+*{{sv}}: {{Ü|sv|mod}}
+*{{sk}}: {{Ü|sk|dôvera}}
+*{{sl}}: {{Ü|sl|pogum}}
+*{{es}}: {{Ü|es|ánimo}} {{m}}, {{Ü|es|confianza}} {{f}}
+*{{cs}}: {{Ü|cs|důvěra}} {{f}}
+|Dialekttabelle=
+*Berlinerisch: Traute
+*Bairisch: [[Schneid]]
+}}
+
+{{Referenzen}}
+:[1, 2] {{Wikipedia|Mut}}
+:[1, 2] {{Wikiquote|Mut}}
+:[1–3] {{Ref-Grimm|Mut}}
+:[1, 2] {{Ref-DWDS|Mut}}
+:[1, 2] {{Ref-Duden|Mut}}
+:[*] {{Ref-UniLeipzig|Mut}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[Hut]], [[matt]], [[mit]], [[Muss]], [[Nut]]}}

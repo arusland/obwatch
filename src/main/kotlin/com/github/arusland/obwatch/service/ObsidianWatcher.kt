@@ -311,6 +311,16 @@ ${result.error.message}
                     writer.write("\n")
                 }
 
+                // draw synonyms
+                if (info.synonyms.isNotEmpty()) {
+                    if (info.examples.isNotEmpty() || info.meanings.isNotEmpty()) {
+                        writer.write("\n")
+                    }
+                    writer.write("**Synonyms**\n")
+                    writer.write(info.synonyms.map { "* $it" }.joinToString("\n") { it })
+                    writer.write("\n")
+                }
+
                 if (info is VerbInfo) {
                     writer.write("\nAll verb forms: [Flexion](https://de.wiktionary.org/wiki/Flexion:${info.word})\n")
                 } else if (info is NounInfo) {

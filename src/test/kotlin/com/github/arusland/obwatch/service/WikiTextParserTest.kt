@@ -97,4 +97,28 @@ class WikiTextParserTest {
         assertEquals("fachsprachlich, Physik, Mechanik, Festkörpermechanik, Werkstoffmechanik, Zahnmedizin: Fähigkeit elastischen Materials, nach starker Verformung in den Ausgangszustand zurückzukehren", info.meanings[0])
         assertEquals("Fähigkeit von Lebewesen, ökonomischen oder sonstigen Systemen, sich gegen erheblichen Druck von außen selbst zu behaupten, äußeren Störungen standzuhalten", info.meanings[1])
     }
+
+    @Test
+    fun testParseSynonyms() {
+        val info = WikiTextParser().parse(ResourceUtil.readResource("/Mutter.wikitext"))!!
+        println(info)
+        assertNotNull(info)
+        assertTrue(info.synonyms.isNotEmpty(), "Synonyms should not be empty")
+        assertEquals(3, info.synonyms.size)
+        assertEquals("Mama, Mami, Mammi, Mutti, Muttl, Muttel, Muttchen, Ma", info.synonyms[0])
+        assertEquals("Muttertier", info.synonyms[1])
+        assertEquals("Gussform, Mutterform", info.synonyms[2])
+    }
+
+    @Test
+    fun testParseSynonyms2() {
+        val info = WikiTextParser().parse(ResourceUtil.readResource("/Mut.wikitext"))!!
+        println(info)
+        assertNotNull(info)
+        assertTrue(info.synonyms.isNotEmpty(), "Synonyms should not be empty")
+        assertEquals(3, info.synonyms.size)
+        assertEquals("Furchtlosigkeit, Kühnheit, Risikobereitschaft, Rückgrat, Tapferkeit, Unerschrockenheit, Verwegenheit, Wagemut, Courage, Eier, Mumm", info.synonyms[0])
+        assertEquals("Optimismus, Vertrauen, Zuversicht", info.synonyms[1])
+        assertEquals("Charakter, Verfasstheit", info.synonyms[2])
+    }
 }
