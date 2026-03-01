@@ -5,7 +5,9 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.runBlocking
 import org.slf4j.LoggerFactory
 import java.io.BufferedWriter
+import java.nio.file.FileSystems
 import java.nio.file.Path
+import java.nio.file.StandardWatchEventKinds
 import java.nio.file.attribute.BasicFileAttributes
 import kotlin.io.path.*
 
@@ -22,7 +24,6 @@ class ObsidianWatcher(
     private val dictService: DictService,
     private val wikidataService: WikidataService
 ) {
-    private var lastFileAttributes: BasicFileAttributes
     private val outputFilePath: Path
     private val regexSpace = Regex("[\\s#!,.\\?\\!]+", RegexOption.MULTILINE)
     private val regexDigit = Regex("\\d+")
@@ -35,24 +36,32 @@ class ObsidianWatcher(
         require(path.exists()) { "Target path does not exist: $path" }
         require(path.isRegularFile()) { "Target path is not a file: $path" }
         outputFilePath = path.resolveSibling("auto-${path.fileName}")
-        lastFileAttributes = path.readAttributes()
         println("Watching for changes in: $path")
         println("Output file: $outputFilePath")
     }
 
     fun start() {
-        while (true) {
-            val fileWasChanged = fileWasChanged()
-            if (fileWasChanged) {
-                processFile()
+        FileSystems.getDefault().newWatchService().use { watchService ->
+            path.parent.register(watchService, StandardWatchEventKinds.ENTRY_MODIFY)
+            while (true) {
+                val key = watchService.take()
+                for (event in key.pollEvents()) {
+                    val changed = event.context() as? Path ?: continue
+                    if (changed == path.fileName) {
+                        processFile()
+                    }
+                }
+                if (!key.reset()) {
+                    log.warn("Watch key is no longer valid, stopping watcher")
+                    break
+                }
             }
-            Thread.sleep(500)
         }
     }
 
     private fun processFile() {
         // TODO: file could be too big, so we need to read it in chunks
-        val attributes = lastFileAttributes
+        val attributes = path.readAttributes<BasicFileAttributes>()
         log.debug("File was changed: {}, file size: {}", attributes.lastModifiedTime(), attributes.size())
         val text = path.readText()
         val tokens = regexSpace.split(text).filter { token -> token.isNotBlank() && !regexDigit.matches(token) }
@@ -345,22 +354,6 @@ ${result.error.message}
             "${translation.text} (_" + translation.mean.joinToString(", ") { it.text } + "_)"
         else
             translation.text
-    }
-
-    /**
-     * Return true if file was really changed.
-     */
-    private fun fileWasChanged(): Boolean {
-        // TODO: use file watcher
-        val attributes = path.readAttributes<BasicFileAttributes>()
-
-        if ((lastFileAttributes.lastModifiedTime() != attributes.lastModifiedTime() || lastFileAttributes.size() != attributes.size())) {
-            // wait for some time after save
-            lastFileAttributes = attributes
-            return true
-        }
-
-        return false
     }
 
     data class FoundResult(
