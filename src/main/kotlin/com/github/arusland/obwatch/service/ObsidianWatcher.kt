@@ -25,7 +25,7 @@ class ObsidianWatcher(
     private val wikidataService: WikidataService
 ) {
     private val outputFilePath: Path
-    private val regexSpace = Regex("[\\s#!,.\\?\\!]+", RegexOption.MULTILINE)
+    private val regexSpace = Regex("[\\s#!,.?*]+", RegexOption.MULTILINE)
     private val regexDigit = Regex("\\d+")
     private val lastResults = mutableListOf<FoundResult>()
 
