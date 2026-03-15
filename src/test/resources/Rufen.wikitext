@@ -1,0 +1,67 @@
+{{Siehe auch|[[rufen]]}}
+== Rufen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=n
+|Nominativ Singular=Rufen
+|Nominativ Plural=
+|Genitiv Singular=Rufens
+|Genitiv Plural=
+|Dativ Singular=Rufen
+|Dativ Plural=
+|Akkusativ Singular=Rufen
+|Akkusativ Plural=
+}}
+
+{{Worttrennung}}
+:Ru·fen, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʁuːfn̩}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] Ausstoßen von Rufen, Lautäußerungen
+
+{{Synonyme}}
+:[1] [[Gerufe]], [[Ruferei]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[Schreien]]
+
+{{Gegenwörter}}
+:[1] [[Schweigen]]
+
+{{Beispiele}}
+:[1] „Später hieß es, eine Frau habe sie als Erste gesehen und durch lautes ''Rufen'' den Alarm ausgelöst.“<ref>{{Literatur|Autor=Camilla Townsend|Titel=Fünfte Sonne|TitelErg=Eine neue Geschichte der Azteken|Verlag=C.H.Beck|Ort=München|Jahr=2023|ISBN=978-3-406-79817-7|Seiten=184}}.</ref>
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=Ausstoßen von Rufen|Ü-Liste=
+*{{en}}: {{Ü|en|calling}}
+}}
+
+{{Referenzen}}
+:[*] {{Ref-DWDS-Korpus}}
+:[*] {{Ref-UniLeipzig}}
+
+{{Quellen}}
+
+=== {{Wortart|Deklinierte Form|Deutsch}} ===
+
+{{Worttrennung}}
+:Ru·fen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʁuːfn̩}}
+:{{Hörbeispiele}} {{Audio|De-Rufen.ogg}}
+:{{Reime}} {{Reim|uːfn̩|Deutsch}}
+
+{{Grammatische Merkmale}}
+*Dativ Plural des Substantivs '''[[Ruf]]'''
+
+{{Grundformverweis Dekl|Ruf}}
+
+{{Ähnlichkeiten 1|[[Rufes]], [[Ruten]]|Anagramme=[[Ufern]]}}
+
+[[Kategorie:Substantivierter Infinitiv (Deutsch)]]

@@ -1,5 +1,9 @@
 package com.github.arusland.obwatch.service
 
+import com.github.arusland.obwatch.model.CaseInfo
+import com.github.arusland.obwatch.model.CaseType
+import com.github.arusland.obwatch.model.Genus
+import com.github.arusland.obwatch.model.NounInfo
 import com.github.arusland.obwatch.util.ResourceUtil
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
@@ -85,6 +89,28 @@ class WikiTextParserTest {
             "Ist der Schalter **ein** oder aus? (Ist der Schalter ein- oder ausgeschaltet?)",
             info5?.examples?.get(0)
         )
+    }
+
+    @Test
+    fun testParseCases_Hoeren() {
+        val info = WikiTextParser().parse(ResourceUtil.readResource("/Hören.wikitext"))!!
+        println(info)
+        val noun = info as NounInfo
+        assertEquals(CaseInfo(CaseType.NOMINATIV, Genus.NEUTRUM, "Hören", "-"), noun.cases[0])
+        assertEquals(CaseInfo(CaseType.GENITIV, Genus.NEUTRUM, "Hörens", "-"), noun.cases[1])
+        assertEquals(CaseInfo(CaseType.DATIV, Genus.NEUTRUM, "Hören", "-"), noun.cases[2])
+        assertEquals(CaseInfo(CaseType.AKKUSATIV, Genus.NEUTRUM, "Hören", "-"), noun.cases[3])
+    }
+
+    @Test
+    fun testParseCases_Rufen() {
+        val info = WikiTextParser().parse(ResourceUtil.readResource("/Rufen.wikitext"))!!
+        println(info)
+        val noun = info as NounInfo
+        assertEquals(CaseInfo(CaseType.NOMINATIV, Genus.NEUTRUM, "Rufen", "-"), noun.cases[0])
+        assertEquals(CaseInfo(CaseType.GENITIV, Genus.NEUTRUM, "Rufens", "-"), noun.cases[1])
+        assertEquals(CaseInfo(CaseType.DATIV, Genus.NEUTRUM, "Rufen", "-"), noun.cases[2])
+        assertEquals(CaseInfo(CaseType.AKKUSATIV, Genus.NEUTRUM, "Rufen", "-"), noun.cases[3])
     }
 
     @Test

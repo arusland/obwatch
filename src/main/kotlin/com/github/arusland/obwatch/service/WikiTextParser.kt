@@ -274,7 +274,7 @@ class WikiTextParser {
         for (caseType in CaseType.entries) {
             val singular = getTableValue("${caseType.value} Singular", wikiText)
             val plural = getTableValue("${caseType.value} Plural", wikiText)
-            result.add(CaseInfo(caseType, genus, singular, plural))
+            result.add(CaseInfo(caseType, genus, singular, unifyPlural(plural)))
         }
 
         return result
@@ -297,8 +297,15 @@ class WikiTextParser {
     }
 
     private fun getTableValue(prefix: String, wikiText: String, defVal: String = ""): String {
-        val regex = """\|$prefix( \d+)*=\s*([^\n]+)""".toRegex()
-        return regex.find(wikiText)?.groupValues?.get(2) ?: defVal
+        val regex = """\|$prefix( \d+)*=[ \t]*([^\n]+)""".toRegex()
+        return regex.find(wikiText)?.groupValues?.get(2)?.trim() ?: defVal
+    }
+
+    private fun unifyPlural(plural: String): String  {
+        if (plural.isEmpty() || (plural.length == 1 && plural in CaseInfo.NO_SET)) {
+            return CaseInfo.NO
+        }
+        return plural
     }
 
     private fun String.removeSup(): String = if (this.contains("sup"))

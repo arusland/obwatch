@@ -1,0 +1,59 @@
+{{Siehe auch|[[Horen]], [[hören]]}}
+== Hören ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=n
+|Nominativ Singular=Hören
+|Genitiv Singular=Hörens
+|Dativ Singular=Hören
+|Akkusativ Singular=Hören
+|Nominativ Plural=—
+|Genitiv Plural=—
+|Dativ Plural=—
+|Akkusativ Plural=—
+|Bild=Girl listening to radio.gif|mini|1|''Hören''
+}}
+
+{{Worttrennung}}
+:Hö·ren, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈhøːʁən}}
+:{{Hörbeispiele}} {{Audio|De-Hören.ogg}}
+:{{Reime}} {{Reim|øːʁən|Deutsch}}
+
+{{Bedeutungen}}
+:[1] [[Wahrnehmung]] von [[Schallwelle]]n mit den [[Ohr]]en
+
+{{Herkunft}}
+:[[Konversion]] aus dem Infinitiv des Verbs ''[[hören]]''
+
+{{Sinnverwandte Wörter}}
+:[1] [[Fühlen]], [[Schmecken]], [[Sehen]], [[Riechen]]
+
+{{Oberbegriffe}}
+:[1] [[Wahrnehmen]]
+
+{{Beispiele}}
+:[1] „''Hören'' hilft bei der Orientierung und Verständigung, beeinflusst das Denken und Fühlen.“<ref>{{Literatur|Autor=Robert Kopf|Titel=Schwerhörigkeit beim Hund Behandlung mit Homöopathie, Schüsslersalzen und Naturheilkunde|Verlag=BookRix|Jahr=2018|Seiten=1|ISBN=978-3-7396-6307-4|Online=Zitiert nach {{GBS|__SfDAAAQBAJ|PP1|Hervorhebung="Hören"}}}}</ref>
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=Wahrnehmung von Schallwellen mit den Ohren|Ü-Liste=
+*{{en}}: {{Ü|en|}}
+*{{fr}}: {{Ü|fr|}}
+*{{it}}: {{Ü|it|}}
+*{{sv}}: {{Ü|sv|hörande}} {{n}}
+*{{es}}: {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Auditive Wahrnehmung}} (dort auch „Hören“)
+:[*] {{Wikipedia-Suche}}
+:[*] {{Ref-OWID}}
+:[*] {{Ref-UniLeipzig}}
+:[*] {{Ref-PONS}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|Anagramme=[[hörne]], [[Öhren]], [[Öhrne]]}}

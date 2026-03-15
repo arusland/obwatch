@@ -95,7 +95,7 @@ class AdjectiveInfo(
     }
 }
 
-class CaseInfo(val type: CaseType, val genus: Genus, val singular: String, val plural: String) {
+data class CaseInfo(val type: CaseType, val genus: Genus, val singular: String, val plural: String) {
     val singularFull: String
         get() = if (hasSingular()) singularArticle() + " " + singular else NO
 
@@ -146,7 +146,7 @@ class CaseInfo(val type: CaseType, val genus: Genus, val singular: String, val p
         return "CaseInfo(type=$type, genus=${genus.value}, singular='$singularFull', plural='$pluralFull')"
     }
 
-    private companion object {
+    companion object {
         const val NO = "-"
         val NO_SET = mutableSetOf("—", "-", "–")
     }
