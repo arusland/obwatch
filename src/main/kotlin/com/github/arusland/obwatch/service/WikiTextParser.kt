@@ -43,7 +43,7 @@ class WikiTextParser {
      */
     fun parse(wikiText: String): WikiTextInfo? {
         val wikiText = cutOnlyGerman(wikiText)
-        val word = regexWord.find(wikiText)?.groupValues?.get(1) ?: return null
+        val word = formatText(regexWord.find(wikiText)?.groupValues?.get(1) ?: return null)
         val parts = splitWikiText(wikiText).reversed()
         var result: WikiTextInfo? = null
 
@@ -264,6 +264,7 @@ class WikiTextParser {
             .replace("]", "\\]")
             .removeSup()
             .removeRef()
+            .trim()
     }
 
     @OptIn(ExperimentalStdlibApi::class)

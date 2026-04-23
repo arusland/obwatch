@@ -1,0 +1,50 @@
+== aus den [[Auge]]n [[verlieren]] ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Redewendung|Deutsch}} ===
+
+{{Worttrennung}}
+:aus den Au·gen ver·lie·ren
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|aʊ̯s deːn ˈaʊ̯ɡn̩ fɛɐ̯ˈliːʁən}}
+:{{Hörbeispiele}} {{Audio|De-aus den Augen verlieren.ogg}}
+
+{{Bedeutungen}}
+:[1] den visuellen [[Kontakt]] zu jemandem/etwas nicht mehr [[aufrechterhalten]] können
+:[2] sich um etwas nicht mehr [[kümmern]]   
+
+{{QS Herkunft|fehlt|spr=de}}
+
+{{Beispiele}}
+:[1] Ich verfolgte ihn, aber auf dem Bahnhof habe ''ich ihn aus den Augen verloren.''
+:[1] „Wir waren gute Kollegen. Doch nachdem ich kündigte, haben ''wir uns aus den Augen verloren.''“
+:[1] „Sie war mal meine Freundin. Doch nach der Trennung haben wir uns total ''aus den Augen verloren.''“
+:[2] Eine der wichtigsten Voraussetzungen für den Lehrerberuf ist Empathie. Das haben wir ein bisschen ''aus den Augen verloren.'' 
+:[2] Dopende Sportler werden zunächst immer als Täter wahrgenommen, aber dass sie meist auch Opfer eines Systems sind und es ihre Gesundheit ist, die zu Schaden kommt, wird oft ''aus den Augen verloren.''<ref>{{Per-Deutschlandradio | Online=http://www.deutschlandfunk.de/anti-doping-kampf-15-jahre-nada-und-noch-viel-zu-tun.890.de.html?dram:article_id=408458 | Autor=Jessica Sturmberg | Titel=Anti-Doping-Kampf - 15 Jahre NADA - und noch viel zu tun | TitelErg= | Tag=16 | Monat=01 | Jahr=2018 | Zugriff=2018-03-20 | Kommentar=Deutschlandfunk/Köln, Sendung: Sport aktuell, Text und Audio zum Nachhören, Dauer: 03:19 mm:ss }}</ref>
+:[2] Pressemitteilung auf der JU-Homepage: „[…] Die Junge Union hat das Ziel der deutschen Einheit nie ''aus den Augen verloren'' und blickt auf eine lange Geschichte von Protesten gegen die ‚Schandmauer‘ zurück.“<ref>{{Wikinews|Junge Union gedenkt Mauerbau|14.08.2008: Junge Union gedenkt Mauerbau}}</ref>
+:[2] ILO-Generaldirektor Juan Somavia: „Auch wenn der Kampf gegen Kinderarbeit weiterhin eine gewaltige Herausforderung darstellt, so sind wir doch auf dem richtigen Weg. Wir können die schlimmsten Formen innerhalb eines Jahrzehnts beenden, ohne dabei das Ziel ''aus den Augen zu verlieren,'' letztlich Kinderarbeit vollständig abzuschaffen.“<ref>{{Wikinews|12. Juni 2006: Aktionen der ILO zum „Welttag gegen Kinderarbeit“}}</ref>
+:[2] Der britische Außenminister greift eine Idee aus dem 19. Jahrhundert auf, um Europa nach dem Brexit nicht ''aus den Augen zu verlieren.''<ref>{{Per-Deutsche Welle | Online=http://p.dw.com/p/2r9Dc | Autor=Jens Jensen | Titel=Brexit und die Folgen - Boris Johnson baut Brücken nach Europa | TitelErg= | Tag=19 | Monat=01 | Jahr=2018 | Zugriff=2018-03-20 | Kommentar= }}</ref>
+
+{{Charakteristische Wortkombinationen}}
+:[2] ''mit [[Substantiv]]:'' ein [[Ziel]] ''aus den Augen verlieren''
+:[2] ''mit [[Adverb]]:'' [[immer]] ''aus den Augen verlieren,'' [[nie]] ''aus den Augen verlieren,'' [[oft]] ''aus den Augen verlieren''
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=den visuellen Kontakt zu jemandem/etwas nicht mehr aufrechterhalten können|Ü-Liste=
+*{{en}}: {{Ü|en|lose sight of somebody}}/{{Ü|en|lose sight of something}}<ref>Oxford Learner's Dictionary [https://www.oxfordlearnersdictionaries.com/definition/english/sight_1#sight_1__622 „lose sight of somebody/something“]</ref>
+*{{fr}}: {{Ü|fr|perdre de vue}}
+*{{sv}}: {{Ü|sv|}}
+*{{es}}: {{Ü|es|}}
+*{{cs}}: {{Ü|cs|ztratit z dohledu}}
+}}
+
+{{Ü-Tabelle|2|G=sich um etwas nicht mehr kümmern|Ü-Liste=
+*{{en}}: {{Ü|en|}}
+*{{fr}}: {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[*] {{Ref-DWDS|aus den Augen verlieren}}
+:[1] {{Ref-Duden|Auge}}: „aus den Augen verlieren“
+:[1] {{Ref-Redensarten|aus den Augen verlieren}}
+
+{{Quellen}}

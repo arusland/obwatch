@@ -103,7 +103,7 @@ class WikidataServiceTest {
         assertNull(result)
     }
 
-    @ValueSource(strings = ["etwas aufs Spiel setzen"])
+    @ValueSource(strings = ["etwas aufs Spiel setzen", "aus den Augen verlieren"])
     @ParameterizedTest
     fun testSearch_Phrase(term: String) {
         val result = service.search(term) ?: fail("Result is null")

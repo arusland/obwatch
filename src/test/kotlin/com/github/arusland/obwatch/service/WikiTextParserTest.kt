@@ -153,11 +153,27 @@ class WikiTextParserTest {
         val info = WikiTextParser().parse(ResourceUtil.readResource("/etwas aufs Spiel setzen.wikitext"))!!
         println(info)
         assertNotNull(info)
+        assertEquals("etwas aufs Spiel setzen", info.word)
         assertEquals("Redewendung", info.type)
         assertEquals(1, info.meanings.size)
         assertEquals("umgangssprachlich: etwas riskieren, etwas in Gefahr bringen", info.meanings[0])
         assertEquals(2, info.examples.size)
         assertEquals("Mit dieser Kampagne **setzt** die Firma ihren guten Ruf **aufs Spiel.**", info.examples[0])
         assertEquals("Willst du dein Leben **aufs Spiel setzen?**", info.examples[1])
+    }
+
+    @Test
+    fun testPhrase2() {
+        val info = WikiTextParser().parse(ResourceUtil.readResource("/aus den Augen verlieren.wikitext"))!!
+        println(info)
+        assertNotNull(info)
+        assertEquals("aus den Augen verlieren", info.word)
+        assertEquals("Redewendung", info.type)
+        assertEquals(2, info.meanings.size)
+        assertEquals("den visuellen Kontakt zu jemandem/etwas nicht mehr aufrechterhalten können", info.meanings[0])
+        assertEquals("sich um etwas nicht mehr kümmern", info.meanings[1])
+        assertEquals(2, info.examples.size)
+        assertEquals("Ich verfolgte ihn, aber auf dem Bahnhof habe **ich ihn aus den Augen verloren.**", info.examples[0])
+        assertEquals("Eine der wichtigsten Voraussetzungen für den Lehrerberuf ist Empathie. Das haben wir ein bisschen **aus den Augen verloren.**", info.examples[1])
     }
 }
