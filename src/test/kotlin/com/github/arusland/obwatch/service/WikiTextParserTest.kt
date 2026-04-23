@@ -147,4 +147,17 @@ class WikiTextParserTest {
         assertEquals("Optimismus, Vertrauen, Zuversicht", info.synonyms[1])
         assertEquals("Charakter, Verfasstheit", info.synonyms[2])
     }
+
+    @Test
+    fun testPhrase() {
+        val info = WikiTextParser().parse(ResourceUtil.readResource("/etwas aufs Spiel setzen.wikitext"))!!
+        println(info)
+        assertNotNull(info)
+        assertEquals("Redewendung", info.type)
+        assertEquals(1, info.meanings.size)
+        assertEquals("umgangssprachlich: etwas riskieren, etwas in Gefahr bringen", info.meanings[0])
+        assertEquals(2, info.examples.size)
+        assertEquals("Mit dieser Kampagne **setzt** die Firma ihren guten Ruf **aufs Spiel.**", info.examples[0])
+        assertEquals("Willst du dein Leben **aufs Spiel setzen?**", info.examples[1])
+    }
 }

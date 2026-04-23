@@ -64,6 +64,7 @@ class ObsidianWatcher(
         val attributes = path.readAttributes<BasicFileAttributes>()
         log.debug("File was changed: {}, file size: {}", attributes.lastModifiedTime(), attributes.size())
         val text = path.readText()
+        val phrase = text.trim()
         val tokens = regexSpace.split(text).filter { token -> token.isNotBlank() && !regexDigit.matches(token) }
             .groupBy { it }.map { it.key to it.value.size }.toMap()
         val newToken = tokens.filter { (newToken, newCount) ->
@@ -73,7 +74,9 @@ class ObsidianWatcher(
         prevTokens.putAll(tokens)
         if (newToken != null) {
             try {
-                searchNewWord(newToken)
+                if (phrase.contains('\n') || !searchNewWord(phrase)) {
+                    searchNewWord(newToken)
+                }
             } catch (ex: Exception) {
                 log.error("Error while searching for new word: {}", newToken, ex)
                 runBlocking {
@@ -86,16 +89,17 @@ class ObsidianWatcher(
         }
     }
 
-    private fun searchNewWord(lastWord: String, tryAnotherForm: Boolean = true) {
+    private fun searchNewWord(lastWord: String, tryAnotherForm: Boolean = true): Boolean {
         if (isRussianWord(lastWord)) {
             searchNewWordRussian(lastWord)
+            return true
         } else {
-            searchNewWordGerman(lastWord, tryAnotherForm)
+            return searchNewWordGerman(lastWord, tryAnotherForm)
         }
     }
 
-    private fun searchNewWordGerman(newWord: String, tryAnotherForm: Boolean) {
-        runBlocking {
+    private fun searchNewWordGerman(newWord: String, tryAnotherForm: Boolean): Boolean {
+        return runBlocking {
             val dictResultDef = async { dictService.lookup(newWord, DictLang.DE_RU) }
             val wikiTextInfoDef = async { wikidataService.search(newWord) }
 
@@ -105,9 +109,10 @@ class ObsidianWatcher(
             if (dictResult != null && dictResult.def[0].text == newWord || wikiTextInfo != null && wikiTextInfo.isNotEmpty()) {
                 addNewWord(newWord, dictResult, wikiTextInfo)
                 if (wikiTextInfo != null && !wikiTextInfo.hasAnyContent() && wikiTextInfo.baseForm.isNotBlank()) {
-                    searchNewWordGerman(wikiTextInfo.baseForm, false)
+                    return@runBlocking searchNewWordGerman(wikiTextInfo.baseForm, false)
                 } else {
                     async { writeResultsToFile() }
+                    return@runBlocking true
                 }
             } else if (tryAnotherForm && wikiTextInfo != null && wikiTextInfo.baseForm.isNotBlank()) {
                 log.debug(
@@ -115,21 +120,22 @@ class ObsidianWatcher(
                     newWord,
                     wikiTextInfo.baseForm
                 )
-                searchNewWordGerman(wikiTextInfo.baseForm, false)
+                return@runBlocking searchNewWordGerman(wikiTextInfo.baseForm, false)
             } else if (tryAnotherForm) {
                 log.debug("No definition found for the word: {}, try to find (de)capitalized form", newWord)
-                searchNewWordGerman(
+                return@runBlocking searchNewWordGerman(
                     if (newWord.first().isUpperCase()) newWord.decapitalize() else newWord.capitalize(),
                     false
                 )
             } else {
                 if (!hasUmlaut(newWord)) {
                     // maybe it's English word
-                    searchNewWordEnglish(newWord)
+                    return@runBlocking searchNewWordEnglish(newWord)
                 } else {
                     log.warn("No definition found for the word (DE): {}", newWord)
                 }
             }
+            return@runBlocking false
         }
     }
 
@@ -147,14 +153,16 @@ class ObsidianWatcher(
         }
     }
 
-    private fun searchNewWordEnglish(newWord: String) {
-        runBlocking {
+    private fun searchNewWordEnglish(newWord: String): Boolean {
+        return runBlocking {
             val dictResultDef = dictService.lookup(newWord, DictLang.EN_DE).let { if (it.def.isEmpty()) null else it }
             if (dictResultDef != null) {
                 addNewWord(newWord, dictResultDef)
                 async { writeResultsToFile() }
+                return@runBlocking true
             } else {
                 log.warn("No definition found for the word (En): {}", newWord)
+                return@runBlocking false
             }
         }
     }

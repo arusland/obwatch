@@ -1,0 +1,31 @@
+== etwas aufs Spiel setzen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Redewendung|Deutsch}} ===
+
+{{Worttrennung}}
+:et·was aufs Spiel set·zen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˌɛtvas aʊ̯fs ˈʃpiːl ˈzɛt͡sn̩}}
+:{{Hörbeispiele}} {{Audio|De-etwas aufs Spiel setzen.ogg}}
+
+{{Bedeutungen}}
+:[1] {{K|umgangssprachlich}} etwas riskieren, etwas in Gefahr bringen
+
+{{Beispiele}}
+:[1] Mit dieser Kampagne ''setzt'' die Firma ihren guten Ruf ''aufs Spiel.''
+:[1] Willst du dein Leben ''aufs Spiel setzen?''
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|1|G=umgangssprachlich: etwas riskieren, etwas in Gefahr bringen|Ü-Liste=
+*{{ar}}: {{Üt?|ar|يخاطر بـ|}}
+*{{eo}}: {{Ü|eo|meti sur karton}}, {{Ü|eo|ludi}}
+*{{fr}}: {{Ü|fr|}}
+*{{it}}: {{Ü|it|}}
+*{{nl}}: {{Ü|nl|iets op het spel zetten}}
+*{{pl}}: {{Ü|pl|ryzykować}}
+*{{es}}: {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Ref-Redensarten|etwas aufs Spiel setzen}}
+:[1] {{Ref-Duden|Spiel}}

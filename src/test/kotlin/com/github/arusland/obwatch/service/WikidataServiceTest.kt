@@ -102,4 +102,13 @@ class WikidataServiceTest {
         val result = service.search(term)
         assertNull(result)
     }
+
+    @ValueSource(strings = ["etwas aufs Spiel setzen"])
+    @ParameterizedTest
+    fun testSearch_Phrase(term: String) {
+        val result = service.search(term) ?: fail("Result is null")
+        assertEquals(term, result.word)
+        assertEquals("Redewendung", result.type)
+        assertEquals(WikiTextInfo::class.java, result.javaClass)
+    }
 }
