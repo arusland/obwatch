@@ -64,7 +64,7 @@ class ObsidianWatcher(
         val attributes = path.readAttributes<BasicFileAttributes>()
         log.debug("File was changed: {}, file size: {}", attributes.lastModifiedTime(), attributes.size())
         val text = path.readText()
-        val phrase = text.trim()
+        val phrase = text.trim().trim('#')
         val tokens = regexSpace.split(text).filter { token -> token.isNotBlank() && !regexDigit.matches(token) }
             .groupBy { it }.map { it.key to it.value.size }.toMap()
         val newToken = tokens.filter { (newToken, newCount) ->
